@@ -1,0 +1,12 @@
+.ancestries {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.563rem;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+/*# sourceMappingURL=AncestriesPage.css.map */

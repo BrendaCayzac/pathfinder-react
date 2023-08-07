@@ -89,7 +89,6 @@ nav {
 			a {
 				text-decoration: none;
 				font-family: $roboto;
-				font-weight: bold;
 				text-transform: uppercase;
 				color: $pathfinder-blue;
 				opacity: 1;
@@ -133,6 +132,10 @@ nav {
 			li{
 				a{
 					color: $pathfinder-yellow;
+				}
+
+				a.active{
+					color: #FFFFFF;
 				}
 			}
 		}

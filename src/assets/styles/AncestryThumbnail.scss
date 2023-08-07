@@ -31,7 +31,7 @@
 		background-color: #d1d3d4;
 		opacity: 0.9;
 		border: 1px solid #B8BFC4;
-		width: 60%;
+		width: 65%;
 		padding: 1rem;
 
 		h2{
@@ -60,7 +60,7 @@
 		p {
 			font-family: $lora;
 			font-size: 0.9rem;
-			margin: 0.5rem 0 0.85rem;
+			margin: 0.313rem 0 0.625rem;
 
 			&:first-of-type{
 				margin: 0.5rem 0 1rem 0;
@@ -93,6 +93,33 @@
 		&:hover{
 			background-color: $pathfinder-blue;
 		}
+	}
+}
+
+#azarketi{
+	figure{
+		bottom: -100%;
+		right: -65%;
+	}
+}
+
+#catfolk{
+	figure{
+		right: -80%;
+	}
+}
+
+#fetchling{
+	figure{
+		bottom: -70%;
+		right: -55%;
+	}
+}
+
+#gnoll{
+	figure{
+		bottom: -105%;
+		right: -60%;
 	}
 }
 

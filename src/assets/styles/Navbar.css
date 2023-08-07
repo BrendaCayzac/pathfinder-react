@@ -82,7 +82,6 @@ nav #menu li {
 nav #menu li a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   text-transform: uppercase;
   color: #0a2760;
   opacity: 1;
@@ -122,6 +121,9 @@ nav #menu li a:hover {
   }
   nav #menu li a {
     color: #d5c48c;
+  }
+  nav #menu li a.active {
+    color: #FFFFFF;
   }
 }
 

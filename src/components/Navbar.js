@@ -1,8 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../assets/styles/Navbar.scss";
 
 const Navbar = () => {
+  const activeNavLink = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? 300 : 800,
+    };
+  };
+
   return (
     <nav>
       <div id="menuToggle">
@@ -12,10 +18,14 @@ const Navbar = () => {
         <span></span>
         <ul id="menu">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink style={activeNavLink} to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="ancestries">Ancestries</Link>
+            <NavLink style={activeNavLink} to="ancestries">
+              Ancestries
+            </NavLink>
           </li>
         </ul>
       </div>
