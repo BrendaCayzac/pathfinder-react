@@ -16,18 +16,107 @@
 }
 .ancestry-page section {
   padding: 1.563rem;
+  width: 100%;
 }
 .ancestry-page section .index {
   display: none;
 }
 .ancestry-page section .content {
   font-family: "Lora", serif;
-  padding-top: 3rem;
+  padding: 3rem 1.5rem 4rem;
+  /* Featured */
+  /* Accordion */
+  /* Important information */
 }
 .ancestry-page section .content .introduction {
   color: #0a2760;
   font-style: italic;
   font-size: 1.25rem;
+}
+.ancestry-page section .content p {
+  margin: 0.313rem 0 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.ancestry-page section .content h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  color: #0a2760;
+  text-transform: uppercase;
+  margin: 2rem auto 0;
+}
+.ancestry-page section .content ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+.ancestry-page section .content ul li::before {
+  content: "↠"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #0a2760; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.ancestry-page section .content .featured {
+  background-color: #d1d3d4;
+  padding: 1.563rem;
+}
+.ancestry-page section .content .featured h2 {
+  margin: 0;
+}
+.ancestry-page section .content .accordion {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.ancestry-page section .content .accordion label {
+  background-color: #0a2760;
+  color: #d5c48c;
+  padding: 1em;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.ancestry-page section .content .accordion label::before {
+  content: "↠";
+  font-size: 2rem;
+  padding-right: 0.625rem;
+  display: inline-block;
+}
+.ancestry-page section .content .accordion input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.ancestry-page section .content .accordion input:checked ~ label::before {
+  content: "↡";
+}
+.ancestry-page section .content .accordion input:checked ~ label ~ .content {
+  max-height: 500px;
+}
+.ancestry-page section .content .accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  background-color: #d1d3d4;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+.ancestry-page section .content .accordion .content .text {
+  margin: 0;
+  padding: 2em;
+}
+.ancestry-page section .content .accordion .content .spell {
+  padding: 0 2em 2rem;
+}
+.ancestry-page section .content .relevant {
+  color: #560c06;
 }
 
 @media screen and (min-width: 48rem) {
@@ -41,101 +130,13 @@
   }
   .ancestry-page section .content {
     font-family: "Lora", serif;
-    padding-top: 3rem;
-    /* Featured */
-    /* Accordion */
-    /* Important information */
+    padding: 3rem 0 4rem;
   }
   .ancestry-page section .content .introduction {
     color: #0a2760;
     font-style: italic;
     font-size: 1.25rem;
     text-align: left;
-  }
-  .ancestry-page section .content p {
-    margin: 0.313rem 0 1rem;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  .ancestry-page section .content h2 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    color: #0a2760;
-    text-transform: uppercase;
-    margin: 2rem auto 0;
-  }
-  .ancestry-page section .content ul {
-    margin-top: 0.3125rem;
-    list-style: none;
-  }
-  .ancestry-page section .content ul li::before {
-    content: "↠"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #0a2760; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-  .ancestry-page section .content .featured {
-    background-color: #d1d3d4;
-    padding: 1.563rem;
-  }
-  .ancestry-page section .content .featured h2 {
-    margin: 0;
-  }
-  .ancestry-page section .content .accordion {
-    position: relative;
-    margin-bottom: 1rem;
-  }
-  .ancestry-page section .content .accordion label {
-    background-color: #0a2760;
-    color: #d5c48c;
-    padding: 1em;
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-  }
-  .ancestry-page section .content .accordion label::before {
-    content: "↠";
-    font-size: 2rem;
-    padding-right: 0.625rem;
-    display: inline-block;
-  }
-  .ancestry-page section .content .accordion input {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-  }
-  .ancestry-page section .content .accordion input:checked ~ label::before {
-    content: "↡";
-  }
-  .ancestry-page section .content .accordion input:checked ~ label ~ .content {
-    max-height: 300px;
-  }
-  .ancestry-page section .content .accordion .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-    background-color: #d1d3d4;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    padding-top: 0;
-  }
-  .ancestry-page section .content .accordion .content .text {
-    margin: 0;
-    padding: 2em;
-  }
-  .ancestry-page section .content .accordion .content .spell {
-    padding: 0 2em 2rem;
-  }
-  .ancestry-page section .content .relevant {
-    color: #560c06;
   }
 }
 

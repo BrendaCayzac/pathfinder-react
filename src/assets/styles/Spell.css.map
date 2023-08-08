@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["custom.sass","Spell.scss"],"names":[],"mappings":"AAQA;AAGA;AAEA;AAEA;AAEA;AAEA;AChBC;EACC,aDEiB;ECDjB;EACA;EACA;;AAGD;EACC;;AAGD;EACC;EACA;EACA;EACA;;AAEA;EACC,kBDrBe;ECsBf;EACA;EACA;EACA;;AAIF;EACC;EACA;EACA;;AAGD;EACC","file":"Spell.css"}
+{"version":3,"sourceRoot":"","sources":["custom.sass","Spell.scss"],"names":[],"mappings":"AAQA;AAGA;AAEA;AAEA;AAEA;AAEA;AChBC;EACC,aDEiB;ECDjB;EACA;EACA;;AAGD;EACC;;AAGD;EACC;EACA;EACA;EACA;EACA;;AAEA;EACC,kBDtBe;ECuBf;EACA;EACA;EACA;;AAIF;EACC;EACA;EACA;;AAGD;EACC","file":"Spell.css"}
