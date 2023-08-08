@@ -7,7 +7,7 @@ export const ancestries = [
       "Anadi people are reclusive, sapient spiders who hail from the jungles of southern Garund.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Free",
-    link: "/ancestries/anadi",
+    link: "/anadi",
   },
   {
     img: "Android.png",
