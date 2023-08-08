@@ -37,7 +37,7 @@
 			justify-content: flex-start;
 			align-items: flex-start;
 			gap: 2rem;
-			max-width: 56.25rem;
+			max-width: 55rem;
 
 			.content {
 				font-family: $lora;
@@ -52,6 +52,7 @@
 				}
 
 				p {
+					margin: 0.313rem 0 1rem;
 					text-align: justify;
 					text-justify: inter-word;
 				}
@@ -150,6 +151,11 @@
 						}
 					}
 
+				}
+
+				/* Important information */
+				.relevant{
+					color: $pathfinder-red;
 				}
 			}
 		}

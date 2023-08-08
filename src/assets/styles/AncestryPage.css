@@ -37,13 +37,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
-    max-width: 56.25rem;
+    max-width: 55rem;
   }
   .ancestry-page section .content {
     font-family: "Lora", serif;
     padding-top: 3rem;
     /* Featured */
     /* Accordion */
+    /* Important information */
   }
   .ancestry-page section .content .introduction {
     color: #0a2760;
@@ -52,6 +53,7 @@
     text-align: left;
   }
   .ancestry-page section .content p {
+    margin: 0.313rem 0 1rem;
     text-align: justify;
     text-justify: inter-word;
   }
@@ -131,6 +133,9 @@
   }
   .ancestry-page section .content .accordion .content .spell {
     padding: 0 2em 2rem;
+  }
+  .ancestry-page section .content .relevant {
+    color: #560c06;
   }
 }
 

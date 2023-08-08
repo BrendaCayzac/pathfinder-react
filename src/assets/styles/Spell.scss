@@ -12,6 +12,21 @@
 		width: 1rem;
 	}
 
+	.tags{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 0.625rem;
+
+		span{
+			background-color: $pathfinder-blue;
+			color: #FFFFFF;
+			font-size: 0.85rem;
+			margin-top: 0.625rem;
+			padding: 0.313rem;
+		}
+	}
+
 	.frequency{
 		margin:0;
 		padding: 0.313rem 0;

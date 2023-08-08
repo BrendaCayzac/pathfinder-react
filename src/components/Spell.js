@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/Spell.scss";
 
 const Spell = (props) => {
-  const { name, duration, frequency, description, action } = props;
+  const { name, duration, frequency, description, action, tags } = props;
   return (
     <div className="spell">
       <h4>
@@ -12,6 +12,9 @@ const Spell = (props) => {
           alt="action value"
         />
       </h4>
+      <div className="tags">
+        {tags ? tags.map((tag, index) => <span>{tag}</span>) : ""}
+      </div>
       {frequency ? (
         <p className="frequency">
           <b>Frequency:</b> {frequency}

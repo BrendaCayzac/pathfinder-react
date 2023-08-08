@@ -13,6 +13,19 @@
 .spell img {
   width: 1rem;
 }
+.spell .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
+}
+.spell .tags span {
+  background-color: #0a2760;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  margin-top: 0.625rem;
+  padding: 0.313rem;
+}
 .spell .frequency {
   margin: 0;
   padding: 0.313rem 0;
