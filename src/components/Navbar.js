@@ -6,6 +6,8 @@ const Navbar = () => {
   const activeNavLink = ({ isActive }) => {
     return {
       fontWeight: isActive ? 300 : 800,
+      cursor: isActive ? "default" : "pointer",
+      pointerEvents: isActive ? "none" : "auto",
     };
   };
 
