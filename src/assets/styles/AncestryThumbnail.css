@@ -30,7 +30,7 @@
   top: 1rem;
   left: 1rem;
   text-align: left;
-  background-color: #d1d3d4;
+  background-color: #D1D3D4;
   opacity: 0.9;
   border: 1px solid #B8BFC4;
   width: 65%;
@@ -89,6 +89,21 @@
   background-color: #0a2760;
 }
 
+#anadi figure {
+  bottom: -110%;
+  right: -65%;
+}
+
+#android figure {
+  bottom: -105%;
+  right: -55%;
+}
+
+#automaton figure {
+  bottom: -80%;
+  right: -95%;
+}
+
 #azarketi figure {
   bottom: -100%;
   right: -65%;
@@ -98,9 +113,18 @@
   right: -80%;
 }
 
+#conrasu figure {
+  right: -60%;
+}
+
 #fetchling figure {
   bottom: -70%;
   right: -55%;
+}
+
+#ghoran figure {
+  bottom: -150%;
+  right: -35%;
 }
 
 #gnoll figure {
@@ -114,9 +138,102 @@
   right: -60%;
 }
 
+#goloma figure {
+  bottom: -105%;
+  right: -90%;
+}
+
+#grippli figure {
+  bottom: -105%;
+  right: -60%;
+}
+
+#hobgoblin figure {
+  bottom: -105%;
+  right: -65%;
+}
+
 #human figure {
   bottom: -105%;
   right: -65%;
+}
+
+#kashrishi figure {
+  bottom: -65%;
+  right: -55%;
+}
+
+#kitsune figure {
+  right: -60%;
+}
+
+#kobold figure {
+  right: -50%;
+}
+
+#leshy figure {
+  right: -43%;
+  bottom: -50%;
+  width: 110%;
+}
+
+#lizardfolk figure {
+  right: -50%;
+  bottom: -65%;
+}
+
+#nagaji figure {
+  right: -55%;
+  bottom: -65%;
+}
+
+#orc figure {
+  right: -55%;
+  bottom: -25%;
+}
+
+#poppet figure {
+  width: 100%;
+  right: -35%;
+  bottom: -25%;
+}
+
+#ratfolk figure {
+  right: -45%;
+}
+
+#shisk figure {
+  bottom: -65%;
+  right: -65%;
+}
+
+#shoony figure {
+  bottom: -35%;
+  right: -35%;
+}
+
+#skeleton figure {
+  bottom: -50%;
+  right: -65%;
+}
+
+#sprite figure {
+  bottom: -35%;
+  right: -70%;
+}
+
+#tengu figure {
+  right: -45%;
+}
+
+#vanara figure {
+  right: -55%;
+  bottom: -70%;
+}
+
+#vishkanya figure {
+  right: -60%;
+  bottom: -85%;
 }
 
 /*# sourceMappingURL=AncestryThumbnail.css.map */

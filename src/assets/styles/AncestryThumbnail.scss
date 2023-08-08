@@ -1,6 +1,6 @@
 @import "./custom";
 
-.thumbnail{
+.thumbnail {
 	background: url("../img/white-texture.jpg") no-repeat center/300%;
 	position: relative;
 	width: 25rem;
@@ -8,7 +8,7 @@
 	overflow: hidden;
 	border: 1px solid #C9C5BC;
 
-	figure{
+	figure {
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -16,25 +16,25 @@
 		right: -70%;
 		bottom: -75%;
 
-		img{
+		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}
 	}
 
-	.content{
+	.content {
 		position: absolute;
 		top: 1rem;
 		left: 1rem;
 		text-align: left;
-		background-color: #d1d3d4;
+		background-color: #D1D3D4;
 		opacity: 0.9;
 		border: 1px solid #B8BFC4;
 		width: 65%;
 		padding: 1rem;
 
-		h2{
+		h2 {
 			margin: 0;
 			padding: 0;
 			text-transform: uppercase;
@@ -43,7 +43,7 @@
 			font-family: $roboto;
 		}
 
-		h3{
+		h3 {
 			margin: 0;
 			padding: 0;
 			font-size: 0.8rem;
@@ -53,7 +53,7 @@
 			opacity: 0.8;
 		}
 
-		hr{
+		hr {
 			border: 2px solid $pathfinder-red;
 		}
 
@@ -62,12 +62,12 @@
 			font-size: 0.9rem;
 			margin: 0.313rem 0 0.625rem;
 
-			&:first-of-type{
+			&:first-of-type {
 				margin: 0.5rem 0 1rem 0;
 			}
 		}
 
-		h4{
+		h4 {
 			font-family: $roboto-condensed;
 			color: $pathfinder-blue;
 			margin: 0;
@@ -75,7 +75,7 @@
 		}
 	}
 
-	button{
+	button {
 		position: absolute;
 		bottom: 1rem;
 		left: 50%;
@@ -90,50 +90,215 @@
 		text-transform: uppercase;
 		cursor: pointer;
 
-		&:hover{
+		&:hover {
 			background-color: $pathfinder-blue;
 		}
 	}
 }
 
-#azarketi{
-	figure{
+#anadi {
+	figure {
+		bottom: -110%;
+		right: -65%;
+	}
+}
+
+#android {
+	figure {
+		bottom: -105%;
+		right: -55%;
+	}
+}
+
+#automaton {
+	figure {
+		bottom: -80%;
+		right: -95%;
+	}
+}
+
+#azarketi {
+	figure {
 		bottom: -100%;
 		right: -65%;
 	}
 }
 
-#catfolk{
-	figure{
+#catfolk {
+	figure {
 		right: -80%;
 	}
 }
 
-#fetchling{
-	figure{
+#conrasu {
+	figure {
+		right: -60%;
+	}
+}
+
+#fetchling {
+	figure {
 		bottom: -70%;
 		right: -55%;
 	}
 }
 
-#gnoll{
-	figure{
+#ghoran {
+	figure {
+		bottom: -150%;
+		right: -35%;
+	}
+}
+
+#gnoll {
+	figure {
 		bottom: -105%;
 		right: -60%;
 	}
 }
 
-#goblin{
-	figure{
+#goblin {
+	figure {
 		width: 135%;
 		bottom: -75%;
 		right: -60%;
 	}
 }
 
-#human{
-	figure{
+#goloma {
+	figure {
+		bottom: -105%;
+		right: -90%;
+	}
+}
+
+#grippli {
+	figure {
+		bottom: -105%;
+		right: -60%;
+	}
+}
+
+#hobgoblin{
+	figure {
 		bottom: -105%;
 		right: -65%;
+	}
+}
+
+#human {
+	figure {
+		bottom: -105%;
+		right: -65%;
+	}
+}
+
+#kashrishi {
+	figure {
+		bottom: -65%;
+		right: -55%;
+	}
+}
+
+#kitsune{
+	figure {
+		right: -60%;
+	}
+}
+
+#kobold{
+	figure {
+		right: -50%;
+	}
+}
+
+#leshy{
+	figure {
+		right: -43%;
+		bottom: -50%;
+		width: 110%;
+	}
+}
+
+#lizardfolk{
+	figure {
+		right: -50%;
+		bottom: -65%;
+	}
+}
+
+#nagaji{
+	figure{
+		right: -55%;
+		bottom: -65%;
+	}
+}
+
+#orc{
+	figure{
+		right: -55%;
+		bottom: -25%;
+	}
+}
+
+#poppet{
+	figure{
+		width: 100%;
+		right: -35%;
+		bottom: -25%;
+	}
+}
+
+#ratfolk{
+	figure{
+		right: -45%;
+	}
+}
+
+#shisk{
+	figure{
+		bottom: -65%;
+		right: -65%;
+	}
+}
+
+#shoony{
+	figure{
+		bottom: -35%;
+		right: -35%;
+	}
+}
+
+#skeleton{
+	figure{
+		bottom: -50%;
+		right: -65%;
+	}
+}
+
+#sprite{
+	figure{
+		bottom: -35%;
+		right: -70%;
+	}
+}
+
+#tengu{
+	figure{
+		right: -45%;
+	}
+}
+
+#vanara{
+	figure{
+		right: -55%;
+		bottom:-70%
+	}
+}
+
+#vishkanya{
+	figure{
+		right: -60%;
+		bottom:-85%
 	}
 }
