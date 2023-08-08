@@ -1,10 +1,157 @@
 @import "custom";
 
-.ancestry-page{
+.ancestry-page {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: column;
+	overflow-y: scroll;
+
+	section {
+		padding: 1.563rem;
+
+		.index {
+			display: none;
+		}
+
+		.content {
+			font-family: $lora;
+			padding-top: 3rem;
+
+			.introduction {
+				color: $pathfinder-blue;
+				font-style: italic;
+				font-size: 1.25rem;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.ancestry-page {
+		section {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 2rem;
+			max-width: 56.25rem;
+
+			.content {
+				font-family: $lora;
+				padding-top: 3rem;
+
+				.introduction {
+					color: $pathfinder-blue;
+					font-style: italic;
+					font-size: 1.25rem;
+					text-align: left;
+
+				}
+
+				p {
+					text-align: justify;
+					text-justify: inter-word;
+				}
+
+				h2 {
+					font-family: $roboto-condensed;
+					font-weight: 700;
+					color: $pathfinder-blue;
+					text-transform: uppercase;
+					margin: 2rem auto 0;
+				}
+
+				ul {
+					margin-top: 0.3125rem;
+					list-style: none;
+
+					li {
+						&::before {
+							content: "\21A0"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+							color: $pathfinder-blue; /* Change the color */
+							font-weight: bold; /* If you want it to be bold */
+							display: inline-block; /* Needed to add space between the bullet and the text */
+							width: 1em; /* Also needed for space (tweak if needed) */
+							margin-left: -1em; /* Also needed for space (tweak if needed) */
+						}
+					}
+				}
+
+				/* Featured */
+				.featured {
+					background-color: $pathfinder-light-blue;
+					padding: 1.563rem;
+
+					h2{
+						margin:0;
+					}
+				}
+
+				/* Accordion */
+				.accordion{
+					position: relative;
+					margin-bottom: 1rem;
+
+					label{
+						background-color: $pathfinder-blue;
+						color:$pathfinder-yellow;
+						padding:1em;
+						position: relative;
+						cursor: pointer;
+						display: flex;
+						align-items: center;
+						font-family: $roboto;
+						font-weight: 500;
+
+						&::before{
+							content:"\21A0";
+							font-size: 2rem;
+							padding-right: 0.625rem;
+							display: inline-block;
+						}
+					}
+
+					input{
+						position: absolute;
+						left: 0;
+						top: 0;
+						height: 100%;
+						width: 100%;
+						opacity:0;
+						visibility: hidden;
+
+						&:checked ~ label::before{
+							content:"\21A1";
+						}
+
+						&:checked ~ label ~ .content{
+							max-height:300px;
+						}
+					}
+
+					.content{
+						max-height:0;
+						overflow: hidden;
+						transition:max-height 0.5s;
+						background-color: $pathfinder-light-blue;
+						box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+						padding-top: 0;
+
+						.text {
+							margin: 0;
+							padding:2em;
+						}
+
+						.spell{
+							padding:0 2em 2rem;
+						}
+					}
+
+				}
+			}
+		}
+	}
 }
