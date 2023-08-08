@@ -76,7 +76,7 @@
 		}
 	}
 
-	button {
+	a {
 		position: absolute;
 		bottom: 1rem;
 		left: 50%;
@@ -90,6 +90,7 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		cursor: pointer;
+		text-decoration: none;
 
 		&:hover {
 			background-color: $pathfinder-blue;

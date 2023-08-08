@@ -71,7 +71,7 @@
   margin: 0;
   padding: 0;
 }
-.thumbnail button {
+.thumbnail a {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -85,8 +85,9 @@
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: none;
 }
-.thumbnail button:hover {
+.thumbnail a:hover {
   background-color: #0a2760;
 }
 

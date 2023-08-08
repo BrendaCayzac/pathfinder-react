@@ -1,0 +1,92 @@
+/* MEDIA BREAKPOINTS */
+/* 600px */
+/* 768px */
+/* 960px; */
+/* 1280px; */
+/* 1800px */
+header {
+  font-family: "Roboto", sans-serif;
+  background-color: #560c06;
+  width: 100%;
+  position: relative;
+  padding: 1.563rem 1.563rem 2.5rem;
+  border-bottom: #d5c48c solid 10px;
+  height: 11.125rem;
+  /* Text */
+}
+header figure {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  overflow: hidden;
+  background-color: #d5c48c;
+  margin: 0;
+  border: #560c06 solid 10px;
+}
+header figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header div {
+  color: #d5c48c;
+}
+header div h1 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+header div p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+header div .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
+  margin-top: 0.625rem;
+}
+header div .tags span {
+  background-color: #0a2760;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  padding: 0.313rem;
+}
+
+@media screen and (min-width: 48rem) {
+  header div {
+    padding-left: 22.25rem;
+  }
+  header div h1 {
+    font-size: 2.5rem;
+  }
+  header div p {
+    font-weight: 400;
+  }
+  header div .tags {
+    padding-left: 0;
+  }
+  header div .tags span {
+    font-size: 1rem;
+  }
+  header figure {
+    position: absolute;
+    bottom: -11.125rem;
+    left: 1.563rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+  }
+  header figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

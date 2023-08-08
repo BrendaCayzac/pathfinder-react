@@ -7,6 +7,7 @@ export const ancestries = [
       "Anadi people are reclusive, sapient spiders who hail from the jungles of southern Garund.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Free",
+    link: "/ancestries/anadi",
   },
   {
     img: "Android.png",
@@ -16,6 +17,7 @@ export const ancestries = [
       "Technological wonders from another world, androids have synthetic bodies and living souls.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Charisma",
+    link: "#",
   },
   {
     img: "Automaton.png",
@@ -25,6 +27,7 @@ export const ancestries = [
       "These intelligent constructs house actual souls and represent what remains of a dying empire's last attempt at greatness.",
     abilityBoosts: "Strength, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Azarketi.png",
@@ -34,6 +37,7 @@ export const ancestries = [
       "Azarketis, inheritors of a shattered empire's legacy, hold their proud traditions close but still surface to interact with the rest of the world.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Wisdom",
+    link: "#",
   },
   {
     img: "Catfolk.png",
@@ -43,6 +47,7 @@ export const ancestries = [
       "Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Wisdom",
+    link: "#",
   },
   {
     img: "Conrasu.png",
@@ -52,6 +57,7 @@ export const ancestries = [
       "Conrasus are shards of cosmic force given consciousness who construct intricate exoskeletons to interface with the mortal world.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Charisma",
+    link: "#",
   },
   {
     img: "Dwarf.png",
@@ -62,6 +68,7 @@ export const ancestries = [
       " fierce, and devoted.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Charisma",
+    link: "#",
   },
   {
     img: "Elf.png",
@@ -71,6 +78,7 @@ export const ancestries = [
       "Elves are a tall, slender, long-lived people with a strong tradition of art and magic.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Constitution",
+    link: "#",
   },
   {
     img: "Fetchling.png",
@@ -80,6 +88,7 @@ export const ancestries = [
       "Fetchlings are a striking people whose skin appears entirely drained of color.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Fleshwarp.png",
@@ -89,6 +98,7 @@ export const ancestries = [
       "Fleshwarps are people whose forms were created or radically transformed by magic, alchemy, or unnatural energies.",
     abilityBoosts: "Constitution, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Ghoran.png",
@@ -98,6 +108,7 @@ export const ancestries = [
       "These intelligent plant people, created by a long-dead druid, possess" +
       " a sort of immortality through their seeds—unless these are destroyed by external events other than merely the ravages of time.",
     abilityBoosts: "Constitution, free",
+    link: "#",
   },
   {
     img: "Gnoll.png",
@@ -107,6 +118,7 @@ export const ancestries = [
       "Powerfully-built humanoids that resemble hyenas, gnolls are cunning warriors and hunters.",
     abilityBoosts: "Strength, Intelligence, free",
     abilityFlaw: "Wisdom",
+    link: "#",
   },
   {
     img: "Gnome.png",
@@ -116,6 +128,7 @@ export const ancestries = [
       "Gnomes are short and hardy folk, with an unquenchable curiosity and eccentric habits.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Strength",
+    link: "#",
   },
   {
     img: "Goblin.png",
@@ -125,6 +138,7 @@ export const ancestries = [
       "Goblins are a short, scrappy, energetic people who have spent millennia maligned and feared.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Wisdom",
+    link: "#",
   },
   {
     img: "Goloma.png",
@@ -135,6 +149,7 @@ export const ancestries = [
       " biology to frighten off those they consider to be dangerous predators.",
     abilityBoosts: "Wisdom, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Grippli.png",
@@ -145,6 +160,7 @@ export const ancestries = [
       " being drawn into the complicated and dangerous affairs of others.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Strength",
+    link: "#",
   },
   {
     img: "Halfling.png",
@@ -154,6 +170,7 @@ export const ancestries = [
       "Halflings are a short, adaptable people who exhibit remarkable curiosity and humor.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Strength",
+    link: "#",
   },
   {
     img: "Hobgoblin.png",
@@ -163,6 +180,7 @@ export const ancestries = [
       "Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms.",
     abilityBoosts: "Constitution, Intelligence, free",
     abilityFlaw: "Wisdom",
+    link: "#",
   },
   {
     img: "Human.png",
@@ -172,6 +190,7 @@ export const ancestries = [
       "Humans are incredibly diverse. Some, such as half-elves and half-orcs, even have non-human ancestors.",
     abilityBoosts: "Two free ability boosts",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Kashrishi.png",
@@ -181,6 +200,7 @@ export const ancestries = [
       "Kashrishi make their homes in remote areas of the world. These quiet beings have stout, durable frames and distinctive crystalline horns.",
     abilityBoosts: "Constitution, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Kitsune.png",
@@ -190,6 +210,7 @@ export const ancestries = [
       "Whether they pass unseen among other peoples or hold their tails high, kitsune are clever observers of the societies around them.",
     abilityBoosts: "Charisma, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Kobold.png",
@@ -199,6 +220,7 @@ export const ancestries = [
       "Every kobold knows that their slight frame belies true, mighty draconic power.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Constitution",
+    link: "#",
   },
   {
     img: "Leshy.png",
@@ -208,6 +230,7 @@ export const ancestries = [
       "Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Intelligence",
+    link: "#",
   },
   {
     img: "Lizardfolk.png",
@@ -217,6 +240,7 @@ export const ancestries = [
       "Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves.",
     abilityBoosts: "Strength, Wisdom, free",
     abilityFlaw: "Intelligence",
+    link: "#",
   },
   {
     img: "Nagaji.png",
@@ -235,6 +259,7 @@ export const ancestries = [
       "Orcs are forged in the fires of violence and conflict, often from the moment they are born.",
     abilityBoosts: "Strength, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Poppet.png",
@@ -244,6 +269,7 @@ export const ancestries = [
       "Poppets are small, basic constructs that typically help their owners with simple tasks.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Dexterity",
+    link: "#",
   },
   {
     img: "Ratfolk.png",
@@ -253,6 +279,7 @@ export const ancestries = [
       "Ysoki—as ratfolk call themselves—are a clever, adaptable, and fastidious ancestry who happily crowd their large families into the smallest of living spaces.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Strength",
+    link: "#",
   },
   {
     img: "Shisk.png",
@@ -262,6 +289,7 @@ export const ancestries = [
       "Shisks are secretive mountain-dwellers, bone-feathered humanoids who lurk underground in dark tunnels and caverns.",
     abilityBoosts: "Intelligence, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Shoony.png",
@@ -271,6 +299,7 @@ export const ancestries = [
       "Diminutive humanoids who resemble squat, bipedal dogs, shoonies are sometimes mistaken for weak and insular pacifists.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Constitution",
+    link: "#",
   },
   {
     img: "Skeleton.png",
@@ -280,6 +309,7 @@ export const ancestries = [
       "They're typically mindless creatures, lacking many of the abilities that make other undead a serious threat.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Intelligence",
+    link: "#",
   },
   {
     img: "Sprite.png",
@@ -289,6 +319,7 @@ export const ancestries = [
       "Sprites are diminutive, whimsical, and exuberant creatures from the fey realm known as the First World.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Strength",
+    link: "#",
   },
   {
     img: "Strix.png",
@@ -298,6 +329,7 @@ export const ancestries = [
       "Tengus are a gregarious and resourceful people, collecting and combining whatever innovations and traditions they happen across with those from their own long history.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Tengu.png",
@@ -307,6 +339,7 @@ export const ancestries = [
       "Known as itarii in their own language, strix are reclusive avian humanoids devoted to their homelands and their tribes.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Vanara.png",
@@ -316,6 +349,7 @@ export const ancestries = [
       "Vanaras are inquisitive and mischievous monkey-like humanoids with short, soft fur, expressive eyes, and long, prehensile tails.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
+    link: "#",
   },
   {
     img: "Vishkanya.png",
@@ -325,5 +359,6 @@ export const ancestries = [
       "Vishkanyas are ophidian humanoids who carry potent venom within their blood and saliva.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
+    link: "#",
   },
 ];

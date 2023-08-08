@@ -48,6 +48,7 @@ export const AncestriesPage = () => {
               description={item.description}
               abilityBoosts={item.abilityBoosts}
               abilityFlaw={item.abilityFlaw}
+              link={item.link}
             />
           ))
         )}

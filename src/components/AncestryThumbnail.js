@@ -1,9 +1,18 @@
 import React from "react";
 import "../assets/styles/AncestryThumbnail.scss";
+import { NavLink } from "react-router-dom";
 
 const AncestryThumbnail = (props) => {
-  const { ancestry, alt, img, book, description, abilityBoosts, abilityFlaw } =
-    props;
+  const {
+    ancestry,
+    alt,
+    img,
+    book,
+    description,
+    abilityBoosts,
+    abilityFlaw,
+    link,
+  } = props;
 
   return (
     <div className="thumbnail" id={ancestry} key={ancestry}>
@@ -20,7 +29,7 @@ const AncestryThumbnail = (props) => {
         <h4>Ability Flaw</h4>
         <p>{abilityFlaw}</p>
       </div>
-      <button onClick={() => console.log("hello")}>Read more</button>
+      <NavLink to={link}>Read more</NavLink>
     </div>
   );
 };
