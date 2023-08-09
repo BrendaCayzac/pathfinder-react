@@ -1,9 +1,50 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../assets/styles/AncestryPage.scss";
 import Header from "../components/Header";
 import Spell from "../components/Spell";
+import Feat from "../components/Feat";
+import { anadiFeats } from "../middleware/AnadiFeats";
 
 const AnadiPage = () => {
+  const [filteredFeats, setFilteredFeats] = useState(null);
+  useEffect(() => {
+    setFilteredFeats(anadiFeats);
+  }, []);
+
+  function handleFeats(e) {
+    let typePokemon = e.target.value;
+    typePokemon !== "all"
+      ? setFilteredFeats(filterFeats(typePokemon))
+      : setFilteredFeats(anadiFeats);
+  }
+
+  function filterFeats(featLevel) {
+    return anadiFeats.filter((type) => type.level === parseInt(featLevel));
+  }
+
+  const buttons = [
+    {
+      name: "All",
+      value: "all",
+    },
+    {
+      name: "1st Level",
+      value: 1,
+    },
+    {
+      name: "5th Level",
+      value: 5,
+    },
+    {
+      name: "9th Level",
+      value: 9,
+    },
+    {
+      name: "13th Level",
+      value: 13,
+    },
+  ];
+
   return (
     <div className="ancestry-page">
       <Header
@@ -269,6 +310,36 @@ const AnadiPage = () => {
             form. Anadi who wish to continue their magical traditions tend to
             become wizards or sorcerers.
           </p>
+
+          <h2 className="relevant">Feats</h2>
+          <div className="feat-section">
+            <div className="feat-filter">
+              {buttons &&
+                buttons.map((type, index) => (
+                  <>
+                    <button
+                      key={index}
+                      value={type.value}
+                      onClick={handleFeats}
+                    >
+                      {type.name}
+                    </button>
+                  </>
+                ))}
+            </div>
+            <div className="feat-list">
+              {filteredFeats &&
+                filteredFeats.map((feat) => (
+                  <Feat
+                    key={feat.id}
+                    name={feat.name}
+                    feat={feat.feat}
+                    action={feat.action}
+                    description={feat.description}
+                  />
+                ))}
+            </div>
+          </div>
         </div>
       </section>
     </div>
