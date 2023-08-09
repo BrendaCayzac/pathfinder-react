@@ -8,6 +8,7 @@
 	justify-content: flex-start;
 	flex-direction: column;
 	overflow-y: scroll;
+	padding-bottom: 3rem;
 
 	section {
 		padding: 1.563rem;
@@ -248,6 +249,14 @@
 						font-size: 0.85rem;
 						cursor: pointer;
 					}
+				}
+
+				.feat-list{
+					max-height: 31.25rem;
+					overflow-y: scroll;
+					border-top: 2px solid $pathfinder-red;
+					border-bottom: 2px solid $pathfinder-red;
+					padding: 1rem;
 				}
 			}
 		}
