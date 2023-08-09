@@ -16,10 +16,17 @@ export const anadiFeats = [
     tags: ["anadi", "auditory", "visual"],
     level: 1,
     feat: "Feat 1",
-    description:
-      "Trigger: An ally within 30 feet gains the frightened condition.\n" +
-      "\n" +
-      "You serve as an anchor to your close companions, calming them in times of stress. Decrease the value of the triggering ally’s frightened condition by 1. The ally is then temporarily immune to your Reassuring Presence for 1 hour.",
+    description: (
+      <span>
+        <b>Trigger:</b> An ally within 30 feet gains the frightened condition.
+        <br />
+        <br />
+        ou serve as an anchor to your close companions, calming them in times of
+        stress. Decrease the value of the triggering ally’s frightened condition
+        by 1. The ally is then temporarily immune to your Reassuring Presence
+        for 1 hour.
+      </span>
+    ),
   },
   {
     id: 3,
@@ -98,10 +105,17 @@ export const anadiFeats = [
     tags: ["anadi"],
     level: 9,
     feat: "Feat 9",
-    description:
-      "Prerequisites Venomous Anadi\n" +
-      "\n" +
-      "The venom injected by your fangs disorients your foes. A creature damaged by your anadi venom must attempt a Fortitude save against your class DC or spell DC, whichever is higher, or become flat-footed for 1 round.",
+    description: (
+      <span>
+        <b>Prerequisites:</b> Venomous Anadi.
+        <br />
+        <br />
+        The venom injected by your fangs disorients your foes. A creature
+        damaged by your anadi venom must attempt a Fortitude save against your
+        class DC or spell DC, whichever is higher, or become flat-footed for 1
+        round.
+      </span>
+    ),
   },
   {
     id: 11,
@@ -120,10 +134,16 @@ export const anadiFeats = [
     tags: ["anadi"],
     level: 9,
     feat: "Feat 9",
-    description:
-      "Prerequisites Studious Magic\n" +
-      "\n" +
-      "You achieve a breakthrough in your exploration of magic. You gain humanoid form and mirror image as 2nd-level arcane innate spells. You can cast each of these arcane innate spells once per day.",
+    description: (
+      <span>
+        <b>Prerequisites:</b> Studious Magic.
+        <br />
+        <br />
+        You achieve a breakthrough in your exploration of magic. You gain
+        humanoid form and mirror image as 2nd-level arcane innate spells. You
+        can cast each of these arcane innate spells once per day.
+      </span>
+    ),
   },
   {
     id: 13,
@@ -142,9 +162,17 @@ export const anadiFeats = [
     tags: ["anadi"],
     level: 13,
     feat: "Feat 13",
-    description:
-      "Frequency once per 10 minutes\n" +
-      "\n" +
-      "Your natural ability to create silken webs blends with your magical powers, allowing you to create impossibly large webs with great frequency. This has the effects of a 2nd-level web spell using your class DC or spell DC, whichever is higher.",
+    description: (
+      <span>
+        <span className="frequency">
+          <b>Frequency:</b> once per 10 minutes.
+        </span>
+        <br />
+        Your natural ability to create silken webs blends with your magical
+        powers, allowing you to create impossibly large webs with great
+        frequency. This has the effects of a 2nd-level web spell using your
+        class DC or spell DC, whichever is higher.
+      </span>
+    ),
   },
 ];

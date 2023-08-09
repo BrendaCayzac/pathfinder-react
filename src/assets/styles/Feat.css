@@ -28,7 +28,16 @@
 .feat .feat-description {
   text-justify: inter-word;
   text-align: justify;
-  padding: 1rem 0;
+  padding: 0.5rem 0 1rem;
+}
+.feat .feat-description span {
+  padding: 0;
+}
+.feat .feat-description .frequency {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #202020;
+  padding-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=Feat.css.map */
