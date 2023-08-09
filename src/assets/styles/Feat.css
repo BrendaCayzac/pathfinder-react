@@ -23,7 +23,24 @@
 }
 .feat .headline img {
   padding-left: 0.313rem;
-  width: 1.25rem;
+  height: 1rem;
+}
+.feat .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0 0.625rem;
+}
+.feat .tags span {
+  background-color: #0a2760;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  margin-top: 0.625rem;
+  padding: 0.313rem;
 }
 .feat .feat-description {
   text-justify: inter-word;

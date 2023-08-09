@@ -19,7 +19,26 @@
 
 		img{
 			padding-left: 0.313rem;
-			width: 1.25rem;
+			height: 1rem;
+		}
+	}
+
+	.tags{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		gap: 0 0.625rem;
+
+		span{
+			background-color: $pathfinder-blue;
+			text-transform: uppercase;
+			font-family: $roboto;
+			font-weight: bold;
+			color: #FFFFFF;
+			font-size: 0.85rem;
+			margin-top: 0.625rem;
+			padding: 0.313rem;
 		}
 	}
 

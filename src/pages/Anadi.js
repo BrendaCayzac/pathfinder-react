@@ -22,6 +22,12 @@ const AnadiPage = () => {
     return anadiFeats.filter((type) => type.level === parseInt(featLevel));
   }
 
+  const [visible, setVisible] = useState(false);
+
+  const revealImage = () => {
+    setVisible((visible) => !visible);
+  };
+
   const buttons = [
     {
       name: "All",
@@ -131,18 +137,31 @@ const AnadiPage = () => {
             be about <b>80 years old</b>.
           </p>
 
-          <h2>Society</h2>
-          <p>
-            Anadi live in a communal society, sharing peaceful lives farming
-            mushrooms or weaving warm blankets. Their culture places great value
-            on cooperation and mutual respect. Due to this cultural upbringing,
-            anadi often have issues facing severe conflict and often come off to
-            other ancestries as very shy. Their history of dealing with
-            arachnophobia in other peoples—which anadi understand is often
-            instinctual and very difficult to control—likewise means that anadi
-            do their best to be accommodating and comforting, even in situations
-            that aren't necessarily fair to them.
-          </p>
+          <div className="flex-column">
+            <div>
+              <h2>Society</h2>
+              <p>
+                Anadi live in a communal society, sharing peaceful lives farming
+                mushrooms or weaving warm blankets. Their culture places great
+                value on cooperation and mutual respect. Due to this cultural
+                upbringing, anadi often have issues facing severe conflict and
+                often come off to other ancestries as very shy. Their history of
+                dealing with arachnophobia in other peoples—which anadi
+                understand is often instinctual and very difficult to
+                control—likewise means that anadi do their best to be
+                accommodating and comforting, even in situations that aren't
+                necessarily fair to them.
+              </p>
+            </div>
+            <figure className={visible ? "" : "censored"}>
+              <img
+                src={require("../assets/img/Anadi_02.png")}
+                alt="Anadi image"
+              />
+              <figcaption>Content warning: arachnophobia</figcaption>
+              <button onClick={revealImage}>Show image</button>
+            </figure>
+          </div>
 
           <h2>Alignment and Religion</h2>
           <p>
@@ -335,6 +354,7 @@ const AnadiPage = () => {
                     name={feat.name}
                     feat={feat.feat}
                     action={feat.action}
+                    tags={feat.tags}
                     description={feat.description}
                   />
                 ))}
