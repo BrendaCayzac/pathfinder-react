@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
-export const AncestriesPage = () => {
+const AncestriesPage = () => {
   const [filteredList, setFilteredList] = new useState(ancestries);
   const filterBySearch = (event) => {
     // Input value
@@ -56,3 +56,5 @@ export const AncestriesPage = () => {
     </div>
   );
 };
+
+export default AncestriesPage;

@@ -1,23 +1,48 @@
+import React from "react";
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import ErrorPage from "./pages/404";
-import { AncestriesPage } from "./pages/Ancestries";
-import AnadiPage from "./pages/Anadi";
-import AndroidPage from "./pages/Android";
 import { Home } from "./pages/Home";
+import ErrorPage from "./pages/404";
 import Navbar from "./components/Navbar";
+
+const AncestriesPage = React.lazy(() => import("./pages/Ancestries"));
+const AnadiPage = React.lazy(() => import("./pages/Anadi"));
+const AndroidPage = React.lazy(() => import("./pages/Android"));
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/ancestries" element={<AncestriesPage />}></Route>
-        <Route path="*" element={<ErrorPage />}></Route>
-        <Route path="/anadi" element={<AnadiPage />}></Route>
-        <Route path="/android" element={<AndroidPage />}></Route>
-      </Routes>
+      <div id="page">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="*" element={<ErrorPage />}></Route>
+          <Route
+            path="/ancestries"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <AncestriesPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/anadi"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <AnadiPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/anadi"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <AndroidPage />
+              </React.Suspense>
+            }
+          ></Route>
+        </Routes>
+      </div>
     </>
   );
 }
