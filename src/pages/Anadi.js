@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Spell from "../components/Spell";
 import Feat from "../components/Feat";
 import { anadiFeats } from "../middleware/AnadiFeats";
+import { featsButtons } from "../middleware/FeatsButtons";
 
 const AnadiPage = () => {
   const [filteredFeats, setFilteredFeats] = useState(null);
@@ -27,29 +28,6 @@ const AnadiPage = () => {
   const revealImage = () => {
     setVisible((visible) => !visible);
   };
-
-  const buttons = [
-    {
-      name: "All",
-      value: "all",
-    },
-    {
-      name: "1st Level",
-      value: 1,
-    },
-    {
-      name: "5th Level",
-      value: 5,
-    },
-    {
-      name: "9th Level",
-      value: 9,
-    },
-    {
-      name: "13th Level",
-      value: 13,
-    },
-  ];
 
   return (
     <div className="ancestry-page">
@@ -137,6 +115,24 @@ const AnadiPage = () => {
             be about <b>80 years old</b>.
           </p>
 
+          <div className="featured">
+            <h2>Names</h2>
+            <p>
+              Anadi names are given by the members of the web marriage that
+              raised them. Each parent contributes a single syllable, usually
+              the first, from their own name. Older anadi who feel their
+              identity has settled often take on or are given a phrase-title to
+              honor them as well. Anadi who live among human populations rarely
+              take a cover name, but some might adopt one if their given name
+              strongly contrasts the norm in the local culture.
+            </p>
+            <p>
+              <b>Sample names:</b> Altava, Anavachti, Strings-On-The-River
+              Inkeelah, Kerialnamu, Maracha, Leaves-Shelter-Her-Feet Naiala,
+              Orvasa, Reloana, Rivuken, Velachamon
+            </p>
+          </div>
+
           <div className="flex-column">
             <div>
               <h2>Society</h2>
@@ -174,24 +170,6 @@ const AnadiPage = () => {
             playful trickery interweave into anadi culture, and even those who
             don't worship her tell tales of her adventures.
           </p>
-
-          <div className="featured">
-            <h2>Names</h2>
-            <p>
-              Anadi names are given by the members of the web marriage that
-              raised them. Each parent contributes a single syllable, usually
-              the first, from their own name. Older anadi who feel their
-              identity has settled often take on or are given a phrase-title to
-              honor them as well. Anadi who live among human populations rarely
-              take a cover name, but some might adopt one if their given name
-              strongly contrasts the norm in the local culture.
-            </p>
-            <p>
-              <b>Sample names:</b> Altava, Anavachti, Strings-On-The-River
-              Inkeelah, Kerialnamu, Maracha, Leaves-Shelter-Her-Feet Naiala,
-              Orvasa, Reloana, Rivuken, Velachamon
-            </p>
-          </div>
 
           <h2>Anadi heritages</h2>
           <p>
@@ -344,8 +322,8 @@ const AnadiPage = () => {
           <h2>Feats</h2>
           <div className="feat-section">
             <div className="feat-filter">
-              {buttons &&
-                buttons.map((type, index) => (
+              {featsButtons &&
+                featsButtons.map((type, index) => (
                   <>
                     <button
                       key={index}

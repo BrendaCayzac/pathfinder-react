@@ -118,9 +118,20 @@
 					box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
 					padding: 0;
 
+					h3{
+						padding: 0 2em;
+						color: $pathfinder-blue;
+						text-transform: uppercase;
+						font-family: $roboto-condensed;
+					}
+
 					.text {
 						margin: 0;
 						padding:2em;
+					}
+
+					.text-two{
+						padding: 0 2rem 2rem;
 					}
 
 					.spell{
@@ -142,7 +153,6 @@
 			/* image */
 			figure{
 				width: 18.75rem;
-				height: 18.75rem;
 				overflow: hidden;
 				position: relative;
 				margin: 0;

@@ -17,7 +17,7 @@ export const ancestries = [
       "Technological wonders from another world, androids have synthetic bodies and living souls.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Charisma",
-    link: "#",
+    link: "/android",
   },
   {
     img: "Automaton.png",
