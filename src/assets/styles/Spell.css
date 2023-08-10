@@ -4,14 +4,21 @@
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+.spell {
+  width: 100%;
+  margin: 1rem 0 1.25rem;
+}
 .spell h4 {
+  margin: 0;
+  padding: 0 0 0.313rem;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+  font-size: 1.25rem;
   border-bottom: 1px solid #202020;
-  margin: 0;
 }
 .spell img {
-  width: 1rem;
+  padding-left: 0.313rem;
+  height: 1rem;
 }
 .spell .tags {
   display: flex;
@@ -22,18 +29,27 @@
 }
 .spell .tags span {
   background-color: #0a2760;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   color: #FFFFFF;
   font-size: 0.85rem;
   margin-top: 0.625rem;
   padding: 0.313rem;
 }
-.spell .frequency {
-  margin: 0;
-  padding: 0.313rem 0;
-  border-bottom: 1px solid #202020;
+.spell .spell-description {
+  text-justify: inter-word;
+  text-align: justify;
+  padding: 0.5rem 0 1rem;
 }
-.spell .description {
-  padding: 0.313rem 0;
+.spell .spell-description span {
+  padding: 0;
+}
+.spell .spell-description .frequency {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #202020;
+  padding-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=Spell.css.map */

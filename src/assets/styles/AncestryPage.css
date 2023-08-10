@@ -194,7 +194,32 @@
   z-index: 1;
 }
 .ancestry-page section .content .relevant {
+  background-color: #560c06;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.ancestry-page section .content .relevant h2 {
+  color: #d5c48c;
+}
+.ancestry-page section .content .relevant p, .ancestry-page section .content .relevant span {
+  color: #FFFFFF;
+}
+.ancestry-page section .content .relevant .tags span {
+  background-color: #d5c48c;
   color: #560c06;
+}
+.ancestry-page section .content .relevant .spell .spell-description {
+  color: #FFFFFF;
+}
+.ancestry-page section .content .relevant ul li {
+  color: #FFFFFF;
+}
+.ancestry-page section .content .relevant ul li::before {
+  color: #d5c48c; /* Change the color */
+}
+.ancestry-page section .content .relevant h4 {
+  color: #FFFFFF;
+  border-bottom: #d5c48c 1px solid;
 }
 .ancestry-page section .content .feat-section {
   display: flex;

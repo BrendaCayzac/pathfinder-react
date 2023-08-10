@@ -2,27 +2,24 @@ import React from "react";
 import "../assets/styles/Spell.scss";
 
 const Spell = (props) => {
-  const { name, duration, frequency, description, action, tags } = props;
+  const { name, description, action, tags } = props;
   return (
-    <div className="spell">
+    <div className="spell" key={name}>
       <h4>
-        {name}{" "}
-        <img
-          src={require("../assets/img/" + action + ".png")}
-          alt="action value"
-        />
+        {name}
+        {action !== "" ? (
+          <img
+            src={require("../assets/img/" + action + ".png")}
+            alt="action value"
+          />
+        ) : (
+          ""
+        )}
       </h4>
       <div className="tags">
-        {tags ? tags.map((tag, index) => <span>{tag}</span>) : ""}
+        {tags ? tags.map((tag) => <span>{tag}</span>) : ""}
       </div>
-      {frequency ? (
-        <p className="frequency">
-          <b>Frequency:</b> {frequency}
-        </p>
-      ) : (
-        ""
-      )}
-      <p className="description">{description}</p>
+      <div className="spell-description">{description}</div>
     </div>
   );
 };

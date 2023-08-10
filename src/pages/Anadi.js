@@ -261,65 +261,76 @@ const AnadiPage = () => {
               <Spell
                 name="Anadi venom"
                 action="one_action"
-                frequency="a number of times per day equal to your level"
-                description="You envenom your fangs. If the next fangs Strike you make before the end of your turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal. At 12th level, this poison damage increases to 2d6."
+                description={
+                  <span>
+                    <span className="frequency">
+                      <b>Frequency:</b>a number of times per day equal to your
+                      level
+                    </span>
+                    <br />
+                    You envenom your fangs. If the next fangs Strike you make
+                    before the end of your turn hits and deals damage, the
+                    Strike deals an additional 1d6 poison damage. On a critical
+                    failure, the poison is wasted as normal. At 12th level, this
+                    poison damage increases to 2d6.
+                  </span>
+                }
               />
             </div>
           </div>
 
-          <h2 className="relevant">Hit Points</h2>
-          <p>8</p>
+          <div className="relevant">
+            <h2>Hit Points</h2>
+            <p>8</p>
+            <h2>Size</h2>
+            <p>Medium</p>
+            <h2>25 feet</h2>
+            <p>Medium</p>
+            <h2>Ability Boosts</h2>
+            <ul>
+              <li>Dexterity</li>
+              <li>Wisdom</li>
+              <li>Free</li>
+            </ul>
 
-          <h2 className="relevant">Size</h2>
-          <p>Medium</p>
+            <h2>Ability Flaw</h2>
+            <ul>
+              <li>Constitution</li>
+            </ul>
 
-          <h2 className="relevant">25 feet</h2>
-          <p>Medium</p>
+            <h2>Languages</h2>
+            <ul>
+              <li>Anadi</li>
+              <li>Mwangi</li>
+              <li>
+                Additional languages equal to your Intelligence modifier (if
+                positive): choose from Draconic, Elven, Gnoll, Iruxi, Orcish,
+                Sylvan, and any other languages to which you have access (such
+                as the languages prevalent in your region).
+              </li>
+            </ul>
 
-          <h2 className="relevant">Ability Boosts</h2>
-          <ul>
-            <li>Dexterity</li>
-            <li>Wisdom</li>
-            <li>Free</li>
-          </ul>
+            <h2>Actions</h2>
+            <Spell
+              name="Change Shape"
+              action="one_action"
+              tags={[
+                "anadi",
+                "arcane",
+                "concentrate",
+                "polymorph",
+                "transmutation",
+              ]}
+              description="You change into your human or spider shape. Each shape has a specific, persistent appearance. In your human shape, you can’t use unarmed attacks granted by your ancestry. In your spider shape, you aren’t flat-footed when climbing, but you can’t use weapons, shields, or other held items of any sort nor can you take any action that has the manipulate trait."
+            />
+            <Spell
+              name="Fangs"
+              action="one_action"
+              description="You were born with a natural means for hunting and self-defense. You gain a fangs unarmed attack that deals 1d6 piercing damage. Your fangs are in the brawling group and have the finesse and unarmed traits."
+            />
+          </div>
 
-          <h2 className="relevant">Ability Flaw</h2>
-          <ul>
-            <li>Constitution</li>
-          </ul>
-
-          <h2 className="relevant">Languages</h2>
-          <ul>
-            <li>Anadi</li>
-            <li>Mwangi</li>
-            <li>
-              Additional languages equal to your Intelligence modifier (if
-              positive): choose from Draconic, Elven, Gnoll, Iruxi, Orcish,
-              Sylvan, and any other languages to which you have access (such as
-              the languages prevalent in your region).
-            </li>
-          </ul>
-
-          <h2 className="relevant">Characteristics</h2>
-          <Spell
-            name="Change Shape"
-            action="one_action"
-            tags={[
-              "anadi",
-              "arcane",
-              "concentrate",
-              "polymorph",
-              "transmutation",
-            ]}
-            description="You change into your human or spider shape. Each shape has a specific, persistent appearance. In your human shape, you can’t use unarmed attacks granted by your ancestry. In your spider shape, you aren’t flat-footed when climbing, but you can’t use weapons, shields, or other held items of any sort nor can you take any action that has the manipulate trait."
-          />
-          <Spell
-            name="Fangs"
-            action="one_action"
-            description="You were born with a natural means for hunting and self-defense. You gain a fangs unarmed attack that deals 1d6 piercing damage. Your fangs are in the brawling group and have the finesse and unarmed traits."
-          />
-
-          <h2 className="relevant">Anadi Adventurers</h2>
+          <h2>Anadi Adventurers</h2>
           <p>
             Anadi who answer the call to adventure often do so to learn more
             about the world at large. Common anadi backgrounds include artisan,
@@ -330,7 +341,7 @@ const AnadiPage = () => {
             become wizards or sorcerers.
           </p>
 
-          <h2 className="relevant">Feats</h2>
+          <h2>Feats</h2>
           <div className="feat-section">
             <div className="feat-filter">
               {buttons &&
