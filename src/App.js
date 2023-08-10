@@ -1,5 +1,6 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
+import ErrorPage from "./pages/404";
 import { AncestriesPage } from "./pages/Ancestries";
 import AnadiPage from "./pages/Anadi";
 import AndroidPage from "./pages/Android";
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/ancestries" element={<AncestriesPage />}></Route>
+        <Route path="*" element={<ErrorPage />}></Route>
         <Route path="/anadi" element={<AnadiPage />}></Route>
         <Route path="/android" element={<AndroidPage />}></Route>
       </Routes>
