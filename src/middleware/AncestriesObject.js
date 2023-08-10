@@ -27,7 +27,7 @@ export const ancestries = [
       "These intelligent constructs house actual souls and represent what remains of a dying empire's last attempt at greatness.",
     abilityBoosts: "Strength, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/automaton",
   },
   {
     img: "Azarketi.png",

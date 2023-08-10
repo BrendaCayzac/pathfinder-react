@@ -19,4 +19,8 @@ export const featsButtons = [
     name: "13th Level",
     value: 13,
   },
+  {
+    name: "17th Level",
+    value: 17,
+  },
 ];

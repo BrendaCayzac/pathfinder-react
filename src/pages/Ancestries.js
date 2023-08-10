@@ -1,10 +1,9 @@
+import { useState } from "react";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/styles/AncestriesPage.scss";
 import AncestryThumbnail from "../components/AncestryThumbnail";
 import { ancestries } from "../middleware/AncestriesObject";
-import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 const AncestriesPage = () => {
   const [filteredList, setFilteredList] = new useState(ancestries);
