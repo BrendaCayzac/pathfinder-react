@@ -332,6 +332,7 @@ const AnadiPage = () => {
             </div>
             <div className="feat-list">
               {filteredFeats &&
+                filteredFeats.length !== 0 &&
                 filteredFeats.map((feat, index) => (
                   <Feat
                     key={index}
@@ -342,6 +343,11 @@ const AnadiPage = () => {
                     description={feat.description}
                   />
                 ))}
+              {filteredFeats && filteredFeats.length === 0 ? (
+                <p className="no-feats">No feats match level</p>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>

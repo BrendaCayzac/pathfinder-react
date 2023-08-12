@@ -380,9 +380,10 @@ const AndroidPage = () => {
             </div>
             <div className="feat-list">
               {filteredFeats &&
-                filteredFeats.map((feat) => (
+                filteredFeats.length !== 0 &&
+                filteredFeats.map((feat, index) => (
                   <Feat
-                    key={feat.id}
+                    key={index}
                     name={feat.name}
                     feat={feat.feat}
                     action={feat.action}
@@ -390,6 +391,11 @@ const AndroidPage = () => {
                     description={feat.description}
                   />
                 ))}
+              {filteredFeats && filteredFeats.length === 0 ? (
+                <p className="no-feats">No feats match level</p>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>

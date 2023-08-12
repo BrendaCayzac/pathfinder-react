@@ -300,11 +300,18 @@
 				}
 
 				.feat-list{
-					max-height: 31.25rem;
+					height: 31.25rem;
 					overflow-y: scroll;
 					border-top: 2px solid $pathfinder-red;
 					border-bottom: 2px solid $pathfinder-red;
 					padding: 1rem;
+					width: 100%;
+
+					.no-feats{
+						display: block;
+						width: 100%;
+						text-align: center;
+					}
 				}
 			}
 		}
