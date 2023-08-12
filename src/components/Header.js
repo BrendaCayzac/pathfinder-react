@@ -2,16 +2,16 @@ import React from "react";
 import "../assets/styles/Header.scss";
 
 const Header = (props) => {
-  const { name, img, alt, book, tags } = props;
+  const { name, img, alt, book, tags, key } = props;
 
   return (
-    <header>
+    <header key={key}>
       <div>
         <h1>{name}</h1>
         <p>{book}</p>
-        <div className="tags">
+        <div className={tags ? "tags" : "hidden"}>
           {tags.map((tag, index) => (
-            <span>{tag}</span>
+            <span key={index}>{tag}</span>
           ))}
         </div>
       </div>

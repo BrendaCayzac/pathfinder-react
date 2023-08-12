@@ -20,13 +20,9 @@ const Feat = (props) => {
         </h4>
         <h4>{feat}</h4>
       </div>
-      {tags ? (
-        <div className="tags">
-          tags.map((tag)=><span>tag</span>)
-        </div>
-      ) : (
-        ""
-      )}
+      <div className={tags ? "tags" : "hidden"}>
+        {tags && tags.map((tag, index) => <span key={index}>{tag}</span>)}
+      </div>
       <div className="feat-description">{description}</div>
     </div>
   );

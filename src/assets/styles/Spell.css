@@ -20,6 +20,9 @@
   padding-left: 0.313rem;
   height: 1rem;
 }
+.spell .hidden {
+  display: none;
+}
 .spell .tags {
   display: flex;
   align-items: center;

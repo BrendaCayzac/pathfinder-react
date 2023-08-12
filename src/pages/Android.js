@@ -373,15 +373,9 @@ const AndroidPage = () => {
             <div className="feat-filter">
               {featsButtons &&
                 featsButtons.map((type, index) => (
-                  <>
-                    <button
-                      key={index}
-                      value={type.value}
-                      onClick={handleFeats}
-                    >
-                      {type.name}
-                    </button>
-                  </>
+                  <button key={index} value={type.value} onClick={handleFeats}>
+                    {type.name}
+                  </button>
                 ))}
             </div>
             <div className="feat-list">

@@ -35,7 +35,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/anadi"
+            path="/android"
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <AndroidPage />

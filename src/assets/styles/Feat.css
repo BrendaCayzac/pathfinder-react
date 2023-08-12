@@ -25,6 +25,9 @@
   padding-left: 0.313rem;
   height: 1rem;
 }
+.feat .hidden {
+  display: none;
+}
 .feat .tags {
   display: flex;
   align-items: center;

@@ -37,6 +37,7 @@ const AnadiPage = () => {
         tags={["rare", "humanoid"]}
         img="anadi_icon.png"
         alt="Image of an Anadi"
+        id="anadi-header"
       />
 
       <section>
@@ -324,22 +325,16 @@ const AnadiPage = () => {
             <div className="feat-filter">
               {featsButtons &&
                 featsButtons.map((type, index) => (
-                  <>
-                    <button
-                      key={index}
-                      value={type.value}
-                      onClick={handleFeats}
-                    >
-                      {type.name}
-                    </button>
-                  </>
+                  <button key={index} value={type.value} onClick={handleFeats}>
+                    {type.name}
+                  </button>
                 ))}
             </div>
             <div className="feat-list">
               {filteredFeats &&
-                filteredFeats.map((feat) => (
+                filteredFeats.map((feat, index) => (
                   <Feat
-                    key={feat.id}
+                    key={index}
                     name={feat.name}
                     feat={feat.feat}
                     action={feat.action}
