@@ -16,9 +16,13 @@ const Spell = (props) => {
           ""
         )}
       </h4>
-      <div className="tags">
-        {tags ? tags.map((tag) => <span>{tag}</span>) : ""}
-      </div>
+      {tags ? (
+        <div className="tags">
+          tags.map((tag)=><span>tag</span>)
+        </div>
+      ) : (
+        ""
+      )}
       <div className="spell-description">{description}</div>
     </div>
   );

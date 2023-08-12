@@ -20,11 +20,13 @@ const Feat = (props) => {
         </h4>
         <h4>{feat}</h4>
       </div>
-      <div className="tags">
-        {tags.map((tag) => (
-          <span>{tag}</span>
-        ))}
-      </div>
+      {tags ? (
+        <div className="tags">
+          tags.map((tag)=><span>tag</span>)
+        </div>
+      ) : (
+        ""
+      )}
       <div className="feat-description">{description}</div>
     </div>
   );
