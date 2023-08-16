@@ -2,7 +2,18 @@ import React from "react";
 import "../assets/styles/AncestryThumbnail.scss";
 import { NavLink } from "react-router-dom";
 
-const AncestryThumbnail = (props) => {
+interface ancestryProps {
+  ancestry: string;
+  alt: string;
+  img: string;
+  book: string;
+  description: string;
+  abilityBoosts: string;
+  abilityFlaw: string;
+  link: string;
+}
+
+const AncestryThumbnail = (props: ancestryProps) => {
   const {
     ancestry,
     alt,

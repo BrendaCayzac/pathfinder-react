@@ -3,13 +3,15 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/styles/AncestriesPage.scss";
 import AncestryThumbnail from "../components/AncestryThumbnail";
-import { ancestries } from "../middleware/AncestriesObject";
+import { ancestries, AncestryObject } from "../middleware/AncestriesObject";
+import React from "react";
 
 const AncestriesPage = () => {
-  const [filteredList, setFilteredList] = new useState(ancestries);
-  const filterBySearch = (event) => {
+  const [filteredList, setFilteredList] =
+    useState<Array<AncestryObject> | null>(ancestries);
+  const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
-    const query = event.target.value;
+    const query = (e.target as HTMLInputElement).value;
     // Filtered list
     let updatedList = [...ancestries];
     // Update list with elements containing the query
@@ -35,13 +37,15 @@ const AncestriesPage = () => {
         <FontAwesomeIcon icon={faMagnifyingGlass} />
       </form>
       <div className="ancestries-list">
-        {Object.keys(filteredList).length === 0 ? (
+        {filteredList && Object.keys(filteredList).length === 0 ? (
           <p>No ancestries to show</p>
         ) : (
+          filteredList &&
           filteredList.map((item, index) => (
             <AncestryThumbnail
               key={item.ancestry}
               img={item.img}
+              alt={item.alt}
               ancestry={item.ancestry}
               book={item.book}
               description={item.description}

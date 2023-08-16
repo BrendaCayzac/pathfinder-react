@@ -1,7 +1,16 @@
 import React from "react";
 import "../assets/styles/Header.scss";
 
-const Header = (props) => {
+interface HeaderProps {
+  name: string;
+  img: string;
+  alt: string;
+  book: string;
+  tags: Array<string>;
+  key: string;
+}
+
+const Header = (props: HeaderProps) => {
   const { name, img, alt, book, tags, key } = props;
 
   return (

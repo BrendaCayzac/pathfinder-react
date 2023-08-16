@@ -4,22 +4,23 @@ import Header from "../components/Header";
 import Spell from "../components/Spell";
 import Feat from "../components/Feat";
 import { anadiFeats } from "../middleware/AnadiFeats";
-import { featsButtons } from "../middleware/FeatsButtons";
+import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
 const AnadiPage = () => {
-  const [filteredFeats, setFilteredFeats] = useState(null);
+  const [filteredFeats, setFilteredFeats] =
+    useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
     setFilteredFeats(anadiFeats);
   }, []);
 
-  function handleFeats(e) {
-    let typePokemon = e.target.value;
-    typePokemon !== "all"
-      ? setFilteredFeats(filterFeats(typePokemon))
+  const handleFeats = (e: React.MouseEvent) => {
+    let level = (e.target as HTMLButtonElement).value;
+    level !== "all"
+      ? setFilteredFeats(filterFeats(level))
       : setFilteredFeats(anadiFeats);
-  }
+  };
 
-  function filterFeats(featLevel) {
+  function filterFeats(featLevel: string) {
     return anadiFeats.filter((type) => type.level === parseInt(featLevel));
   }
 
@@ -37,7 +38,7 @@ const AnadiPage = () => {
         tags={["rare", "humanoid"]}
         img="anadi_icon.png"
         alt="Image of an Anadi"
-        id="anadi-header"
+        key="anadi-header"
       />
 
       <section>
@@ -341,6 +342,8 @@ const AnadiPage = () => {
                     action={feat.action}
                     tags={feat.tags}
                     description={feat.description}
+                    level={feat.level}
+                    id={index}
                   />
                 ))}
               {filteredFeats && filteredFeats.length === 0 ? (

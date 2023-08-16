@@ -3,22 +3,23 @@ import "../assets/styles/AncestryPage.scss";
 import Header from "../components/Header";
 import Feat from "../components/Feat";
 import { androidFeats } from "../middleware/AndroidFeats";
-import { featsButtons } from "../middleware/FeatsButtons";
+import { AncestryFeat, featsButtons } from "../middleware/FeatsButtons";
 
 const AndroidPage = () => {
-  const [filteredFeats, setFilteredFeats] = useState(null);
+  const [filteredFeats, setFilteredFeats] =
+    useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
     setFilteredFeats(androidFeats);
   }, []);
 
-  function handleFeats(e) {
-    let typePokemon = e.target.value;
-    typePokemon !== "all"
-      ? setFilteredFeats(filterFeats(typePokemon))
+  const handleFeats = (e: React.MouseEvent) => {
+    let level = (e.target as HTMLButtonElement).value;
+    level !== "all"
+      ? setFilteredFeats(filterFeats(level))
       : setFilteredFeats(androidFeats);
-  }
+  };
 
-  function filterFeats(featLevel) {
+  function filterFeats(featLevel: string) {
     return androidFeats.filter((type) => type.level === parseInt(featLevel));
   }
 
@@ -30,6 +31,7 @@ const AndroidPage = () => {
         tags={["rare", "humanoid", "android"]}
         img="android_icon.png"
         alt="Image of an Android"
+        key="android"
       />
 
       <section>
@@ -389,6 +391,8 @@ const AndroidPage = () => {
                     action={feat.action}
                     tags={feat.tags}
                     description={feat.description}
+                    id={index}
+                    level={feat.level}
                   />
                 ))}
               {filteredFeats && filteredFeats.length === 0 ? (

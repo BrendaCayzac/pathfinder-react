@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./pages/Home";
+import Home from "./pages/Home";
 import ErrorPage from "./pages/404";
 import Navbar from "./components/Navbar";
 
@@ -10,7 +10,7 @@ const AnadiPage = React.lazy(() => import("./pages/Anadi"));
 const AndroidPage = React.lazy(() => import("./pages/Android"));
 const AutomatonPage = React.lazy(() => import("./pages/Automaton"));
 
-function App() {
+const App = (): JSX.Element => {
   return (
     <>
       <Navbar />
@@ -54,6 +54,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;

@@ -1,3 +1,5 @@
+import React from "react";
+
 export const featsButtons = [
   {
     name: "All",
@@ -24,3 +26,13 @@ export const featsButtons = [
     value: 17,
   },
 ];
+
+export interface AncestryFeat {
+  id: number;
+  name: string;
+  action: string;
+  tags?: Array<string>;
+  level: number;
+  feat: string;
+  description: React.JSX.Element | string;
+}

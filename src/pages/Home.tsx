@@ -1,7 +1,8 @@
+import React from "react";
 import "../App.scss";
 import "../assets/styles/HomePage.scss";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="page home">
       <figure>
@@ -17,3 +18,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;

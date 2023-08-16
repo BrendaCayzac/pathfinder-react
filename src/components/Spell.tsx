@@ -1,7 +1,14 @@
 import React from "react";
 import "../assets/styles/Spell.scss";
 
-const Spell = (props) => {
+interface SpellProps {
+  name: string;
+  description: string | React.JSX.Element;
+  action: string;
+  tags?: Array<string>;
+}
+
+const Spell = (props: SpellProps) => {
   const { name, description, action, tags } = props;
   return (
     <div className="spell" key={name}>

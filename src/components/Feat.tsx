@@ -1,7 +1,8 @@
 import React from "react";
 import "../assets/styles/Feat.scss";
+import { AncestryFeat } from "../middleware/FeatsButtons";
 
-const Feat = (props) => {
+const Feat = (props: AncestryFeat) => {
   const { id, name, feat, action, description, tags } = props;
 
   return (

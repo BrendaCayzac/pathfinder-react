@@ -4,28 +4,30 @@ import Header from "../components/Header";
 import Spell from "../components/Spell";
 import Feat from "../components/Feat";
 import { automatonFeats } from "../middleware/AutomatonFeats";
-import { featsButtons } from "../middleware/FeatsButtons";
+import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
 const AutomatonPage = () => {
-  const [filteredFeats, setFilteredFeats] = useState(null);
+  const [filteredFeats, setFilteredFeats] =
+    useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
-    setFilteredFeats(automatonFeats);
+    return setFilteredFeats(automatonFeats);
   }, []);
 
-  function handleFeats(e) {
-    let typePokemon = e.target.value;
-    typePokemon !== "all"
-      ? setFilteredFeats(filterFeats(typePokemon))
+  const handleFeats = (e: React.MouseEvent) => {
+    let level = (e.target as HTMLButtonElement).value;
+    level !== "all"
+      ? setFilteredFeats(filterFeats(level))
       : setFilteredFeats(automatonFeats);
-  }
+  };
 
-  function filterFeats(featLevel) {
+  function filterFeats(featLevel: string) {
     return automatonFeats.filter((type) => type.level === parseInt(featLevel));
   }
 
   return (
     <div className="ancestry-page">
       <Header
+        key="automaton"
         name="automaton"
         book="Guns & Gears"
         tags={["rare", "automaton", "construct"]}
@@ -480,12 +482,14 @@ const AutomatonPage = () => {
                 filteredFeats.length !== 0 &&
                 filteredFeats.map((feat, index) => (
                   <Feat
+                    id={index}
                     key={index}
                     name={feat.name}
                     feat={feat.feat}
                     action={feat.action}
                     tags={feat.tags}
                     description={feat.description}
+                    level={feat.level}
                   />
                 ))}
               {filteredFeats && filteredFeats.length === 0 ? (
