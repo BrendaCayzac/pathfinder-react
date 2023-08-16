@@ -6,7 +6,7 @@ import Feat from "../components/Feat";
 import { automatonFeats } from "../middleware/AutomatonFeats";
 import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
-const AutomatonPage = () => {
+const AutomatonPage: React.ComponentType = () => {
   const [filteredFeats, setFilteredFeats] =
     useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {

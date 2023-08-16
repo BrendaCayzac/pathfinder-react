@@ -5,7 +5,7 @@ import Feat from "../components/Feat";
 import { androidFeats } from "../middleware/AndroidFeats";
 import { AncestryFeat, featsButtons } from "../middleware/FeatsButtons";
 
-const AndroidPage = () => {
+const AndroidPage: React.ComponentType = () => {
   const [filteredFeats, setFilteredFeats] =
     useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {

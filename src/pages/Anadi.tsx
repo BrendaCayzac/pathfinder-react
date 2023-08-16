@@ -6,7 +6,7 @@ import Feat from "../components/Feat";
 import { anadiFeats } from "../middleware/AnadiFeats";
 import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
-const AnadiPage = () => {
+const AnadiPage: React.ComponentType = () => {
   const [filteredFeats, setFilteredFeats] =
     useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
@@ -264,8 +264,8 @@ const AnadiPage = () => {
             <p>8</p>
             <h2>Size</h2>
             <p>Medium</p>
-            <h2>25 feet</h2>
-            <p>Medium</p>
+            <h2>Speed</h2>
+            <p>25 feet</p>
             <h2>Ability Boosts</h2>
             <ul>
               <li>Dexterity</li>

@@ -41,7 +41,7 @@ export const ancestries: Array<AncestryObject> = [
       "Azarketis, inheritors of a shattered empire's legacy, hold their proud traditions close but still surface to interact with the rest of the world.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Wisdom",
-    link: "#",
+    link: "/azarketi",
   },
   {
     img: "Catfolk.png",

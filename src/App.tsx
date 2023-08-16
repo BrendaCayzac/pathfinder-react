@@ -9,6 +9,7 @@ const AncestriesPage = React.lazy(() => import("./pages/Ancestries"));
 const AnadiPage = React.lazy(() => import("./pages/Anadi"));
 const AndroidPage = React.lazy(() => import("./pages/Android"));
 const AutomatonPage = React.lazy(() => import("./pages/Automaton"));
+const AzarketiPage = React.lazy(() => import("./pages/Azarketi"));
 
 const App = (): JSX.Element => {
   return (
@@ -47,6 +48,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <AutomatonPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/azarketi"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <AzarketiPage />
               </React.Suspense>
             }
           ></Route>

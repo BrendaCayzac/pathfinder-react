@@ -2,7 +2,7 @@ import React from "react";
 import "../App.scss";
 import "../assets/styles/HomePage.scss";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div className="page home">
       <figure>

@@ -6,7 +6,7 @@ import AncestryThumbnail from "../components/AncestryThumbnail";
 import { ancestries, AncestryObject } from "../middleware/AncestriesObject";
 import React from "react";
 
-const AncestriesPage = () => {
+const AncestriesPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] =
     useState<Array<AncestryObject> | null>(ancestries);
   const filterBySearch = (e: React.ChangeEvent) => {

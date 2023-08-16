@@ -7,14 +7,14 @@ interface HeaderProps {
   alt: string;
   book: string;
   tags: Array<string>;
-  key: string;
+  key?: string;
 }
 
 const Header = (props: HeaderProps) => {
-  const { name, img, alt, book, tags, key } = props;
+  const { name, img, alt, book, tags } = props;
 
   return (
-    <header key={key}>
+    <header key={name}>
       <div>
         <h1>{name}</h1>
         <p>{book}</p>

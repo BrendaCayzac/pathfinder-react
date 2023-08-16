@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/404.scss";
 
-const ErrorPage = () => {
+const ErrorPage: React.ComponentType = () => {
   return (
     <div className="page error">
       <figure>
