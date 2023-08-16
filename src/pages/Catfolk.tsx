@@ -5,7 +5,7 @@ import Feat from "../components/Feat";
 import { catfolkFeats } from "../middleware/CatfolkFeats";
 import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
-const AnadiPage: React.ComponentType = () => {
+const CatfolkPage: React.ComponentType = () => {
   const [filteredFeats, setFilteredFeats] =
     useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
@@ -193,7 +193,7 @@ const AnadiPage: React.ComponentType = () => {
             </p>
           </div>
 
-          <h2>Anadi heritages</h2>
+          <h2>Catfolk heritages</h2>
           <p>
             Catfolk have ancestors as varied as any felines. Choose one of the
             following catfolk heritages at 1st level.
@@ -442,4 +442,4 @@ const AnadiPage: React.ComponentType = () => {
   );
 };
 
-export default AnadiPage;
+export default CatfolkPage;

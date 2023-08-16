@@ -194,7 +194,7 @@ const AnadiPage: React.ComponentType = () => {
             alignment.
           </p>
 
-          <h2>Anadi heritages</h2>
+          <h2>Azarketi heritages</h2>
           <p>
             An azarketi’s heritage represents the waters they call home, and how
             the individual combines their human and aquatic origins. Choose one

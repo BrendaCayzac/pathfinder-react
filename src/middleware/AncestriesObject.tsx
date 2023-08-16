@@ -63,7 +63,7 @@ export const ancestries: Array<AncestryObject> = [
       "Conrasus are shards of cosmic force given consciousness who construct intricate exoskeletons to interface with the mortal world.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Charisma",
-    link: "#",
+    link: "/conrasu",
   },
   {
     img: "Dwarf.png",

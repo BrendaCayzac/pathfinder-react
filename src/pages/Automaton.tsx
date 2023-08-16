@@ -304,7 +304,7 @@ const AutomatonPage: React.ComponentType = () => {
             </p>
           </div>
 
-          <h2>Anadi heritages</h2>
+          <h2>Automaton heritages</h2>
           <p>
             Every automaton has a unique body based on the original roles
             intended to aid the people of Jistka. Choose one of the following
