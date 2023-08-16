@@ -40,11 +40,6 @@ const AnadiPage: React.ComponentType = () => {
             proud traditions close but still surface to interact with the rest
             of the world.
           </p>
-          <p>
-            Azarketis, inheritors of a shattered empire’s legacy, hold their
-            proud traditions close but still surface to interact with the rest
-            of the world.
-          </p>
 
           <p>
             The aquatic humanoids of the Inner Sea share a somber and burdened

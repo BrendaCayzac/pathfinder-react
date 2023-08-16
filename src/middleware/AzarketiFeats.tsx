@@ -1,5 +1,4 @@
 import React from "react";
-import Spell from "../components/Spell";
 
 export const azarketiFeats = [
   {

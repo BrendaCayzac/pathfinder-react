@@ -52,7 +52,7 @@ export const ancestries: Array<AncestryObject> = [
       "Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Wisdom",
-    link: "#",
+    link: "/catfolk",
   },
   {
     img: "Conrasu.png",
