@@ -120,7 +120,7 @@ export const ancestries: Array<AncestryObject> = [
       " a sort of immortality through their seeds—unless these are destroyed by external events other than merely the ravages of time.",
     abilityBoosts: "Constitution, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/ghoran",
   },
   {
     img: "Gnoll.png",
