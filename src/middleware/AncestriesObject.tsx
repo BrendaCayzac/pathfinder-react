@@ -108,7 +108,7 @@ export const ancestries: Array<AncestryObject> = [
       "Fleshwarps are people whose forms were created or radically transformed by magic, alchemy, or unnatural energies.",
     abilityBoosts: "Constitution, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/fleshwarp",
   },
   {
     img: "Ghoran.png",

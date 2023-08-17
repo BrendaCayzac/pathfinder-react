@@ -134,11 +134,6 @@ const FetchlingPage: React.ComponentType = () => {
               take and replace Somal’s Tears. Candlease also hosts storytelling
               contests and Brightsorrow moots.
             </p>
-            <p>
-              <b>Sample names:</b> Aerel, Amrunelara, Caladrel, Dardlara,
-              Faunra, Heldalel, Jathal, Lanliss, Oparal, Seldlon, Soumral,
-              Talathel, Tessara, Variel, Yalandlara, Zordlon
-            </p>
           </div>
 
           <div className="flex-column">
@@ -336,7 +331,7 @@ const FetchlingPage: React.ComponentType = () => {
                 (such as the languages prevalent in your region).
               </li>
             </ul>
-            <h2>arkvision</h2>
+            <h2>Darkvision</h2>
             <p>
               You can see in darkness and dim light just as well as you can see
               in bright light.

@@ -15,6 +15,7 @@ const ConrasuPage = React.lazy(() => import("./pages/Conrasu"));
 const DwarfPage = React.lazy(() => import("./pages/Dwarf"));
 const ElfPage = React.lazy(() => import("./pages/Elf"));
 const FetchlingPage = React.lazy(() => import("./pages/Fetchling"));
+const FleshwarpPage = React.lazy(() => import("./pages/Fleshwarp"));
 
 const App = (): JSX.Element => {
   return (
@@ -101,6 +102,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <FetchlingPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/fleshwarp"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <FleshwarpPage />
               </React.Suspense>
             }
           ></Route>
