@@ -17,6 +17,7 @@ const ElfPage = React.lazy(() => import("./pages/Elf"));
 const FetchlingPage = React.lazy(() => import("./pages/Fetchling"));
 const FleshwarpPage = React.lazy(() => import("./pages/Fleshwarp"));
 const GhoranPage = React.lazy(() => import("./pages/Ghoran"));
+const GnollPage = React.lazy(() => import("./pages/Gnoll"));
 
 const App = (): JSX.Element => {
   return (
@@ -119,6 +120,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <GhoranPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/gnoll"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <GnollPage />
               </React.Suspense>
             }
           ></Route>

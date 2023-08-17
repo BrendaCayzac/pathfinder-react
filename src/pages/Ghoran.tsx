@@ -359,11 +359,12 @@ const GhoranPage: React.ComponentType = () => {
             <h2>Languages</h2>
             <ul>
               <li>Common</li>
+              <li>Sylvan</li>
               <li>
                 Additional languages equal to your Intelligence modifier (if
-                positive): Choose from Aklo, Draconic, Dwarven, Elven, Goblin,
-                Undercommon, and any other languages to which you have access
-                (such as the languages prevalent in your region).
+                positive): Choose from Aklo, Draconic, Elven, Gnomish, Jotun,
+                and any other languages to which you have access (such as the
+                languages prevalent in your region).
               </li>
             </ul>
             <h2>Low-light vision</h2>
@@ -371,11 +372,10 @@ const GhoranPage: React.ComponentType = () => {
               You can see in dim light as though it were bright light, so you
               ignore the concealed condition due to dim light.
             </p>
-            <h2>Unusual anatomy</h2>
+            <h2>Photosynthesis</h2>
             <p>
-              Your unorthodox body resists physical afflictions meant for other
-              creatures. You gain a +1 circumstance bonus to saves against
-              diseases and poisons.
+              You can see in dim light as though it were bright light, so you
+              ignore the concealed condition due to dim light.
             </p>
           </div>
           <h2>Ghorans Adventurers</h2>

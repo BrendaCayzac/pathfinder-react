@@ -131,7 +131,7 @@ export const ancestries: Array<AncestryObject> = [
       "Powerfully-built humanoids that resemble hyenas, gnolls are cunning warriors and hunters.",
     abilityBoosts: "Strength, Intelligence, free",
     abilityFlaw: "Wisdom",
-    link: "#",
+    link: "/gnoll",
   },
   {
     img: "Gnome.png",
