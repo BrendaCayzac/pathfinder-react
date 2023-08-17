@@ -2,26 +2,25 @@ import React, { useState, useEffect } from "react";
 import "../assets/styles/AncestryPage.scss";
 import Header from "../components/Header";
 import Feat from "../components/Feat";
-import Spell from "../components/Spell";
-import { ghoranFeats } from "../middleware/GhoranFeats";
+import { gnollFeats } from "../middleware/GnollFeatures";
 import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
 const GnollPage: React.ComponentType = () => {
   const [filteredFeats, setFilteredFeats] =
     useState<Array<AncestryFeat> | null>(null);
   useEffect(() => {
-    setFilteredFeats(ghoranFeats);
+    setFilteredFeats(gnollFeats);
   }, []);
 
   const handleFeats = (e: React.MouseEvent) => {
     let level = (e.target as HTMLButtonElement).value;
     level !== "all"
       ? setFilteredFeats(filterFeats(level))
-      : setFilteredFeats(ghoranFeats);
+      : setFilteredFeats(gnollFeats);
   };
 
   function filterFeats(featLevel: string) {
-    return ghoranFeats.filter((feat) => feat.level === parseInt(featLevel));
+    return gnollFeats.filter((feat) => feat.level === parseInt(featLevel));
   }
 
   return (
