@@ -97,7 +97,7 @@ export const ancestries: Array<AncestryObject> = [
       "Fetchlings are a striking people whose skin appears entirely drained of color.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/fetchling",
   },
   {
     img: "Fleshwarp.png",

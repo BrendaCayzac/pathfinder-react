@@ -235,7 +235,7 @@ const ElfPage: React.ComponentType = () => {
           </div>
           <div className="accordion">
             <input type="checkbox" id="heritage-4" />
-            <label htmlFor="heritage-4">RWhisperock</label>
+            <label htmlFor="heritage-4">Whisperock</label>
             <div className="content">
               <p className="text">
                 Your ears are finely tuned, able to detect even the slightest
