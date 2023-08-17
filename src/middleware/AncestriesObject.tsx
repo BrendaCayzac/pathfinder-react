@@ -86,7 +86,7 @@ export const ancestries: Array<AncestryObject> = [
       "Elves are a tall, slender, long-lived people with a strong tradition of art and magic.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Constitution",
-    link: "#",
+    link: "/elf",
   },
   {
     img: "Fetchling.png",
