@@ -75,7 +75,7 @@ export const ancestries: Array<AncestryObject> = [
       " fierce, and devoted.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Charisma",
-    link: "#",
+    link: "/dwarf",
   },
   {
     img: "Elf.png",

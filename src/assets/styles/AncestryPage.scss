@@ -317,6 +317,30 @@
 						width: 100%;
 						text-align: center;
 					}
+
+					table{
+						width: 100%;
+						font-family: $roboto;
+
+						th,td{
+							padding: 0.5rem;
+						}
+
+						tbody tr:nth-child(even) {
+							background-color: #F0EBDF;
+						}
+
+						tbody tr:nth-child(odd) {
+							background-color: #E0DACB;
+						}
+
+						thead,
+						tfoot {
+							background-color: $pathfinder-red;
+							color: #fff;
+						}
+
+					}
 				}
 			}
 		}

@@ -272,6 +272,24 @@
   width: 100%;
   text-align: center;
 }
+.ancestry-page section .content .feat-section .feat-list table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.ancestry-page section .content .feat-section .feat-list table th, .ancestry-page section .content .feat-section .feat-list table td {
+  padding: 0.5rem;
+}
+.ancestry-page section .content .feat-section .feat-list table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+.ancestry-page section .content .feat-section .feat-list table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+.ancestry-page section .content .feat-section .feat-list table thead,
+.ancestry-page section .content .feat-section .feat-list table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
 
 @media screen and (min-width: 48rem) {
   .ancestry-page section {
