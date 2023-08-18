@@ -142,7 +142,7 @@ export const ancestries: Array<AncestryObject> = [
       "Gnomes are short and hardy folk, with an unquenchable curiosity and eccentric habits.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Strength",
-    link: "#",
+    link: "/gnome",
   },
   {
     img: "Goblin.png",
