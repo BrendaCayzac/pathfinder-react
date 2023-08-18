@@ -165,7 +165,7 @@ export const ancestries: Array<AncestryObject> = [
       " biology to frighten off those they consider to be dangerous predators.",
     abilityBoosts: "Wisdom, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/goloma",
   },
   {
     img: "Grippli.png",
