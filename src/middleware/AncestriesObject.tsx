@@ -153,7 +153,7 @@ export const ancestries: Array<AncestryObject> = [
       "Goblins are a short, scrappy, energetic people who have spent millennia maligned and feared.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Wisdom",
-    link: "#",
+    link: "/goblin",
   },
   {
     img: "Goloma.png",
