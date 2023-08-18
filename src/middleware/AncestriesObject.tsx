@@ -188,7 +188,7 @@ export const ancestries: Array<AncestryObject> = [
       "Halflings are a short, adaptable people who exhibit remarkable curiosity and humor.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Strength",
-    link: "#",
+    link: "/halfling",
   },
   {
     img: "Hobgoblin.png",

@@ -22,6 +22,7 @@ const GnomePage = React.lazy(() => import("./pages/Gnome"));
 const GoblinPage = React.lazy(() => import("./pages/Goblin"));
 const GolomaPage = React.lazy(() => import("./pages/Goloma"));
 const GrippliPage = React.lazy(() => import("./pages/Grippli"));
+const HalflingPage = React.lazy(() => import("./pages/Halfling"));
 
 const App = (): JSX.Element => {
   return (
@@ -164,6 +165,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <GrippliPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/halfling"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <HalflingPage />
               </React.Suspense>
             }
           ></Route>
