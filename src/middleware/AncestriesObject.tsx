@@ -199,7 +199,7 @@ export const ancestries: Array<AncestryObject> = [
       "Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms.",
     abilityBoosts: "Constitution, Intelligence, free",
     abilityFlaw: "Wisdom",
-    link: "#",
+    link: "/hobgoblin",
   },
   {
     img: "Human.png",

@@ -30,7 +30,7 @@ const HalflingPage: React.ComponentType = () => {
         name="halfling"
         book="Core Rulebook"
         tags={["halfling", "humanoid"]}
-        img="grippli_icon.png"
+        img="halfling_icon.png"
         alt="Image of a halfling"
       />
 
