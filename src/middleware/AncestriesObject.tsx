@@ -177,7 +177,7 @@ export const ancestries: Array<AncestryObject> = [
       " being drawn into the complicated and dangerous affairs of others.",
     abilityBoosts: "Dexterity, Wisdom, free",
     abilityFlaw: "Strength",
-    link: "#",
+    link: "/grippli",
   },
   {
     img: "Halfling.png",
