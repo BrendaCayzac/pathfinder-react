@@ -232,7 +232,7 @@ export const ancestries: Array<AncestryObject> = [
       "Whether they pass unseen among other peoples or hold their tails high, kitsune are clever observers of the societies around them.",
     abilityBoosts: "Charisma, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/kitsune",
   },
   {
     img: "Kobold.png",
