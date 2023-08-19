@@ -243,7 +243,7 @@ export const ancestries: Array<AncestryObject> = [
       "Every kobold knows that their slight frame belies true, mighty draconic power.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Constitution",
-    link: "#",
+    link: "/kobold",
   },
   {
     img: "Leshy.png",

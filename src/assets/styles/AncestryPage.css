@@ -29,6 +29,7 @@
   /* Accordion */
   /* Flex column */
   /* image */
+  /* Tables */
   /* Important information */
   /* Feats */
 }
@@ -205,6 +206,24 @@
   opacity: 0.5;
   z-index: 1;
 }
+.ancestry-page section .content table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.ancestry-page section .content table th, .ancestry-page section .content table td {
+  padding: 0.5rem;
+}
+.ancestry-page section .content table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+.ancestry-page section .content table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+.ancestry-page section .content table thead,
+.ancestry-page section .content table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
 .ancestry-page section .content .relevant {
   background-color: #560c06;
   padding: 1.5rem;
@@ -271,24 +290,6 @@
   display: block;
   width: 100%;
   text-align: center;
-}
-.ancestry-page section .content .feat-section .feat-list table {
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-}
-.ancestry-page section .content .feat-section .feat-list table th, .ancestry-page section .content .feat-section .feat-list table td {
-  padding: 0.5rem;
-}
-.ancestry-page section .content .feat-section .feat-list table tbody tr:nth-child(even) {
-  background-color: #F0EBDF;
-}
-.ancestry-page section .content .feat-section .feat-list table tbody tr:nth-child(odd) {
-  background-color: #E0DACB;
-}
-.ancestry-page section .content .feat-section .feat-list table thead,
-.ancestry-page section .content .feat-section .feat-list table tfoot {
-  background-color: #560c06;
-  color: #fff;
 }
 
 @media screen and (min-width: 48rem) {
