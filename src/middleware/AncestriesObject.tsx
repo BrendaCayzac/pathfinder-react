@@ -254,7 +254,7 @@ export const ancestries: Array<AncestryObject> = [
       "Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form.",
     abilityBoosts: "Constitution, Wisdom, free",
     abilityFlaw: "Intelligence",
-    link: "#",
+    link: "/leshy",
   },
   {
     img: "Lizardfolk.png",
