@@ -276,7 +276,7 @@ export const ancestries: Array<AncestryObject> = [
       "With humanoid figures and serpentine heads, nagaji are heralds, companions, and servitors of powerful nagas.",
     abilityBoosts: "Strength, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/nagaji",
   },
   {
     img: "Orc.png",
