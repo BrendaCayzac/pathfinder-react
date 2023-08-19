@@ -221,7 +221,7 @@ export const ancestries: Array<AncestryObject> = [
       "Kashrishi make their homes in remote areas of the world. These quiet beings have stout, durable frames and distinctive crystalline horns.",
     abilityBoosts: "Constitution, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/kashrishi",
   },
   {
     img: "Kitsune.png",
