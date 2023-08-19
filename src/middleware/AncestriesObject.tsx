@@ -287,7 +287,7 @@ export const ancestries: Array<AncestryObject> = [
       "Orcs are forged in the fires of violence and conflict, often from the moment they are born.",
     abilityBoosts: "Strength, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/orc",
   },
   {
     img: "Poppet.png",
