@@ -1,6 +1,7 @@
 import React from "react";
+import { AncestryFeat } from "./FeatsButtons";
 
-export const elfFeats = [
+export const elfFeats: Array<AncestryFeat> = [
   {
     id: 1,
     name: "Ancestral linguistics",

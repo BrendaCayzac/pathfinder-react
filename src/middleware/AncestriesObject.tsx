@@ -210,7 +210,7 @@ export const ancestries: Array<AncestryObject> = [
       "Humans are incredibly diverse. Some, such as half-elves and half-orcs, even have non-human ancestors.",
     abilityBoosts: "Two free ability boosts",
     abilityFlaw: "—",
-    link: "#",
+    link: "/human",
   },
   {
     img: "Kashrishi.png",

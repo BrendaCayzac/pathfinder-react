@@ -103,7 +103,7 @@
   content: "↡";
 }
 .ancestry-page section .content .accordion input:checked ~ label ~ .content {
-  max-height: 500px;
+  max-height: 700px;
 }
 .ancestry-page section .content .accordion .content {
   max-height: 0;
