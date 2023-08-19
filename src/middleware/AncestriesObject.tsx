@@ -265,7 +265,7 @@ export const ancestries: Array<AncestryObject> = [
       "Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves.",
     abilityBoosts: "Strength, Wisdom, free",
     abilityFlaw: "Intelligence",
-    link: "#",
+    link: "/lizardfolk",
   },
   {
     img: "Nagaji.png",
