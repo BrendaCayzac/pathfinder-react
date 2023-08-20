@@ -298,7 +298,7 @@ export const ancestries: Array<AncestryObject> = [
       "Poppets are small, basic constructs that typically help their owners with simple tasks.",
     abilityBoosts: "Constitution, Charisma, free",
     abilityFlaw: "Dexterity",
-    link: "#",
+    link: "/poppet",
   },
   {
     img: "Ratfolk.png",

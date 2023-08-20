@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "../assets/styles/AncestryPage.scss";
 import Header from "../components/Header";
 import Feat from "../components/Feat";
-import Spell from "../components/Spell";
 import { orcFeats } from "../middleware/OrcFeats";
 import { featsButtons, AncestryFeat } from "../middleware/FeatsButtons";
 
