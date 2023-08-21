@@ -309,7 +309,7 @@ export const ancestries: Array<AncestryObject> = [
       "Ysoki—as ratfolk call themselves—are a clever, adaptable, and fastidious ancestry who happily crowd their large families into the smallest of living spaces.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Strength",
-    link: "#",
+    link: "/ratfolk",
   },
   {
     img: "Shisk.png",

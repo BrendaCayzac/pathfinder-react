@@ -318,7 +318,7 @@ const PoppetPage: React.ComponentType = () => {
             <label htmlFor="heritage-4">Toy</label>
             <div className="content">
               <p className="text">
-                YYou have the form of a child’s tiny toy or doll, but you don’t
+                You have the form of a child’s tiny toy or doll, but you don’t
                 let your small size impede your joy of life. Instead of Small,
                 your size is Tiny. Like other Tiny creatures, you don’t
                 automatically receive lesser cover from being in a larger
