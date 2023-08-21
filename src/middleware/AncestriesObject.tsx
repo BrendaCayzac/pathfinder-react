@@ -320,7 +320,7 @@ export const ancestries: Array<AncestryObject> = [
       "Shisks are secretive mountain-dwellers, bone-feathered humanoids who lurk underground in dark tunnels and caverns.",
     abilityBoosts: "Intelligence, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/shisk",
   },
   {
     img: "Shoony.png",

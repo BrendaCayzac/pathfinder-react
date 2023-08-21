@@ -34,6 +34,7 @@ const NagajiPage = React.lazy(() => import("./pages/Nagaji"));
 const OrcPage = React.lazy(() => import("./pages/Orc"));
 const PoppetPage = React.lazy(() => import("./pages/Poppet"));
 const RatfolkPage = React.lazy(() => import("./pages/Ratfolk"));
+const ShiskPage = React.lazy(() => import("./pages/Shisk"));
 
 const App = (): JSX.Element => {
   return (
@@ -272,6 +273,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <RatfolkPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/shisk"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <ShiskPage />
               </React.Suspense>
             }
           ></Route>
