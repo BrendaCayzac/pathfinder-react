@@ -353,7 +353,7 @@ export const ancestries: Array<AncestryObject> = [
       "Sprites are diminutive, whimsical, and exuberant creatures from the fey realm known as the First World.",
     abilityBoosts: "Dexterity, Intelligence, free",
     abilityFlaw: "Strength",
-    link: "#",
+    link: "/sprite",
   },
   {
     img: "Strix.png",

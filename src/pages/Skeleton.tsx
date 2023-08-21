@@ -28,7 +28,7 @@ const SkeletonPage: React.ComponentType = () => {
       <Header
         name="skeleton"
         book="Book of the Dead"
-        tags={["rare", "skeleton", "unded"]}
+        tags={["rare", "skeleton", "undead"]}
         img="skeleton_icon.png"
         alt="Image of a skeleton"
       />
@@ -77,7 +77,7 @@ const SkeletonPage: React.ComponentType = () => {
             <figure>
               <img
                 src={require("../assets/img/Skeleton_02.png")}
-                alt="Shoony image"
+                alt="Skeleton image"
               />
             </figure>
           </div>
@@ -150,7 +150,7 @@ const SkeletonPage: React.ComponentType = () => {
             <figure>
               <img
                 src={require("../assets/img/Skeleton.png")}
-                alt="Shoony image"
+                alt="Skeleton image"
               />
             </figure>
           </div>
@@ -295,8 +295,8 @@ const SkeletonPage: React.ComponentType = () => {
             </div>
           </div>
           <div className="accordion">
-            <input type="checkbox" id="heritage-2" />
-            <label htmlFor="heritage-2">Monstrous</label>
+            <input type="checkbox" id="heritage-5" />
+            <label htmlFor="heritage-5">Monstrous</label>
             <div className="content">
               <p className="text">
                 Inhuman skeletons are often created for both their deadly
