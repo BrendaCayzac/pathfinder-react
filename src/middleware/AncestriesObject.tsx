@@ -364,7 +364,7 @@ export const ancestries: Array<AncestryObject> = [
       "Tengus are a gregarious and resourceful people, collecting and combining whatever innovations and traditions they happen across with those from their own long history.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/strix",
   },
   {
     img: "Tengu.png",
