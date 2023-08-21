@@ -331,7 +331,7 @@ export const ancestries: Array<AncestryObject> = [
       "Diminutive humanoids who resemble squat, bipedal dogs, shoonies are sometimes mistaken for weak and insular pacifists.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Constitution",
-    link: "#",
+    link: "/shoony",
   },
   {
     img: "Skeleton.png",
@@ -342,7 +342,7 @@ export const ancestries: Array<AncestryObject> = [
       "They're typically mindless creatures, lacking many of the abilities that make other undead a serious threat.",
     abilityBoosts: "Dexterity, Charisma, free",
     abilityFlaw: "Intelligence",
-    link: "#",
+    link: "/skeleton",
   },
   {
     img: "Sprite.png",

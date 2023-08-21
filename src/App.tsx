@@ -35,6 +35,8 @@ const OrcPage = React.lazy(() => import("./pages/Orc"));
 const PoppetPage = React.lazy(() => import("./pages/Poppet"));
 const RatfolkPage = React.lazy(() => import("./pages/Ratfolk"));
 const ShiskPage = React.lazy(() => import("./pages/Shisk"));
+const ShoonyPage = React.lazy(() => import("./pages/Shoony"));
+const SkeletonPage = React.lazy(() => import("./pages/Skeleton"));
 
 const App = (): JSX.Element => {
   return (
@@ -281,6 +283,22 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <ShiskPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/shoony"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <ShoonyPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/skeleton"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <SkeletonPage />
               </React.Suspense>
             }
           ></Route>
