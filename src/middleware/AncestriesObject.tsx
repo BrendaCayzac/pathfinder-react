@@ -375,7 +375,7 @@ export const ancestries: Array<AncestryObject> = [
       "Known as itarii in their own language, strix are reclusive avian humanoids devoted to their homelands and their tribes.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/tengu",
   },
   {
     img: "Vanara.png",
