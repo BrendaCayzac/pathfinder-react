@@ -386,7 +386,7 @@ export const ancestries: Array<AncestryObject> = [
       "Vanaras are inquisitive and mischievous monkey-like humanoids with short, soft fur, expressive eyes, and long, prehensile tails.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/vanara",
   },
   {
     img: "Vishkanya.png",
