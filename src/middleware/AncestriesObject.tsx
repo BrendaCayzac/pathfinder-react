@@ -397,7 +397,7 @@ export const ancestries: Array<AncestryObject> = [
       "Vishkanyas are ophidian humanoids who carry potent venom within their blood and saliva.",
     abilityBoosts: "Dexterity, free",
     abilityFlaw: "—",
-    link: "#",
+    link: "/vishkanya",
   },
 ];
 

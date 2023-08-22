@@ -27,7 +27,7 @@ const VanaraPage: React.ComponentType = () => {
     <div className="ancestry-page">
       <Header
         name="vanara"
-        book="Advanced Players Guide"
+        book="Lost Omens: Impossible Lands"
         tags={["uncommon", "vanara", "humanoid"]}
         img="vanara_icon.png"
         alt="Image of a vanara"
