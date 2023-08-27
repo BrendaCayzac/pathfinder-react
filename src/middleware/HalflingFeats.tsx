@@ -124,7 +124,7 @@ export const halflingFeats = [
   },
   {
     id: 7,
-    name: "Inn0cuous",
+    name: "Innocuous",
     action: "",
     tags: ["halfling"],
     level: 1,

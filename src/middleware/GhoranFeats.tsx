@@ -280,7 +280,7 @@ export const ghoranFeats = [
   },
   {
     id: 18,
-    name: "Ghoran's weath",
+    name: "Ghoran's wealth",
     action: "",
     tags: ["ghoran"],
     level: 17,

@@ -47,7 +47,7 @@ export const conrasuFeats = [
   },
   {
     id: 4,
-    name: "Conrasu Weapin Familiarity",
+    name: "Conrasu weapon Familiarity",
     action: "",
     tags: ["conrasu"],
     level: 1,

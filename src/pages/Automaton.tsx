@@ -250,7 +250,7 @@ const AutomatonPage: React.ComponentType = () => {
             <figure>
               <img
                 src={require("../assets/img/Automaton_02.png")}
-                alt="Anadi image"
+                alt="Automaton image"
               />
             </figure>
           </div>
@@ -316,7 +316,7 @@ const AutomatonPage: React.ComponentType = () => {
             <label htmlFor="heritage-1">Hunter</label>
             <div className="content">
               <p className="text">
-                YYou were designed to serve as a scout or assassin and have a
+                You were designed to serve as a scout or assassin and have a
                 body resembling a pack hunter like a large cat or wolf. Though
                 you typically move like a quadruped, you can still stand and
                 fight like a biped, allowing you to use all equipment normally.
@@ -455,17 +455,6 @@ const AutomatonPage: React.ComponentType = () => {
               ignore the concealed condition due to dim light.
             </p>
           </div>
-
-          <h2>Anadi Adventurers</h2>
-          <p>
-            Anadi who answer the call to adventure often do so to learn more
-            about the world at large. Common anadi backgrounds include artisan,
-            emissary, herbalist, hunter, and scholar. Anadi adventurers who want
-            to support their communities often become clerics or druids. Rogue
-            remains a popular choice among those who seek to hide their true
-            form. Anadi who wish to continue their magical traditions tend to
-            become wizards or sorcerers.
-          </p>
 
           <h2>Feats</h2>
           <div className="feat-section">

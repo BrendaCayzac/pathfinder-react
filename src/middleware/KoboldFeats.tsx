@@ -214,7 +214,7 @@ export const koboldFeats: Array<AncestryFeat> = [
     id: 11,
     name: "Grovel",
     action: "one_action",
-    tags: ["auditory", "concentrate", "emtoion", "kobold", "mental"],
+    tags: ["auditory", "concentrate", "emotion", "kobold", "mental"],
     level: 5,
     feat: "Feat 5",
     description: (

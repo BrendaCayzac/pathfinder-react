@@ -74,7 +74,7 @@ export const fetchlingFeats = [
     id: 7,
     name: "clever shadow",
     action: "",
-    tags: ["evocation", "fetchling", "ccult", "shadow"],
+    tags: ["evocation", "fetchling", "occult", "shadow"],
     level: 5,
     feat: "Feat 5",
     description:

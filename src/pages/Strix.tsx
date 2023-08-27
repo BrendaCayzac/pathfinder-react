@@ -334,7 +334,7 @@ const StrixPage: React.ComponentType = () => {
             <label htmlFor="heritage-5">Nyktera</label>
             <div className="content">
               <p className="text">
-                YYou’re the descendant of strix who traveled to the coasts. Your
+                You’re the descendant of strix who traveled to the coasts. Your
                 feathers are especially water-repellent and sleekly angled for
                 diving, allowing you to catch fish and other prey in the
                 shallows. You are trained in Athletics, and you gain the

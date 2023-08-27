@@ -479,7 +479,7 @@ export const automatonFeats = [
         door once per hour as a 4th-level innate arcane spell.
         <br />
         <br />
-        <b>Enhancement:</b> YYour attunement allows you to teleport in a series
+        <b>Enhancement:</b> Your attunement allows you to teleport in a series
         of quick jumps rather than in one big leap. You can expend your hourly
         use of dimension door as a free action when you begin your turn. If you
         do, your Strides are augmented until the end of your turn, allowing you

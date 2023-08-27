@@ -36,7 +36,7 @@ export const ratfolkFeats: Array<AncestryFeat> = [
         capacity into mundane storage containers or vehicles. For example, you
         can fit 6 Bulk in a backpack, or 12 Bulk in a chest. This doesn’t alter
         the items’ Bulk, nor does it change how much you can store in a magical
-        or extradimensional storage space, such as a bag of holding.
+        or extra dimensional storage space, such as a bag of holding.
       </span>
     ),
   },

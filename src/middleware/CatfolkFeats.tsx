@@ -5,7 +5,7 @@ export const catfolkFeats = [
     id: 1,
     name: "Cat nap",
     action: "",
-    tags: ["catfolk", "concentrate", "exporation"],
+    tags: ["catfolk", "concentrate", "exploration"],
     level: 1,
     feat: "Feat 1",
     description:

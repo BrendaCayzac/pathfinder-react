@@ -442,7 +442,7 @@ export const elfFeats: Array<AncestryFeat> = [
   },
   {
     id: 26,
-    name: "Otherworldy acument",
+    name: "Otherworldly acumen",
     action: "",
     tags: ["elf"],
     level: 9,
