@@ -66,6 +66,7 @@
   background-color: #d1d3d4;
   padding: 1.563rem;
   width: 100%;
+  box-shadow: 0 0 10px rgba(32, 32, 32, 0.5);
 }
 .ancestry-page section .content .featured h2 {
   margin: 0;
