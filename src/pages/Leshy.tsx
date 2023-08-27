@@ -108,12 +108,7 @@ const LeshyPage: React.ComponentType = () => {
             the same vessel forever—though leshies rarely consider this outcome
             to be desirable.
           </p>
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>

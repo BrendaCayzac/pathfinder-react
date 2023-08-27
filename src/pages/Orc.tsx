@@ -123,12 +123,7 @@ const OrcPage: React.ComponentType = () => {
             orcs also find tattoos to be attractive, particularly large or
             painful ones that cover a significant amount of skin.
           </p>
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>

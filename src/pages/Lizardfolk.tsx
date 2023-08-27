@@ -100,12 +100,7 @@ const LizardfolkPage: React.ComponentType = () => {
             up to 120 years. The average lizardfolk stands 6 to 7 feet tall, but
             grows throughout their lifetime, gaining strength and size with age.
           </p>
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>

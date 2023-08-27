@@ -142,7 +142,7 @@
   width: 100%;
 }
 .ancestry-page section .content figure {
-  width: 30rem;
+  width: 100%;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -305,6 +305,7 @@
   .ancestry-page section .content {
     font-family: "Lora", serif;
     padding: 3rem 0 4rem;
+    /* image */
   }
   .ancestry-page section .content .introduction {
     color: #0a2760;
@@ -322,6 +323,12 @@
   }
   .ancestry-page section .content .flex-column div h2 {
     margin-top: 0;
+  }
+  .ancestry-page section .content .reverse {
+    flex-direction: row-reverse;
+  }
+  .ancestry-page section .content figure {
+    width: 30rem;
   }
 }
 

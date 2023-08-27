@@ -158,7 +158,7 @@
 
 			/* image */
 			figure{
-				width: 30rem;
+				width: 100%;
 				overflow: hidden;
 				position: relative;
 				margin: 0;
@@ -385,6 +385,14 @@
 						}
 					}
 				}
+
+				.reverse{
+					flex-direction: row-reverse;
+				}
+
+				/* image */
+				figure{
+					width: 30rem;}
 			}
 		}
 	}

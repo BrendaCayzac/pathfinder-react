@@ -125,12 +125,7 @@ const NagajiPage: React.ComponentType = () => {
             bulky figures, while others have the slender yet powerful
             musculature of a snake.
           </p>
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>

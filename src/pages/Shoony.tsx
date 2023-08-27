@@ -118,12 +118,7 @@ const ShoonyPage: React.ComponentType = () => {
             weighs 100 pounds.
           </p>
 
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>

@@ -128,12 +128,7 @@ const TenguPage: React.ComponentType = () => {
             aiding other humanoids in understanding their expressions.
           </p>
 
-          <div
-            className="flex-column"
-            style={{
-              flexDirection: "row-reverse",
-            }}
-          >
+          <div className="flex-column reverse">
             <div>
               <h2>Society</h2>
               <p>
