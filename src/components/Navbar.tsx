@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/styles/Navbar.scss";
 
 const Navbar = () => {
@@ -34,6 +36,14 @@ const Navbar = () => {
             >
               Ancestries
             </NavLink>
+          </li>
+          <li>
+            <a
+              href="https://github.com/BrendaCayzac/pathfinder-react"
+              target="_blank"
+            >
+              Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            </a>
           </li>
         </ul>
       </div>
