@@ -1256,4 +1256,1033 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Back-alley doctor",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Underworld Lore"],
+    feat: "Risky Surgery",
+    description: (
+      <span>
+        You’re the medic many turn to when a more official clinic or healer
+        might not be available. You may specialize in stitching up bullet wounds
+        or have a standing, confidential deal with a criminal syndicate to
+        provide your services any time of day or night. In either case, you’ve
+        perhaps turned to the adventuring life because a former client is
+        unhappy with your work or members of the local constabulary have been
+        asking too many questions.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Underworld Lore skill. You
+        gain the Risky Surgery skill feat.
+        <Feat
+          id={0}
+          name="Risky Surgery"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              Your surgery can bring a patient back from the brink of death, but
+              might push them over the edge. When you Treat Wounds, you can deal
+              1d8 slashing damage to your patient just before applying the
+              effects of Treat Wounds. If you do, you gain a +2 circumstance
+              bonus to your Medicine check to Treat Wounds, and if you roll a
+              success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Bandit",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Intimidation", "Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        Your past includes no small amount of rural banditry, robbing travelers
+        on the road and scraping by. Whether your robbery was sanctioned by a
+        local noble or you did so of your own accord, you eventually got caught
+        up in the adventuring life. Now, adventure is your stock and trade, and
+        years of camping and skirmishing have only helped.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and a Lore skill related to the
+        terrain you worked in (such as Desert Lore or Plains Lore). You gain the
+        Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Banished Brighte",
+    source: "Outlaws of Alkenstar: Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Religion", "Brigh Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        Once, you were a dedicated and important priest of Brigh, goddess of
+        clockwork and invention, based out of the largest church to your deity,
+        the Temple of Brigh in Alkenstar. Here, you made important discoveries
+        in the annals of your religion’s canon and furthered the Bronze Lady’s
+        agendas of innovation and creation. Your future seemed bright, and you
+        predicted that it was only a matter of time until you ascended to the
+        rank of primary cog or, someday, grand cog.
+        <br />
+        <br />
+        Then, your years of devout service were undone in an instant. A man
+        named Ambrost Mugland came to the Temple and demanded not only access to
+        the religious formulas you’d been uncovering, but exclusive rights to
+        the precious knowledge. When you refused, Mugland sent word to the
+        church’s leaders that you’d been meddling in heretical doctrine. He also
+        implicated you in the theft of church funds that had mysteriously gone
+        missing as of late. Sure enough, you found yourself being asked to hand
+        in your robes. Your church colleagues didn’t turn you in, but they told
+        you in no uncertain terms that you wouldn’t be able to find sanctuary
+        for your alleged crimes in the halls of the Temple of Brigh.
+        <br />
+        <br />
+        On the run and with nowhere to turn, your faith has been thoroughly
+        tested, though so far you’ve remained true to your religion and
+        maintained your sacred skills and divine powers. It’s unclear what the
+        Bronze Lady has in store for you, but at least one thing’s for certain:
+        Ambrost Mugland will pay for what he did.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Brigh Lore skill. You gain
+        the Quick Identification skill feat.
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Barber",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Medicine", "Surgery Lore"],
+    feat: "Risky Surgery",
+    description: (
+      <span>
+        Haircuts, dentistry, bloodletting, and surgery—if it takes a steady hand
+        and a razor, you do it. You may have taken to the road to expand your
+        skills, or to test yourself against a world that leaves your patients so
+        battered and bruised.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Surgery Lore skill. You
+        gain the Risky Surgery skill feat.
+        <Feat
+          id={0}
+          name="Risky Surgery"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              Your surgery can bring a patient back from the brink of death, but
+              might push them over the edge. When you Treat Wounds, you can deal
+              1d8 slashing damage to your patient just before applying the
+              effects of Treat Wounds. If you do, you gain a +2 circumstance
+              bonus to your Medicine check to Treat Wounds, and if you roll a
+              success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Barkeep",
+    source: "Core rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Diplomacy", "Alcohol Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        You have five specialties: hefting barrels, drinking, polishing steins,
+        drinking, and drinking. You worked in a bar, where you learned how to
+        hold your liquor and rowdily socialize.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Alcohol Lore skill. You
+        gain the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Barrister",
+    source: "Core rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Diplomacy", "Legal Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        Piles of legal manuals, stern teachers, and experience in the courtroom
+        have instructed you in legal matters. You’re capable of mounting a
+        prosecution or defense in court, and you tend to keep abreast of local
+        laws, as you never can tell when you might need to know them on short
+        notice.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Legal Lore skill. You gain
+        the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Beast blessed",
+    source: "Lost omens: Firebrand",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival"],
+    feat: "",
+    description: (
+      <span>
+        You once freed a magical beast from captivity and, whether it was
+        intentional or a byproduct of another action, the grateful creature
+        bestowed a blessing of freedom upon you. Your blessing manifests
+        physically, perhaps as elongated canines, fingernails that grow to a
+        sharp point, excess body hair, or some other feature. This physical
+        manifestation is cosmetic and provides no benefit.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Survival skill. You gain the Bestial Clarity
+        reaction.
+        <br />
+        <br />
+        Bestial Clarity{" "}
+        <img src={require("../assets/img/reaction.png")} alt="reaction icon" />
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You fail a saving throw
+        against an enchantment effect; Effect Your bestial manifestation becomes
+        more pronounced, and your mind gains a flash of clarity as your
+        instincts take over. You can reroll the triggering saving throw with a
+        +2 circumstance bonus, but you must use the new result. This is a
+        fortune effect.
+      </span>
+    ),
+  },
+  {
+    name: "Bekyar destroyer",
+    source: "Lost omens: World guide",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy", "Abyss Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        Though many Bekyars worship demons, you seek to pave a different path
+        for yourself and your kindred, while also attempting to change other
+        Mwangi’s treatment of your culture.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Abyss Lore skill. You gain
+        the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Belkzen slayer",
+    source: "Lost omens: World guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Orc Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        You are a fearsome warrior from the Hold of Belkzen, and your clan
+        counts on you for support, counsel, and defense. With the rising threat
+        of the Whispering Tyrant threatening the safety of your home, you must
+        not let your people down.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Orc Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Belllower agent",
+    source: "Lost omens: World guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        You joined a secret society dedicated to freeing halfling slaves, most
+        likely from the cruelty of Chelish reign. You know how to smuggle people
+        in and out of countries.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Bibliophilee",
+    source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Arcana", "Library Lore"],
+    feat: "Arcane Sense",
+    description: (
+      <span>
+        You love few things more than a good book, and as a result, Odd Stories
+        is your favorite shop in Otari. The bookseller Morlibint supplies you
+        with fiction, anthologies, and other delightful reads, and he’s always
+        eager to discuss his latest finds with you. You know that imagination is
+        the greatest magic, but a working knowledge of actual magic helps, too.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost. b<br />r You’re trained in the Arcana skill
+        and the Library Lore skill. You gain the Arcane Sense skill feat.
+        <Feat
+          id={0}
+          name="Arcane Sense"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana.
+              </span>
+              <br />
+              Your study of magic allows you to instinctively sense its
+              presence. You can cast 1st-level detect magic at will as an arcane
+              innate spell. If you’re a master in Arcana, the spell is
+              heightened to 3rd level; if you’re legendary, it is heightened to
+              4th level.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Black market smuggler",
+    source: "Lost omens: World guide",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Experienced Smuggler",
+    description: (
+      <span>
+        You know how to work the less-than-legal side of the region’s markets
+        and know how to slip contraband past the authorities.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Blessed",
+    source: "Advanced player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Lore"],
+    feat: "",
+    description: (
+      <span>
+        You have been blessed by a divinity. For an unknown reason, and
+        irrespective of your actual beliefs, a deity has granted you a boon to
+        use for good or ill. Your blessing grants wisdom and insight to aid you
+        in your struggles. You may or may not even know the identity of the
+        being who blessed you, and the blessing might come with a cost you
+        discover later on.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in a Lore skill associated with the deity who blessed
+        you (such as Shelyn Lore) if you know their identity, or else in a Lore
+        skill of the GM’s choice if you don’t. Either you can cast guidance as a
+        divine innate spell at will, or you gain a similar blessing determined
+        by the GM.
+      </span>
+    ),
+  },
+  {
+    name: "Bonuwat wavetouched",
+    source: "Lost omens: World guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Athletics", "Ocean Lore"],
+    feat: "Underwater Marauder",
+    description: (
+      <span>
+        You are a child of the Bonuwat people, and the sea’s salt flows through
+        your veins. You’ve taken to sailing and swimming gracefully and with
+        ease, earning you the honorific “wavetouched.”
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Ocean Lore skill. You gain
+        the Underwater Marauder skill feat.
+        <Feat
+          id={0}
+          name="Underwater Marauder"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You’ve learned to fight underwater. You are not flat-footed while
+              in water, and you don’t take the usual penalties for using a
+              bludgeoning or slashing melee weapon in water.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Bookish providence",
+    source: "Stolen fate: player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence"],
+    skillTraining: ["Academia Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        You have always been interested in knowledge and learned to read from a
+        very young age. Perhaps one or both of your parents were librarians or
+        scholars, or maybe the local bookshop or university was a place you felt
+        safe at. Or, you could simply have been an avid reader of stories.
+        Whatever the case, books have always brought you peace and comfort, and
+        you try to never travel without a few packed away in your belongings.
+        Since not every book is written in the same language, you’ve also picked
+        up a few extra languages along the way. Your interest in the written
+        word hasn’t always been a positive, though. You might have been bullied
+        or tormented by your peers for being more interested in reading than
+        other pursuits. Or maybe you had some unsettling experiences with
+        misinformation or knowledge that sent you in pursuit of something
+        dangerous. Try to come up with one event from your past where your
+        pursuit of books or the testing of knowledge learned from them placed
+        you in danger, but also keep in mind that you managed to escape this
+        danger because of what you’ve learned from your voracious reading
+        habits!
+        <br />
+        <br />
+        This background is associated with the suit of Books.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence, and one is a
+        free ability boost.
+        <br />
+        <br />
+        You gain the Multilingual skill feat, are trained in the Academia Lore
+        skill, and gain the following free action.
+        <br />
+        <br />
+        Recall Under Pressure{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You attempt to Recall Knowledge during a combat;
+        <b>Frequency:</b> once per day; Effect Rather than roll a different
+        skill to Recall Knowledge during the fight, your memory flashes back to
+        something you read in some old book. You instead attempt this Recall
+        Knowledge check with an Academia Lore check. If the information you
+        recall ends up being helpful and positive in an obvious way before you
+        take your next turn, draw a random harrow card. You gain a +1 status
+        bonus to saving throws for the remainder of the combat encounter as your
+        morale soars or a +2 status bonus if the card you drew was from the suit
+        of Books.
+      </span>
+    ),
+  },
+  {
+    name: "Bookkepper",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Society", "Accounting Lore"],
+    feat: "Eye for Numbers",
+    description: (
+      <span>
+        You ran the numbers on a large farm, for a merchant’s endeavors, or with
+        a major guild in the city. You kept track of expenses, payroll, profits,
+        and anything else that had to do with money, for better or worse. If
+        better, you might be adventuring to learn how others ply this trade. If
+        worse, you may be fleeing from impending consequences, in the hope that
+        no one finds you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Accounting Lore skill. You
+        gain the Eye for Numbers skill feat.
+        <Feat
+          id={0}
+          name="Eye for Numbers"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You’ve learned to subitize, quickly estimating the number of items
+              in a group with relative accuracy at only a glance. You
+              immediately learn the number of visually similar items in a group
+              you can see (such as coins, books, or people), rounded to the
+              first digit in the total number. For example, you could look at a
+              case of potion vials and learn that it held about 30 vials, but
+              you wouldn’t know that it was exactly 33 vials, how many different
+              types of potions there were, or how many of which type. Similarly,
+              you could look at a pile of 2,805 coins and know that there were
+              about 3,000 coins in all. You can use this ability only on items
+              that can typically be counted, so you can’t use it on grains of
+              sand or stars in the sky, for example.
+              <br />
+              <br />
+              In addition, when you attempt to Decipher Writing that is
+              primarily numerical or mathematical, you gain a +2 circumstance
+              bonus to your check.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Borderlands pioneer",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Nature", "Lore"],
+    feat: "Train Animal",
+    description: (
+      <span>
+        You have long lived along the southern border of Brevoy, in the shadow
+        of the wilderness known as the Stolen Lands. Life has been hard, but
+        through hunting, trapping, trading, and coaxing crops from the ground,
+        you’ve learned how to survive on the rugged frontier. Whether because of
+        your personal expertise and familiarity with the borderlands or in order
+        to reclaim your family’s land, you’ve joined the expedition into the
+        Stolen Lands.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and a Lore skill associated with a
+        particular type of wilderness (choose from forest, hills, mountains,
+        plains, rivers, or swamp). You gain the Train Animal skill feat.
+        <Feat
+          id={0}
+          name="Train Animal"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You spend time teaching an animal to do a certain action. You can
+              either select a basic action the animal already knows how to do
+              (typically those listed in the Command an Animal action) or
+              attempt to teach the animal a new basic action. The GM determines
+              the DC of any check required and the amount of time the training
+              takes (usually at least a week). It’s usually impossible to teach
+              an animal a trick that uses critical thinking. If you’re expert,
+              master, or legendary in Nature, you might be able to train more
+              unusual creatures, at the GM’s discretion.
+              <br />
+              <br />
+              <b>Success:</b> The animal learns the action. If it was an action
+              the animal already knew, you can Command the Animal to take that
+              action without attempting a Nature check. If it was a new basic
+              action, add that action to the actions the animal can take when
+              Commanded, but you must still roll.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Bounty hunter",
+    source: "Core rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Experienced Tracker",
+    description: (
+      <span>
+        Bringing in lawbreakers lined your pockets. Maybe you had an altruistic
+        motive and sought to bring in criminals to make the streets safer, or
+        maybe the coin was motivation enough. Your techniques for hunting down
+        criminals transfer easily to the life of an adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br /> You’re trained in the Survival skill and the Legal Lore skill.
+        You gain the Experienced Tracker skill feat.
+        <Feat
+          id={0}
+          name="Experienced Tracker"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Tracking is second nature to you, and when necessary you can
+              follow a trail without pause. You can Track while moving at full
+              Speed by taking a –5 penalty to your Survival check. If you’re a
+              master in Survival, you don’t take the –5 penalty. If you’re
+              legendary in Survival, you no longer need to roll a new Survival
+              check every hour when tracking, though you still need to roll
+              whenever there are significant changes in the trail.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Brevic noble",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Experienced Tracker",
+    description: (
+      <span>
+        You claim a tangential but legitimate connection to one of Brevoy’s
+        noble families. If you aren’t human, you were adopted by one of Brevoy’s
+        nobles or were perhaps a favored servant or even a childhood friend of a
+        noble scion. Whatever the case, you’ve had a comfortable life, though
+        still a far cry from the one your distant cousins or close associates
+        know. An expedition into the storied Stolen Lands seems like just the
+        test to see if you really are worthy of the “noble” title.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        Choose one of the Brevic lineages below.
+        <br />
+        <br />
+        <b>Garess:</b> Family ties to the Golushkin Mountain dwarves left its
+        mark. Your family motto is “Strong as the Mountains.” You’re trained in
+        the <b>Crafting skill</b> and the <b>Architecture Lore</b> skill. You
+        gain the <b>Specialty Crafting</b> skill feat.
+        <br />
+        <br />
+        <b>Lebeda:</b> Your family’s history of trading along the shores of Lake
+        Reykal pervades your blood. Your family motto is “Success through
+        Grace.” You’re trained in the Society skill and the{" "}
+        <b>Mercantile Lore</b> skill. You gain the <b>Multilingual</b> skill
+        feat.
+        <br />
+        <br />
+        <b>Lodovka:</b> Your family has made a living off the coasts of the Lake
+        of Mists and Veils since before Brevoy existed. Your family motto is
+        “The Waters, Our Fields.” You’re trained in the <b>Athletics</b> skill
+        and the <b>Fishing Lore</b> skill. You gain the{" "}
+        <b>Underwater Marauder</b> skill feat.
+        <br />
+        <br />
+        <b>Medvyed:</b> Your family has a deep respect for the wilderness and is
+        skilled at hunting and surviving off the land. Your family motto is
+        “Endurance Overcomes All.” You’re trained in the <b>Survival</b> skill
+        and the <b>Hunting Lore</b> skill. You gain the <b>Terrain Expertise</b>{" "}
+        skill feat (choose your terrain from aquatic, forest, mountain, plains,
+        or swamp).
+        <br />
+        <br />
+        <b>Orlovsky:</b> Your family has a reputation for avoiding conflicts.
+        Your family motto is “High Above.” You’re trained in the{" "}
+        <b>Diplomacy skill</b> and the <b>Brevoy Lore</b> skill. You gain the
+        Group
+        <b>Impression </b>skill feat.
+        <br />
+        <br />
+        <b>Surtova:</b> Your family is well known for their political agility
+        and scheming nature. Your family motto is “Ours Is the Right.” You’re
+        trained in the <b>Deception</b> skill and the <b>Politics</b> Lore
+        skill. You gain the <b>Charming Liar</b> skill feat.
+      </span>
+    ),
+  },
+  {
+    name: "Brevic outcast",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma", "Constitution"],
+    skillTraining: ["Politics Lore"],
+    feat: "Haughty Obstinacy",
+    description: (
+      <span>
+        One of your parents was a member of one of the great families of Brevoy,
+        perhaps even of the line of Rogarvia itself. Yet you have no substantive
+        proof of your nobility, and you’ve learned that claiming such without
+        evidence is a fool’s game. Whether a recent attempt to prove your
+        heritage brought down the wrath of a noble family or you seek to prove
+        the worth of the blood in your veins, you’ve joined an expedition into
+        the Stolen Lands, hoping to make a name all your own.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Politics Lore skill. You take a –1 penalty on all
+        Charisma-based skill checks attempted when dealing with members of the
+        nobility, but gain the Haughty Obstinacy human ancestry feat, even if
+        you aren’t a human. If you manage to establish yourself as a true noble
+        or secure a leadership role in a kingdom, you no longer take the penalty
+        to Charisma-based checks.
+        <Feat
+          id={0}
+          name="Haughty Obstinacy"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              Your powerful ego makes it harder for others to order you around.
+              If you roll a success on a saving throw against a mental effect
+              that attempts to directly control your actions, you critically
+              succeed instead. If a creature rolls a failure on a check to
+              Coerce you using Intimidation, it gets a critical failure instead
+              (so it can’t try to Coerce you again for 1 week).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Bright lion",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Deception", "Mzali Lore"],
+    feat: "Haughty Obstinacy",
+    description: (
+      <span>
+        You are a member of the Bright Lions and seek to overthrow the
+        tyrannical reign of Walkena and free Mzali from his cruel whims. You’re
+        experienced operating undercover and have had to be cautious of what you
+        say and who you trust, lest you fall afoul of the god-king’s terrible
+        punishments.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Mzali Lore skill. You gain
+        the Lie to Me skill feat.
+        <Feat
+          id={0}
+          name="Lie to Me"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              You can use Deception to weave traps to trip up anyone trying to
+              deceive you. If you can engage in conversation with someone trying
+              to Lie to you, use your Deception DC if it is higher than your
+              Perception DC to determine whether they succeed. This doesn’t
+              apply if you don’t have a back-and-forth dialogue, such as when
+              someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
