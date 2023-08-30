@@ -452,7 +452,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Alkenstar Tinker",
     source: "Lost Omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Crafting", "Engineering Lore"],
     feat: "Alchemical Crafting",
@@ -493,7 +493,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Alloy smith",
     source: "Rage of elements",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Intelligence"],
     skillTraining: ["Crafting", "Plane of Metal Lore"],
     feat: "Specialty Crafting",
@@ -549,7 +549,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Free", "Free"],
     skillTraining: [],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         Your background is… well… honestly, you can’t remember! You might have
@@ -632,7 +632,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         Magic has never worked quite right around you. Perhaps you have become a
@@ -658,7 +658,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Anti-tech activist",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Intimidation", "Guild Lore"],
     feat: "Coercion skill",
@@ -706,7 +706,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Archaeologist",
     source: "Lost omens: Pathfinder Society guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Society", "Architecture Lore"],
     feat: "Additional Lore",
@@ -758,7 +758,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Artisan",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Intelligence"],
     skillTraining: ["Crafting", "Guild Lore"],
     feat: "Specialty Crafting",
@@ -873,7 +873,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Artist",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Crafting", "Art Lore"],
     feat: "Specialty Crafting",
@@ -986,7 +986,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Aspiring free captain",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Intimidation", "Sailing Lore"],
     feat: "Group Coercion",
@@ -1030,7 +1030,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Aspiring river monarch",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Society", "Politics Lore"],
     feat: "Courtly Graces",
@@ -1076,7 +1076,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Astrologer",
     source: "Secrets of Magic",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Occultism", "Astrology Lore"],
     feat: "Oddity Identification",
@@ -1125,7 +1125,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Astrology Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         During your formative years, you learned the stars are a gateway to
@@ -1151,7 +1151,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Attention addict",
     source: "Fists of the Ruby Phoenix: Player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Performance", "Gladiatorial Lore"],
     feat: "Impressive Performance",
@@ -1204,7 +1204,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Atteran rancher",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Dexterity"],
     skillTraining: ["Nature", "Animal Lore"],
     feat: "Train Animal",
@@ -1259,7 +1259,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Back-alley doctor",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Medicine", "Underworld Lore"],
     feat: "Risky Surgery",
@@ -1308,7 +1308,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bandit",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Intimidation", "Lore"],
     feat: "Group Coercion",
@@ -1423,7 +1423,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Barber",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Medicine", "Surgery Lore"],
     feat: "Risky Surgery",
@@ -1469,7 +1469,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Barkeep",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Diplomacy", "Alcohol Lore"],
     feat: "Hobnobber",
@@ -1515,7 +1515,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Barrister",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Diplomacy", "Legal Lore"],
     feat: "Group Impression",
@@ -1564,7 +1564,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Survival"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         You once freed a magical beast from captivity and, whether it was
@@ -1599,7 +1599,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bekyar destroyer",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Diplomacy", "Abyss Lore"],
     feat: "Group Impression",
@@ -1643,7 +1643,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Belkzen slayer",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Intimidation", "Orc Lore"],
     feat: "Intimidating Glare",
@@ -1686,7 +1686,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Belllower agent",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Intimidating Glare",
@@ -1737,7 +1737,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bibliophilee",
     source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Arcana", "Library Lore"],
     feat: "Arcane Sense",
@@ -1780,7 +1780,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Black market smuggler",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Experienced Smuggler",
@@ -1833,7 +1833,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         You have been blessed by a divinity. For an unknown reason, and
@@ -1859,7 +1859,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bonuwat wavetouched",
     source: "Lost omens: World guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Athletics", "Ocean Lore"],
     feat: "Underwater Marauder",
@@ -1961,7 +1961,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bookkepper",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Society", "Accounting Lore"],
     feat: "Eye for Numbers",
@@ -2080,7 +2080,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bounty hunter",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Survival", "Lore"],
     feat: "Experienced Tracker",
@@ -2242,7 +2242,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Bright lion",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Deception", "Mzali Lore"],
     feat: "Lie to Me",
@@ -2288,7 +2288,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Cannoner",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Strength"],
     skillTraining: ["Athletics", "Warfare Lore"],
     feat: "Hefty Hauler",
@@ -2332,7 +2332,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Charlatan",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Deception", "Underworld Lore"],
     feat: "Charming Liar",
@@ -2382,7 +2382,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Chelish rebel",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Society", "Kintargo Lore"],
     feat: "Streetwise",
@@ -2520,7 +2520,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Child of the puddles",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Acrobatics", "Absalom Lore"],
     feat: "Steady Balance",
@@ -2591,7 +2591,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Child of Westcrown",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Diplomacy", "Westcrown Lore"],
     feat: "Group Impression",
@@ -2832,7 +2832,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Clockfighter",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Crafting", "Gladiatorial Lore"],
     feat: "Experienced Professional",
@@ -2878,7 +2878,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Clockwork researcher",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Crafting", "Gladiatorial Lore"],
     feat: "Experienced Professional",
@@ -2937,7 +2937,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Codebreaker",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Society", "Cryptography Lore"],
     feat: "Glean Contents",
@@ -2991,7 +2991,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Concordance researcher",
     source: "Rage of elements",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: [
       "Society",
@@ -3241,7 +3241,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Cook",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Survival", "Cooking Lore"],
     feat: "Seasoned",
@@ -3367,7 +3367,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Courrier",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Society", "Lore"],
     feat: "Glean Contents",
@@ -3420,7 +3420,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Criminal",
     source: "Core rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Experienced Smuggler",
@@ -3549,7 +3549,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Crystal Healer",
     source: "Rage of Elements",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Nature", "Plane of Earth Lore"],
     feat: "Natural Medicine",
@@ -3595,7 +3595,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Cultist",
     source: "Advanced player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Occultism", "Lore"],
     feat: "Schooled in Secrets",
@@ -3643,7 +3643,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Curandero",
     source: "Book of the dead",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Medicine", "Herbalism Lore"],
     feat: "Inoculation",
@@ -3735,7 +3735,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Cursed family",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Occultism", "Curse Lore"],
     feat: "Oddity Identification",
@@ -3782,7 +3782,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Diplomacy"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         As a child, you chose to face each of your deepest fears and, time and
@@ -3904,7 +3904,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Deep sea diver",
     source: "Rage of elements",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Athletics", "Plane of Water Lore"],
     feat: "Underwater Marauder",
@@ -3948,7 +3948,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Dendrologist",
     source: "Rage of elements",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Survival", "Plane of Wood Lore"],
     feat: "Terrain Expertise",
@@ -3998,7 +3998,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Deputy",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Survival", "Hunting Lore"],
     feat: "Experienced Tracker",
@@ -4048,7 +4048,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Desert tracker",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Survival", "Desert Lore"],
     feat: "Experienced Tracker",
@@ -4095,7 +4095,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Detective",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Society", "Underworld Lore"],
     feat: "Streetwise",
@@ -4144,7 +4144,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Diobel pearl diver",
     source: "Lost omens: world guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Dexterity"],
     skillTraining: ["Athletics", "Ocean Lore"],
     feat: "Underwater Marauder",
@@ -4185,10 +4185,10 @@ export const backgrounds: Array<Background> = [
   {
     name: "Discarded duplicate",
     source: "Guns & gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Free", "Free"],
     skillTraining: [],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         Someone created you for a specific purpose. Some important person, be
@@ -4219,7 +4219,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Disciple of the gear",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Crafting", "Lore"],
     feat: "Quick Repair",
@@ -4310,7 +4310,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Dragon scholar",
     source: "Age of ashes: player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Intimidation", "Dragon Lore"],
     feat: "Intimidating Glare",
@@ -4447,7 +4447,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Driver",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Dexterity"],
     skillTraining: ["Acrobatics", "Piloting Lore"],
     feat: "Assurance",
@@ -4497,7 +4497,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Droskari disciple",
     source: "Fires of the Haunted City",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Droskar Lore"],
     feat: "Skill Training",
@@ -4540,7 +4540,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Eclectic scholar",
     source: "Sky king's tomb: player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Occultism", "Dwarven Pantheon Lore"],
     feat: "Quick Identification",
@@ -4614,7 +4614,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Charisma", "Constitution"],
     skillTraining: ["Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         You were born at the exact moment of a solar or lunar eclipse. At the
@@ -4645,7 +4645,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Eclectic scholar",
     source: "Sky king's tomb: player's guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Occultism", "Dwarven Pantheon Lore"],
     feat: "Quick Identification",
@@ -4716,7 +4716,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Eidolon contact",
     source: "Secrets of magic",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Arcana, Nature, Occultism, or Religion", "Lore"],
     feat: "Dubious Knowledge",
@@ -4767,7 +4767,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Eldrich anatomist",
     source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Medicine", "Fleshwarp Lore"],
     feat: "Assurance",
@@ -4822,7 +4822,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Medicine", "Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         You were exposed to a strong burst of elemental essence originating
@@ -4848,7 +4848,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Emancipated",
     source: "Age of Ashes: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Stealth", "Kintargo Lore"],
     feat: "Terrain Stalker",
@@ -4911,7 +4911,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Emissary",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Society", "Lore"],
     feat: "Multilingual",
@@ -4962,7 +4962,7 @@ export const backgrounds: Array<Background> = [
     tags: ["rare"],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Occultism", "Planar Rift Lore"],
-    feat: "",
+    feat: "—",
     description: (
       <span>
         You knew someone once, and now you know only a life stitched together
@@ -5013,7 +5013,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Entertainer",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Performance", "Theater Lore"],
     feat: "Fascinating Performance",
@@ -5066,7 +5066,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Ex-con token guard",
     source: "Agents of Edgewatch: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Thievery", "Legal Lore"],
     feat: "Pickpocket",
@@ -5120,6 +5120,1030 @@ export const backgrounds: Array<Background> = [
               a master in Thievery, you can attempt to Steal from a creature in
               combat or otherwise on guard. When doing so, Stealing requires 2
               manipulate actions instead of 1, and you take a –5 penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "False Medium",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Occultism", "Fortune-Telling Lore"],
+    feat: "Deceptive Worship",
+    description: (
+      <span>
+        There are people in this world who possess the ability to pierce the
+        veil between the world of the living and the world of the dead, allowing
+        them to communicate with spirits. You... are not one of them. But you
+        know enough about the occult, as well as cold reading tricks and various
+        practices from local religions, to scam your way into people’s
+        coinpurses. Unlike a through-and-through charlatan, there’s some real
+        occult methodology behind your flimflam, but that’s likely cold comfort
+        to the people you swindle. Whether you decided to take a more righteous
+        path, were caught and pledged to make it right, or still slip in a few
+        “séances” between adventures, you’ve taken to an adventuring lifestyle
+        as you move from place to place.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Occultism and Fortune-Telling Lore. You gain the
+        Deceptive Worship skill feat.
+        <Feat
+          id={0}
+          name="Deceptive Worship"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              Members of your cult frequently pass themselves off as worshippers
+              of other religions. You can use Occultism instead of Deception to
+              Impersonate a typical worshipper of another faith or to Lie
+              specifically to claim you are a member of the faith you are
+              Impersonating. You still need to use the Deception skill to
+              Impersonate a specific worshipper or to perform other deceptive
+              actions, such as attempting to Lie about any other matter.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Farmhand",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Athletics", "Farming Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        With a strong back and an understanding of seasonal cycles, you tilled
+        the land and tended crops. Your farm could have been razed by invaders,
+        you could have lost the family tying you to the land, or you might have
+        simply tired of the drudgery, but at some point you became an
+        adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Farming Lore skill. You
+        gain the Assurance skill feat with Athletics.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers).
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Farmsteader",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Farming Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        You built your house using wood from the trees surrounding it. Raised it
+        up from the dirt and called it home. You thought that it would be where
+        you would grow old and die. But despite your best efforts, you were
+        wrong. The land that once gave you food fell fallow, and dust took to
+        the air and choked the livestock. Now you wander the world as an
+        adventurer. Are you in search of a new place to settle down and try
+        again, or have you become disillusioned by your old dreams, leading you
+        to seek out a new purpose?
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Farming Lore skill. You
+        gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Feral child",
+    source: "Advanced Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Dexterity", "Constitution"],
+    skillTraining: ["Nature", "Survival"],
+    feat: "Forager",
+    description: (
+      <span>
+        You spent your youth in the wilderness, living close to or perhaps
+        raised by animals. You have a close, mystical connection with these
+        animals and gained certain abilities from them, though this limited your
+        well-roundedness in mental pursuits.
+        <br />
+        <br />
+        Choose one ability boost. It must be Strength, Dexterity, or
+        Constitution. b<br />r You are trained in Nature and Survival. You gain
+        low-light vision (or darkvision if you already had low-light vision),
+        imprecise scent with a range of 30 feet, and the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Feybound",
+    source: "Advanced Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Fey Lore"],
+    feat: "—",
+    description: (
+      <span>
+        You have spent time in the First World or another realm of the fey and
+        aren’t entirely the same person you were before. Perhaps you made a
+        purchase at the legendary Witchmarket or partook deeply of fey food and
+        wine. Whatever the case, willingly or inadvertently, you made a bargain
+        with the fey, the benefits of which come at a price.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br /> <br />
+        You are trained in Fey Lore and gain the Fey’s Fortune free action. You
+        must follow some rule or limitation as part of your pact with the fey.
+        If you violate the rule, you lose Fey’s Fortune until you receive the
+        effects of a successful atone ritual using the Nature skill. The exact
+        limitation is up to you and the GM, but the most common requirement is
+        that you must fulfill a single request from any fey who knows your name.
+        <br />
+        <br />
+        Fey’s Fortune{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (concentrate, fortune)
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You attempt a skill
+        check and haven’t yet rolled; <b>Effect:</b> Roll the skill check twice
+        and use the better result.
+      </span>
+    ),
+  },
+  {
+    name: "Field medic",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Warfare Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        In the chaotic rush of battle, you learned to adapt to rapidly changing
+        conditions as you administered to battle casualties. You patched up
+        soldiers, guards, or other combatants, and learned a fair amount about
+        the logistics of war.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Warfare Lore skill. You
+        gain the Battle Medicine skill feat.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Fightbreaker",
+    source: "Lost Omens: Highhelm",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy", "Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        You have a knack for picking up on simmering tensions and calming frayed
+        nerves. You rely on your intuition to discern how and when violence is
+        imminent, and on your skills—diplomatic and otherwise—to deescalate
+        tense situations. You might choose the adventuring life to tackle new
+        and unfamiliar conflicts, or be trying to escape retaliation from those
+        who thrive on violence and resent your ability to keep the peace.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Lore skill for the city or
+        settlement you lived in when you became a Fightbreaker. You gain the
+        Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Final blade survivor",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Charisma", "Wisdom"],
+    skillTraining: ["Deception", "Revolution Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        You fell prey to the whims of the Galtan mob and were scheduled for
+        execution by final blade, but through skill—or sheer luck—you managed to
+        talk your way out of it.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Revolution Lore skill. You
+        gain the Charming Liar skill feat.
+        <Feat
+          id={0}
+          name="Charming liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Fire warden",
+    source: "Rage of Elements",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Plane of Fire Lore"],
+    feat: "Breath Control",
+    description: (
+      <span>
+        Whether you fought against fires in the wilderness or in crowded city
+        streets, you’ve had your fair share of dealing with uncontrolled flames.
+        Battling thick smoke and toxic fumes, you’ve broken down obstacles to
+        save trapped people from a fiery grave, and you’ve studied the nature
+        and source of fire itself to try and better learn how to fight it.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Strength or Constitution,
+        and one is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Plane of Fire Lore skill.
+        You gain the Breath Control feat.
+        <Feat
+          id={0}
+          name="Breath Control"
+          tags={["general"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              You have incredible breath control, which grants you advantages
+              when air is hazardous or sparse. You can hold your breath for 25
+              times as long as usual before suffocating. You gain a +1
+              circumstance bonus to saving throws against inhaled threats, such
+              as inhaled poisons, and if you roll a success on such a saving
+              throw, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Firebrand follower",
+    source: "Lost Omens: Firebrands",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Athletics or Performance", "Firebrand Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You were once rescued or liberated from a hopeless situation by a group
+        of Firebrands, and you have since aspired to become a Firebrand to
+        continue their legacy. You still follow news of their adventures, and
+        you hope to one day meet your heroes as comrades.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You are trained in your choice of the Athletics or Performance skill as
+        well as the Firebrand Lore skill. You gain the Assurance skill feat in
+        your chosen skill.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Fireworks performers",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Performance", "Engineering Lore"],
+    feat: "Fascinating Performance",
+    description: (
+      <span>
+        Few celebrations in Tian-Xia are complete without a show of fireworks,
+        and your job is to make sure they go off without a hitch. You load the
+        fireworks, set the fuses, and choreograph the performance, bringing the
+        show together in a finale of lights and explosions. Then it’s time to
+        pack up your gear and move on to the next civic holiday or religious
+        festival. Of course, someone who travels the roads with a pack full of
+        high explosives is bound to run into an adventure or two along the way,
+        and so over time, your fireworks have been spent in support of that
+        life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and the Engineering Lore skill.
+        You gain the Fascinating Performance skill feat.
+        <Feat
+          id={0}
+          name="Fascinating Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              When you Perform, compare your result to the Will DC of one
+              observer. If you succeed, the target is fascinated by you for 1
+              round. If the observer is in a situation that demands immediate
+              attention, such as combat, you must critically succeed to
+              fascinate it and the Perform action gains the incapacitation
+              trait. You must choose which creature you’re trying to fascinate
+              before you roll your check, and the target is then temporarily
+              immune for 1 hour.
+              <br />
+              <br />
+              If you’re an expert in Performance, you can fascinate up to four
+              observers; if you’re a master, you can fascinate up to 10
+              observers; and if you’re legendary, you can fascinate any number
+              of observers at the same time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Fogfen Tale-teller",
+    source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Athletics", "Swamp Lore"],
+    feat: "Titan Wrestler",
+    description: (
+      <span>
+        You know there are monstrous things out in the swamp known as Fogfen;
+        you’ve seen these things through the mist, gliding through the murky
+        water and heaving themselves over sodden bits of land. No one in Otari
+        believes your tales of swamp monsters from the depths, even when you
+        embellish the creatures of your stories with fangs, wings, or tentacles.
+        You’ll just have to prove to them that there are truly monsters out
+        there, and that they were wrong to doubt you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Athletics and the Swamp Lore skill. You gain the Titan
+        Wrestler skill feat.
+        <Feat
+          id={0}
+          name="Titan Wrestler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can attempt to Disarm, Grapple, Shove, or Trip creatures up to
+              two sizes larger than you, or up to three sizes larger than you if
+              you’re legendary in Athletics.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Food trader",
+    source: "Blood Lords: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Crafting or Society", "Mercantile Lore"],
+    feat: "Seasoned or Streetwise",
+    description: (
+      <span>
+        In your past, you accompanied caravans, ships, or both hauling
+        foodstuffs out of Geb for export. You might be a Gebbite or a foreigner
+        who has decided to work in Geb because of the undeniable opportunities.
+        In any case, you’ve traveled between Geb and other nations of the Inner
+        Sea and seen firsthand that many nations view Geb with a combination of
+        barely disguised revulsion and eagerness for its bountiful food exports.
+        Even though you aren’t in that line of business any longer, you
+        understand how vital this international trade is to Geb’s prosperity and
+        appreciate the hardworking people who work in it.
+        <br />
+        <br />
+        You are still highly regarded by the Export Guild for your past journeys
+        on the nation’s behalf. Your party gains 1 Reputation Point with the
+        Export Guild at the start of the campaign.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Crafting or Society skill. You gain
+        a skill feat: Seasoned if you chose Crafting or Streetwise if you chose
+        Society. You’re also trained in Mercantile Lore.
+        <Feat
+          id={0}
+          name="Seasoned"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Alcohol Lore, Cooking Lore, or
+                Crafting.
+              </span>
+              <br />
+              You’ve mastered the preparation of many types of food and drink.
+              You gain a +1 circumstance bonus to checks to Craft food and
+              drink, including potions. If you are a master in one of the
+              prerequisite skills, this bonus increases to +2.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Fortune Teller",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Occultism", "Fortune-Telling Lore"],
+    feat: "Identification",
+    description: (
+      <span>
+        The strands of fate are clear to you, as you have learned many
+        traditional forms by which laypeople can divine the future. You might
+        have used these skills to guide your community, or simply to make money.
+        But even the slightest peek into these practices connects you to the
+        occult mysteries of the universe.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Fortune-Telling Lore
+        skill. You gain the Oddity Identification skill feat.
+        <Feat
+          id={0}
+          name="Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Framed in Ferrous Quarter",
+    source: "Outlaws of Alkenstar: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Constitution"],
+    skillTraining: ["Crafting", "Engineering Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        Everyone knows that Ferrous Quarter isn’t exactly the nicest part of
+        Alkenstar. Hard-working laborers, gunsmiths suffering from black lung,
+        and red-eyed tinkerers alike can toil their entire lives on these grimy
+        streets and still wind up dead in an alley with nothing to show for it.
+        You were once one of these humble artisans, until one day, out of
+        nowhere, things broke bad.
+        <br />
+        <br />
+        Maybe you hung out with the wrong crowd. Maybe it was just bad luck.
+        Whatever the case, you were framed for a crime you didn’t
+        commit—larceny, smuggling, possibly even murder. You didn’t stick around
+        long enough to find out what, exactly, the shieldmarshals banging on
+        your door were charging you with. Now, you’re on the lam, uncertain
+        where you’ll be able to get a good night’s sleep, let alone your next
+        meal.
+        <br />
+        <br />
+        At least one thing’s for sure, though: before you turned heel and ran
+        into the streets, you saw a telltale signature on the arrest warrant. It
+        was the scrawl of a corrupt shieldmarshal who’s framed countless other
+        hardworking folks in your neighborhood on the basis of cooked-up
+        evidence. Yes, you’re sure of it—the crooked guard who took you down is
+        none other than Deputy Anjelique Loveless, and you’re determined to
+        return the favor.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Engineering Lore skill. You
+        gain the Specialty Crafting skill feat.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>Artistry</td>
+                    <td>Fine art, including jewelry</td>
+                  </tr>
+                  <tr>
+                    <td>Blacksmithing</td>
+                    <td>Durable metal goods, including metal armor</td>
+                  </tr>
+                  <tr>
+                    <td>Bookmaking</td>
+                    <td>Books and paper</td>
+                  </tr>
+                  <tr>
+                    <td>Glassmaking</td>
+                    <td>Glass, including glassware and windows</td>
+                  </tr>
+                  <tr>
+                    <td>Leatherworking</td>
+                    <td>Leather goods, including leather armor</td>
+                  </tr>
+                  <tr>
+                    <td>Pottery</td>
+                    <td>Ceramic goods</td>
+                  </tr>
+                  <tr>
+                    <td>Shipbuilding</td>
+                    <td>Ships and boats</td>
+                  </tr>
+                  <tr>
+                    <td>Stonemasonry</td>
+                    <td>Stone goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>Tailoring</td>
+                    <td>Clothing</td>
+                  </tr>
+                  <tr>
+                    <td>Weaving</td>
+                    <td>Textiles, baskets, and rugs</td>
+                  </tr>
+                  <tr>
+                    <td>Woodworking</td>
+                    <td>Wooden goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Free Spirit",
+    source: "Lost Omens: Firebrands",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        You’ve always lived your life straying from the path laid before you.
+        Like a leaf blowing in the wind, your journey takes you where it will,
+        providing you with a lifestyle free from the bonds of expectation. While
+        you might have friends and family in specific towns or cities, you’ve
+        chosen not to put down roots in favor of going wherever—and doing
+        whatever—you want.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in the Survival skill and a Lore skill about a specific
+        settlement or terrain you have traveled through. You gain the Forager
+        skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Freed Slave of Absalom",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Society", "Absalom Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        As a recently freed slave in Absalom, you belong to a new, close-knit
+        social class at the heart of the city’s most important trades.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Absalom Lore skill. You gain
+        the Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Friendly Darkmoon Kobold",
+    source: "Crown of the Kobold King",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy", "Kobold Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        It has taken time, but over the years, you’ve managed to find a place
+        among the citizens of Falcon’s Hollow. While many still distrust
+        kobolds, they at least see you as a fellow villager, if not a friend,
+        and you’ve got quite the talent for quickly convincing larger groups of
+        people that you mean them no harm.
+        <br />
+        <br />
+        Choose any two ability boosts. One must be to Wisdom or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and Kobold Lore skill. You gain
+        the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
             </span>
           }
         />
