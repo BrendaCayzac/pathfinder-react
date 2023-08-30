@@ -3776,4 +3776,765 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Dauntless",
+    source: "Lost omens: Firebrands",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy"],
+    feat: "",
+    description: (
+      <span>
+        As a child, you chose to face each of your deepest fears and, time and
+        again, emerged victorious. You have learned to conquer fear itself, and
+        by sheer force of will and determination, you’re able to brush off
+        frightening experiences more easily than most. Others find it difficult
+        to intimidate you into backing down from whatever you’ve set your mind
+        to.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in the Diplomacy skill. You gain the Indomitable Act
+        reaction.
+        <br />
+        <br />
+        Indomitable Act{" "}
+        <img src={require("../assets/img/reaction.png")} alt="reaction icon" />
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You are about to attempt
+        a check;
+        <b>Requirements:</b> You are frightened; <b>Effect:</b> You lean into
+        your fear, using it to embolden you. You can roll the triggering check
+        twice and take the higher result. This is a fortune effect.
+      </span>
+    ),
+  },
+  {
+    name: "Dedicated deliver",
+    source: "Sky king's tomb: player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Athletics or Survival", "Cave Lore"],
+    feat: "Combat Climber or Terrain Expertise",
+    description: (
+      <span>
+        Filled with predators, pitfalls, and other perils, the Darklands
+        rightfully scares off most travelers. Not you! Whether you’re a veteran
+        Darklands caravanner, a cartographer seeking safer paths through
+        dangerous territory, or just a spelunker who loves to escape the surface
+        and hear the caverns sing, you’re adept at navigating underground
+        obstacles and finding your way back to civilization.
+        <br />
+        <br />
+        Clan Tolorr specializes more in studying the past than extracting it
+        from dangerous areas. Its leader, Arghan Tolorr, was an avid explorer in
+        his youth, and he’s begun an initiative to befriend, recruit, and train
+        subterranean daredevils who can extract relics responsibly. You’re one
+        of his candidates for this pilot program. Helping administrate recruits
+        is Ria, a gnome curator and close Tolorr confidante who helped arrange
+        your travel to Highhelm.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in either the Athletics skill or the Survival skill, and
+        you’re trained in the Cave Lore skill. If you selected Athletics, you
+        gain the Combat Climber skill feat. If you chose Survival, you gain the
+        Terrain Expertise (Underground) skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Ria, an oread gnome curator who studies rivethun
+        traditions
+        <br />
+        <br />
+        <b>Reputation Points:</b> +0
+        <Feat
+          id={0}
+          name="Combat Climber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              Your techniques allow you to fight as you climb. You’re not
+              flat-footed while Climbing and can Climb with a hand occupied. You
+              must still use another hand and both legs to Climb.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Deep sea diver",
+    source: "Rage of elements",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Athletics", "Plane of Water Lore"],
+    feat: "Underwater Marauder",
+    description: (
+      <span>
+        The sapphire depths of the seas and the mysteries they hold beneath
+        their surface have always piqued your interest. Your obsession with the
+        ocean depths cannot be contained to one world alone, and you’ve read
+        tomes and journals about the source of all water, everywhere, hoping to
+        one day understand the watery secrets of the great unknown.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Strength or Wisdom, and one
+        is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Plane of Water Lore skill.
+        You gain the Underwater Marauder skill feat.
+        <Feat
+          id={0}
+          name="Underwater Marauder"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You’ve learned to fight underwater. You are not flat-footed while
+              in water, and you don’t take the usual penalties for using a
+              bludgeoning or slashing melee weapon in water.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Dendrologist",
+    source: "Rage of elements",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Survival", "Plane of Wood Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        Trees grow in every biome, and your awe at their ability to conquer
+        terrain has inspired deeper study into their workings. There are trees
+        everywhere, and your study of them will inevitably take you ever further
+        afield in search of new varieties, perhaps even to the Plane of Wood
+        itself.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Intelligence or Wisdom, and
+        one is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Plane of Wood Lore skill.
+        You gain the Terrain Expertise skill feat for forests.
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Deputy",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival", "Hunting Lore"],
+    feat: "Experienced Tracker",
+    description: (
+      <span>
+        While your life may have taken some twists and turns in the intervening
+        years, you were once deputized as the lawful protector of a community.
+        While the role was temporary and you’ve since turned in your badge, that
+        responsibility shaped you. Whenever a community is in trouble, and the
+        sheriff is nowhere to be found, residents call on you to capture a
+        criminal, rescue the mayor’s offspring from bandits, or go toe to toe
+        with outlaws.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Hunting Lore skill. You
+        gain the Experienced Tracker skill feat.
+        <Feat
+          id={0}
+          name="Experienced Tracker"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Tracking is second nature to you, and when necessary you can
+              follow a trail without pause. You can Track while moving at full
+              Speed by taking a –5 penalty to your Survival check. If you’re a
+              master in Survival, you don’t take the –5 penalty. If you’re
+              legendary in Survival, you no longer need to roll a new Survival
+              check every hour when tracking, though you still need to roll
+              whenever there are significant changes in the trail.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Desert tracker",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Desert Lore"],
+    feat: "Experienced Tracker",
+    description: (
+      <span>
+        You’re at home blazing trails in the burning sands, and you made a
+        living guiding or following creatures in the desert. You might be a
+        native nomad, an experienced desert guide, a naturalist, a bandit driven
+        into the dunes by the law—or all of the above.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Desert Lore skill. You gain
+        the Experienced Tracker skill feat.
+        <Feat
+          id={0}
+          name="Experienced Tracker"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Tracking is second nature to you, and when necessary you can
+              follow a trail without pause. You can Track while moving at full
+              Speed by taking a –5 penalty to your Survival check. If you’re a
+              master in Survival, you don’t take the –5 penalty. If you’re
+              legendary in Survival, you no longer need to roll a new Survival
+              check every hour when tracking, though you still need to roll
+              whenever there are significant changes in the trail.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Detective",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Society", "Underworld Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        You solved crimes as a police inspector or took jobs for wealthy clients
+        as a private investigator. You might have become an adventurer as part
+        of your next big mystery, but likely it was due to the consequences or
+        aftermath of a prior case.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Underworld Lore skill. You
+        gain the Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Diobel pearl diver",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Dexterity"],
+    skillTraining: ["Athletics", "Ocean Lore"],
+    feat: "Underwater Marauder",
+    description: (
+      <span>
+        You spent a portion of your youth diving and gathering precious pearls
+        under the attentive eyes of Kortos Consortium merchants.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Dexterity, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Ocean Lore skill. You gain
+        the Underwater Marauder skill feat.
+        <Feat
+          id={0}
+          name="Underwater Marauder"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You’ve learned to fight underwater. You are not flat-footed while
+              in water, and you don’t take the usual penalties for using a
+              bludgeoning or slashing melee weapon in water.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Discarded duplicate",
+    source: "Guns & gears",
+    tags: [""],
+    abilityBoost: ["Free", "Free", "Free"],
+    skillTraining: [],
+    feat: "",
+    description: (
+      <span>
+        Someone created you for a specific purpose. Some important person, be
+        they a storied royal, a contentious politician, or a stark military
+        leader, needed a body double for their most dangerous appearances. Using
+        a mixture of fringe science and magic, you were commissioned and trained
+        to emulate this person in every way, and have stood in for them in
+        countless deadly circumstances. You may or may not know the reason
+        behind your decommissioning, but whoever discarded you didn’t finish you
+        off. Now, the world is yours to explore—but “you” may have a bold or
+        brutish reputation, or the individual you were duplicating may be long
+        dead. Regardless of the fate of this individual, your way of life has
+        changed drastically.
+        <br />
+        <br />
+        You and the GM can work out how to incorporate your previous life into
+        your story. The GM can keep this knowledge hidden even from you, or you
+        or another character know what happened. You and the GM can also leave
+        the information unspecified and fill it in later.
+        <br />
+        <br />
+        You gain three free ability boosts. You choose two, and the GM chooses
+        one based on the attributes of the character you were built to
+        duplicate.
+      </span>
+    ),
+  },
+  {
+    name: "Disciple of the gear",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Crafting", "Lore"],
+    feat: "Quick Repair",
+    description: (
+      <span>
+        While many regard science and faith as incompatible, you believe
+        scientific advancement is your deity’s will. Perhaps you’re a follower
+        of Brigh, Casandalee, or some other god of technology, or perhaps you
+        see the furnaces and sparks of modernity as the latest manifestation of
+        Sarenrae’s flame or Gozreh’s lightning—whatever the case, you’re always
+        willing to spread the word of your deity, and you’ve learned some basic
+        tinkering to show how your deity’s focus can increase the common
+        standard of living.
+        <br /> <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Lore skill for the deity
+        you worship. You gain the Quick Repair skill feat.
+        <Feat
+          id={0}
+          name="Quick Repair"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You take 1 minute to Repair an item. If you’re a master in
+              Crafting, it takes 3 actions. If you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Doomcaller",
+    source: "Lost omens: travel guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Star Lore"],
+    feat: "Quick Repair",
+    description: (
+      <span>
+        In the stars you see not guidance or wisdom but a twinkling door to the
+        impending end of all things. You might have been raised in this
+        ideology, gleaned it from superstition, or received a prophetic vision.
+        Regardless, you’ve come to view the stars and whatever power they evoke
+        as a path to doom, a curse to warn the masses. Others might spurn your
+        warnings, while some might join you in enlightening the ignorant. To
+        you, there’s no greater truth than the coming end, and you know that
+        whatever the cause for it will come from the stars—or perhaps the stars
+        are just a gate to a more terrifying beyond.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Occultism and Star Lore. You also gain the Stellar
+        Misfortune action.
+        <br />
+        <br />
+        Stellar Misfortune{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (divination, misfortune, occult)
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> A creature you can see
+        is about to attempt a saving throw, attack roll, or skill check;{" "}
+        <b>Requirements:</b> You must be under the night sky with the stars
+        visible; <b>Effect:</b> You call upon the power of a dooming star,
+        exacerbating the target’s bad luck. The target must roll the triggering
+        check twice and take the worse result.
+      </span>
+    ),
+  },
+  {
+    name: "Dragon scholar",
+    source: "Age of ashes: player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Dragon Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        Dragons have fascinated you for as long as you can remember. The potent
+        power they possess, the long lives they lead, the ancient traditions
+        they inspire—whatever the source of your interest, you’ve spent much of
+        your life to this point immersed in all things draconic. These studies
+        have bolstered your self-confidence and given you a wide range of
+        methods and tactics you can use to impose your will on others.
+        <br />
+        <br />
+        You’ve likely chosen to attend the Call for Heroes as a way to seek
+        funds as an adventurer to afford more texts about dragons or perhaps out
+        of a desire to encounter one in real life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Strength or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Dragon Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Dreams of vengance",
+    source: "Gatewalkers player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Strength"],
+    skillTraining: ["Athletics", "Gladiator Lore"],
+    feat: "Blasting Beams & Titan Wrestler",
+    description: (
+      <span>
+        You’ve known strife your whole life, whether on the battlefield, in the
+        arena, or simply living your day-to-day life. When you’re not thinking
+        about your next brawl, you’re turning over memories of traitorous rivals
+        and troublesome betrayers who’ve wronged you in the past. The sight of
+        your enemies broken and maimed, then, greatly appealed to you when you
+        glimpsed through a mysterious glowing archway during the Missing Moment.
+        But when you stepped through the gate, you found yourself back where you
+        started, with no indications of your exacted revenge anywhere in sight.
+        You nearly burned down the countryside in frustrated rage, only
+        realizing afterward the magnitude of the fiery new power you wielded.
+        Fiery rays of energy you could shoot from your eyes—these, no doubt,
+        would come in handy.
+        <br />
+        <br />
+        Your deviant abilities are of the dragon classification. You gain the
+        Blasting Beams deviant feat with the fire type. As a quirk, your pupils
+        are shaped like curved arches. When you use a deviant ability, the
+        centers of your pupils shine with light, like the glowing gateways of
+        the Missing Moment.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Strength, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Gladiator Lore skill. You
+        gain the Titan Wrestler skill feat.
+        <Feat
+          id={0}
+          name="Blasting Beams"
+          tags={["rare", "attack", "deviant", "evocation", "magical"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              A directed beam of heat or an arc of lightning is one of the
+              simplest ways to project energy. You fire a blast or beam from one
+              hand. Make an attack roll against a creature within 30 feet. If
+              you succeed, the beam deals 1d6 damage for every 2 levels you have
+              to the target, or double damage on a critical success.
+              <br />
+              <br />
+              <b>Awakening:</b> Your beams blast through targets. Instead of
+              making an attack roll to damage a single creature within 30 feet,
+              you can use Blasting Beams as a 2-action activity to damage all
+              creatures in a 60-foot line, with a basic Reflex save.
+              <br />
+              <br />
+              <b>Awakening:</b> You can choose to launch smaller, quicker beams
+              from your eyes instead. These deal d4s instead of d6s, but the
+              attack has the agile trait, and you don’t need a hand free to make
+              it, though your eyes must be uncovered.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Titan Wrestler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can attempt to Disarm, Grapple, Shove, or Trip creatures up to
+              two sizes larger than you, or up to three sizes larger than you if
+              you’re legendary in Athletics.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Driver",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Acrobatics", "Piloting Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You practically live behind the controls of a vehicle, and can handle
+        just about anything the road, waves, and sky can throw at you. You
+        likely adventure to test your skills in unusual environments and new and
+        interesting vehicles.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Acrobatics skill and the Piloting Lore skill. You
+        gain the Assurance skill feat with Piloting Lore.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers).
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Droskari disciple",
+    source: "Fires of the Haunted City",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Droskar Lore"],
+    feat: "Skill Training",
+    description: (
+      <span>
+        You grew up in the church of the Dark Smith, where you learned the value
+        of hard work and achieving vocational mastery.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You gain the Skill Training skill feat, and you’re trained in the
+        Droskar Lore skill.
+        <Feat
+          id={0}
+          name="Skill Training"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> Intelligence 12.
+              </span>
+              <br />
+              You become trained in the skill of your choice.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times, choosing
+              a new skill to become trained in each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
