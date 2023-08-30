@@ -4537,4 +4537,593 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Eclectic scholar",
+    source: "Sky king's tomb: player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Dwarven Pantheon Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        Understanding history isn’t just about translating old laws and reading
+        about who invaded whom; it’s also packed with magical outbursts,
+        extraplanar interventions, and unexplained oddities not yet understood
+        by modern science. You have a knack for absorbing esoteric trivia and
+        unraveling past supernatural events. Your studies recently drew you to
+        the dwarven city of Tar-Kazmukh, whose Blue Warders maintain an
+        eclectically magical library. Perusing its shelves didn’t answer your
+        most burning questions, but it did earn you some friends, expose you to
+        a dizzying array of dwarven religious lore, and introduce you to some
+        intriguing mysteries buried in Highhelm’s history.
+        <br />
+        <br />
+        Believing that Highhelm might provide you with greater opportunities, a
+        Blue Warder named Rosha Coppervein facilitated introductions between you
+        and their adoptive clan, Clan Tolorr. It seems your credentials and
+        whatever Rosha wrote on your behalf made an impression; within a week,
+        you received an invitation to Highhelm and travel funds to study with
+        Tolorr sages! The shy Rosha has stayed in Tar-Kazmukh for now, enjoying
+        its relative quiet, but you know that they’ll join you in a few weeks
+        for Tolorr’s Family Festival.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Dwarven Pantheon Lore
+        skill, an uncommonly broad Lore skill that pertains to Torag’s faith and
+        those faiths of his divine family. You gain the Quick Identification
+        skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Rosha Coppervein, a Blue Warder who married into Clan
+        Tolorr
+        <br />
+        <br />
+        <b>Reputation Points:</b> +0
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Eclipseborn",
+    source: "lost omens: travel guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma", "Constitution"],
+    skillTraining: ["Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were born at the exact moment of a solar or lunar eclipse. At the
+        eclipse’s junction, or not long after, a catastrophe fell upon the area
+        of your birth—perhaps it affected only the people around you, a city, or
+        even spanned the entire region. Whatever the scope, those present at
+        your arrival came to believe the eclipse was the omen of ill fortune,
+        and you were its harbinger. You grew up distinctly aware others viewed
+        you as a child of misfortune and, to a certain extent, they were right.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        Decide with the GM what catastrophic event coincided with your birth;
+        you’re trained in a Lore skill related to that event. You can cast ill
+        omen as an occult innate spell once per day. After you Cast this Spell,
+        but before you regain the ability to cast it the following day, the GM
+        can force you to reroll a successful saving throw, attack roll, or skill
+        check as misfortune finds its way back to you. This is a misfortune
+        effect. If this effect causes you to fail the associated saving throw,
+        attack roll, or skill check, you can cast ill omen again a second time
+        that day.
+      </span>
+    ),
+  },
+  {
+    name: "Eclectic scholar",
+    source: "Sky king's tomb: player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Dwarven Pantheon Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        Understanding history isn’t just about translating old laws and reading
+        about who invaded whom; it’s also packed with magical outbursts,
+        extraplanar interventions, and unexplained oddities not yet understood
+        by modern science. You have a knack for absorbing esoteric trivia and
+        unraveling past supernatural events. Your studies recently drew you to
+        the dwarven city of Tar-Kazmukh, whose Blue Warders maintain an
+        eclectically magical library. Perusing its shelves didn’t answer your
+        most burning questions, but it did earn you some friends, expose you to
+        a dizzying array of dwarven religious lore, and introduce you to some
+        intriguing mysteries buried in Highhelm’s history.
+        <br />
+        <br />
+        Believing that Highhelm might provide you with greater opportunities, a
+        Blue Warder named Rosha Coppervein facilitated introductions between you
+        and their adoptive clan, Clan Tolorr. It seems your credentials and
+        whatever Rosha wrote on your behalf made an impression; within a week,
+        you received an invitation to Highhelm and travel funds to study with
+        Tolorr sages! The shy Rosha has stayed in Tar-Kazmukh for now, enjoying
+        its relative quiet, but you know that they’ll join you in a few weeks
+        for Tolorr’s Family Festival.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Dwarven Pantheon Lore
+        skill, an uncommonly broad Lore skill that pertains to Torag’s faith and
+        those faiths of his divine family. You gain the Quick Identification
+        skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Rosha Coppervein, a Blue Warder who married into Clan
+        Tolorr
+        <br />
+        <br />
+        <b>Reputation Points:</b> +0
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Eidolon contact",
+    source: "Secrets of magic",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Arcana, Nature, Occultism, or Religion", "Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        You’ve come into contact with a disembodied being of magical essence
+        known as an eidolon. You might have forged a powerful conduit with that
+        eidolon, allowing you to manifest it as a summoner, but it’s much more
+        likely that you lost contact over time, though not before learning a few
+        half-remembered secrets. If you lost contact, you might have become an
+        adventurer to try to reach the eidolon again, or to be sure that you’re
+        rid of it forever.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of Arcana, Nature, Occultism, or Religion,
+        and a Lore skill for the creature associated with your contacted eidolon
+        (such as Angel Lore or Dragon Lore). You gain the Dubious Knowledge
+        skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Eldrich anatomist",
+    source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Medicine", "Fleshwarp Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You’re a trained physician who can ably tend wounds of many kinds. But
+        more than a practitioner, you’re a scholar. Some cultures shape flesh to
+        extreme degrees, creating aberrations from humanoid forms. The
+        fleshforges of distant Nex practice this fleshwarping, as do certain
+        subterranean societies you hope to one day study—preferably from a safe
+        and clinical distance.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Fleshwarp Lore skill. You
+        gain the Assurance skill feat with Medicine.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers).
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Elementally infused",
+    source: "Rage of elements",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Medicine", "Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were exposed to a strong burst of elemental essence originating
+        directly from an elemental plane, most likely caused by a planar breach.
+        Your body absorbed the elemental essence with no ill effects, and now it
+        coalesces within you. With time, you’ve learned to project elemental
+        power in a manner safe to you but still deadly to others.
+        <br /> <br />
+        Choose two attribute boosts. One must be to Constitution or Charisma,
+        and one is a free attribute boost.
+        <br />
+        <br />
+        Choose one elemental plane: Air, Earth, Fire, Metal, Water, or Wood. You
+        are trained in the corresponding Lore skill: Plane of Air Lore, Plane of
+        Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of Water
+        Lore, or Plane of Wood Lore. You also gain a cantrip according to your
+        chosen plane: air gale blast SoM; Earth: scatter scree SoM; Fire:
+        ignition; Metal: needle darts; Water spout SoM, or wood root reading.
+        You can cast this spell as a primal innate spell at will.
+      </span>
+    ),
+  },
+  {
+    name: "Emancipated",
+    source: "Age of Ashes: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Stealth", "Kintargo Lore"],
+    feat: "Terrain Stalker",
+    description: (
+      <span>
+        Until recently, the nation of Ravounel was part of the larger nation of
+        Cheliax, where the church of Asmodeus is the law and slaves are traded
+        freely in the open market. You had the poor fortune to be born into
+        slavery, but the good luck to have grown up in the city of Kintargo.
+        When Ravounel seceded from Cheliax, the leaders of this new nation freed
+        all slaves, and you’ve wasted no time in exploring and establishing your
+        new life. How and why you’ve come to Breachill is left to you to
+        decide—but the fact that you feel empowered to determine your own
+        destiny continues to drive you!
+        <br />
+        <br />
+        The chance to become an adventurer has excited you for some time, as you
+        hope to build a new life for yourself as a hero rewarded with fame and
+        fortune. Joining the Call for Heroes is a great opportunity to find a
+        group to adventure with.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Dexterity or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Kintargo Lore skill. You
+        gain the Terrain Stalker skill feat.
+        <Feat
+          id={0}
+          name="Terrain Stalker"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              Select one type of difficult terrain from the following list:
+              rubble, snow, or underbrush. While undetected by all non-allies in
+              that type of terrain, you can Sneak without attempting a Stealth
+              check as long as you move no more than 5 feet and do not move
+              within 10 feet of an enemy at any point during your movement. This
+              also allows you to automatically approach creatures to within 15
+              feet while Avoiding Notice during exploration as long as they
+              aren’t actively Searching or on guard.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different type of terrain.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Emissary",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society", "Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        As a diplomat or messenger, you traveled to lands far and wide.
+        Communicating with new people and forming alliances were your stock and
+        trade.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and a Lore skill related to one city
+        you’ve visited often. You gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Empty Whispters",
+    source: "Dark Archive",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Planar Rift Lore"],
+    feat: "",
+    description: (
+      <span>
+        You knew someone once, and now you know only a life stitched together
+        and healed over, nary even a scar remaining. You hear voices of souls
+        that have fallen through the cracks of reality, creatures who have been
+        removed from memory, banished planar entities, and similar. Their
+        whispers guide you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Planar Rift Lore skill.
+        You get a Planar Rift Lore check to sense planar rifts, even if you
+        aren’t specifically Investigating or Searching for them, as well as
+        locations where magic has been used to remove the memory of an object or
+        creature from existence.
+      </span>
+    ),
+  },
+  {
+    name: "Energy scarred",
+    source: "Secrets of Magic",
+    tags: ["rare", "pervasive magic"],
+    abilityBoost: ["Free", "Constitution"],
+    skillTraining: ["Lore"],
+    feat: "—",
+    description: (
+      <span>
+        Exposure to a significant magical event overloaded you with magical
+        energy. Perhaps you were exposed to dangerous levels of magical energy
+        that left you near death, or it built up over long-term exposure to a
+        powerful source of magic.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Constitution and one is a free
+        ability boost.
+        <br />
+        <br />
+        Your innate magical trait is primal. Choose acid, cold, electricity,
+        fire, force, negative, positive, or sonic. You are trained in a Lore
+        skill associated with the chosen energy (such as Fire Lore) and you gain
+        resistance to that energy type equal to half your level (minimum 1).
+      </span>
+    ),
+  },
+  {
+    name: "Entertainer",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Performance", "Theater Lore"],
+    feat: "Fascinating Performance",
+    description: (
+      <span>
+        Through an education in the arts or sheer dogged practice, you learned
+        to entertain crowds. You might have been an actor, a dancer, a musician,
+        a street magician, or any other sort of performer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and the Theater Lore skill. You
+        gain the Fascinating Performance skill feat.
+        <Feat
+          id={0}
+          name="Fascinating Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              When you Perform, compare your result to the Will DC of one
+              observer. If you succeed, the target is fascinated by you for 1
+              round. If the observer is in a situation that demands immediate
+              attention, such as combat, you must critically succeed to
+              fascinate it and the Perform action gains the incapacitation
+              trait. You must choose which creature you’re trying to fascinate
+              before you roll your check, and the target is then temporarily
+              immune for 1 hour.
+              <br />
+              <br />
+              If you’re an expert in Performance, you can fascinate up to four
+              observers; if you’re a master, you can fascinate up to 10
+              observers; and if you’re legendary, you can fascinate any number
+              of observers at the same time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ex-con token guard",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Thievery", "Legal Lore"],
+    feat: "Pickpocket",
+    description: (
+      <span>
+        Not everyone starts life on easy street—your own experience is testament
+        to that. You took a wrong turn at some point early on and became a
+        career criminal. Perhaps you were a petty pickpocket, or maybe you’ve
+        even murdered someone. Either way, your crimes landed you with a
+        transformative prison sentence in the Brine prison. Only then did you
+        realize that something needed to change. After your release, you
+        dedicated yourself to helping other downtrodden individuals and those
+        forced to resort to crime to survive. You joined the Coins District
+        Guard, but soon learned that this precinct was a haven for the very
+        corruption you sought to undo. Your efforts at reform never took root
+        and you feared that your decision to become an officer of the law was a
+        huge mistake.
+        <br />
+        <br />
+        You transferred to the Edgewatch, the Precipice Quarter’s new precinct,
+        in the hope that you might meet others who sought to help—not
+        exploit—Absalom’s misguided.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and your choice of Legal Lore or
+        Underworld Lore. You gain a +1 circumstance bonus to Deception,
+        Diplomacy, and Intimidation checks to interact with Token Guards and
+        convicted criminals such as prison inmates. You gain the Pickpocket
+        skill feat.
+        <Feat
+          id={0}
+          name="Pickpocket"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              You can Steal or Palm an Object that’s closely guarded, such as in
+              a pocket, without taking the –5 penalty. You can’t steal objects
+              that would be extremely noticeable or time consuming to remove
+              (like worn shoes or armor or actively wielded objects). If you’re
+              a master in Thievery, you can attempt to Steal from a creature in
+              combat or otherwise on guard. When doing so, Stealing requires 2
+              manipulate actions instead of 1, and you take a –5 penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
