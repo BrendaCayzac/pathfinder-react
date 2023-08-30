@@ -2245,7 +2245,7 @@ export const backgrounds: Array<Background> = [
     tags: [""],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Deception", "Mzali Lore"],
-    feat: "Haughty Obstinacy",
+    feat: "Lie to Me",
     description: (
       <span>
         You are a member of the Bright Lions and seek to overthrow the
@@ -2279,6 +2279,1497 @@ export const backgrounds: Array<Background> = [
               Perception DC to determine whether they succeed. This doesn’t
               apply if you don’t have a back-and-forth dialogue, such as when
               someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Cannoner",
+    source: "Guns & gears",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Strength"],
+    skillTraining: ["Athletics", "Warfare Lore"],
+    feat: "Hefty Hauler",
+    description: (
+      <span>
+        You served as a crewmate aboard a military vessel or pirate ship and
+        were responsible for the use and maintenance of the ship’s cannons. A
+        strong back and quick reflexes were equally important to you in your
+        duties, and you know your way around explosives and the dangers that lie
+        therein. These skills serve you well in your new life as an adventurer,
+        as compared to the weight of a cannon, a gear load that makes your
+        allies blanche just makes you laugh instead.
+        <br />
+        <br />
+        Choose two ability boosts. One boost must be to Dexterity or Strength,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Warfare Lore skill. You
+        gain the Hefty Hauler skill feat.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Charlatan",
+    source: "Core rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Deception", "Underworld Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        You traveled from place to place, peddling false fortunes and snake oil
+        in one town, pretending to be royalty in exile to seduce a wealthy heir
+        in the next. Becoming an adventurer might be your next big scam or an
+        attempt to put your talents to use for a greater cause. Perhaps it’s a
+        bit of both, as you realize that after pretending to be a hero, you’ve
+        become the mask.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Underworld Lore skill. You
+        gain the Charming Liar skill feat.
+        <Feat
+          id={0}
+          name="Charming Liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Chelish rebel",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Society", "Kintargo Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        You joined the fight against House Thrune. You may have helped liberate
+        the nation of Ravounel, or you might be involved in another rebellion,
+        such as Pezzack’s, that studied Ravounel’s successes.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Kintargo Lore skill. You
+        gain the Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Chelish rebel",
+    source: "Sky King's Tomb: Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: [
+      "Diplomacy or Intimidation",
+      "Genealogy Lore or Underworld Lore",
+    ],
+    feat: "Group Impression or Intimidating Glare",
+    description: (
+      <span>
+        One or more of your ancestors committed a grave atrocity, and even
+        though you’ve tried to live your own life, your family’s grim past looms
+        over you like a relentless shadow. You might have traveled a thousand
+        miles to escape the legends, learned how to ingratiate yourself to
+        others, just tried to ignore the everyday accusing glances, or even
+        accepted the notoriety just to be left alone. You didn’t commit the
+        crime, yet it haunts you. Whether you’re proving the world wrong,
+        proving to yourself that you’re no monster, earning wealth to pay
+        reparations, or just driven to do some good with your life, it’s time to
+        break free of the past. That journey begins with understanding.
+        <br />
+        <br />
+        Clan Tolorr preserves the deeds and misdeeds of dwarven legend. With
+        their help, you might not only understand dwarven crimes and
+        reparations, but also learn how to accept your past and leave the world
+        a little better than when you found it. You’ve corresponded with Clan
+        Tolorr, but your most recent message came instead from one of the clan’s
+        guests: a lizardfolk mystic named Valahask who studies the dead and is
+        eager to meet you. He has lobbied on your behalf, earning you an
+        invitation to Clan Tolorr’s upcoming Family Festival.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        Choose whether you’ve navigated your past through kindness or notoriety
+        thus far. For the former, you’re trained in the Diplomacy skill and the
+        Genealogy Lore skill, and you gain the Group Impression skill feat. For
+        the latter, you’re trained in the Intimidation skill and the Underworld
+        Lore skill, and you gain the Intimidating Glare skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Valahask, an iruxi mystic.
+        <b>Reputation Points:</b> –1.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+        <br />
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Child of the puddles",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Acrobatics", "Absalom Lore"],
+    feat: "Steady Balance",
+    description: (
+      <span>
+        You grew up in the soggy, squalid quarter of Absalom known as the
+        Puddles. You’re at home in tightly packed urban environments.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Acrobatics skill and the Absalom Lore skill. You
+        gain the Steady Balance skill feat.
+        <Feat
+          id={0}
+          name="Steady Balance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              You can keep your balance easily, even in adverse conditions.
+              Whenever you roll a success using the Balance action, you get a
+              critical success instead. You’re not flat-footed while attempting
+              to Balance on narrow surfaces and uneven ground. Thanks to your
+              incredible balance, you can attempt an Acrobatics check instead of
+              a Reflex save to Grab an Edge.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Child of the puddles",
+    source: "Dark Archive",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Diplomacy", "Dreamlands Lore"],
+    feat: "Steady Balance",
+    description: (
+      <span>
+        You were born in a village where everyone has a twin with a special
+        link. You have moved to the wider world for reasons of your own, but you
+        still have an unbreakable connection to your twin through your dreams.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Diplomacy and Dreamlands Lore. You gain the ability to
+        communicate with your twin in your dreams. You and your twin gain the
+        effects of dream message every night, only between the two of you; this
+        isn’t a spell, but a natural effect. Unless your twin is another PC,
+        your GM roleplays your twin or summarizes your interaction during these
+        dreams.
+      </span>
+    ),
+  },
+  {
+    name: "Child of Westcrown",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Diplomacy", "Westcrown Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        Whether you come from Westcrown or elsewhere, you hold the values of
+        pre-Thrune Cheliax dear. You disdain the infernal government, but you
+        are proud of your country and do not consider yourself a rebel.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Westcrown Lore skill. You
+        gain the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Chosen one",
+    source: "Secrets of magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Diplomacy", "Westcrown Lore"],
+    feat: "Fortune-Telling Lore ",
+    description: (
+      <span>
+        Your birth has fulfilled a prediction, and people close to you are
+        counting on you to do great things. There’s intense pressure on you to
+        be up to the task, and the fickle nature of prophecy complicates your
+        path.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        br Decide with your GM the basics of the prophecy in which you’re meant
+        to play a major part. You’re trained in one skill related to the
+        prophecy, and the Fortune-Telling Lore skill. You gain the Prophecy’s
+        Pawn free action.
+        <br />
+        <br />
+        Prophecy’s Pawn{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (abjuration, divine, fortune)
+        <br />
+        <br />
+        <b>Trigger</b> You fail a saving throw, attack roll, or skill check;
+        Effect You twist the prophecy in your favor, which will have
+        consequences later. Reroll the failed check. You must use the result of
+        the second roll.
+        <br />
+        <br />
+        For 24 hours afterward, the GM can force you to reroll a successful
+        saving throw, attack roll, or skill check as fate balances the scale.
+        This is a misfortune effect. You can’t use prophecy’s pawn again until
+        the GM uses this option or 24 hours pass, whichever comes first.
+      </span>
+    ),
+  },
+  {
+    name: "Circuit job",
+    source: "Guns & gears",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Deception", "Legal Lore"],
+    feat: "Lie to Me",
+    description: (
+      <span>
+        You’re a circuit judge, a courtroom on horseback who serves a group of
+        communities out in the Mana Wastes or a similar backwoods region. You
+        show up every couple of months, hear the cases that have piled up since
+        your last visit, give verdicts, and then it’s on to the next town in
+        your itinerary. It’s not the easiest life in the world, but it’s an
+        interesting one, and you hear some mighty strange cases. Chances are, it
+        was one of those cases that set you on the road to adventure.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Deception and Legal Lore. You gain the Lie to Me skill
+        feat.
+        <Feat
+          id={0}
+          name="Lie to Me"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              You can use Deception to weave traps to trip up anyone trying to
+              deceive you. If you can engage in conversation with someone trying
+              to Lie to you, use your Deception DC if it is higher than your
+              Perception DC to determine whether they succeed. This doesn’t
+              apply if you don’t have a back-and-forth dialogue, such as when
+              someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Clan associate",
+    source: "Sky king's tomb:Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Society", "Highhelm Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        You already have a close connection to Clan Tolorr, such as having been
+        born into the clan, worked as an esteemed contractor for them, or
+        married into the clan (even if you chose to retain your prior clan
+        affiliation). Whether through dedicated study or just overhearing your
+        fellows’ academic debates, you’ve absorbed boundless trivia about
+        history—especially local lore. Beyond Tolorr halls, your affiliation
+        earns you respect in Highhelm. Your clan expects you to behave well, as
+        your actions reflect on them.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Highhelm Lore skill. You
+        gain the Multilingual skill feat.
+        <br />
+        <br />
+        <b>Connection: </b>You have no special connection or sponsor in Clan
+        Tolorr.
+        <br />
+        <br />
+        <b>Reputation Points:</b> +2
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Clockfighter",
+    source: "Guns & gears",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Society", "Engineering Lore"],
+    feat: "Eye for Numbers",
+    description: (
+      <span>
+        New forms of clockwork technology are incredibly interesting to you, and
+        you’ve been studying examples of them to see where else they might be
+        best put to use. You might eventually develop a new prototype machine or
+        find a way to make related technologies practical enough for everyone to
+        benefit. Though before you do, you must continue your research!
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Engineering Lore skill. You
+        gain the Eye for Numbers skill feat.
+        <Feat
+          id={0}
+          name="Eye for Numbers"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Clockfighter",
+    source: "Guns & gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Crafting", "Gladiatorial Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        While others choose to use their engineering ability to heal the injured
+        or make brilliant innovations, you’ve used your skill to repair and
+        modify clockwork constructs that battle in gladiatorial combat. You know
+        how to get a crowd electrified for your clockwork gladiator, win or
+        lose, and you know how to repair it when it gets damaged. These skills
+        serve you well as an adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Gladiatorial Lore skill.
+        You gain the Experienced Professional skill feat.
+        <Feat
+          id={0}
+          name="Experienced Professional"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Clockwork researcher",
+    source: "Guns & gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Crafting", "Gladiatorial Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        While others choose to use their engineering ability to heal the injured
+        or make brilliant innovations, you’ve used your skill to repair and
+        modify clockwork constructs that battle in gladiatorial combat. You know
+        how to get a crowd electrified for your clockwork gladiator, win or
+        lose, and you know how to repair it when it gets damaged. These skills
+        serve you well as an adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Gladiatorial Lore skill.
+        You gain the Experienced Professional skill feat.
+        <Feat
+          id={0}
+          name="Eye for Numbers"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You’ve learned to subitize, quickly estimating the number of items
+              in a group with relative accuracy at only a glance. You
+              immediately learn the number of visually similar items in a group
+              you can see (such as coins, books, or people), rounded to the
+              first digit in the total number. For example, you could look at a
+              case of potion vials and learn that it held about 30 vials, but
+              you wouldn’t know that it was exactly 33 vials, how many different
+              types of potions there were, or how many of which type. Similarly,
+              you could look at a pile of 2,805 coins and know that there were
+              about 3,000 coins in all. You can use this ability only on items
+              that can typically be counted, so you can’t use it on grains of
+              sand or stars in the sky, for example.
+              <br />
+              <br />
+              In addition, when you attempt to Decipher Writing that is
+              primarily numerical or mathematical, you gain a +2 circumstance
+              bonus to your check.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Codebreaker",
+    source: "Guns & gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Society", "Cryptography Lore"],
+    feat: "Glean Contents",
+    description: (
+      <span>
+        Whether you’re employed by a military organization to decipher coded
+        messages sent by enemy factions or work independently to crack an enigma
+        created by a past civilization, you have a head for patterns and
+        linguistics. You might even use new clockwork devices to aid you in your
+        efforts.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Cryptography Lore skill. You
+        gain the Glean Contents skill feat.
+        <Feat
+          id={0}
+          name="Glean Contents"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You are adept at quickly scanning loose papers and carefully
+              discerning the contents of sealed letters without damaging the
+              seal. You can attempt Society checks to Decipher Writing on a
+              message that is only partially glimpsed, upside down or reversed
+              from your perspective, or even sealed. However, on a critical
+              failure, the recipient is made aware of your efforts (for
+              instance, you damage the seal or disturb the papers in some way).
+              When using this feat to decipher sealed letters, your attempt to
+              Decipher Writing gains the manipulate trait. This feat doesn’t
+              prevent witnesses from noticing your efforts, particularly with
+              sealed letters which you must manipulate directly in order to
+              read; you might need to attempt Deception or Stealth checks to
+              avoid being noticed.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Concordance researcher",
+    source: "Rage of elements",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: [
+      "Society",
+      "Plane of Air Lore, Plane of Earth" +
+        " Lore, Plane of Fire" +
+        " Lore," +
+        " Plane of Metal Lore," +
+        " Plane of Water Lore or Plane of Wood Lore",
+    ],
+    feat: "uncommon",
+    description: (
+      <span>
+        Tasked by the Concordance of Elements to research a variety of enigmatic
+        planar phenomena, you’ve acquired very specific knowledge about the
+        planes and the interactions between them. While being a researcher is
+        usually a peaceful profession, the Concordance might require you to go
+        out into the field and research unstable planar situations.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Intelligence or Wisdom, and
+        one is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in four of the following: Plane of Air Lore, Plane of
+        Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of Water
+        Lore, or Plane of Wood Lore.
+      </span>
+    ),
+  },
+  {
+    name: "Concordance scout",
+    source: "Rage of elements",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: [
+      "Diplomacy",
+      "Plane of Air Lore," +
+        " Plane of Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of" +
+        " Water Lore, or Plane of Wood Lore",
+    ],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        You were hired by the Concordance of Elements to seek out rumors of
+        planar breaches or other evidence of planar imbalances. After reporting
+        back to the Concordance, they’d send agents more well equipped to deal
+        with the situation. Still, this job has led you into more trouble than
+        your employers suspect, and you’ve learned how to get your information
+        quickly and get out relatively unscathed.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Constitution or Charisma,
+        and one is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and one of the following lore
+        skills: Plane of Air Lore, Plane of Earth Lore, Plane of Fire Lore,
+        Plane of Metal Lore, Plane of Water Lore, or Plane of Wood Lore. You
+        gain the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Conservator",
+    source: "Sky king's tomb: player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: [
+      "Crafting or Thievery",
+      "Accounting Lore or Underworld Lore",
+    ],
+    feat: "Quick Repair or Assurance",
+    description: (
+      <span>
+        Some history survives only so long as its physical remains do. You’ve
+        developed robust museum skills to identify relics, preserve artifacts,
+        recreate ancient technologies, and even rebuild shattered
+        treasures—often with painstaking patience, a steady hand, and even a
+        little magic. Your contributions don’t end there, as whether you’ve
+        mastered diligent recordkeeping or helped uncover smuggling rings that
+        are looting archaeological sites, you’ve made an impression. Hearing of
+        your promising abilities, representatives from Clan Tolorr contacted
+        you, inviting you to study with their museum masters and share your own
+        techniques, all while helping preserve over 10,000 years of history!
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in either the Crafting skill or the Thievery skill, and
+        you’re trained in either the Accounting Lore or the Underworld Lore
+        skill. If you selected Crafting, you gain the Quick Repair skill feat.
+        If you chose Thievery, you gain the Assurance (Thievery) skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Ria, an oread gnome curator who studies rivethun
+        traditions
+        <br />
+        <br />
+        <b>Reputation Points:</b> +1
+        <Feat
+          id={0}
+          name="Quick Repair"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You take 1 minute to Repair an item. If you’re a master in
+              Crafting, it takes 3 actions. If you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+        <br />
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers).
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Construction occultist",
+    source: "Blood lords: player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Intelligence", "Strength"],
+    skillTraining: ["Athletics or Occultism", "Architecture Lore"],
+    feat: "Hefty Hauler or Oddity Identification",
+    description: (
+      <span>
+        You helped to build and design buildings and public works on behalf of
+        Geb’s architectural faction, the Builders League. You’ve been taught
+        that creating bridges, gatehouses, roads, walls, and more is as much
+        about planning as it is about brute labor. You learned that the Builders
+        League has plans of occult significance for many of its construction
+        projects and might have even aided them in the way you laid stones or
+        designed walls (although you never learned the great design behind those
+        secret plans). Although you’ve left construction behind, the skills in
+        long-term planning and leveraging effort remain with you.
+        <br />
+        <br />
+        You are still well-regarded by the Builders League. Your party gains 1
+        Reputation Point with the Builders League at the start of the campaign.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Strength, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Athletics or Occultism skill. You
+        gain a skill feat: Hefty Hauler if you chose Athletics or Oddity
+        Identification if you chose Occultism. You’re also trained in
+        Architecture Lore.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Oddity
+        Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Cook",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Survival", "Cooking Lore"],
+    feat: "Seasoned",
+    description: (
+      <span>
+        You grew up in the kitchens of a tavern or other dining establishment
+        and excelled there, becoming an exceptional cook. Baking, cooking, a
+        little brewing on the side—you’ve spent lots of time out of sight. It’s
+        about time you went out into the world to catch some sights for
+        yourself.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Cooking Lore skill. You
+        gain the Seasoned skill feat.
+        <Feat
+          id={0}
+          name="Seasoned"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Alcohol Lore, Cooking Lore, or
+                Crafting.
+              </span>
+              <br />
+              You’ve mastered the preparation of many types of food and drink.
+              You gain a +1 circumstance bonus to checks to Craft food and
+              drink, including potions. If you are a master in one of the
+              prerequisite skills, this bonus increases to +2.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Corpse Stitcher",
+    source: "Blood lords: player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Zombie Lore"],
+    feat: "Risky Surgery or Stitch Flesh",
+    description: (
+      <span>
+        The number of zombies working across Geb as farmhands, laborers, or
+        shambling soldiers seems nearly uncountable. None of these zombies can
+        do their work if they fall to pieces, so the Reanimators maintain
+        legions of surgeons and tailors to keep zombies stitched together and
+        suitable for service. You were one of these corpse stitchers, working
+        long hours to ensure that Geb’s mindless workforce could perform at its
+        best. On the day you saw some of your friends come under your needle,
+        you realized how expendable Geb’s fleshy population truly is, and you
+        decided that you should seek out a different line of work.
+        <br />
+        <br />
+        The Reanimators appreciate your past service. Your party gains 1
+        Reputation Point with the Reanimators at the start of the campaign.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill. You gain your choice of either the
+        Risky Surgery or Stitch Flesh skill feats. You’re also trained in Zombie
+        Lore.
+        <Feat
+          id={0}
+          name="Risky Surgery"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              Your surgery can bring a patient back from the brink of death, but
+              might push them over the edge. When you Treat Wounds, you can deal
+              1d8 slashing damage to your patient just before applying the
+              effects of Treat Wounds. If you do, you gain a +2 circumstance
+              bonus to your Medicine check to Treat Wounds, and if you roll a
+              success, you get a critical success instead.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Stitch Flesh"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              You can use Treat Wounds to restore Hit Points to undead
+              creatures, not just living ones. The techniques you use to do so
+              vary, but all require sutures, bandages, and other tools included
+              in healer’s tools. Some conditions that might raise the DC of
+              treating undead’s wounds differ from that of living creatures. For
+              instance, the GM might increase the DC if the undead being treated
+              is in a church of Pharasma or the wounds were caused by powerful
+              positive energy.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Courrier",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Society", "Lore"],
+    feat: "Glean Contents",
+    description: (
+      <span>
+        In your youth, you earned coin running messages for persons of wealth
+        and influence, darting through crowded cobblestone streets. Your dogged
+        commitment to deliver your message was good training for the life of an
+        adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Lore skill for the city in
+        which you were raised. You gain the Glean Contents skill feat.
+        <Feat
+          id={0}
+          name="Glean Contents"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You are adept at quickly scanning loose papers and carefully
+              discerning the contents of sealed letters without damaging the
+              seal. You can attempt Society checks to Decipher Writing on a
+              message that is only partially glimpsed, upside down or reversed
+              from your perspective, or even sealed. However, on a critical
+              failure, the recipient is made aware of your efforts (for
+              instance, you damage the seal or disturb the papers in some way).
+              When using this feat to decipher sealed letters, your attempt to
+              Decipher Writing gains the manipulate trait. This feat doesn’t
+              prevent witnesses from noticing your efforts, particularly with
+              sealed letters which you must manipulate directly in order to
+              read; you might need to attempt Deception or Stealth checks to
+              avoid being noticed.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Criminal",
+    source: "Core rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Experienced Smuggler",
+    description: (
+      <span>
+        As an unscrupulous independent or as a member of an underworld
+        organization, you lived a life of crime. You might have become an
+        adventurer to seek redemption, to escape the law, or simply to get
+        access to bigger and better loot.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Crown of chaos",
+    source: "Stolen fate: player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma"],
+    skillTraining: ["Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        Your life was one of tumult and mayhem, but you don’t see this as a bad
+        thing. Perhaps you lived life on the road as part of an ever-changing
+        group, such as being a member of a traveling circus or part of a
+        years-long pilgrimage with a group of explorers. Maybe you were a member
+        of a large family and found the best way to get attention was to be
+        unpredictable. Or you could have grown up in a region where society had
+        collapsed, such as a war zone or ruined city after a disaster, where you
+        were forced to constantly think on your feet to handle unexpected
+        situations. One thing you’ve certainly excelled at is developing the
+        skill of lying to strangers in order to put them at ease. Is it really a
+        bad thing to lie, after all, if the end result is good for both sides?
+        Or at the very least, good for you?
+        <br />
+        <br />
+        This background is associated with the suit of Crowns.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma, and one is a free
+        ability boost.
+        <br />
+        <br />
+        You gain the Charming Liar skill feat and are trained in a Lore about a
+        specific terrain, as befits where you spent most of your childhood
+        growing up. You also gain the following free action.
+        <br />
+        <br />
+        Chaotic Destiny{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You fail a saving throw during a combat;{" "}
+        <b>Frequency:</b> once per day; Effect Chaos intervenes on your behalf
+        at the last instant as you fail a saving throw. Draw a harrow card and
+        reroll the saving throw you failed. You must take the result of the
+        reroll, but if you drew a card from the suit of Crowns, improve the
+        result by one degree of success.
+        <Feat
+          id={0}
+          name="Charming Liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Crystal Healer",
+    source: "Rage of Elements",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Nature", "Plane of Earth Lore"],
+    feat: "Natural Medicine",
+    description: (
+      <span>
+        Mineral formations can be beautiful things, sparkling and arrayed in
+        geometric configurations. To you, they are also potent natural healing
+        aids. You may have taken up adventuring to prove yourself by healing the
+        ailing or to find new crystals with unique properties to add to your
+        growing collection.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Wisdom or Charisma and one
+        is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Plane of Earth Lore skill.
+        You gain the Natural Medicine skill feat.
+        <Feat
+          id={0}
+          name="Natural Medicine"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You can apply natural cures to heal your allies. You can use
+              Nature instead of Medicine to Treat Wounds. If you’re in the
+              wilderness, you might have easier access to fresh ingredients,
+              allowing you to gain a +2 circumstance bonus to your check to
+              Treat Wounds using Nature, subject to the GM’s determination.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Cultist",
+    source: "Advanced player's guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Occultism", "Lore"],
+    feat: "Schooled in Secrets",
+    description: (
+      <span>
+        You were (or still are) a member of a cult whose rites may involve
+        sacred dances to ensure a strong harvest or dire rituals that call upon
+        dark powers. You might have taken up adventuring to further your cult’s
+        aims, to initiate yourself into the world’s grander mysteries, or to
+        flee unsavory practices or strictures.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Lore skill related to your
+        deity or cult. You gain the Schooled in Secrets skill feat.
+        <Feat
+          id={0}
+          name="Schooled in Secrets"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You notice the signs and symbols that members of mystery cults and
+              other secret societies use to declare their affiliation to fellow
+              members. You can use Occultism in place of Diplomacy to Gather
+              Information about such groups. If you belong to a secret cult,
+              lodge, sect, or similar organization, you automatically recognize
+              members of your group unless they are specifically attempting to
+              conceal their presence from you.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Curandero",
+    source: "Book of the dead",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Herbalism Lore"],
+    feat: "Inoculation",
+    description: (
+      <span>
+        You learned the healing arts of your community wielding your ceremonial
+        chonta, a tool you carved yourself and imbued with sacred oils and
+        herbs. This process opened your eyes to ailments of a more mystical
+        nature: malefic spirits, haunts, possession, and more. You likely took
+        up adventuring to combat these horrors, or you may have fled an evil
+        beyond your power to vanquish.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Herbalism Lore skill. You
+        gain the Inoculation skill feat.
+        <Feat
+          id={0}
+          name="Inoculation"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              You have practice combating plague, and your patients are less
+              likely to succumb to the same disease again for a time. When you
+              successfully Treat a Disease on someone and they fully recover
+              from the disease, they gain a +2 circumstance bonus to saving
+              throws against that same disease for 1 week.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Cursed",
+    source: "Advanced player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Occultism", "Curse Lore"],
+    feat: "Inoculation",
+    description: (
+      <span>
+        You are the victim of a personal or hereditary curse. Through great
+        effort and occult study, you have learned to fend off the curse’s worst
+        effects and, by extension, you can protect yourself against other
+        harmful magic. However, the curse still hangs over you and sometimes
+        manifests in dangerous ways.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in Occultism and Curse Lore. You gain the Warding Sign
+        reaction. You and the GM should determine the full effects of the curse,
+        though you’ve staved most of them off for now. The GM determines the
+        curse’s lingering manifestations on you, which usually include at least
+        a constant or very frequent thematic effect and occasional more
+        dangerous effects.
+        <br />
+        <br />
+        Warding Sign{" "}
+        <img
+          src={require("../assets/img/reaction.png")}
+          alt="reaction icon"
+        />{" "}
+        (concentrate)
+        <br />
+        <br />
+        <b>Frequency:</b> once per minute; <b>Trigger:</b> You attempt a saving
+        throw against a magical effect, but you haven’t rolled yet;{" "}
+        <b>Effect:</b> You call on the power of a personal, eldritch sign of
+        protection, which flares brightly before slowly fading. You gain a +2
+        circumstance bonus to the triggering saving throw, or a +3 circumstance
+        bonus if the effect is a curse.
+      </span>
+    ),
+  },
+  {
+    name: "Cursed family",
+    source: "Lost omens: world guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Occultism", "Curse Lore"],
+    feat: "Oddity Identification",
+    description: (
+      <span>
+        Rumors abound that your family is cursed. While that would explain
+        several unfortunate events in your family history, you may or may not
+        believe it. Regardless, odd coincidences plague your lineage, and
+        perhaps even appear in your own life, and you have become used to
+        spotting strangeness around you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Curse Lore skill. You gain
+        the Oddity Identification skill feat.
+        <Feat
+          id={0}
+          name="Oddity Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
             </span>
           }
         />
