@@ -5065,7 +5065,7 @@ export const backgrounds: Array<Background> = [
   },
   {
     name: "Ex-con token guard",
-    source: "Agents of Edgewatch: Player's Guide",
+    source: " trained in Arcana, Nature, Occultism, or Religion",
     tags: [],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Thievery", "Legal Lore"],
@@ -8236,6 +8236,707 @@ export const backgrounds: Array<Background> = [
         <br />
         <br />
         You’re trained in the Society skill and the Politics Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Labrorer",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Labor Lore"],
+    feat: "Hefty Hauler",
+    description: (
+      <span>
+        You’ve spent years performing arduous physical labor. It was a difficult
+        life, but you somehow survived. You may have embraced adventuring as an
+        easier method to make your way in the world, or you might adventure
+        under someone else’s command.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Labor Lore skill. You gain
+        the Hefty Hauler skill feat.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Lastwall Survivor",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Undead Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        You managed to escape the devastation that the Whispering Tyrant brought
+        to your nation, but you lost everything to the lich-king’s minions,
+        including your home and many friends and family.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Undead Lore skill. You gain
+        the Battle Medicine skill feat.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Learned guard prodigy",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana or Occultism", "Legal Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        For some, the nuts and bolts of keeping the peace are practically second
+        nature. Such is the case for you, a member of the Learned Guard with an
+        incredible mind for investigation as well as a gift for understanding
+        magic. You probably aren’t a hit with your peers, who find your
+        intellect and natural gift of deduction perhaps a bit off-putting, but
+        when left to your own devices you excel, and you get along well with
+        professors and mages such as those who work in Forae Logos or the
+        Arcanamirium.
+        <br />
+        <br />
+        After no shortage of debating the pros and cons, you decided to transfer
+        to the Edgewatch precinct. Sure, you have a keen understanding of the
+        theories and principles behind law enforcement, but you’ve reasoned that
+        in order to be a truly effective guard you’ll need some first-hand
+        experience in a high-risk area nabbing suspects and protecting
+        innocents— all the while taking fastidious notes and writing your grand
+        thesis on the merits and shortcomings of Absalom’s laws.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Arcana or Occultism skill, as well
+        as Legal Lore. You gain a +1 circumstance bonus to Deception, Diplomacy,
+        and Intimidation checks to interact with Learned Guards and with
+        academics such as librarians and scholars. You gain the Recognize Spell
+        skill feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Legacy of the hammer",
+    source: "Dark Archive",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Thievery", "Engineering Lore"],
+    feat: "Concealing Legerdemain",
+    description: (
+      <span>
+        Your introduction to the criminal life was spurred forward by a
+        seemingly innocuous hammer that provided you with all kinds of
+        innovative criminal ideas. It has since left your possession, but every
+        now and then you hear a faint whisper urging you toward crime.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and Engineering Lore. You gain the
+        Concealing Legerdemain skill feat.
+        <Feat
+          id={0}
+          name="Concealing Legerdemain"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery
+              </span>
+              <br />
+              Rather than hide an object somewhere the inspectors won’t search,
+              you’re skilled at keeping the object on the move so it’s never
+              where they look. When you Conceal an Object of light Bulk or less,
+              you can use Thievery instead of Stealth for your checks and for
+              the DC of an active searcher’s Perception check. You roll the
+              check only once, but you must continue to use actions to Conceal
+              an Object throughout the process.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Legendary parents",
+    source: "Broken Promises",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Intimidation", "Genealogy Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        One or more of your parents (either biological or adoptive) were heroes
+        of the Age of Ashes Adventure Path. Others tend to treat you with a bit
+        more respect, or perhaps fear your connections to people of great power.
+        <br />
+        <br />
+        Choose two ability boosts. One must be in Dexterity or Charisma, and the
+        other is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Genealogy Lore skill.
+        You gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Legendary parents",
+    source: "Broken Promises",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Intimidation", "Genealogy Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        One or more of your parents (either biological or adoptive) were heroes
+        of the Age of Ashes Adventure Path. Others tend to treat you with a bit
+        more respect, or perhaps fear your connections to people of great power.
+        <br />
+        <br />
+        Choose two ability boosts. One must be in Dexterity or Charisma, and the
+        other is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Genealogy Lore skill.
+        You gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Lesser Scion",
+    source: "Broken Promises",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Diplomacy", "Heraldry Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        You are the youngest child in a noble house (in Cheliax, Isger, or
+        Andoran) and stand to inherit nothing from your family. Although you
+        have a minor title, it affords you no lands or wealth, but it has
+        garnered you a small amount of respect and deference in your travels.
+        When play begins, you are riding in a caravan bound for Almas, where a
+        cousin has promised to allow you to stay with them for a month.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Diplomacy skill and the Heraldry Lore skill. You
+        gain the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Local Brigand",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Intimidation", "Banditry Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        You hail from the River Kingdoms or the more lawless reaches of Brevoy.
+        Your life has been hard. You know how to ambush travelers, bully
+        traders, avoid the law, and camp where no one can find you. Recently,
+        you’ve run into some trouble, either with the law or with other bandits,
+        and you’re looking to get away to somewhere no one would ever think to
+        look for you. An expedition into the rugged wilderness seems like a
+        perfect way to lie low until the trouble blows over.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Banditry Lore skill.
+        You gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Local Scion",
+    source: "Age of Ashes: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Crafting", "Breachill Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        You’re from Breachill and have lived there most, if not all, of your
+        life. You might be the son or daughter of a well-known local adventuring
+        family, or a family with a storied tradition of military or other
+        martial service. You likely also have some sort of skill with your
+        hands, as the people of Breachill are very self-sufficient.
+        <br />
+        <br />
+        The Call for Heroes is one of your hometown’s most iconic traditions,
+        and you want to attend so you can prove your own merits to the
+        council—beyond simply those of your family’s name.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Constitution or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Breachill Lore skill. You
+        gain the Specialty Crafting skill feat.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>Artistry</td>
+                    <td>Fine art, including jewelry</td>
+                  </tr>
+                  <tr>
+                    <td>Blacksmithing</td>
+                    <td>Durable metal goods, including metal armor</td>
+                  </tr>
+                  <tr>
+                    <td>Bookmaking</td>
+                    <td>Books and paper</td>
+                  </tr>
+                  <tr>
+                    <td>Glassmaking</td>
+                    <td>Glass, including glassware and windows</td>
+                  </tr>
+                  <tr>
+                    <td>Leatherworking</td>
+                    <td>Leather goods, including leather armor</td>
+                  </tr>
+                  <tr>
+                    <td>Pottery</td>
+                    <td>Ceramic goods</td>
+                  </tr>
+                  <tr>
+                    <td>Shipbuilding</td>
+                    <td>Ships and boats</td>
+                  </tr>
+                  <tr>
+                    <td>Stonemasonry</td>
+                    <td>Stone goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>Tailoring</td>
+                    <td>Clothing</td>
+                  </tr>
+                  <tr>
+                    <td>Weaving</td>
+                    <td>Textiles, baskets, and rugs</td>
+                  </tr>
+                  <tr>
+                    <td>Woodworking</td>
+                    <td>Wooden goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Lost and Alone",
+    source: "The Fall of Plaguestone",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidate", "Warfare Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        You were training to become a knight in Lastwall when the Whispering
+        Tyrant escaped his imprisonment and destroyed the nation. It was only by
+        dumb luck that you are alive at all, but the memories of that fateful
+        day haunt your dreams. When play begins, you have boarded a caravan
+        heading toward a new town, having worn out your welcome at the taverns
+        and inns of Elidir.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Intimidate skill and the Warfare Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Lost loved one",
+    source: "Gatewalker's Players Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Society", "Genealogy Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        You see your life as naturally divided into two chapters: in one, the
+        love-limned, halcyon days of yesteryear, in the other, the day you lost
+        the person most important to you, plus every aching moment thereafter.
+        When you saw a vision of your lost loved one in a glowing portal on the
+        night of the Missing Moment, you knew it was too good to be true. But
+        you couldn’t help yourself, either, so you walked through the door, one
+        grasping hand outstretched in anticipation. You don’t know what happened
+        on the other side of the arch, but your hand seems to. Like a ghostly
+        fragment of your missing loved one, you can summon an ethereal hand to
+        reach out from your body. Though it’s a pale imitation of the warmth you
+        once felt in your dearly departed’s presence, you do find this new hand
+        somehow comforting, in a way.
+        <br />
+        <br />
+        Your deviant abilities are of the wraith classification. You gain the
+        Ghostly Grasp deviant feat. As a quirk, whenever you use a deviant
+        ability, a low, rattling moan emanates from some unseen maw in your
+        vicinity.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Genealogy Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Lumber consortium laborer",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Society", "Genealogy Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        You see your life as naturally divided into two chapters: in one, the
+        love-limned, halcyon days of yesteryear, in the other, the day you lost
+        the person most important to you, plus every aching moment thereafter.
+        When you saw a vision of your lost loved one in a glowing portal on the
+        night of the Missing Moment, you knew it was too good to be true. But
+        you couldn’t help yourself, either, so you walked through the door, one
+        grasping hand outstretched in anticipation. You don’t know what happened
+        on the other side of the arch, but your hand seems to. Like a ghostly
+        fragment of your missing loved one, you can summon an ethereal hand to
+        reach out from your body. Though it’s a pale imitation of the warmth you
+        once felt in your dearly departed’s presence, you do find this new hand
+        somehow comforting, in a way.
+        <br />
+        <br />
+        Your deviant abilities are of the wraith classification. You gain the
+        Ghostly Grasp deviant feat. As a quirk, whenever you use a deviant
+        ability, a low, rattling moan emanates from some unseen maw in your
+        vicinity.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Genealogy Lore skill. You
         gain the Multilingual skill feat.
         <Feat
           id={0}
