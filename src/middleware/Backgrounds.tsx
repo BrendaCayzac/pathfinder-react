@@ -6150,4 +6150,587 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Gambler",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Deception", "Games Lore"],
+    feat: "Lie to Me",
+    description: (
+      <span>
+        The thrill of the win drew you into games of chance. This might have
+        been a lucrative sideline that paled in comparison to the real risks of
+        adventuring, or you might have fallen on hard times due to your gambling
+        and pursued adventuring as a way out of a spiral.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Games Lore skill. You gain
+        the Lie to Me skill feat.
+        <Feat
+          id={0}
+          name="Lie to Me"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              You can use Deception to weave traps to trip up anyone trying to
+              deceive you. If you can engage in conversation with someone trying
+              to Lie to you, use your Deception DC if it is higher than your
+              Perception DC to determine whether they succeed. This doesn’t
+              apply if you don’t have a back-and-forth dialogue, such as when
+              someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Geb crusader",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Religion", "Undead Lore"],
+    feat: "Student of the Canon",
+    description: (
+      <span>
+        You grew up considering the existence of the undead nation of Geb an
+        atrocity and trained to one day take part in destroying it and putting
+        its vile inhabitants to their final rest. Key to your preparations is a
+        thorough study of Pharasma, Urgathoa, and other undead-related deities
+        and their philosophies.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Undead Lore skill. You gain
+        the Student of the Canon skill feat.
+        <Feat
+          id={0}
+          name="Student of the Canon"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Religion.
+              </span>
+              You’ve researched many faiths enough to recognize notions about
+              them that are unlikely to be true. If you roll a critical failure
+              at a Religion check to Decipher Writing of a religious nature or
+              to Recall Knowledge about the tenets of faiths, you get a failure
+              instead. When attempting to Recall Knowledge about the tenets of
+              your own faith, if you roll a failure, you get a success instead,
+              and if you roll a success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Genie Blessed",
+    source: "Secrets of Magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma"],
+    skillTraining: ["Diplomacy", "Genie Lore"],
+    feat: "",
+    description: (
+      <span>
+        You’ve sought out a powerful genie and requested their blessing, hoping
+        to increase your fortune. Your wish was vague, but fortune and the genie
+        favored you with a more powerful effect than an ordinary wish, granting
+        you bits of wish-twisted luck throughout the rest of your life.
+        Meanwhile, other genies of the same kind recognize you as one blessed by
+        one of their most powerful nobles, and might treat you with greater
+        respect or envy.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma, and one is a free
+        ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Genie Lore skill. You gain
+        the Wish for Luck free action.
+        <br />
+        <br />
+        Wish for Luck{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one icon icon"
+        />{" "}
+        (arcane, auditory, divination, fortune)
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You are about to roll an
+        attack roll, saving throw, or skill check; <b>Effect:</b> You wish aloud
+        for success. Roll the check twice and take the higher result.
+      </span>
+    ),
+  },
+  {
+    name: "Gladiator",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Performance", "Gladiatorial Lore"],
+    feat: "Impressive Performance",
+    description: (
+      <span>
+        The bloody games of the arena taught you the art of combat. Before you
+        attained true fame, you departed—or escaped—the arena to explore the
+        world. Your skill at drawing both blood and a crowd’s attention pay off
+        in a new adventuring life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and the Gladiatorial Lore skill.
+        You gain the Impressive Performance skill feat.
+        <Feat
+          id={0}
+          name="Impressive Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              Your performances inspire admiration and win you fans. You can
+              Make an Impression using Performance instead of Diplomacy.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Goblinblood Orphan",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Constitution"],
+    skillTraining: ["Survival", "Goblin Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        Your family, whether goblin, hobgoblin, or human, died in the
+        Goblinblood Wars. Though you were marked by these losses, you managed to
+        survive through your own resilience and resourcefulness.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Goblin Lore skill. You gain
+        the Assurance skill feat with Survival.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Godless Graycloak",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Religion", "Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        You were a member of a church once, and you saw some things among
+        Absalom’s religious elite that put you off piety for good. Maybe it was
+        one too many beggars turned away at the temple’s front door, or maybe it
+        was a high-ranking priests consistent abuses of power. What got to you
+        most, though, was that according to just about every belief system out
+        there, sinners and saints, priests and paupers were all alike in one key
+        way: they never saw retribution or accolades until buried 6 feet under.
+        You wanted more from Absalom. You wanted more from the world. You wanted
+        justice now, on this plane, not in some indeterminate afterlife. So you
+        left the church and wandered the city, a ghost of your former self.
+        <br />
+        <br />
+        You finally found a like mind in Captain Runewulf, “the Unbeliever,”
+        whose reputation and similar distaste for religion inspired you to join
+        the Graycloaks. As a sworn protector of the Ascendant Court, you didn’t
+        differentiate between Sarenites or Pharasmins, Iomedaeans or
+        Norgorberites; if you saw someone in danger, you put your life on the
+        line to save them, whatever their place within or outside a church.
+        <br />
+        <br />
+        Your good record has earned you a transfer—temporary or not, the choice
+        is yours—to the newly formed Edgewatch, where you’ll use your authority
+        to guard the lives of not just Absalomians, but all who have come to
+        your grand city to experience its wonders. Choose two ability boosts.
+        One must be to Constitution or Wisdom, and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and your choice of a specific
+        religion Lore skill (such as Iomedae Lore or Norgorber Lore). You gain a
+        +1 circumstance bonus to Deception, Diplomacy, and Intimidation checks
+        to interact with Graycloaks, priests, and clerics. You gain the Quick
+        Identification feat.
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Goldhand arms dealer",
+    source: "LGuns & Gears",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Diplomacy", "Mercantile Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        You’re a dwarven agent of the Goldhand Lodge, a collection of dwarven
+        merchants based out of Dongun Hold who seeks to sell guns far and wide.
+        High King Anong Arunak hasn’t expressed approval for such a method of
+        distribution yet, but in the meantime you’re still out and about,
+        talking up your wares and occasionally providing visceral demonstrations
+        of the overwhelming stopping power of your firearms. These
+        demonstrations and sales have given you a taste for adventure, and the
+        constant threat of piracy has convinced you of the importance of
+        adventuring with a group.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Diplomacy and Mercantile Lore. You gain the Group
+        Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Grand council bureaurat",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Charisma", "Intelligence"],
+    skillTraining: ["Diplomacy", "Government Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        You spent years working as a clerk to a functionary in Absalom’s
+        government. Your service taught you a thing or two about rousing
+        speeches and manipulating the city’s bureaucracy.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Government Lore skill. You
+        gain the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Grave robber",
+    source: "Book of the Dead",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Experienced Smuggler",
+    description: (
+      <span>
+        Resurrectionist. Body snatcher. No matter what you’re called, you know
+        where the bodies are buried, and how many coins they’ll fetch when dug
+        up. Adventuring comes naturally to you—in your mind dungeons are just
+        oversized tombs—as does returning home with your loot undetected.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Grizzled muchrucker",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Survival", "Labor Lore or Underworld Lore"],
+    feat: "Experienced Tracker",
+    description: (
+      <span>
+        You’ve served on the Muckruckers, the unofficial guards of the flooded
+        Puddles district. The pay’s no good, the conditions are squalid, and
+        you’ve seen things during your time on the force that’ve made you
+        question your career entirely. Perhaps you joined the group out of a
+        sense of duty to your fellow Absalomians, or maybe you felt an
+        obligation to help restore your apocalyptic home district to some
+        semblance of normalcy. Either way, the traumas you’ve endured, the
+        double-crossers who’ve betrayed you, the wretched monsters that have
+        crawled out of the muck to assail you—it’s enough to turn an officer to
+        weary cynicism or self-destruction through merciful drink.
+        <br />
+        <br />
+        Thankfully, you found an out: an invitation to transfer to the newly
+        formed Edgewatch. You accepted the offer in the hope that some fresh
+        experience in a new district, surrounded by new people, might reignite
+        the hope and passion you felt for the job so long ago.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill, as well as either Labor Lore or
+        Underworld Lore. You gain a +1 circumstance bonus to Deception,
+        Diplomacy, and Intimidation checks to interact with Muckruckers,
+        mercenaries, and adventurers. You gain the Experienced Tracker skill
+        feat.
+        <Feat
+          id={0}
+          name="Experienced Tracker"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Tracking is second nature to you, and when necessary you can
+              follow a trail without pause. You can Track while moving at full
+              Speed by taking a –5 penalty to your Survival check. If you’re a
+              master in Survival, you don’t take the –5 penalty. If you’re
+              legendary in Survival, you no longer need to roll a new Survival
+              check every hour when tracking, though you still need to roll
+              whenever there are significant changes in the trail.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Guard",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Legal Lore or Warfare Lore"],
+    feat: "Quick Coercion",
+    description: (
+      <span>
+        You served in the guard, out of either patriotism or the need for coin.
+        Either way, you know how to get a difficult suspect to talk. However you
+        left the guard, you might think of adventuring as a way to use your
+        skills on a wider stage.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Legal Lore or Warfare
+        Lore skill. You gain the Quick Coercion skill feat.
+        <Feat
+          id={0}
+          name="Quick Coercion"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can bully others with just a few choice implications. You can
+              Coerce a creature after 1 round of conversation instead of 1
+              minute. You still can’t Coerce a creature in the midst of combat,
+              or without engaging in a conversation.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Gunsmith",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Dexterity"],
+    skillTraining: ["Crafting", "Engineering Lore"],
+    feat: "Quick Repairn",
+    description: (
+      <span>
+        From a young age, you apprenticed to an experienced gunsmith and over
+        time your skill and knowledge rose to match that of your master. Today,
+        you can easily repair, modify, or improve nearly any firearm you’ve seen
+        before, and even if you haven’t seen it, you’ll break it down to learn
+        about what makes it tick in no time. You’ve taken those skills on the
+        road, using them to assist yourself and your allies as an adventurer
+        when it comes to maintaining their weapons, shields, armor, and more.
+        <br />
+        <br />
+        Choose two ability boosts. One of these boosts must be to Intelligence
+        or Dexterity, and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Engineering Lore skill. You
+        gain the Quick Repair skill feat.
+        <Feat
+          id={0}
+          name="Quick Repair"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You take 1 minute to Repair an item. If you’re a master in
+              Crafting, it takes 3 actions. If you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
