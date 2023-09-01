@@ -6733,4 +6733,968 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Hammered by fate",
+    source: "Stolen Fate: Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength"],
+    skillTraining: ["Daemon Lore, Demon Lore, or Devil Lore"],
+    feat: "Hefty Hauler",
+    description: (
+      <span>
+        Your life has been difficult, in no small part due to the influence of
+        all things fiendish in your past. You might be a tiefling whose heritage
+        has resulted in you being shunned or ostracized by society, or you could
+        be any ancestry who grew up in a land where fiendish influence
+        lingers—such as devil-haunted Cheliax or the realm of Sarkoris Scar,
+        where the influence of the Worldwound and its demonic invaders yet
+        linger. Perhaps you carry an old scar or wound from a frightening
+        encounter with a demon, have a fiend-related element as part of your
+        class (such as a sorcerer bloodline or a fiendish patron whom you
+        worship), or endured a long‑term affliction from a fiendish source that
+        only recently has been alleviated. Whatever the case, fate has thrown
+        horror and terror at you at every turn, and that’s taught you to always
+        be ready for whatever those fiends might have in store for you next.
+        <br />
+        <br />
+        This background is associated with the suit of Hammers.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength, and one is a free
+        ability boost.
+        <br />
+        <br />
+        You gain the Hefty Hauler skill feat and are trained in one of the
+        following Lore skills, as fits your history: Daemon Lore, Demon Lore, or
+        Devil Lore. You also gain the following free action.
+        <br />
+        <br />
+        Harrow the Fiend{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You start your turn in combat against a foe or foes you
+        recognize to be fiends; <b>Frequency:</b> once per day; <b>Effect:</b>{" "}
+        You gain a +1 status bonus on all Strikes or spell attack rolls against
+        fiends for the duration of combat. Once during combat, you can draw a
+        harrow card after you determine if a Strike or spell attack on a fiend
+        hits but before you determine damage or effects caused to the fiend. If
+        you draw a card from the suit of Hammers, increase the degree of success
+        of your Strike or spell attack by one.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Harbor Guard Moonlighter",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Sailing Lore or Hunting Lore"],
+    feat: "Quick Jump",
+    description: (
+      <span>
+        The Harbor Guard isn’t known for being the most honorable precinct in
+        town. A few years after you joined the force, you became disillusioned
+        by the rampant corruption within the precinct and the district at large.
+        One night, you stumbled on an ad for a local monster hunter’s guild. You
+        joined on a whim, but fell in love with the swashbuckling lifestyle of
+        an independent bounty hunter. You’ve since earned quite a reputation for
+        your nocturnal adventures; everyone still knows that you’re a Harbor
+        Guard, but stories of your dungeondelving adventures have long
+        overshadowed that facet of your life. Unfortunately, long nights of
+        monster‑hunting have negatively impacted your performance at your day
+        job, so maybe it wasn’t a surprise when your supervising officer put in
+        a transfer request for you, spelling the end of your plucky nighttime
+        antics with that particular guild.
+        <br />
+        <br />
+        Despite the decline in your performance, Lieutenant Lavarsus of
+        Edgewatch sees potential (and even, maybe, a bit of himself) in you.
+        You’re eager to be on a new unit and for the chance to bring your
+        monster-hunting skills to a district that has been plagued by such
+        supernatural beasts for far too long.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and your choice of Sailing Lore or
+        Hunting Lore. You gain a +1 circumstance bonus to Deception, Diplomacy,
+        and Intimidation checks to interact with Harbor Guards, ship captains,
+        and freelance adventurers. You gain the Quick Jump skill feat.
+        <Feat
+          id={0}
+          name="Quick Jump"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can use High Jump and Long Jump as a single action instead of
+              2 actions. If you do, you don’t perform the initial Stride (nor do
+              you fail if you don’t Stride 10 feet).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Harrow-chosen",
+    source: "The Worst of All Possible Worlds",
+    tags: ["rare"],
+    abilityBoost: [
+      "Free",
+      "Strength",
+      "Dexterity",
+      "Constitution",
+      "Intelligence",
+      "Wisdom",
+      "Charisma",
+    ],
+    skillTraining: [],
+    feat: "",
+    description: (
+      <span>
+        Unbeknownst to you, a powerful divination has confirmed that you’re
+        destined for greatness. This divination hints at a great potential
+        you’re only just beginning to understand.
+        <br />
+        <br />
+        Select one card from the harrow deck and note its suit and alignment.
+        The suit is connected to a specific ability score (hammers [Strength],
+        keys [Dexterity], shields [Constitution], books [Intelligence], stars
+        [Wisdom], crowns [Charisma]).
+        <br />
+        <br />
+        Choose two ability boosts. One must be to the ability score tied to your
+        card’s suit and one is a free ability boost.
+        <br />
+        <br />
+        You gain the ability to cast a common occult innate cantrip of your
+        choice and can cast the cantrip at will. A cantrip is heightened to a
+        spell level equal to half your level rounded up. When casting the
+        cantrip, you can empower it as a free action, tapping into the power of
+        the harrow to grant you additional benefits while drawing a card from a
+        harrow deck as part of the actions taken to Cast the Spell. This benefit
+        is determined by alignment of the card you draw from the deck. The card
+        can match both alignment components with yours (true match), match a
+        single alignment component with yours (partial match), have no matching
+        alignment components (unmatched), or have a diametrically opposed
+        alignment to yours (misaligned). If you empower your cantrip in this
+        way, you can’t cast that cantrip again until your next daily
+        preparations.
+        <br />
+        <br />
+        <b>True match:</b> You gain a +1 circumstance bonus to a saving throw of
+        your choice (Fortitude, Reflex, or Will) for 1 minute.
+        <br />
+        <br />
+        <b>Partial match:</b> You gain resistance to one energy type (acid,
+        cold, electricity, fire, or sonic) equal to your level for 1 minute.
+        <br />
+        <br />
+        <b>Unmatched:</b> You gain temporary Hit Points equal to twice your
+        level. The temporary Hit Points remain for 1 minute.
+        <br />
+        <br />
+        <b>Misaligned:</b> You gain a +5-foot circumstance bonus to your Speeds
+        for 1 minute.
+      </span>
+    ),
+  },
+  {
+    name: "Harrow-led",
+    source: "Assault on Hunting Lodge",
+    tags: [""],
+    abilityBoost: ["Free", "Free"],
+    skillTraining: ["Occultism, Performance, or Society", "Harrow Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        You were the subject of a harrow reading at a pivotal point in your
+        life, such as on an important birthday, or upon reaching adulthood. The
+        reading was eerily accurate and has been relevant, for good or ill, at
+        more points in your life than you could call mere coincidence.
+        <br />
+        <br />
+        Randomly determine two harrow suits tied to your character, each
+        reflecting a specific ability score. You can do so by drawing cards from
+        a harrow deck or by rolling a d6: 1 = hammers (Strength), 2 = keys
+        (Dexterity), 3 = shields (Constitution), 4 = books (Intelligence), 5 =
+        stars (Wisdom), 6 = crowns (Charisma). The first suit is your aligned
+        score, and the second suit is your misaligned score.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to your aligned or misaligned
+        score, and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Occultism, Performance, or Society
+        skill and the Harrow Lore skill. You gain the Dubious Knowledge skill
+        feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Haunted",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Occultism", "Additional Skill"],
+    feat: "",
+    description: (
+      <span>
+        You are followed by a spirit or entity, either from childhood or since a
+        traumatic or momentous event. You may have seen this entity. Others may
+        have seen it as well. You have studied esoteric subjects trying to
+        understand your situation, but this presence in your life remains a
+        mystery. Whatever this entity is or wants, it influences your life in
+        subtle ways, not always good. Sometimes the entity helps you, but at
+        other times, its influence is malevolent or harmful. The entity is most
+        likely to surface in stressful situations.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in Occultism and an additional skill in which the
+        haunting entity is well-versed, determined by the GM. Any time you
+        attempt a skill check for the entity’s skill, the GM can offer you a +1
+        circumstance bonus to the check, as though the entity were Aiding you.
+        If you accept but fail the check, you are frightened 2 (frightened 4 on
+        a critical failure). The initial frightened value can’t be reduced by
+        effects that would reduce or prevent the condition (such as a fighter’s
+        bravery).
+      </span>
+    ),
+  },
+  {
+    name: "Haunted citizen",
+    source: "Book of the Dead",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy", "Lore"],
+    feat: "No Cause for Alarm",
+    description: (
+      <span>
+        You grew up in a region where undead lurk everywhere. This could be a
+        domain as small as a vampire’s fief or as vast as the nation of Ustalav.
+        As an ever-present concern, the undead greatly shaped your life. Living
+        with fear became an everyday skill... as did pleading for your life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Lore skill for your home
+        settlement. You gain the No Cause for Alarm skill feat.
+        <Feat
+          id={0}
+          name="No Cause for Alarm"
+          tags={[
+            "auditory",
+            "concentrate",
+            "emotion",
+            "general",
+            "linguistic",
+            "mental",
+            "skill",
+          ]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You attempt to reduce panic. Attempt a Diplomacy check, comparing
+              it to the Will DC of creatures in a 10-foot emanation around you
+              who are frightened. Each of them is temporarily immune for 1 hour.
+              <br />
+              <br />
+              <b>Critical Success:</b> Reduce the creature’s frightened value by
+              2.
+              <br />
+              <br />
+              <b>Success:</b> Reduce the creature’s frightened value by 1.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Haunting vision",
+    source: "Age of Ashes: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Religion", "Dahak Lore"],
+    feat: "Student of the Canon",
+    description: (
+      <span>
+        You’ve been haunted by frightening dreams of fires your whole life. This
+        could be the result of a past, near-death experience with fire or it
+        might have no obvious source that you know of. Recently, you stumbled
+        upon an image, story, or other omen featuring the dragon god of
+        destruction, Dahak, and you were struck with an unnerving sense of deja
+        vu—you’ve come to think that the draconic deity might have something to
+        do with your dreams, and as such have been studying all you can about
+        the god. Your visions have bolstered your faith as well; even if you
+        don’t worship a specific deity, you have a deep passion for matters of
+        faith.
+        <br />
+        <br />
+        Your latest dream, for the first time, had enough details to identify
+        its setting—in this last dream, you saw the town of Breachill burning.
+        You’ve decided to join the Call for Heroes hoping to save the town you
+        fear might burn to the ground soon.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Constitution or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Dahak Lore skill. You gain
+        the Student of the Canon skill feat.
+        <Feat
+          id={0}
+          name="Student of the Canon"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Religion.
+              </span>
+              <br />
+              You’ve researched many faiths enough to recognize notions about
+              them that are unlikely to be true. If you roll a critical failure
+              at a Religion check to Decipher Writing of a religious nature or
+              to Recall Knowledge about the tenets of faiths, you get a failure
+              instead. When attempting to Recall Knowledge about the tenets of
+              your own faith, if you roll a failure, you get a success instead,
+              and if you roll a success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hellknight Historian",
+    source: "Age of Ashes: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Society", "Architecture Lore"],
+    feat: "Courtly Graces",
+    description: (
+      <span>
+        The various Hellknight Orders intrigue you, whether you seek to become
+        one of their number yourself, wish to oppose their goals at every turn,
+        or are merely inspired by or curious to learn more about them. You’ve
+        heard that when the Order of the Nail abandoned Citadel Altaerein, they
+        left behind the deed to the castle so anyone brave enough to explore the
+        ruins and the defenses no doubt left behind would be rewarded with
+        ownership of the abandoned fortress.
+        <br />
+        <br />
+        You decided to join the Call for Heroes to hoping to gain an opportunity
+        to explore Citadel Altaerein.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Strength or Intelligence, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Architecture Lore skill. You
+        gain the Courtly Graces skill feat.
+        <Feat
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You were raised among the nobility or have learned proper
+              etiquette and bearing, allowing you to present yourself as a noble
+              and play games of influence and politics. You can use Society to
+              Make an Impression on a noble, as well as with Impersonate to
+              pretend to be a noble if you aren’t one. If you want to
+              impersonate a specific noble, you still need to use Deception to
+              Impersonate normally, and to Lie when necessary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Herbalist",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature", "Herbalism Lore"],
+    feat: "Natural Medicine",
+    description: (
+      <span>
+        As a formally trained apothecary or a rural practitioner of folk
+        medicine, you learned the healing properties of various herbs. You’re
+        adept at collecting the right natural cures in all sorts of environments
+        and preparing them properly.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Herbalism Lore skill. You
+        gain the Natural Medicine skill feat.
+        <Feat
+          id={0}
+          name="Natural Medicine"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You can apply natural cures to heal your allies. You can use
+              Nature instead of Medicine to Treat Wounds. If you’re in the
+              wilderness, you might have easier access to fresh ingredients,
+              allowing you to gain a +2 circumstance bonus to your check to
+              Treat Wounds using Nature, subject to the GM’s determination.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hermean Expatriate",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society", "Dragon Lore"],
+    feat: "Skill Training",
+    description: (
+      <span>
+        You have been exiled from Hermea, perhaps of your own accord or perhaps
+        because you didn’t measure up. However, you take with you some of the
+        benefits of the excellent education afforded to its citizenry.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Dragon Lore skill. You gain
+        the Skill Training skill feat.
+        <Feat
+          id={0}
+          name="Skill Training"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> Intelligence 12.
+              </span>
+              <br />
+              You become trained in the skill of your choice.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times, choosing
+              a new skill to become trained in each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hermean Heritor",
+    source: "Broken Promises",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Society", "Legal Lore"],
+    feat: "Multilingual or Assurance",
+    description: (
+      <span>
+        With the restrictions on Hermean citizenship lifted, you may have fled
+        the city of Promise or have spent some of your childhood in the company
+        of someone who did.
+        <br />
+        <br />
+        Choose two ability boosts. One must be in Constitution or Wisdom, and
+        the other is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Legal Lore skill. You gain
+        the Multilingual skill feat or the Assurance skill feat for Society.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hermit",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Occultism", "Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        In an isolated place—like a cave, remote oasis, or secluded mansion—you
+        lived a life of solitude. Adventuring might represent your first foray
+        out among other people in some time. This might be a welcome reprieve
+        from solitude or an unwanted change, but in either case, you’re likely
+        still rough around the edges.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature or Occultism skill, plus a Lore skill
+        related to the terrain you lived in as a hermit (such as Cave Lore or
+        Desert Lore). You gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Highborn Snoop",
+    source: "Lost Omens: Highhelm",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Society", "Guild Lore"],
+    feat: "Courtly Graces",
+    description: (
+      <span>
+        The machinations and scheming of King’s Crown have trained you to be on
+        the lookout for those who seem out of place. You’ve learned to spot when
+        the person pouring your tea has sword calluses—or when the person
+        wearing a guard’s uniform doesn’t.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Dexterity or Intelligence, and
+        the other is a free boost.
+        <br />
+        <br />
+        You’re trained in the Society skill, and the Guild Lore skill. You gain
+        the Courtly Graces skill feat.
+        <Feat
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hired killer",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Terrain Stalker",
+    description: (
+      <span>
+        Your life truly began after your first kill. Maybe you killed in
+        self-defense, maybe it was a crime of passion, or maybe it was just an
+        accident and you were a kid in the wrong place at the wrong time. In the
+        end, the why doesn’t matter. You got away with it. And then you found
+        that maybe it didn’t bother you as much as it should have. And maybe,
+        just maybe, you had a talent you could use to forge a life for yourself.
+        A blood-soaked talent and a blood-soaked life, sure. But it’s yours.
+        <br />
+        <br />
+        Choose two ability boosts. One boost must be to Strength or Dexterity,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Terrain Stalker skill feat, choosing a terrain appropriate for
+        where you make your kills.
+        <Feat
+          id={0}
+          name="Terrain Stalker"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              Select one type of difficult terrain from the following list:
+              rubble, snow, or underbrush. While undetected by all non-allies in
+              that type of terrain, you can Sneak without attempting a Stealth
+              check as long as you move no more than 5 feet and do not move
+              within 10 feet of an enemy at any point during your movement. This
+              also allows you to automatically approach creatures to within 15
+              feet while Avoiding Notice during exploration as long as they
+              aren’t actively Searching or on guard.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different type of terrain.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Historical Reenactor",
+    source: "Sky King's Tomb: Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Performance or Society", "Dwarf Lore"],
+    feat: "Impressive Performance or Dubious Knowledge",
+    description: (
+      <span>
+        To Clan Tolorr, history shouldn’t be dry and boring; it deserves to be
+        engaging and made relevant to the living. You couldn’t agree more!
+        Whether it’s your hobby or career, you’ve developed a reputation for
+        translating the past into the present through demonstrations, period
+        performances, acting out famous events, donning replica armor, and other
+        feats of living history—filling in a few historical blanks if it makes a
+        better show. Having learned of your passion, Clan Tolorr has sponsored
+        your visit to Highhelm so that you can learn from each other. It’s a
+        wonderful opportunity, and Tolorr puppetry arts, storytelling, props,
+        and historical rigor are the stuff of legends. Already, you’ve begun
+        researching dwarven history so that you’re prepared for whatever lies
+        ahead.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in either the Performance skill or the Society skill, and
+        you’re trained in the Dwarf Lore skill. If you selected Performance, you
+        gain the Impressive Performance skill feat. If you chose Society, you
+        gain the Dubious Knowledge skill feat.
+        <br />
+        <br />
+        <b>Connection:</b> Bulgra Veldollow, a matriarch in Clan Tolorr and
+        accomplished puppeteer
+        <br />
+        <br />
+        <b>Reputation Points:</b> +0
+        <Feat
+          id={0}
+          name="Impressive Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              Your performances inspire admiration and win you fans. You can
+              Make an Impression using Performance instead of Diplomacy.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hounded thief",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Thievery", "Underworld Lore"],
+    feat: "Pickpocket",
+    description: (
+      <span>
+        Some time ago, you stole a unique item from a strange individual. It
+        might have been a piece of clockwork from a far-off land or some other
+        bit of strange technology. You might still have it or you might have
+        sold it, but either way, you can’t shake the feeling that you’re being
+        followed and watched, likely by forces who want to retrieve what you
+        took. Luckily, a life of adventure keeps you on the move.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and the Underworld Lore skill. You
+        gain the Pickpocket skill feat.
+        <Feat
+          id={0}
+          name="Impressive Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              Your performances inspire admiration and win you fans. You can
+              Make an Impression using Performance instead of Diplomacy.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Pickpocket"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              You can Steal or Palm an Object that’s closely guarded, such as in
+              a pocket, without taking the –5 penalty. You can’t steal objects
+              that would be extremely noticeable or time consuming to remove
+              (like worn shoes or armor or actively wielded objects). If you’re
+              a master in Thievery, you can attempt to Steal from a creature in
+              combat or otherwise on guard. When doing so, Stealing requires 2
+              manipulate actions instead of 1, and you take a –5 penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Hounded thief",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival", "Tanning Lore"],
+    feat: "Survey Wildlife",
+    description: (
+      <span>
+        You stalked and took down animals and other creatures of the wild.
+        Skinning animals, harvesting their flesh, and cooking them were also
+        part of your training, all of which can give you useful resources while
+        you adventure.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Tanning Lore skill. You
+        gain the Survey Wildlife skill feat.
+        <Feat
+          id={0}
+          name="Survey Wildlife"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              You can study details in the wilderness to determine the presence
+              of nearby creatures. You can spend 10 minutes assessing the area
+              around you to find out what creatures are nearby, based on nests,
+              scat, and marks on vegetation. Attempt a Survival check against a
+              DC determined by the GM based on how obvious the signs are. On a
+              success, you can attempt a Recall Knowledge check with a –2
+              penalty to learn more about the creatures just from these signs.
+              If you’re a master in Survival, you don’t take the penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
