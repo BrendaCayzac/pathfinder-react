@@ -7903,7 +7903,7 @@ export const backgrounds: Array<Background> = [
   },
   {
     name: "Issian Patriot",
-    source: "Lost Omens: World Guide",
+    source: "Kingmaker Adventure path",
     tags: ["rare"],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Society", "Legal Lore"],
@@ -7944,6 +7944,97 @@ export const backgrounds: Array<Background> = [
               significantly higher, but you know the information without
               spending time gathering it. If you fail to recall the information,
               you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Junk collector",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Engineering Lore or Mining Lore"],
+    feat: "Crafter’s Appraisal",
+    description: (
+      <span>
+        You live by the adage that one person’s trash is another’s treasure.
+        Whether by sifting through scrap heaps or digging up old battlefields,
+        you remain on the lookout for lost or discarded objects that you might
+        be able to turn into something useful. More often than not, what you
+        find is just junk... but you’re convinced that one of these days, you’re
+        going to hit the jackpot. You’ve even taken up adventuring as a means to
+        supercharge your access to all sorts of junk, gear, and loot.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and your choice of either the
+        Engineering Lore or Mining Lore skill. You gain the Crafter’s Appraisal
+        skill feat.
+        <Feat
+          id={0}
+          name="Crafter’s Appraisal"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your knowledge of items’ construction allows you to discern their
+              magical effects as well. You can use Crafting instead of a skill
+              associated with a magic tradition to Identify Magic on magic
+              items, though not on any other sorts of magic.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Junker",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Athletics", "Lore"],
+    feat: "Hefty Hauler",
+    description: (
+      <span>
+        You live on the outskirts of civilization, combing through the detritus
+        left behind for interesting trinkets to sell or use in your own
+        crafting. Though you have a preferred terrain to search, you know that
+        the greatest treasures occur where people make greater use of
+        technology.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Lore skill of the terrain
+        in which you scavenge. You gain the Hefty Hauler skill feat.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2
             </span>
           }
         />
