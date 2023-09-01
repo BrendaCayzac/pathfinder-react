@@ -10141,4 +10141,383 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Necromancer's apprentice",
+    source: "Book of the Dead",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Arcana", "Necromancy Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        You apprenticed under a necromancer—a hard education in a field where a
+        cadaver you were dissecting could suddenly animate and every magical
+        artifact seemed deadly. Now on your own, you’re grateful you learned to
+        identify magical threats quickly and thoroughly.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Necromancy Lore skill. You
+        gain the Quick Identification skill feat.
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Newcomer in need",
+    source: "Book of the Dead",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Dexterity"],
+    skillTraining: ["Society", "Goka Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        You’re a Gokan native in a bad spot, and you’re going to need a miracle
+        to get you out of your current fix. Miracles are in short supply, but
+        the title of Ruby Phoenix Champion might just do the trick.
+        <br />
+        <br />
+        Maybe you need the prize money to pay for a relative’s expensive
+        operation or to free your family from debt to Golden League gangsters.
+        Or maybe there’s a particular prize in Hao Jin’s vault that could
+        literally save your life—an amulet you can use to flee to the farthest
+        corners of the multiverse or even an artifact that could resurrect you
+        if you die, just like the Ruby Phoenix.
+        <br />
+        <br />
+        The tough circumstances of your upbringing in one of Goka’s more
+        downtrodden neighborhoods—such as industrial Oldtown, the slums of the
+        Scales district, or even the crime-ridden undercity—taught you lessons
+        of self-reliance and how to quickly make friends in unlikely
+        circumstances. You’ve scraped together an entry into the Ruby Phoenix
+        Tournament’s prequalifier with a team you can trust. Now all that’s left
+        is to pull off the impossible and win this thing once and for all.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Dexterity, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Society and the Goka Lore skill. You gain the
+        Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Nexian Mystic",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana", "Lore"],
+    feat: "Arcane Sense",
+    description: (
+      <span>
+        Your initiations into the Nexian mysteries and the philosophies of the
+        Arclords of Nex grant you a preternatural comprehension of the arcane
+        underpinnings of existence.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and a Lore skill related to one plane
+        of your choice (other than the Material Plane). You gain the Arcane
+        Sense skill feat.
+        <Feat
+          id={0}
+          name="Arcane Sense"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana.
+              </span>
+              <br />
+              Your study of magic allows you to instinctively sense its
+              presence. You can cast 1st-level detect magic at will as an arcane
+              innate spell. If you’re a master in Arcana, the spell is
+              heightened to 3rd level; if you’re legendary, it is heightened to
+              4th leve
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Night Watch",
+    source: "Book of the Dead",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Intimidation", "Legal Lore"],
+    feat: "Quick Coercion",
+    description: (
+      <span>
+        When everyone else slumbers, you’re on guard. You might have been a
+        watch member in a teeming metropolis, the guard in an unquiet cemetery,
+        or a lonely shepherd. Many a night you’ve shouted out warnings into the
+        dark, unsure of what lurked just beyond the range of your lantern’s
+        light. More than once you’ve seen things shambling in the dark that
+        never should have been up and about.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and either Legal Lore or the
+        Lore skill for your home settlement. You gain the Quick Coercion skill
+        feat.
+        <Feat
+          id={0}
+          name="Quick Coercion"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can bully others with just a few choice implications. You can
+              Coerce a creature after 1 round of conversation instead of 1
+              minute. You still can’t Coerce a creature in the midst of combat,
+              or without engaging in a conversation.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Nirmathi Guerrilla",
+    source: "Lost Omens: Wolrd Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Stealth", "Forest Lore"],
+    feat: "Terrain Stalker",
+    description: (
+      <span>
+        Woodcraft comes naturally to you, and you have learned how to use the
+        forest to your tactical advantage against superior forces in skirmishes
+        against the Molthuni army or the Ironfang Legion.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Forest Lore skill. You gain
+        the Terrain Stalker (underbrush) skill feat. feat.
+        <Feat
+          id={0}
+          name="Terrain Stalker"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              Select one type of difficult terrain from the following list:
+              rubble, snow, or underbrush. While undetected by all non-allies in
+              that type of terrain, you can Sneak without attempting a Stealth
+              check as long as you move no more than 5 feet and do not move
+              within 10 feet of an enemy at any point during your movement. This
+              also allows you to automatically approach creatures to within 15
+              feet while Avoiding Notice during exploration as long as they
+              aren’t actively Searching or on guard.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different type of terrain.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Noble",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society", "Genealogy Lore or Heraldry Lore"],
+    feat: "Courtly Graces",
+    description: (
+      <span>
+        To the common folk, the life of a noble seems one of idyllic luxury, but
+        growing up as a noble or member of the aspiring gentry, you know the
+        reality: a noble’s lot is obligation and intrigue. Whether you seek to
+        escape your duties by adventuring or to better your station, you have
+        traded silks and pageantry for an adventurer’s life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and your choice of the Genealogy
+        Lore or Heraldry Lore skill. You gain the Courtly Graces skill feat.
+        <Feat
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Nocturnal Navigator",
+    source: "Lost Omens: Travel Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival"],
+    feat: "",
+    description: (
+      <span>
+        You have a great affinity for the night skies. You watch the stars, and
+        you feel they speak secret messages specifically to you, which help you
+        navigate your surroundings or perhaps determine your next course of
+        action. Often, the stars have led you to places of great adventure,
+        where you find new experiences and challenges. You might have come to
+        make use of your talents as a guide for traveling groups, or maybe you
+        preferred using your talents in pursuing a star-driven journey for
+        personal enlightenment.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Survival. Whenever you can clearly identify the stars,
+        if you roll a success on a check to Sense Direction or otherwise
+        orienteer, you get a critical success instead; if you roll a critical
+        failure at such a check, you get a failure instead.
+      </span>
+    ),
+  },
+  {
+    name: "Noble",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        Traveling far and wide, you picked up basic tactics for surviving on the
+        road and in unknown lands, getting by with few supplies and even fewer
+        comforts. As an adventurer, you travel still, often into even more
+        dangerous places.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and a Lore skill related to one
+        terrain you traveled in (such as Desert Lore or Swamp Lore). You gain
+        the Assurance skill feat with Survival.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
