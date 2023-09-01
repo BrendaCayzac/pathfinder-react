@@ -7953,7 +7953,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Junk collector",
     source: "Guns & Gears",
-    tags: ["rare"],
+    tags: [""],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Crafting", "Engineering Lore or Mining Lore"],
     feat: "Crafter’s Appraisal",
@@ -8001,7 +8001,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Junker",
     source: "Guns & Gears",
-    tags: ["rare"],
+    tags: [""],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Athletics", "Lore"],
     feat: "Hefty Hauler",
@@ -8035,6 +8035,230 @@ export const backgrounds: Array<Background> = [
               <br />
               You can carry more than your frame implies. Increase your maximum
               and encumbered Bulk limits by 2
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Kalistrade follower",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Diplomacy", "Kalistrade Lore"],
+    feat: "Bargain Hunter",
+    description: (
+      <span>
+        You follow the philosophy of the Prophecies of Kalistrade, seeking to
+        build up your wealth in this life so that you might meet the next world
+        on your own terms.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Kalistrade Lore skill. You
+        gain the Bargain Hunter skill feat.
+        <Feat
+          id={0}
+          name="Bargain Hunter"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You can Earn Income using Diplomacy, spending your days hunting
+              for bargains and reselling at a profit. You can also spend time
+              specifically sniffing out a great bargain on an item; this works
+              as if you were using Earn Income with Diplomacy, except instead of
+              gaining money, you purchase the item at a discount equal to the
+              money you would have gained, gaining the item for free if your
+              earned income equals or exceeds its cost. Finally, if you select
+              Bargain Hunter during character creation at 1st level, you start
+              play with an additional 2 gp.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Keys to destiny",
+    source: "Stolen Fate: Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity"],
+    skillTraining: [
+      "Diplomacy",
+      "Art Lore, Engineering Lore, Farming Lore, Herbalism Lore, Labor\n" +
+        "        Lore, Mercantile Lore, Scribing Lore, Theater Lore, or Warfare Lore",
+    ],
+    feat: "Assurance",
+    description: (
+      <span>
+        From as far back as you can remember, it seems you were always meant to
+        enter a specific industry or profession, be it artistry, engineering,
+        farming, herbalism, labor, merchantry, scribing, theater, or warfare.
+        Perhaps your parents belonged to this profession and encouraged you to
+        follow in their footsteps, or maybe a personal hero of yours inspired
+        you to take up their calling in honor of their accomplishments. Whatever
+        the reason, the skills associated with that profession came naturally to
+        you, but as time wore on and you grew older, you began to realize that
+        this profession, while interesting to you, isn’t what you want to do
+        with your life. The lure of glory and adventure beckons. You can always
+        go back to the studio, farm, or stage once you retire, after all!
+        <br />
+        <br />
+        This background is associated with the suit of Keys.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity, and one is a free
+        ability boost.
+        <br />
+        <br />
+        You gain the Assurance general skill feat and are trained in one of the
+        following Lore skills associated with a profession, as befits your
+        history: Art Lore, Engineering Lore, Farming Lore, Herbalism Lore, Labor
+        Lore, Mercantile Lore, Scribing Lore, Theater Lore, or Warfare Lore. You
+        also gain the following free action.
+        <br />
+        <br />
+        Lucky Break <img
+          src={require("../assets/img/one_action.png")}
+          alt=""
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You attempt a skill check during Exploration or
+        Downtime; <b>Frequency:</b> once per day; <b>Effect:</b> Draw a harrow
+        card, then reroll the skill check. If you draw a card from the suit of
+        Keys, add a +4 status bonus to the original roll and your reroll, then
+        take the result you prefer as your actual result. If you drew any other
+        card, you gain no bonus and must take the result of the rerolled skill
+        check.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Kyonin Emissary",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Charisma", "Intelligence"],
+    skillTraining: ["Society", "Politics Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You were trained to be an ambassador of the elven land of Kyonin, and
+        you have now been sent out into the wider world to build alliances
+        between Kyonin and the neighboring kingdoms.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Politics Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Kyonin Emissary",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Charisma", "Intelligence"],
+    skillTraining: ["Society", "Politics Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You were trained to be an ambassador of the elven land of Kyonin, and
+        you have now been sent out into the wider world to build alliances
+        between Kyonin and the neighboring kingdoms.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Politics Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
             </span>
           }
         />
