@@ -6437,7 +6437,7 @@ export const backgrounds: Array<Background> = [
   },
   {
     name: "Goldhand arms dealer",
-    source: "LGuns & Gears",
+    source: "Guns & Gears",
     tags: ["uncommon"],
     abilityBoost: ["Free", "Dexterity", "Charisma"],
     skillTraining: ["Diplomacy", "Mercantile Lore"],
@@ -6488,7 +6488,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Grand council bureaurat",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Charisma", "Intelligence"],
     skillTraining: ["Diplomacy", "Government Lore"],
     feat: "Group Impression",
@@ -6532,7 +6532,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Grave robber",
     source: "Book of the Dead",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Dexterity"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Experienced Smuggler",
@@ -6584,7 +6584,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Grizzled muchrucker",
     source: "Agents of Edgewatch: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Survival", "Labor Lore or Underworld Lore"],
     feat: "Experienced Tracker",
@@ -6646,7 +6646,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Guard",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Intimidation", "Legal Lore or Warfare Lore"],
     feat: "Quick Coercion",
@@ -6690,7 +6690,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Gunsmith",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Dexterity"],
     skillTraining: ["Crafting", "Engineering Lore"],
     feat: "Quick Repairn",
@@ -6934,7 +6934,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Harrow-led",
     source: "Assault on Hunting Lodge",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Free"],
     skillTraining: ["Occultism, Performance, or Society", "Harrow Lore"],
     feat: "Dubious Knowledge",
@@ -7023,7 +7023,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Haunted citizen",
     source: "Book of the Dead",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Diplomacy", "Lore"],
     feat: "No Cause for Alarm",
@@ -7081,7 +7081,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Haunting vision",
     source: "Age of Ashes: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Religion", "Dahak Lore"],
     feat: "Student of the Canon",
@@ -7140,7 +7140,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hellknight Historian",
     source: "Age of Ashes: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Intelligence"],
     skillTraining: ["Society", "Architecture Lore"],
     feat: "Courtly Graces",
@@ -7194,7 +7194,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Herbalist",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Nature", "Herbalism Lore"],
     feat: "Natural Medicine",
@@ -7239,7 +7239,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hermean Expatriate",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Society", "Dragon Lore"],
     feat: "Skill Training",
@@ -7354,7 +7354,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hermit",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Occultism", "Lore"],
     feat: "Dubious Knowledge",
@@ -7402,7 +7402,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Highborn Snoop",
     source: "Lost Omens: Highhelm",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Society", "Guild Lore"],
     feat: "Courtly Graces",
@@ -7448,7 +7448,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hired killer",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Dexterity"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Terrain Stalker",
@@ -7585,7 +7585,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hounded thief",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Thievery", "Underworld Lore"],
     feat: "Pickpocket",
@@ -7652,7 +7652,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Hunter",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Survival", "Tanning Lore"],
     feat: "Survey Wildlife",
@@ -7765,7 +7765,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Inlander",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Survival", "Lore"],
     feat: "Survey Wildlife",
@@ -7812,7 +7812,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Insurgent",
     source: "Advanced Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Deception", "Warfare Lore"],
     feat: "Lengthy Diversion",
@@ -7856,7 +7856,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Issian Partisan",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Deception", "Underworld Lore"],
     feat: "Charming Liar",
@@ -7953,7 +7953,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Junk collector",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Crafting", "Engineering Lore or Mining Lore"],
     feat: "Crafter’s Appraisal",
@@ -8001,7 +8001,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Junker",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Athletics", "Lore"],
     feat: "Hefty Hauler",
@@ -8044,7 +8044,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Kalistrade follower",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Diplomacy", "Kalistrade Lore"],
     feat: "Bargain Hunter",
@@ -8172,7 +8172,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Kyonin Emissary",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Charisma", "Intelligence"],
     skillTraining: ["Society", "Politics Lore"],
     feat: "Assurance",
@@ -8220,7 +8220,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Kyonin Emissary",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Charisma", "Intelligence"],
     skillTraining: ["Society", "Politics Lore"],
     feat: "Assurance",
@@ -8268,7 +8268,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Labrorer",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Constitution"],
     skillTraining: ["Athletics", "Labor Lore"],
     feat: "Hefty Hauler",
@@ -8310,7 +8310,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Lastwall Survivor",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Wisdom"],
     skillTraining: ["Medicine", "Undead Lore"],
     feat: "Battle Medicine",
@@ -8358,7 +8358,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Learned guard prodigy",
     source: "Agents of Edgewatch: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Arcana or Occultism", "Legal Lore"],
     feat: "Recognize Spell",
@@ -8535,53 +8535,9 @@ export const backgrounds: Array<Background> = [
     ),
   },
   {
-    name: "Legendary parents",
-    source: "Broken Promises",
-    tags: ["rare"],
-    abilityBoost: ["Free", "Dexterity", "Charisma"],
-    skillTraining: ["Intimidation", "Genealogy Lore"],
-    feat: "Group Coercion",
-    description: (
-      <span>
-        One or more of your parents (either biological or adoptive) were heroes
-        of the Age of Ashes Adventure Path. Others tend to treat you with a bit
-        more respect, or perhaps fear your connections to people of great power.
-        <br />
-        <br />
-        Choose two ability boosts. One must be in Dexterity or Charisma, and the
-        other is a free ability boost.
-        <br />
-        <br />
-        You’re trained in the Intimidation skill and the Genealogy Lore skill.
-        You gain the Group Coercion skill feat.
-        <Feat
-          id={0}
-          name="Group Coercion"
-          tags={["general", "skill"]}
-          action=""
-          level={1}
-          feat="Feat 1"
-          description={
-            <span>
-              <span className="frequency">
-                <b>Prerequisites:</b> trained in Intimidation.
-              </span>
-              <br />
-              When you Coerce, you can compare your Intimidation check result to
-              the Will DCs of two targets instead of one. It’s possible to get a
-              different degree of success for each target. The number of targets
-              you can Coerce in a single action increases to four if you’re an
-              expert, 10 if you’re a master, and 25 if you’re legendary.
-            </span>
-          }
-        />
-      </span>
-    ),
-  },
-  {
     name: "Lesser Scion",
     source: "Broken Promises",
-    tags: ["rare"],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Diplomacy", "Heraldry Lore"],
     feat: "Hobnobber",
@@ -8678,7 +8634,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Local Scion",
     source: "Age of Ashes: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Charisma"],
     skillTraining: ["Crafting", "Breachill Lore"],
     feat: "Specialty Crafting",
@@ -8798,7 +8754,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Lost and Alone",
     source: "The Fall of Plaguestone",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Charisma"],
     skillTraining: ["Intimidate", "Warfare Lore"],
     feat: "Intimidating Glare",
@@ -8906,7 +8862,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Lumber consortium laborer",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Society", "Genealogy Lore"],
     feat: "Multilingual",
@@ -8960,6 +8916,1225 @@ export const backgrounds: Array<Background> = [
               <br />
               <b>Special:</b> You can select this feat multiple times. Each
               time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Magaambya Academic",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Arcana or Nature", "Academia Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        You studied magic at the prestigious Magaambya academy in Nantambu,
+        learning magical traditions dating back to Old-Mage Jatembe and earning
+        a pedigree respected by magical scholars almost everywhere.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of either the Arcana or Nature skill, as
+        well as the Academia Lore skill. You gain the Recognize Spell skill
+        feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Magical Experiment",
+    source: "Secrets of Magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution"],
+    skillTraining: ["Occultism", "Academia Lore"],
+    feat: "",
+    description: (
+      <span>
+        At some point in your life, powerful people performed magical
+        experiments on you that changed you permanently. You may have signed up
+        for this voluntarily, but it may have been against your will. You still
+        bear the marks, as well as the abilities.
+        <br />
+        <br />
+        You gain one ability boost. It must be to Constitution.
+        <br />
+        <br />
+        You’re trained in Occultism and the Academia Lore skill.
+        <br />
+        <br />
+        You gain one special ability as a result of the magical experimentation.
+        Work with the GM to select an appropriate ability from the following
+        list or to come up with another special ability. feat.
+        <ul>
+          <li>
+            <b>Enhanced Senses:</b> You gain low-light vision (or darkvision if
+            you already had low-light vision) and an imprecise sense with a
+            range of 30 feet, such as scent, thoughtsense, tremorsense, or
+            wavesense.
+          </li>
+          <li>
+            <b>Resistant Skin:</b> The experiments rendered your skin tougher
+            and resilient to a particular type of damage. You gain resistance
+            equal to half your level (minimum resistance 1) against two of the
+            following types of energy damage, one chosen by you and the other
+            chosen by the GM: acid, cold, electricity, fire, or sonic.
+          </li>
+          <li>
+            <b>Touch Telepathy:</b> The experiments to your body allowed you to
+            link minds via touch. You gain telepathy with creatures as long as
+            you are in physical contact. This allows you to communicate mentally
+            with any creatures you’re in physical contact with, as long as you
+            both share a language. This doesn’t give any special access to their
+            thoughts, and communicates no more information than normal speech
+            would.
+          </li>
+        </ul>
+      </span>
+    ),
+  },
+  {
+    name: "Magical Merchant",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Crafting", "Mercantile Lore"],
+    feat: "Crafter’s Appraisal",
+    description: (
+      <span>
+        Selling magic items isn’t like being an ordinary merchant. The wares you
+        buy and sell are expensive, making each sale rare and lucrative. You’ve
+        developed knowledge of expert handiwork to ensure you don’t fall for a
+        scam, since buying a single counterfeit item can lead to bankruptcy.
+        Whether you went out of business and had to find alternative employment,
+        or took up adventuring to acquire new merchandise, you’ve taken to
+        adventuring yourself.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Crafting and Mercantile Lore. You gain the Crafter’s
+        Appraisal skill feat. feat.
+        <Feat
+          id={0}
+          name="Crafter’s Appraisal"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your knowledge of items’ construction allows you to discern their
+              magical effects as well. You can use Crafting instead of a skill
+              associated with a magic tradition to Identify Magic on magic
+              items, though not on any other sorts of magic.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Magical misfit",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Dexterity"],
+    skillTraining: ["Arcana", "Underworld Lore"],
+    feat: "Trick Magic Item",
+    description: (
+      <span>
+        You don’t understand folks who claim that magical talent is some sort of
+        burden or great responsibility; you’ve always used your magic to cause
+        trouble and to escape the consequences. Whether becoming an adventurer
+        is your attempt to make amends or just a new way to make some mischief,
+        you’re excited to see where it takes you, and you still delight in using
+        your skills to get out of trouble.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Dexterity, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Arcana and Underworld Lore. You gain the Trick Magic
+        Item skill feat.
+        <Feat
+          id={0}
+          name="Trick Magic Item"
+          tags={["general", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+                Religion.
+              </span>
+              <br />
+              You examine a magic item you normally couldn’t use in an effort to
+              fool it and activate it temporarily. For example, this might allow
+              a fighter to cast a spell from a wand or allow a wizard to cast a
+              spell that’s not on the arcane list using a scroll. You must know
+              what activating the item does, or you can’t attempt to trick it.
+              <br />
+              <br />
+              Attempt a check using the skill matching the item’s magic
+              tradition, or matching a tradition that has the spell on its list,
+              if you’re trying to cast a spell from the item. The relevant
+              skills are Arcana for arcane, Nature for primal, Occultism for
+              occult, Religion for divine, or any of the four for an item that
+              has the magical trait and not a tradition trait. The GM determines
+              the DC based on the item’s level (possibly adjusted depending on
+              the item or situation).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Mammoth speaker",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature", "Animal Lore"],
+    feat: "Train Animal",
+    description: (
+      <span>
+        You have learned the secrets of taming the mighty mammoths and other
+        megafauna of the far north. Perhaps these talents are a part of your
+        people’s traditional customs, or perhaps you sought out these massive
+        animals of your own accord.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Animal Lore skill. You gain
+        the Train Animal skill feat.
+        <Feat
+          id={0}
+          name="Train Animal"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+                Religion.
+              </span>
+              <br />
+              You spend time teaching an animal to do a certain action. You can
+              either select a basic action the animal already knows how to do
+              (typically those listed in the Command an Animal action) or
+              attempt to teach the animal a new basic action. The GM determines
+              the DC of any check required and the amount of time the training
+              takes (usually at least a week). It’s usually impossible to teach
+              an animal a trick that uses critical thinking. If you’re expert,
+              master, or legendary in Nature, you might be able to train more
+              unusual creatures, at the GM’s discretion.
+              <br />
+              <br />
+              <b>Success:</b> The animal learns the action. If it was an action
+              the animal already knew, you can Command the Animal to take that
+              action without attempting a Nature check. If it was a new basic
+              action, add that action to the actions the animal can take when
+              Commanded, but you must still roll.
+              <br />
+              <br />
+              <b>Failure:</b> The animal doesn’t learn the trick.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Mana wastes refugee",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Arcana", "Wilderness Lore"],
+    feat: "Trick Magic Item",
+    description: (
+      <span>
+        Exposure to the corrupting influence of the Mana Wastes’ strange
+        energies has warped your inner essence, resulting in unpredictable
+        interactions with magic items and more than a little know-how about
+        surviving under bizarre and adverse natural conditions.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Wilderness Lore skill. You
+        gain the Trick Magic Item skill feat.
+        <Feat
+          id={0}
+          name="Trick Magic Item"
+          tags={["general", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+                Religion.
+              </span>
+              <br />
+              You examine a magic item you normally couldn’t use in an effort to
+              fool it and activate it temporarily. For example, this might allow
+              a fighter to cast a spell from a wand or allow a wizard to cast a
+              spell that’s not on the arcane list using a scroll. You must know
+              what activating the item does, or you can’t attempt to trick it.
+              <br />
+              <br />
+              Attempt a check using the skill matching the item’s magic
+              tradition, or matching a tradition that has the spell on its list,
+              if you’re trying to cast a spell from the item. The relevant
+              skills are Arcana for arcane, Nature for primal, Occultism for
+              occult, Religion for divine, or any of the four for an item that
+              has the magical trait and not a tradition trait. The GM determines
+              the DC based on the item’s level (possibly adjusted depending on
+              the item or situation).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Mantis Scion",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Stealth", "Assassin Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        At least one of your parents is a member of the notorious Red Mantis
+        assassins, merciless killers for hire who rarely fail to claim their
+        marks. Whether on purpose or by simple exposure, you were trained from a
+        young age in the art of stalking and killing people.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Assassin Lore skill. You
+        gain the Assurance skill feat with Stealth.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Market Runner",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Diplomacy", "Otari Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        Keeleno Lathenar, the proprietor of Otari Market, is a grim and bitter
+        man. A werewolf named Jaul Mezmin mauled his wife, Ayla, to death 30
+        years ago. Keeleno has never forgotten nor forgiven this attack, and he
+        believes against all odds that Jaul has evaded justice and is alive and
+        well. Running errands for Keeleno around town, you’ve gotten to know him
+        almost as well as you know Otari. Keeleno’s suspicions have rubbed off
+        on you a bit, so you keep a wary eye on other people—particularly around
+        the full moon.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Otari Lore skill. You gain
+        the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Martial Disciple",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Warfare Lore"],
+    feat: "Cat Fall or Quick Jump",
+    description: (
+      <span>
+        You dedicated yourself to intense training and rigorous study to become
+        a great warrior. The school you attended might have been a
+        traditionalist monastery, an elite military academy, or the local branch
+        of a prestigious mercenary organization.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Acrobatics or Athletics skill. You
+        gain a skill feat: Cat Fall if you chose Acrobatics or Quick Jump if you
+        chose Athletics. You’re also trained in the Warfare Lore skill.
+        <Feat
+          id={0}
+          name="Cat Fall"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              Your catlike aerial acrobatics allow you to cushion your falls.
+              Treat falls as 10 feet shorter. If you’re an expert in Acrobatics,
+              treat falls as 25 feet shorter. If you’re a master in Acrobatics,
+              treat them as 50 feet shorter. If you’re legendary in Acrobatics,
+              you always land on your feet and don’t take damage, regardless of
+              the distance of the fall.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Quick Jump"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can use High Jump and Long Jump as a single action instead of
+              2 actions. If you do, you don’t perform the initial Stride (nor do
+              you fail if you don’t Stride 10 feet).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Mechanic",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Crafting", "Engineering Lore"],
+    feat: "Quick Repair",
+    description: (
+      <span>
+        The intricate inner workings of machines are no stranger to you. Whether
+        they are mundane devices or complex clockworks, you know what makes them
+        tick and how to maintain them. An adventuring group might keep you
+        around to repair their equipment, or you might travel around to offer
+        your rare services to those in need—for a price, of course!
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Engineering Lore skill. You
+        gain the Quick Repair skill feat.
+        <Feat
+          id={0}
+          name="Quick Repair"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You take 1 minute to Repair an item. If you’re a master in
+              Crafting, it takes 3 actions. If you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Mechanical Symbosis",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana"],
+    feat: "",
+    description: (
+      <span>
+        Whether you purposefully took it on or had it thrust upon you, a bronze,
+        clockwork object latched onto some part of your body. It may have sunk
+        its needles into you or locked its spidery legs around your neck, torso,
+        or upper arm. Some entity or spirit lives in this collection of gears
+        and wires—whether or not other people hear its whispers is up to you.
+        The entity may be an ancient, terrible being that has razed villages
+        with its hosts, or it may be a brilliant, starry-eyed child who barely
+        understands you’re not part of its own body.
+        <br />
+        <br />
+        You have studied and searched for information on these rare, crab-like
+        machines, leaving you an expert in the binding of elemental spirits or
+        mortal souls to mechanical objects. Though you have several theories on
+        what the symbiotic entity might be, you have no definitive answers—this
+        may be why you’re adventuring in the first place, or perhaps you’ve made
+        a deal with someone to get it removed. The entity might talk to you
+        periodically, or it might only speak when it wants you to do something
+        in particular or finds the two of you in danger. You and the GM should
+        decide on the entity’s motivations, or if the motivations should be a
+        secret known only to the GM.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and an additional skill in which the
+        clockwork entity is well-versed, determined by the GM. Any time you
+        attempt a skill check for the entity’s skill, the GM can offer you a +1
+        circumstance bonus to the check, as though the entity were Aiding you.
+        If you accept but fail the check, the entity clenches up and you are
+        stunned 1 (stunned 2 on a critical failure).
+      </span>
+    ),
+  },
+  {
+    name: "Medicinal Clocksmith",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Medicine", "Engineering Lore"],
+    feat: "Risky Surgery",
+    description: (
+      <span>
+        While others might have looked to clockwork as a mechanical innovation,
+        you see the potential in the technology to improve the health of
+        patients. You might be an experienced field medic who reached for a
+        scrapped construct to help a wounded soldier, or a vanguard surgeon
+        who’s found replacing organs with clockwork more effective than
+        repairing them. Perhaps you’ve also worked to “optimize” organic bodies
+        with fine machinery, with or without the permission of your patients.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Engineering Lore skill. You
+        gain the Risky Surgery skill feat.
+        <Feat
+          id={0}
+          name="Risky Surgery"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              Your surgery can bring a patient back from the brink of death, but
+              might push them over the edge. When you Treat Wounds, you can deal
+              1d8 slashing damage to your patient just before applying the
+              effects of Treat Wounds. If you do, you gain a +2 circumstance
+              bonus to your Medicine check to Treat Wounds, and if you roll a
+              success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Menagerie Dung Sweeper",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature", "Animal Lore"],
+    feat: "Train Animal",
+    description: (
+      <span>
+        Whether you washed warrior beasts below the Irorium’s arena floor or
+        tended to the mutated animals of a Puddle sideshow, you are experienced
+        with all manner of weird wildlife.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Animal Lore skill. You gain
+        the Train Animal skill feat.
+        <Feat
+          id={0}
+          name="Train Animal"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You spend time teaching an animal to do a certain action. You can
+              either select a basic action the animal already knows how to do
+              (typically those listed in the Command an Animal action) or
+              attempt to teach the animal a new basic action. The GM determines
+              the DC of any check required and the amount of time the training
+              takes (usually at least a week). It’s usually impossible to teach
+              an animal a trick that uses critical thinking. If you’re expert,
+              master, or legendary in Nature, you might be able to train more
+              unusual creatures, at the GM’s discretion.
+              <br />
+              <br />
+              <b>Success"</b> The animal learns the action. If it was an action
+              the animal already knew, you can Command the Animal to take that
+              action without attempting a Nature check. If it was a new basic
+              action, add that action to the actions the animal can take when
+              Commanded, but you must still roll.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Merabite Prodigy",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Alchemical Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        Even in a city renowned for its alchemy, you were able to rise above the
+        competition.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Alchemical Lore skill. You
+        gain the Specialty Crafting skill feat with alchemy.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Merchant",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Diplomacy", "Mercantile Lore"],
+    feat: "Bargain Hunter",
+    description: (
+      <span>
+        In a dusty shop, market stall, or merchant caravan, you bartered wares
+        for coin and trade goods. The skills you picked up still apply in the
+        adventuring life, in which a good deal on a suit of armor could prevent
+        your death.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Mercantile Lore skill. You
+        gain the Bargain Hunter skill feat.
+        <Feat
+          id={0}
+          name="Bargain Hunter"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You can Earn Income using Diplomacy, spending your days hunting
+              for bargains and reselling at a profit. You can also spend time
+              specifically sniffing out a great bargain on an item; this works
+              as if you were using Earn Income with Diplomacy, except instead of
+              gaining money, you purchase the item at a discount equal to the
+              money you would have gained, gaining the item for free if your
+              earned income equals or exceeds its cost. Finally, if you select
+              Bargain Hunter during character creation at 1st level, you start
+              play with an additional 2 gp.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Miner",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Survival", "Mining Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        You earned a living wrenching precious minerals from the lightless
+        depths of the earth. Adventuring might have seemed lucrative or
+        glamorous compared to this backbreaking labor—and if you have to head
+        back underground, this time you plan to do so armed with a real weapon
+        instead of a miner’s pick.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Mining Lore skill. You gain
+        the Terrain Expertise skill feat with underground terrain.
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Missionary",
+    source: "The Fall of Plaguestone",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Diplomacy", "Scribing Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        You received training from clergy in a faraway temple, who sent you out
+        into the world to spread the faith. Although you are relatively new at
+        this, you are always on the lookout for new places in need of your
+        deity’s teachings and guidance. When play begins, you are riding along
+        in a caravan making your way through sparsely populated regions of
+        Isger, spreading the news of your faith to those who will listen.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Diplomacy and Scribing Lore skills. You gain the
+        Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Molthuni Mercenary",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Mercenary Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        Whether you sought citizenship or simply needed a steady paycheck, you
+        spent some of your time as a paid mercenary in the armed forces of
+        Molthune, where you fought against Molthune’s enemies such as Nirmathas
+        or the Ironfang Legion. Alternatively, you might have worked at sea,
+        protecting Molthune’s military and trading ships against pirates on Lake
+        Encarthan.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Mercenary Lore skill. You
+        gain the Experienced Professional skill feat.
+        <Feat
+          id={0}
+          name="Experienced Professional"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              <br />
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Money counter",
+    source: "Blood Lords: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Constitution"],
+    skillTraining: ["Society or Thievery", "Accounting Lore"],
+    feat: "Eye for Numbers or Subtle Theft",
+    description: (
+      <span>
+        The wealthiest of all the factions in Geb is the Tax Collectors Union,
+        but it’s the money counters in its banks and vaults that keep the
+        numbers tallied. You used to work as one of these drudges who counted
+        other people’s money all day, until you decided to slip some unaccounted
+        coins into your own pocket. You weren’t caught, but you knew it would
+        only be a matter of time before you felt the Union’s wrath if you
+        remained employed. You took the next opportunity to leave with both your
+        official and unofficial final payments. The Tax Col
+        <br />
+        <br />
+        lectors Union is unaware of your petty theft, and you remain in good
+        standing with them. Your party gains 1 Reputation Point with the Tax
+        Collectors Union at the start of the campaign.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Society or Thievery skill. You gain
+        a skill feat: Eye for Numbers if you chose Society or Subtle Theft if
+        you chose Thievery. You’re also trained in Accounting Lore.
+        <Feat
+          id={0}
+          name="Eye for Numbers"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You’ve learned to subitize, quickly estimating the number of items
+              in a group with relative accuracy at only a glance. You
+              immediately learn the number of visually similar items in a group
+              you can see (such as coins, books, or people), rounded to the
+              first digit in the total number. For example, you could look at a
+              case of potion vials and learn that it held about 30 vials, but
+              you wouldn’t know that it was exactly 33 vials, how many different
+              types of potions there were, or how many of which type. Similarly,
+              you could look at a pile of 2,805 coins and know that there were
+              about 3,000 coins in all. You can use this ability only on items
+              that can typically be counted, so you can’t use it on grains of
+              sand or stars in the sky, for example.
+              <br />
+              <br />
+              In addition, when you attempt to Decipher Writing that is
+              primarily numerical or mathematical, you gain a +2 circumstance
+              bonus to your check.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Subtle Theft"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              When you successfully Steal something, observers (creatures other
+              than the creature you stole from) take a –2 circumstance penalty
+              to their Perception DCs to detect your theft. Additionally, if you
+              first Create a Diversion using Deception, taking a single Palm an
+              Object or Steal action doesn’t end your undetected condition.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Musical Prodigy",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Performance", "Music Lore"],
+    feat: "Virtuosic Performer",
+    description: (
+      <span>
+        Ever since you were young, you’ve been almost supernaturally skilled in
+        a particular type of music. The people around you were sure you’d grow
+        up to perform at royal courts or to become a world-famous composer, but
+        you’ve chosen a life of adventure instead. You might have given up on
+        those dreams to find your own meaning, or you might find that
+        adventuring allows you to experience unfiltered emotions and exploits
+        that you can translate into a wondrous symphony some day.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Performance and Music Lore. You gain the Virtuosic
+        Performer skill feat.
+        <Feat
+          id={0}
+          name="Virtuosic Performer"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              You have exceptional talent with one type of performance. You gain
+              a +1 circumstance bonus when making a certain type of performance.
+              If you are a master in Performance, this bonus increases to +2.
+              Select one of the following specialties and apply the bonus when
+              attempting Performance checks of that type. If it’s unclear
+              whether the specialty applies, the GM decides.
+              <br />
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Examples</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Acting</td>
+                    <td>Drama, pantomime, puppetry</td>
+                  </tr>
+                  <tr>
+                    <td>Comedy</td>
+                    <td>Buffoonery, joke telling, limericks</td>
+                  </tr>
+                  <tr>
+                    <td>Dance</td>
+                    <td>Ballet, huara, jig, macru</td>
+                  </tr>
+                  <tr>
+                    <td>Keyboards</td>
+                    <td>Harpsichord, organ, piano</td>
+                  </tr>
+                  <tr>
+                    <td>Oratory</td>
+                    <td>Epic, ode, poetry, storytelling</td>
+                  </tr>
+                  <tr>
+                    <td>Percussion</td>
+                    <td>Chimes, drum, gong, xylophone</td>
+                  </tr>
+                  <tr>
+                    <td>Singing</td>
+                    <td>Ballad, chant, melody, rhyming</td>
+                  </tr>
+                  <tr>
+                    <td>Strings</td>
+                    <td>Fiddle, harp, lute, viol</td>
+                  </tr>
+                  <tr>
+                    <td>Winds</td>
+                    <td>Bagpipe, flute, recorder, trumpet</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Musical Prodigy",
+    source: "Secrets of Magic",
+    tags: ["rare", "pervasive magic"],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana or Occultism", "Academia Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        You spent years predicting, identifying, and harnessing the innate
+        magical talents of those around you. A magic-rich world has taught you
+        that you can never have too much training when everyone around you is
+        capable of magic.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Intelligence or Wisdom and one is
+        a free ability boost.
+        <br />
+        <br />
+        Your innate magical trait is arcane or occult. You’re trained in either
+        Arcana or Occultism, depending on your innate magical trait, and the
+        Academia Lore skill. You gain the Recognize Spell skill feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
             </span>
           }
         />
