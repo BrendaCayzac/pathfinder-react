@@ -7650,8 +7650,8 @@ export const backgrounds: Array<Background> = [
     ),
   },
   {
-    name: "Hounded thief",
-    source: "Guns & Gears",
+    name: "Hunter",
+    source: "Core Rulebook",
     tags: [""],
     abilityBoost: ["Free", "Dexterity", "Wisdom"],
     skillTraining: ["Survival", "Tanning Lore"],
@@ -7691,6 +7691,259 @@ export const backgrounds: Array<Background> = [
               success, you can attempt a Recall Knowledge check with a –2
               penalty to learn more about the creatures just from these signs.
               If you’re a master in Survival, you don’t take the penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Inexplicably Expelled",
+    source: "Outlaws of Alkenstar: Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Crafting", "Academia Lore"],
+    feat: "Alchemical Crafting",
+    description: (
+      <span>
+        Gaining admission to Blythir College is a difficult task, even for
+        Alkenstar’s most well-to-do families. In the magic-warped Mana Wastes,
+        it’s next to impossible to fake arcane talents or alchemical aptitude.
+        So when you were accepted to the school, it was one of the most
+        triumphant moments of your life.
+        <br />
+        <br />
+        Unfortunately, your victory was short-lived. Just as you were you making
+        significant headway on a promising series of explosive experiments, you
+        found a letter on your desk informing you that, effective immediately,
+        you were permanently expelled from Blythir College. As bogus as the
+        punishment was, the charges leveled against you were even more puzzling:
+        theft of property, both intellectual and physical. And just like that,
+        you found your prestigious honors replaced with a ruined reputation, and
+        your colleagues and mentors became bitter rivals and accusers. In an
+        instant, you’d gone from promising scholar to wanted criminal.
+        <br />
+        <br />
+        You followed the money for answers and learned that a shady financier
+        named Ambrost Mugland didn’t want you to finish your research at
+        Blythir. He’d learned that you were on the brink of a great
+        discovery—one that even you weren’t fully aware of—and he decided that
+        your imminent breakthrough would be bad for business. Unfortunately for
+        Mugland, he chose the wrong student to destroy. Now, you’ll do
+        whatever’s necessary to get your revenge on the villain who stole the
+        future you had worked so hard to build for yourself.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Academia Lore skill. You
+        gain the Alchemical Crafting skill feat.
+        <Feat
+          id={0}
+          name="Alchemical Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You can use the Craft activity to create alchemical items. When
+              you select this feat, you immediately add the formulas for four
+              common 1st-level alchemical items to your formula book.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Inlander",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Survey Wildlife",
+    description: (
+      <span>
+        You grew up in an untamed region of the Isle of Kortos, and you know how
+        to survive in the wild.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and a Lore skill related to the
+        terrain type associated with your home region (such as Hills Lore or
+        Mountains Lore). You gain the Survey Wildlife skill feat.
+        <Feat
+          id={0}
+          name="Survey Wildlife"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              You can study details in the wilderness to determine the presence
+              of nearby creatures. You can spend 10 minutes assessing the area
+              around you to find out what creatures are nearby, based on nests,
+              scat, and marks on vegetation. Attempt a Survival check against a
+              DC determined by the GM based on how obvious the signs are. On a
+              success, you can attempt a Recall Knowledge check with a –2
+              penalty to learn more about the creatures just from these signs.
+              If you’re a master in Survival, you don’t take the penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Insurgent",
+    source: "Advanced Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Deception", "Warfare Lore"],
+    feat: "Lengthy Diversion",
+    description: (
+      <span>
+        You were more than a rebel; you were a revolutionary, fighting for the
+        promise of a new or better country. You may or may not still believe in
+        the cause, or perhaps victory or exile has led you on this new journey
+        to trumpet your glory... or to escape the consequences of your defeat.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Warfare Lore skill. You
+        gain the Lengthy Diversion skill feat.
+        <Feat
+          id={0}
+          name="Lengthy Diversion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              When you critically succeed to Create a Diversion, you continue to
+              remain hidden after the end of your turn. This effect lasts for an
+              amount of time that depends on the diversion and situation, as
+              determined by the GM (minimum 1 additional round).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Issian Partisan",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Deception", "Underworld Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        You grew up among the northern houses of Brevoy in old Issia. Steeped in
+        the cultural legacy of pirates and smugglers, you rely on your
+        cleverness and charm as you make your way throughout the world.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You're trained in the Deception skill and the Underworld Lore skill. You
+        gain the Charming Liar skill feat.
+        <Feat
+          id={0}
+          name="Charming liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Issian Patriot",
+    source: "Lost Omens: World Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Society", "Legal Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        You grew up in northern Brevoy, but the call for heroes willing to help
+        take back your country’s rightful holdings in the Stolen Lands has
+        inflamed your dreams of profit and possibilities, and you have joined an
+        expedition journeying south.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Legal Lore skill. You gain
+        the Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
             </span>
           }
         />
