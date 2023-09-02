@@ -10520,4 +10520,428 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Occult Librarian",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Academia Lore"],
+    feat: "Schooled in Secrets",
+    description: (
+      <span>
+        Hours spent reading numerous compendiums dedicated to various occult
+        topics honed your knowledge of these more obscure magical arts. You
+        might have taken to adventuring to finance your acquisition of rare
+        tomes, to explore occult mysteries that can’t be found in the pages of a
+        book, or perhaps to put your skills to the test.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Academia Lore skill. You
+        gain the Schooled in Secrets skill feat.
+        <Feat
+          id={0}
+          name="Schooled in Secrets"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You notice the signs and symbols that members of mystery cults and
+              other secret societies use to declare their affiliation to fellow
+              members. You can use Occultism in place of Diplomacy to Gather
+              Information about such groups. If you belong to a secret cult,
+              lodge, sect, or similar organization, you automatically recognize
+              members of your group unless they are specifically attempting to
+              conceal their presence from you.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Oenopion ooze-tender",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Crafting", "Ooze Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        Your apprenticeship in one of Oenopion’s unorthodox arcane and
+        alchemical academies instilled in you a deep reservoir of mostly
+        reliable esoteric knowledge, not to mention a deep resentment born of
+        countless hours spent mucking ooze pens and feeding helpless creatures
+        to ravenous, belching jellies and gelatinous puddings.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Ooze Lore skill. You gain
+        the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Once Bitten",
+    source: "Lost Omens: Knights of Lastwall",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Medicine", "Undead Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        After an altercation with an undead creature, you feared you might be
+        infected. Either through medical intervention, luck, or misunderstanding
+        how undeath spreads, your fears abated. However, your brush with living
+        death taught you the value of life. You do whatever you can to avoid the
+        end you thought you’d been fated.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Undead Lore skill. You gain
+        the Battle Medicine skill feat.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Onyx Trader",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Society", "Mercantile Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        Oprak doesn’t share the secrets of the Onyx Vault with many, but you are
+        one of the lucky few to be permitted into the heart of the nation. You
+        have traveled the extradimensional paths of the Stone Roads and traded
+        goods across a wide variety of lands. You’ve learned to step lively in
+        foreign markets of all types.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Mercantile Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Osirionlogist",
+    source: "Lost Omens: Wrold Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Occultism", "Ancient Osirion Lore"],
+    feat: "Oddity Identification",
+    description: (
+      <span>
+        Whether you’re a fascinated outsider or a local proud of your nation’s
+        storied past, you’re a devoted student of Osirion’s history. You might
+        be a traveling professor, a member of a society like the Pathfinders or
+        the Esoteric Order of the Palatine Eye, or even a simple tomb robber
+        cashing in on the glories of the past.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Ancient Osirion Lore
+        skill. You gain the Oddity Identification skill feat.
+        <Feat
+          id={0}
+          name="Oddity Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Otherwordly Mission",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Religion"],
+    feat: "",
+    description: (
+      <span>
+        You’re called to serve a specific purpose—your deity told you so, and so
+        it must be true. Maybe you grew up knowing all along, or maybe it came
+        to you one day in a vision, clear as a bell and twice as loud. You have
+        some task that only you can accomplish. You mission might be as
+        dangerous as killing a deadly tyrant or as simple as opening a
+        particular door on a particular day.
+        <br />
+        <br />
+        You should work with your GM on how to handle the truth of your
+        character’s backstory or leave it to the GM to decide in secret. Is this
+        call to action a message from the character’s own mind, are they being
+        manipulated by some manner of supernatural entity, or are they actually
+        getting marching orders from one of the deities of the setting?
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in Religion. Once per adventure, you can ask the voice
+        you believe to be a deity for orders and get some kind of
+        instruction—you never get any kind of explanation, simply a command to
+        go somewhere or do something. Following those commands isn’t always
+        safe, but it’s usually interesting.
+      </span>
+    ),
+  },
+  {
+    name: "Out-of-towner",
+    source: "Age of Ashes: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Diplomacy", "Dwarf, Elf, Gnome, Goblin, or Halfling Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        You’ve never been to Breachill, nor do you have roots in the town, but
+        as chance has it you find yourself visiting. You might be here traveling
+        with a friend, visiting an old acquaintance, or merely here to see a new
+        part of the world. Before coming to town, though, you spent many years
+        living with an ancestry other than your own, and your diverse childhood
+        has left you with an open mind and a curious nature.
+        <br />
+        <br />
+        You’re excited to meet new people and cultures, and answering the Call
+        for Heroes seems to be an interesting way to do so.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Constitution or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and one of the following Lore
+        skills thematically associated with the members of the ancestry you grew
+        up with: Dwarf, Elf, Gnome, Goblin, or Halfling. You gain the Hobnobber
+        skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Outrider",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Society", "Warfare Lore"],
+    feat: "Courtly Graces",
+    description: (
+      <span>
+        You or someone close to you worked with the Knights of Ozem before
+        Lastwall fell. In addition to knowledge of the organization’s tenets and
+        goals, you have germane understanding of the order’s history. You
+        believe there are valuable lessons in the Knights of Ozem’s exploits.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Warfare Lore skill. You gain
+        the Courtly Graces skill feat.
+        <Feat
+          id={0}
+          name="Express Rider"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You know how to encourage your mount to cover ground quickly. When
+              calculating your travel speed for the day while mounted, you can
+              attempt a Nature check to Command an Animal to increase your
+              mount’s travel speed. The DC is determined by the GM, but is
+              typically based on the mount’s level or the difficulty of the
+              environment, whichever is harder. On a success, increase your
+              mount’s travel speed by half. This has no effect on your mount’s
+              movement in encounters.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ozem Experience",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature", "Plains Lore"],
+    feat: "Express Rider",
+    description: (
+      <span>
+        In your youth, you galloped on horseback over vast prairies, serving as
+        a vanguard for your settlement, an army, or another group. Seeing so
+        many different lands built a thirst in you to adventure and explore the
+        world instead of just racing past it.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Plains Lore skill. You gain
+        the Express Rider skill feat.
+        <Feat
+	        id={0}
+	        name="Courtly Graces"
+	        tags={["general", "skill"]}
+	        action=""
+	        level={1}
+	        feat="Feat 1"
+	        description={
+		        <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+	        }
+        />
+      </span>
+    ),
+  },
 ];
