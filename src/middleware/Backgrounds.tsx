@@ -12905,4 +12905,2262 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Saboteur",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Thievery", "Engineering Lore"],
+    feat: "Concealing Legerdemain",
+    description: (
+      <span>
+        Whether you do it for personal enjoyment or at the behest of a mercenary
+        company or military organization, you have a knack for destroying
+        things. You have a sense for an object or structure’s weak spots and
+        know where to deliver a hammer strike or alchemical bomb. You adventure
+        to hone your skills or complete a particular mission.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and the Engineering Lore skill. You
+        gain the Concealing Legerdemain skill feat.
+        <Feat
+          id={0}
+          name="Concealing Legerdemain"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              Rather than hide an object somewhere the inspectors won’t search,
+              you’re skilled at keeping the object on the move so it’s never
+              where they look. When you Conceal an Object of light Bulk or less,
+              you can use Thievery instead of Stealth for your checks and for
+              the DC of an active searcher’s Perception check. You roll the
+              check only once, but you must continue to use actions to Conceal
+              an Object throughout the process.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sailor",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Dexterity"],
+    skillTraining: ["Athletics", "Sailing Lore"],
+    feat: "Underwater Marauder",
+    description: (
+      <span>
+        You heard the call of the sea from a young age. Perhaps you signed onto
+        a merchant’s vessel, joined the navy, or even fell in with a crew of
+        pirates and scalawags.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Sailing Lore skill. You
+        gain the Underwater Marauder skill feat.
+        <Feat
+          id={0}
+          name="Underwater Marauder"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You’ve learned to fight underwater. You are not flat-footed while
+              in water, and you don’t take the usual penalties for using a
+              bludgeoning or slashing melee weapon in water.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "SallyGuard Neophyte",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature", "Hunting Lore or Stabling Lore"],
+    feat: "",
+    description: (
+      <span>
+        You joined the Sally Guard, Westgate’s guard precinct, at an early age,
+        bringing with you the requisite steel armor, sword, and lance, though
+        your gear is of dubious make. The other guards may have suspected that
+        you were a novice with less combat experience than them; if so, you
+        proved their suspicions on your first day of training when your mount
+        immediately threw you in the mud. A supervisor took mercy on you and
+        offered to transfer you to another guard unit in the city, promising
+        that you’d have a place on the Sally Guard when you decided you were
+        ready for the challenge.
+        <br />
+        <br />
+        Biting your lip in shame, you took the Edgewatch reassignment in order
+        to gain the experience necessary to go back to your home district with
+        your head held high. You’ll prove them wrong, one way or another, and
+        show everyone that you can protect the ones you hold most dear.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and your choice of Hunting Lore or
+        Stabling Lore. You start out with a riding horse, as well as a suit of
+        shoddy half-plate armor, a shoddy longsword, and a shoddy lance (see the
+        Pathfinder Core Rulebook for the rules on shoddy items).
+      </span>
+    ),
+  },
+  {
+    name: "Saloon Entertainer",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Charisma", "Dexterity"],
+    skillTraining: ["Performance", "Lore"],
+    feat: "Virtuosic Performer",
+    description: (
+      <span>
+        All you want to do is entertain the people, but sure enough, bad news
+        seems to follow you. Gunfights, brawls, robberies, and more befall
+        establishments you play at, and word is quick to spread. Keep one town
+        ahead of the gossip, and you just might be able to play a gig, command a
+        stage, or run a table again.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and a lore skill of your choice.
+        You gain the Virtuosic Performer skill feat.
+        <Feat
+          id={0}
+          name="Virtuosic Performer"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              You have exceptional talent with one type of performance. You gain
+              a +1 circumstance bonus when making a certain type of performance.
+              If you are a master in Performance, this bonus increases to +2.
+              Select one of the following specialties and apply the bonus when
+              attempting Performance checks of that type. If it’s unclear
+              whether the specialty applies, the GM decides.
+              <br />
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Examples</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Acting</td>
+                    <td>Drama, pantomime, puppetry</td>
+                  </tr>
+                  <tr>
+                    <td>Comedy</td>
+                    <td>Buffoonery, joke telling, limericks</td>
+                  </tr>
+                  <tr>
+                    <td>Dance</td>
+                    <td>Ballet, huara, jig, macru</td>
+                  </tr>
+                  <tr>
+                    <td>Keyboards</td>
+                    <td>Harpsichord, organ, piano</td>
+                  </tr>
+                  <tr>
+                    <td>Oratory</td>
+                    <td>Epic, ode, poetry, storytelling</td>
+                  </tr>
+                  <tr>
+                    <td>Percussion</td>
+                    <td>Chimes, drum, gong, xylophone</td>
+                  </tr>
+                  <tr>
+                    <td>Singing</td>
+                    <td>Ballad, chant, melody, rhyming</td>
+                  </tr>
+                  <tr>
+                    <td>Strings</td>
+                    <td>Fiddle, harp, lute, viol</td>
+                  </tr>
+                  <tr>
+                    <td>Winds</td>
+                    <td>Bagpipe, flute, recorder, trumpet</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sarkorian Reclaimer",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Medicine", "Abyssal Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        Whether you trace your heritage to lost Sarkoris or are a crusader
+        trying to atone for past fanatics’ wrongs, you seek to liberate the
+        Sarkorian homeland from the demons who have defiled it.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free boost.
+        <br />
+        <br />
+        You're trained in the Medicine skill and the Abyssal Lore skill. You
+        gain the Battle Medicine skill feat.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sarkorian Survivor",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Survival", "Sarkorian History Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        The devastation and carnage of the Worldwound were nearly complete, but
+        you somehow managed to survive it.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free boost.
+        <br />
+        <br />
+        You're trained in the Survival skill and the Sarkorian History Lore
+        skill. You gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Saved by clockwork",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Crafting"],
+    feat: "",
+    description: (
+      <span>
+        Through bloody combat, a terrible accident, or purposeful sacrifice,
+        you’ve lost some piece of your body that has been replaced with a
+        clockwork mechanism. Whether your arm is now a whirring series of pumps,
+        steel coils, and iron gears; your heart a intricate crystal clock that
+        requires winding every day; or your lower leg a sculpted metal tube
+        powered by adamantine springs and steam, part of you needs regular
+        maintenance and repair. You might have received instructions from the
+        brilliant inventor who saved you, or you might have woken up on a
+        battlefield with no memory of the procedure or the individuals involved.
+        Regardless, you possess the knowledge to take care of yourself—even if
+        it’s how to wind a key in your own heart or reconstruct a mechanical
+        foot.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill. Every day you must perform 10
+        minutes of maintenance and wind up your clockwork parts, or you risk
+        failure of the components, with consequences depending on what you
+        replaced (determined by you and the GM). Your clockwork components allow
+        you to react to danger with alacrity. You gain a +2 circumstance bonus
+        to initiative rolls.
+      </span>
+    ),
+  },
+  {
+    name: "Scavanger",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        You’ve made a living sorting through the things society throws away. You
+        might have scavenged simply to survive, or plied a trade as a ragpicker,
+        dung carter, or the like. While you’ve left that life behind, you still
+        keep one eye on the ground out of habit.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Lore skill for the
+        settlement you grew up scavenging in. You gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Scholar",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Academia Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        You have a knack for learning, and sequestered yourself from the outside
+        world to learn all you could. You read about so many wondrous places and
+        things in your books, and always dreamed about one day seeing the real
+        things. Eventually, that curiosity led you to leave your studies and
+        become an adventurer.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Arcana, Nature, Occultism, or
+        Religion skill, and gain the Assurance skill feat in your chosen skill.
+        You’re also trained in the Academia Lore skill.
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Scholar of the Ancients",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Arcana", "Azlant Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        You’re fascinated by the lost Azlanti Empire and have dedicated yourself
+        to seeking out and studying every broken artifact or scrap of knowledge
+        that remains, whether as an academic pursuit or simply for the joy of
+        treasure hunting.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Azlant Lore skills. You gain
+        the Quick Identification skill feat.
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Scion of Slayers",
+    source: "Book of the Dead",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Athletics", "Undead Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were born into a lineage of undead slayers. No mere occupation, in
+        your family slaying is a mantle of almost mystic responsibility passed
+        from parent to child. Over the generations, this single-minded focus has
+        begun to manifest in uncanny ways during combat.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Undead Lore skill. You can
+        cast disrupt undead as an innate divine cantrip. You can use
+        Intelligence as your spellcasting ability for this innate spell.
+      </span>
+    ),
+  },
+  {
+    name: "Scout",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival", "Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        You called the wilderness home as you found trails and guided travelers.
+        Your wanderlust could have called you to the adventuring life, or
+        perhaps you served as a scout for soldiers and found you liked battle.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and a Lore skill related to one
+        terrain you scouted in (such as Forest Lore or Cavern Lore). You gain
+        the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Second Chance Champion",
+    source: "Firsts of Ruby Phoenix: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Strength"],
+    skillTraining: ["Acrobatics", "Gladiatorial Lore"],
+    feat: "Cat Fall",
+    description: (
+      <span>
+        You competed in the last Ruby Phoenix Tournament 10 years ago, though
+        you didn’t make it to the end. One wrong step, one mistimed punch, one
+        blocked spell—whatever it was, that was all it took for your opponent to
+        get the upper hand and knock you out of the tournament. Well, maybe it
+        was a simple mistake or maybe you just weren’t up to snuff, and you’re
+        too headstrong to admit it.
+        <br />
+        <br />
+        Now, after training for a decade to ensure you don’t repeat any of your
+        prior mistakes, you’ve joined forces with a team of fellow fighters in
+        order to maximize your odds of making it all the way to the finals.
+        Whatever happened before, you’ve vowed to return to the ring in Goka for
+        an epic rematch, and this time you’re not walking out until you’ve been
+        named Ruby Phoenix Champion.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Strength, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Acrobatics and the Gladiatorial Lore skill. You gain
+        the Cat Fall skill feat.
+        <Feat
+          id={0}
+          name="Cat Fall"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              Your catlike aerial acrobatics allow you to cushion your falls.
+              Treat falls as 10 feet shorter. If you’re an expert in Acrobatics,
+              treat falls as 25 feet shorter. If you’re a master in Acrobatics,
+              treat them as 50 feet shorter. If you’re legendary in Acrobatics,
+              you always land on your feet and don’t take damage, regardless of
+              the distance of the fall.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Secular Medic",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Dexterity"],
+    skillTraining: ["Medicine", "Anatomy Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        You’re from Rahadoum, where the Laws of Mortality taught you to reject
+        the gods, yet you’ve seen firsthand how dangerous it can be to go
+        without healing magic. As a result, you’ve thrown yourself into the
+        study of medicine, so you can save lives without saving souls.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and the Anatomy Lore skill. You
+        gain the Battle Medicine skill feat.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Seer of the Dead",
+    source: "Secrets of Magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Religion", "Undead Lore"],
+    feat: "",
+    description: (
+      <span>
+        You have long been gifted with the ability to see and speak with the
+        departed. This could have manifested at your birth or when a chance
+        encounter linked you inextricably to the spirits of the dead. Their
+        constant presence might feel like a curse, or it might provide you with
+        welcome companionship.
+        <br />
+        <br />
+        You gain one ability boost. It must be to Constitution or Wisdom.
+        <br />
+        <br />
+        You’re trained in Religion and Undead Lore. You gain the effects of the
+        spirit sense spell at all times.
+      </span>
+    ),
+  },
+  {
+    name: "Senghor Sailor",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Crafting", "Sailing Lore"],
+    feat: "Quick Repair",
+    description: (
+      <span>
+        As an experienced sailor from Senghor, you know that the only thing
+        saving you from disaster on the high seas is a properly maintained ship.
+        You know boat-building inside and out and you can quickly cobble
+        together a solution in the event that something breaks.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Sailing Lore skill. You
+        gain the Quick Repair skill feat.
+        <Feat
+          id={0}
+          name="Quick Repair"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You take 1 minute to Repair an item. If you’re a master in
+              Crafting, it takes 3 actions. If you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sense of Belonging",
+    source: "Gatewalkers Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Survival", "Scouting Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        Home is all you’ve ever wanted. But home, whatever that means to you,
+        has always been a step out of reach. On the night of the Missing Moment,
+        you saw loving figures with outstretched arms, beckoning you toward a
+        warm hearth just inside a glowing archway. On the other side of the
+        portal, though, you found only missing memories and lost time, your feet
+        back at the very spot where you started. Perhaps your heart was broken
+        that night, or perhaps you met your mission to find a suitable community
+        with renewed zeal. Either way, you haven’t felt quite “whole” since your
+        gatewalker experience. Your new ability to momentarily disappear onto
+        another plane of existence only reinforces this feeling of emptiness.
+        <br />
+        <br />
+        Your deviant abilities are of the wraith classification. You gain the
+        Eerie Flicker deviant feat. As a quirk, whenever you use a deviant
+        ability, plants around you spontaneously bloom and then wilt, as if
+        rapidly aging.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Scouting Lore skill. You
+        gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sentinel Reflectance",
+    source: "Gatewalkers Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Diplomacy", "Shining Sentinels Lore"],
+    feat: "No Cause for Alarm",
+    description: (
+      <span>
+        Either through witnessing their deeds and devout heroics firsthand, or
+        through reading chronicles of their exploits, the Shining Sentinels of
+        the Knights of Lastwall inspire you. You may idealize their philosophy
+        or one day hope to join their ranks; the Shining Sentinels are your
+        guiding star.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Shining Sentinels Lore
+        skill. You gain the No Cause for Alarm skill feat.
+        <Feat
+          id={0}
+          name="No Cause for Alarm"
+          tags={[
+            "auditory",
+            "concentrate",
+            "emotion",
+            "general",
+            "linguistic",
+            "mental",
+            "skill",
+          ]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You attempt to reduce panic. Attempt a Diplomacy check, comparing
+              it to the Will DC of creatures in a 10-foot emanation around you
+              who are frightened. Each of them is temporarily immune for 1 hour.
+              <br />
+              <br />
+              <b>Critical Success:</b> Reduce the creature’s frightened value by
+              2.
+              <br />
+              <br />
+              <b>Success:</b> Reduce the creature’s frightened value by 1.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Servant",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Society", "Labor Lore"],
+    feat: "Read Lips",
+    description: (
+      <span>
+        You held a role of servitude, waiting on nobles and engendering their
+        trust as one of the confidantes of the household. You might have walked
+        away on good terms, or perhaps you know dangerous secrets about your
+        former masters. Regardless, you’re adventuring for a change and finding
+        that in this new role, the skills you’ve learned now serve you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Labor Lore skill. You gain
+        the Read Lips skill feat.
+        <Feat
+          id={0}
+          name="Read Lips"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You can read lips of others nearby who you can clearly see. When
+              you’re at your leisure, you can do this automatically. In
+              encounter mode or when attempting a more difficult feat of
+              lipreading, you’re fascinated and flat-footed during each round in
+              which you focus on lip movements, and you must succeed at a
+              Society check (DC determined by the GM) to successfully read
+              someone’s lips. In either case, the language read must be one that
+              you know.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Shadow Haunted",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Intimidation", "Shadow Plane Lore"],
+    feat: "Quick Coercion",
+    description: (
+      <span>
+        You are from Nidal, and regardless of your personal values, Zon-Kuthon
+        has a claim on your soul due to an ancient pact. The Midnight Lord’s
+        unsettling influence is bred deep into your bones.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Shadow Plane Lore
+        skill. You gain the Quick Coercion skill feat.
+        <Feat
+          id={0}
+          name="Quick Coercion"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can bully others with just a few choice implications. You can
+              Coerce a creature after 1 round of conversation instead of 1
+              minute. You still can’t Coerce a creature in the midst of combat,
+              or without engaging in a conversation.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sheriff",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Intimidation", "Hunting Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        You hold an official title of sheriff or deputy in a small community.
+        Those that would do harm to others flee your gaze, for they know it
+        brings the promise of castigation. You protect your town, watch over
+        those who have placed their trust in you, and make sure those that would
+        do others harm are brought to justice.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Hunting Lore skill. You
+        gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Shielded Fortune",
+    source: "Stolen Fate: Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution"],
+    skillTraining: [],
+    feat: "Toughness",
+    description: (
+      <span>
+        You’ve always been tougher than your peers. As a child, you may have
+        been able to endure the rough‑and‑tumble horseplay with friends more
+        easily. You regularly emerged relatively unscathed from accidents could
+        have been quite dangerous. At some point in your past, you had a
+        particularly close call with death—be it from a near-fatal accident, a
+        fight gone horribly wrong, a close call with illness, or something
+        similar, yet you quickly recovered. You may or may not believe you’re
+        more fated to face unexpected hardship in your life, but regardless, you
+        know you can take what destiny has to dish out.
+        <br />
+        <br />
+        This background is associated with the suit of Shields.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution, and one is a
+        free ability boost.
+        <br />
+        <br />
+        You gain the Toughness general feat and also gain the following free
+        action.
+        <br />
+        <br />
+        Fated Not to Die{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You are dying; <b>Frequency:</b> once per day;{" "}
+        <b>Effect:</b> Draw a harrow card, and you automatically lose the dying
+        condition, though you remain unconscious at 0 Hit Points. If the card
+        you drew was from the suit of Shields, you awaken and have an amount of
+        Hit Points restored to you equal to 1d6 + your level.
+        <Feat
+          id={0}
+          name="Toughness"
+          tags={["general"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              You can withstand more punishment than most before succumbing.
+              Increase your maximum Hit Points by your level. You reduce the DC
+              of recovery checks by 1.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Shoanti Nmae-bearer",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Athletics", "Quah Lore"],
+    feat: "Combat Climber",
+    description: (
+      <span>
+        You are a member of a Shoanti quah and have gone through its coming of
+        age ceremony, gaining the traditional tattoo of your quah and earning
+        your adult name.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Quah Lore skill. You gain
+        the Combat Climber skill feat.
+        <Feat
+          id={0}
+          name="Combat Climber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              Your techniques allow you to fight as you climb. You’re not
+              flat-footed while Climbing and can Climb with a hand occupied. You
+              must still use another hand and both legs to Climb.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Shory Seeker",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Shory Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        You’ve dedicated your life to unraveling the secrets of the ancient
+        Shory Empire, either through meticulous research or by traveling into
+        dangerous and distant ruins to track down long-lost artifacts.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Shory Lore skill. You gain
+        the Specialty Crafting skill feat.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>Artistry</td>
+                    <td>Fine art, including jewelry</td>
+                  </tr>
+                  <tr>
+                    <td>Blacksmithing</td>
+                    <td>Durable metal goods, including metal armor</td>
+                  </tr>
+                  <tr>
+                    <td>Bookmaking</td>
+                    <td>Books and paper</td>
+                  </tr>
+                  <tr>
+                    <td>Glassmaking</td>
+                    <td>Glass, including glassware and windows</td>
+                  </tr>
+                  <tr>
+                    <td>Leatherworking</td>
+                    <td>Leather goods, including leather armor</td>
+                  </tr>
+                  <tr>
+                    <td>Pottery</td>
+                    <td>Ceramic goods</td>
+                  </tr>
+                  <tr>
+                    <td>Shipbuilding</td>
+                    <td>Ships and boats</td>
+                  </tr>
+                  <tr>
+                    <td>Stonemasonry</td>
+                    <td>Stone goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>Tailoring</td>
+                    <td>Clothing</td>
+                  </tr>
+                  <tr>
+                    <td>Weaving</td>
+                    <td>Textiles, baskets, and rugs</td>
+                  </tr>
+                  <tr>
+                    <td>Woodworking</td>
+                    <td>Wooden goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sign Bound",
+    source: "Lost Omens: Travel Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Free"],
+    skillTraining: ["Astrology Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were born under a powerful manifestation of a specific
+        constellation, and its connection to you is obvious. You tend to feel
+        most at ease while your constellation is prominent and can draw upon
+        your sign’s influence from time to time. When you gain this background,
+        choose a specific constellation, such as the Thrush or the Wagon. Your
+        associated constellation determines one of the ability boosts you gain
+        and an innate spell, as noted below. The list includes benefits for the
+        constellations of the Cosmic Caravan, but you might have been born under
+        a different constellation and gain different benefits as determined by
+        the GM.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to the ability tied to your sign,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Astrology Lore. You also gain the ability to cast an
+        occult innate spell, as determined by your sign. The frequency with
+        which you can cast this spell is listed below; cantrips can be used as
+        often as you wish. As normal, you cast non-cantrip innate spells at the
+        lowest level available to that spell, such as 2nd level for speak with
+        animals, and cantrips are heightened to half your level. Additionally,
+        once during the prominent time for your sign (such as 12 Pharast–18
+        Gozran for the Bridge), you can cast your sign’s spell without expending
+        its normal use.
+        <ul>
+          <li>
+            <b>The Thrush (Dexterity):</b> ghost sound; at will
+          </li>
+          <li>
+            <b>The Lantern Bearer (Wisdom):</b> light; at will
+          </li>
+          <li>
+            <b>The Newlyweds (Charisma):</b> charm; once per day
+          </li>
+          <li>
+            <b>The Bridge (Constitution):</b> endure elements; once per week
+          </li>
+          <li>
+            <b>The Daughter (Charisma):</b> guidance; at will
+          </li>
+          <li>
+            <b>The Rider (Strength):</b> phantom steed; once per week
+          </li>
+          <li>
+            <b>The Patriarch (Strength):</b> know direction; at will
+          </li>
+          <li>
+            <b>The Wagon (Constitution):</b> longstrider; once per week
+          </li>
+          <li>
+            <b>The Pack (Dexterity):</b> speak with animals; once per week
+          </li>
+          <li>
+            <b>The Mother (Wisdom):</b> remove fear; once per week
+          </li>
+          <li>
+            <b>The Star Gazer (Intelligence):</b> true strike; once per week
+          </li>
+          <li>
+            <b>The Stranger (Charisma):</b> message; at will
+          </li>
+          <li>
+            <b>The Follower (Intelligence):</b> stabilize; at will
+          </li>
+        </ul>
+      </span>
+    ),
+  },
+  {
+    name: "Sky Rider",
+    source: "Rage of Elements",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Acrobatics", "Plane of Air Lore"],
+    feat: "Cat Fall",
+    description: (
+      <span>
+        The freedom of a bird in flight is something to envy, and envy it you
+        did, but not for long. You’ve borrowed mechanical gliders or sought out
+        the benefits of magically aided gliding and flight, doing anything for
+        an opportunity to look down on the world with only the wind to keep you
+        aloft. The expense of these experiences may have been a notable factor
+        in why you undertook the adventuring lifestyle or perhaps you are
+        seeking new methods of flight to master.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be to Dexterity or Wisdom, and one
+        is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Acrobatics skill and the Plane of Air Lore skill.
+        You gain the Cat Fall skill feat.
+        <Feat
+          id={0}
+          name="Cat Fall"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              Your catlike aerial acrobatics allow you to cushion your falls.
+              Treat falls as 10 feet shorter. If you’re an expert in Acrobatics,
+              treat falls as 25 feet shorter. If you’re a master in Acrobatics,
+              treat them as 50 feet shorter. If you’re legendary in Acrobatics,
+              you always land on your feet and don’t take damage, regardless of
+              the distance of the fall.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sleepless Sun Star",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Society", "Gladiatorial Lore or Genealogy Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        Among your fellow guards who patrol the Foreign Quarter, you’re
+        something of a big deal. Your good work and big personality have made a
+        big enough splash that word has gotten out about your status as a rising
+        star among the watchdogs of Absalom. Your popularity has also earned you
+        the trust of many citizens of the Foreign Quarter.
+        <br />
+        <br />
+        Your laudable performance has earned you a transfer to the newly formed
+        Edgewatch in the Precipice Quarter, where you’ll put your formidable
+        reputation to good use by patrolling the Radiant Festival and ensuring
+        the safety of Absalom’s most vulnerable visitors.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society, plus either Gladiatorial Lore or
+        Genealogy Lore. You gain a +1 circumstance bonus to Deception,
+        Diplomacy, and Intimidation checks to interact with members of the
+        Sleepless Suns and residents of the Foreign Quarter. You gain the
+        Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Snubbed Out Stoolie",
+    source: "Outlaws of Alkenstar: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Deception", "Underworld Lore"],
+    feat: "Lie to Me",
+    description: (
+      <span>
+        You were once a distinguished informant for the shieldmarshals, working
+        deep undercover to infiltrate gangs of bootleggers and assassins. Then,
+        one day, you discovered that the records of your service had all been
+        completely destroyed. In an instant, you were no longer an elite spy
+        impersonating a criminal—you were just a plain criminal.
+        <br />
+        <br />
+        Now, not a trace remains of your work for the city. Not only is it as
+        though you were never a shieldmarshal at all, but you’ve got a rap sheet
+        implicating you as a key member in the criminal organizations you spent
+        your career infiltrating. Luckily, no one could take away the skills you
+        learned from your deep-cover missions, and your new notoriety has earned
+        you quite a reputation among Alkenstar’s criminal elite. Through your
+        underworld connections, you’ve identified Deputy Shieldmarshal Anjelique
+        Loveless as the one responsible for your fall from grace. It seems you
+        were onto something that she didn’t want you to know about, but there’s
+        only one way to figure out exactly why Loveless ruined your reputation
+        and gave you your outlaw status—find her.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Underworld Lore skill. You
+        gain the Lie to Me skill feat.
+        <Feat
+          id={0}
+          name="Lie to Me"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              You can use Deception to weave traps to trip up anyone trying to
+              deceive you. If you can engage in conversation with someone trying
+              to Lie to you, use your Deception DC if it is higher than your
+              Perception DC to determine whether they succeed. This doesn’t
+              apply if you don’t have a back-and-forth dialogue, such as when
+              someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sodden Scavanger",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Swamp Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        You’ve managed to eke out an existence in the storm-wracked Sodden Lands
+        and have become an expert at scavenging food and tools.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Swamp Lore skill. You gain
+        the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Song of the Deep",
+    source: "Secrets of Magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Constitution", "Charisma"],
+    skillTraining: ["Athletics", "Ocean Lore"],
+    feat: "",
+    description: (
+      <span>
+        During a sea voyage, you washed overboard, ingested sea water, and
+        drowned. Merfolk, kelpies, sea serpents, or another magical denizen of
+        the sea pulled your unconscious body from the briny depths. Having spent
+        so much time underwater, your lungs were filled with salt water. To
+        restore your ability to breathe, they exhaled into your lungs and shared
+        the ability to breathe underwater in the process. You came back with the
+        ability to breathe water, as well as a new-found knowledge of your time
+        beneath the waves.
+        <br />
+        <br />
+        You gain one ability boost. It must be to Strength, Constitution, or
+        Charisma.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Ocean Lore skill. You have
+        the ability to breathe underwater.
+        <br />
+        <br />
+        <b>Special:</b> You can choose to lose the ability to breathe air when
+        you take this background, making you only able to breathe underwater. If
+        you do, you gain a second ability boost, which is a free ability boost.
+        you do, you gain a second ability boost, which is a free ability boost.
+      </span>
+    ),
+  },
+  {
+    name: "Spell Seeker",
+    source: "Lost Omens: Pathfinder Society Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana or Occult", "Library Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        Conventional magic can only hold your attention for so long. Instead,
+        you’ve devoted yourself to understanding truly esoteric spells, which
+        invariably draws you to explore the world and all its eldritch
+        traditions.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in either the Arcana skill or Occult skill, as well as
+        the Library Lore skill. You gain the Recognize Spell skill feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Spotter",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Stealth", "Scouting Lore"],
+    feat: "Terrain Stalker",
+    description: (
+      <span>
+        An eye for detail, a sense for the wind, and a strong trust in your gut
+        feelings. These qualities have set you apart from others when it comes
+        to assisting a sharpshooter with setting up the perfect shot against
+        their target. Elevation, velocity, and concealment—these are all vital
+        factors that need to be considered to pull off a feat of true
+        marksmanship, and no sniper would be able to function without an
+        experienced spotter. Since your younger days, you’ve put your skills as
+        a spotter to work as an adventurer. Whether you’re taking your own shots
+        now or spotting for others, your talents grant you an edge in an
+        adventuring career.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Scouting Lore skill. You
+        gain the Terrain Stalker skill feat.
+        <Feat
+          id={0}
+          name="Terrain Stalker"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              Select one type of difficult terrain from the following list:
+              rubble, snow, or underbrush. While undetected by all non-allies in
+              that type of terrain, you can Sneak without attempting a Stealth
+              check as long as you move no more than 5 feet and do not move
+              within 10 feet of an enemy at any point during your movement. This
+              also allows you to automatically approach creatures to within 15
+              feet while Avoiding Notice during exploration as long as they
+              aren’t actively Searching or on guard.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, choose a different type of terrain.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Squire",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Heraldry Lore or Warfare Lore"],
+    feat: "Armor Assist",
+    description: (
+      <span>
+        You trained at the feet of a knight, maintaining their gear and
+        supporting them at tourneys and in battle. Now you search for a
+        challenge that will prove you worthy of full knighthood, or you’ve
+        spurned pomp and ceremony to test yourself in honest, albeit less
+        formal, combat.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and your choice of the Heraldry
+        Lore or Warfare Lore skill. You gain the Armor Assist skill feat.
+        <Feat
+          id={0}
+          name="Armor Assist"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics or Warfare Lore.
+              </span>
+              <br />
+              After your service aiding armored combatants, you are practiced in
+              helping yourself and others don heavy gear. You can attempt an
+              Athletics or Warfare Lore check with a DC determined by the GM
+              (but usually 15 for common armor, DC 20 for uncommon armor, and DC
+              25 for rare armor) to halve the time you take to don armor. You
+              can halve an ally’s time to don armor by working with them to don
+              the armor and succeeding at an Athletics or Warfare Lore check
+              against the same DC.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Starless One",
+    source: "Lost Omens: Travel Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Occultism", "Astrology Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were born on a night when not a single star was in the night sky.
+        While this is likely due to a haze, cloud cover, or other natural
+        phenomena, there is always a chance that the stars hid from you on
+        purpose. You have never been able to rely on the stars to guide you and
+        you choose to exert your own will on your fortune rather than rely on
+        the heavens. You’ve learned to reject outside influence on your fate,
+        maintaining control of your own destiny.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in Occultism and Astrology Lore. You also gain the
+        Reclaim Destiny action.
+        <br />
+        <br />
+        Reclaim Destiny{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="One action icons"
+        />{" "}
+        (divination, occult)
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You are about to attempt
+        a check and are affected by a fortune or misfortune effect that modifies
+        the triggering check; <b>Effect:</b> You break the influence over your
+        fortunes and claim a stable hold over your fate. You ignore the fortune
+        or misfortune effect and can roll the triggering roll normally.
+      </span>
+    ),
+  },
+  {
+    name: "Starwatcher",
+    source: "Ruins of Gauntlight, Abomination Vaults: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Occultism", "Astrology Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        You’re one of Wrin Sivinxi’s closest confidantes. You’ve spent many long
+        nights with her under the stars, learning the tales associated with the
+        Cosmic Caravan and how the heavens can predict the future. You know that
+        Wrin has paralyzing claustrophobia; she sees menace in angles and danger
+        in confined spaces, which is why her shop is an all domed canvas that
+        opens to the sky. If Wrin thinks there’s trouble, you’ll be the first to
+        offer to help.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Astrology Lore skill. You
+        gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Storm survivor",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Survival", "Weather Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        Through luck or through skill, you managed to survive a catastrophic
+        maritime disaster, such as a shipwreck or being thrown overboard. You
+        have a keen sense for weather or situations that are similar to the one
+        you escaped.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Weather Lore skill. You
+        gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Street Preacher",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Religion", "Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        Forget the church orthodoxy and the stuffy cloisters—spreading the word
+        of your god to the people is your calling. You’ve preached on the street
+        corners and in public houses, to wanderers on the road and to captives
+        in the stocks. Adventuring can take you across the world. What vocation
+        could better serve to take your holy words to fresh ears?
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Lore skill for your patron
+        deity. You gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Street Urchin",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Constitution"],
+    skillTraining: ["Thievery", "Lore"],
+    feat: "Pickpocket",
+    description: (
+      <span>
+        You eked out a living by picking pockets on the streets of a major city,
+        never knowing where you’d find your next meal. While some folk adventure
+        for the glory, you do so to survive.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Thievery and a Lore skill for the city you lived in as
+        a street urchin (such as Absalom Lore or Magnimar Lore). You gain the
+        Pickpocket skill feat.
+        <Feat
+          id={0}
+          name="Pickpocket"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              You can Steal or Palm an Object that’s closely guarded, such as in
+              a pocket, without taking the –5 penalty. You can’t steal objects
+              that would be extremely noticeable or time consuming to remove
+              (like worn shoes or armor or actively wielded objects). If you’re
+              a master in Thievery, you can attempt to Steal from a creature in
+              combat or otherwise on guard. When doing so, Stealing requires 2
+              manipulate actions instead of 1, and you take a –5 penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Student of Magic",
+    source: "Secrets of Magic",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana, Nature, Occultism, or Religion", "Academia Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        You are currently enrolled at a school of magic, where you’re learning
+        the fundamentals of your magical tradition. Whether your adventuring
+        occurs during breaks between semesters, as part of a work study program,
+        or even within the halls of the academy itself, you’ll have to learn to
+        juggle your dual life.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of Arcana, Nature, Occultism, or Religion,
+        as well as Academia Lore. You gain the Recognize Spell skill feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sundancer",
+    source: "Lost Omens: Travel Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma", "Dexterity"],
+    skillTraining: ["Performance"],
+    feat: "Fascinating Performance",
+    description: (
+      <span>
+        You’ve been taught the Burning Mother’s blessings could be invited
+        through dances done under its presence, such as in welcoming the first
+        rays of warmth in the spring. You could have been the apprentice of some
+        primal caster who wished to harness the sun’s power for their
+        incantations or lived in a community who reveres the Daughter of the
+        Cosmic Caravan through displays of veneration for the sun. Whatever the
+        case, you developed a supernatural connection to the sun.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Performance. You gain the Fascinating Performance
+        skill feat. If you use this feat outdoors in direct sunlight, you gain a
+        +1 circumstance bonus to the skill check.
+        <Feat
+          id={0}
+          name="Fascinating Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              When you Perform, compare your result to the Will DC of one
+              observer. If you succeed, the target is fascinated by you for 1
+              round. If the observer is in a situation that demands immediate
+              attention, such as combat, you must critically succeed to
+              fascinate it and the Perform action gains the incapacitation
+              trait. You must choose which creature you’re trying to fascinate
+              before you roll your check, and the target is then temporarily
+              immune for 1 hour.
+              <br />
+              <br />
+              If you’re an expert in Performance, you can fascinate up to four
+              observers; if you’re a master, you can fascinate up to 10
+              observers; and if you’re legendary, you can fascinate any number
+              of observers at the same time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Surge Investigator",
+    source: "Secrets of Magic",
+    tags: ["rare", "Pervasive Magic"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Nature or Occultism", "Magical Terrain Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        From rivers that charm all who come near to forests that speak through
+        dream messages, you have seen and studied many kinds of magical terrain.
+        The world is so rich in magic that it can affect the land itself, and
+        you have traveled extensively to learn the ways of identifying the
+        oddities of magical terrain wherever it arises.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Constitution or Wisdom and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of Nature or Occultism and the Magical
+        Terrain Lore skill. You gain the Terrain Expertise skill feat.
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Sword Scion",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Warfare Lore"],
+    feat: "",
+    description: (
+      <span>
+        You have lived all your life in and around the city of Restov, growing
+        up on tales of Baron Sirian Aldori and the exploits of your home’s
+        heroic and legendary swordlords. Joining an expedition into the Stolen
+        Lands seems like a perfect way to improve your skills and begin crafting
+        a legend worthy of Baron Aldori.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Warfare Lore skill. You gain access to Aldori
+        dueling swords and can purchase one as part of your starting equipment.
+        You treat Aldori dueling swords as martial weapons rather than advanced
+        weapons for the purpose of proficiency.
+      </span>
+    ),
+  },
+  {
+    name: "Sword Scion",
+    source: "Kingmaker Adventure path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Warfare Lore"],
+    feat: "",
+    description: (
+      <span>
+        You have lived all your life in and around the city of Restov, growing
+        up on tales of Baron Sirian Aldori and the exploits of your home’s
+        heroic and legendary swordlords. Joining an expedition into the Stolen
+        Lands seems like a perfect way to improve your skills and begin crafting
+        a legend worthy of Baron Aldori.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Warfare Lore skill. You gain access to Aldori
+        dueling swords and can purchase one as part of your starting equipment.
+        You treat Aldori dueling swords as martial weapons rather than advanced
+        weapons for the purpose of proficiency.
+      </span>
+    ),
+  },
 ];
