@@ -1736,7 +1736,7 @@ export const backgrounds: Array<Background> = [
   },
   {
     name: "Bibliophilee",
-    source: "Ruins of Gauntlight, AbominationVaults: Player's Guide",
+    source: "Ruins of Gauntlight, Abomination Vaults: Player's Guide",
     tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Arcana", "Library Lore"],
@@ -11285,7 +11285,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Plant whisperer",
     source: "Secrets of Magic",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Wisdom", "Charisma"],
     skillTraining: ["Nature", "Plant Lore"],
     feat: "Natural Medicine",
@@ -11331,7 +11331,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Political Scion",
     source: "Agents of Edgewatch: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Constitution", "Intelligence"],
     skillTraining: ["Diplomacy", "Legal Lore"],
     feat: "Hobnobber",
@@ -11397,7 +11397,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Post Guard of All Trades",
     source: "Agents of Edgewatch: Player's Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Performance", "Lore"],
     feat: "Dubious Knowledge",
@@ -11513,7 +11513,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Press-Ganged Sailor",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Wisdom"],
     skillTraining: ["Society", "Sailing Lore"],
     feat: "Experienced Professional",
@@ -11559,7 +11559,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Printer",
     source: "Guns & Gears",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Charisma"],
     skillTraining: ["Society", "Scribing Lore"],
     feat: "Multilingual",
@@ -11609,7 +11609,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Prisoner",
     source: "Core Rulebook",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Strength", "Constitution"],
     skillTraining: ["Stealth", "Underworld Lore"],
     feat: "Experienced Smuggler",
@@ -11737,7 +11737,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Purveyor of the Bizarre",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Intelligence", "Wisdom"],
     skillTraining: ["Arcana", "Mercantile Lore"],
     feat: "Quick Identification",
@@ -11783,7 +11783,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Pyre tender",
     source: "Book of the Dead",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Dexterity", "Intelligence"],
     skillTraining: ["Crafting", "Funeral Lore"],
     feat: "Alchemical Crafting",
@@ -11827,7 +11827,7 @@ export const backgrounds: Array<Background> = [
   {
     name: "Quick",
     source: "Lost Omens: World Guide",
-    tags: [""],
+    tags: [],
     abilityBoost: ["Free", "Charisma", "Constitution"],
     skillTraining: ["Deception", "Undead Lore"],
     feat: "Charming Liar",
@@ -11867,6 +11867,1038 @@ export const backgrounds: Array<Background> = [
               to improve. You must be lying to impart seemingly important
               information, inflate your status, or ingratiate yourself, which
               trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Raised by Belief",
+    source: "Lost Omens: Gods & Magic",
+    tags: [],
+    abilityBoost: ["Free", "Free"],
+    skillTraining: ["Skill", "Lore"],
+    feat: "Assurance",
+    description: (
+      <span>
+        Whether in a monastery, a religious household, or just as part of your
+        everyday life, your upbringing was steeped in the traditions of a faith
+        or philosophy. You might remain committed or you may have turned from
+        your childhood creed, but your skills are still founded in your
+        devotion.
+        <br />
+        <br />
+        Choose two ability boosts. One boost must be to an ability specified in
+        the Divine Ability entry for your deity, and one is a free ability
+        boost.
+        <br />
+        <br />
+        You’re trained in your deity’s associated skill, and you gain Assurance
+        with that skill. You gain a Lore skill with a subcategory associated
+        with your deity (Abadar Lore, for instance).
+        <Feat
+          id={0}
+          name="Assurance"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in at least one skill.
+              </span>
+              <br />
+              Even in the worst circumstances, you can perform basic tasks.
+              Choose a skill you’re trained in. You can forgo rolling a skill
+              check for that skill to instead receive a result of 10 + your
+              proficiency bonus (do not apply any other bonuses, penalties, or
+              modifiers). Special You can select this feat multiple times. Each
+              time, choose a different skill and gain the benefits for that
+              skill.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ratted-out Gun Runner",
+    source: "Outlaws of Alkenstar: Player's guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Stealth", "Firearm Lore"],
+    feat: "Experienced Smuggler",
+    description: (
+      <span>
+        Sure, you’ve got a checkered past. Who doesn’t? It’s hard to make a
+        living in the City of Smog, so you did what you could to put silvers in
+        your pocket and food on the table. You made a good deal of money selling
+        firearms from the Gunworks to people who perhaps shouldn’t have had
+        them. You even worked with wasteland marauders a few times, sticking up
+        Ustradi barges plying the river between the Gunworks and Alkenstar. Of
+        course, you never hurt any innocents or did anything truly heinous; your
+        criminal career was always just a matter of money.
+        <br />
+        <br />
+        One day, a corrupt financier named Ambrost Mugland—a true crook if there
+        ever was one—approached you, demanding a cut of your business. When you
+        refused, he put in a word with the shieldmarshals that you’d be a
+        certain somewhere at a certain time with a certain large quantity of
+        illegally obtained firearms. Even though you escaped arrest, your
+        identity was compromised, and your old accomplices have all turned their
+        backs on you. Your gun-running days are clearly over. Now, you’re just
+        running.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Firearm Lore skill. You gain
+        the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Razmiran Faithful",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Razmir Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        You serve a living god who rules upon the face of Golarion, and this
+        gives your actions a divine mandate not to be trifled with.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You're trained in the Intimidation skill and the Razmir Lore skill. You
+        gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Reborn Soul",
+    source: "Dark Archive",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Lore", "Lore"],
+    feat: "",
+    description: (
+      <span>
+        You were given a second opportunity at life by mysterious forces in the
+        Lands of Second Souls. You remember your life before your death and now
+        live with an extra lifetime of knowledge.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You become trained in two Lore skills, which you and your GM choose from
+        Lore skills associated with your past life. At 3rd level, 7th level, and
+        15th level, you receive skill increases, which you can apply only to
+        these Lore skills. In certain situations analogous to your past life,
+        fragments of memories resurface, potentially helping or distracting you.
+        The GM can offer you a +1 circumstance bonus on skill checks with either
+        of these Lore skills or on other skill checks that echo your past life.
+        If you accept but fail the check, you’re stupefied 1 for 1 minute by the
+        mental distraction of your past-life memories, or stupefied 2 for 1
+        minute on a critical failure.
+      </span>
+    ),
+  },
+  {
+    name: "Reclaimed",
+    source: "Lost Omens: Kights of Lastwall",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Intimidation", "Crimson Reclaimers Lore"],
+    feat: "Group Coercion",
+    description: (
+      <span>
+        A unit of Crimson Reclaimers saved you from certain death in the
+        Gravelands. You spent time with one or more Crimson Reclaimers as they
+        escorted you to safety, and you’ve learned the ways of this faction of
+        the Knights of Lastwall. You consider yourself forever in their debt and
+        defend their reputation unquestioningly against any accusations of
+        duplicity.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Crimson Reclaimers Lore
+        skill. You gain the Group Coercion skill feat.
+        <Feat
+          id={0}
+          name="Group Coercion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              When you Coerce, you can compare your Intimidation check result to
+              the Will DCs of two targets instead of one. It’s possible to get a
+              different degree of success for each target. The number of targets
+              you can Coerce in a single action increases to four if you’re an
+              expert, 10 if you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Reclaimer Investigator",
+    source: "Lost Omens: Kights of Lastwall",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Crimson Reclaimers Lore"],
+    feat: "Oddity Identification",
+    description: (
+      <span>
+        You believe the mysterious patron of the Crimson Reclaimers has an
+        ulterior motive that bedevils the Knights of Lastwall. Whatever the
+        organization gains from the pact, some mysterious force with its own
+        agenda and a need for anonymity benefits as well. You’ve made it your
+        mission to determine what that agenda is before the patron decides it
+        has manipulated from the shadows long enough.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Crimson Reclaimers Lore
+        skill. You gain the Oddity Identification skill feat.
+        <Feat
+          id={0}
+          name="Oddity Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Refugee",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Society", "Lore"],
+    feat: "Streetwise",
+    description: (
+      <span>
+        You come from a land very distant from the one you now find yourself in,
+        driven by war, plague, or simply in the pursuit of opportunity.
+        Regardless of your origin or the reason you left your home, you find
+        yourself an outsider in this new land. Adventuring is a way to support
+        yourself while offering hope to those who need it most.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and a Lore skill related to the
+        settlement you came from. You gain the Streetwise skill feat.
+        <Feat
+          id={0}
+          name="Streetwise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You know about life on the streets and feel the pulse of your
+              local settlement. You can use your Society modifier instead of
+              your Diplomacy modifier to Gather Information. In any settlement
+              you frequent regularly, you can use the Recall Knowledge action
+              with Society to know the same sorts of information that you could
+              discover with Diplomacy to Gather Information. The DC is usually
+              significantly higher, but you know the information without
+              spending time gathering it. If you fail to recall the information,
+              you can still subsequently attempt to Gather Information normally.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Refugee (FOP)",
+    source: "The Fall of Plaguestone",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Survival", "Hunting Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        The fighting around the Lake Encarthan region has forced many of the
+        people residing there to flee from the violence. Although your home is
+        gone, you have managed to survive and are making your way south in
+        search of a better life. When play begins, you are riding along in a
+        caravan taking you to what might be either a new home in Andoran or
+        simply another waypoint in your journey.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Survival skill and the Hunting Lore skill. You
+        gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Reflentless Dedication",
+    source: "Lost Omens: Knights of Lastwall",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Warfare Lore"],
+    feat: "Canny Acumen",
+    description: (
+      <span>
+        Recruiters invite many candidates like you to train to be Knights of
+        Lastwall, but only a select few make the cut. Whereas others lose heart,
+        your perseverance paid off. Your commitment to the cause is so clear, it
+        overcame whatever disqualified your previous attempts to join the new
+        Shining Crusade.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Warfare Lore skill, and you gain the Canny Acumen
+        feat.
+        <Feat
+          id={0}
+          name="Canny Acumen"
+          tags={["general"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              Your avoidance or observation is beyond the ken of most in your
+              profession. Choose Fortitude saves, Reflex saves, Will saves, or
+              Perception. You become an expert in your choice. At 17th level,
+              you become a master in your choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Reputation Seeker",
+    source: "Age of Ashes: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Survival", "Darklands, Desert, or Jungle Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        You’re likely from Breachill, but unlike the Local Scion, your family
+        has no notable legacy in the area. You might not even have much of a
+        family at all to call your own, and could be an orphan. You’ve seen so
+        many people make names for themselves that you set out on your own and
+        spent some time abroad in the jungles or deserts of Garund or in the
+        upper reaches of the Darklands—regions that proved too dangerous to
+        remain in for long on your own. You returned home with more caution and
+        knowledge of the world beyond Breachill’s borders, but still determined
+        to win fame.
+        <br />
+        <br />
+        You’ve decided that joining an adventuring group would be the best way
+        to secure aid in your quest to build your own reputation, and are
+        attending the Call for Heroes to find such allies.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Darklands, Desert, or
+        Jungle Lore skill. You gain the Terrain Expertise skill feat
+        (underground if you have Darklands Lore, desert if you have Desert Lore,
+        or forest if you have Jungle Lore).
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Returned",
+    source: "Advanced Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: [],
+    feat: "Diehard and Additional Lore",
+    description: (
+      <span>
+        You died and miraculously returned with knowledge of the realms beyond
+        death and a stronger link to life. Some dead and undead souls might feel
+        a strange, instinctual kinship with you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You gain the Diehard feat and the Additional Lore feat for Boneyard
+        Lore.
+        <Feat
+          id={0}
+          name="Diehard"
+          tags={["general"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              It takes more to kill you than most. You die from the dying
+              condition at dying 5, rather than dying 4.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Returning Descendant",
+    source: "Age of Ashes: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Thievery", "Engineering Lore"],
+    feat: "Pickpocket",
+    description: (
+      <span>
+        You aren’t from Breachill yourself—you might not even be from Isger or
+        Avistan at all. You’ve lived a hard life, in any event. You have often
+        had to make tough decisions, and have developed a knack for
+        understanding how things work (and the best way to take them apart) that
+        has helped you support yourself. Recently you discovered that an
+        ancestor was from the town of Breachill and had a modest career as an
+        adventurer. You can’t help but wonder if you would have had an easier
+        life if you’d grown up there instead, and have decided to seek out this
+        small town to learn more about it.
+        <br />
+        <br />
+        You’ve decided to respond to the Call for Heroes to follow in your
+        ancestor’s footsteps, either to honor their memory or accomplish the
+        great deeds they did not.
+        <br />
+        <br />
+        Choose two ability boosts. One must be Dexterity or Wisdom, and one is a
+        free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and the Engineering Lore skill. You
+        gain the Pickpocket skill feat.
+        <Feat
+          id={0}
+          name="Pickpocket"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              You can Steal or Palm an Object that’s closely guarded, such as in
+              a pocket, without taking the –5 penalty. You can’t steal objects
+              that would be extremely noticeable or time consuming to remove
+              (like worn shoes or armor or actively wielded objects). If you’re
+              a master in Thievery, you can attempt to Steal from a creature in
+              combat or otherwise on guard. When doing so, Stealing requires 2
+              manipulate actions instead of 1, and you take a –5 penalty.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Revenant",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Religion", "Boneyard Lore"],
+    feat: "",
+    description: (
+      <span>
+        You died. No real doubt about that. Bullet to the brain or knife to the
+        throat, you were dead as dead can be. Then you got back up again. Maybe
+        you had some unfinished business, or maybe you were just so tough and so
+        mean that Hell itself spat you out. Either way, you came back for a
+        reason.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Religion and Boneyard Lore. You’re still alive, not
+        undead, but you have the negative healing ability, which means you’re
+        harmed by positive damage and healed by negative effects as if you were
+        undead.
+      </span>
+    ),
+  },
+  {
+    name: "Rivethun Adherent",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Occultism", "Spirit Lore"],
+    feat: "Recognize Spell",
+    description: (
+      <span>
+        You have spent time learning the practices and traditions of the ancient
+        Rivethun dwarven shamans and can recognize all sorts of magic. You may
+        have chosen your own road since then, or you may remain an adherent of
+        the philosophy.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Spirit Lore skill. You
+        gain the Recognize Spell skill feat.
+        <Feat
+          id={0}
+          name="Recognize Spell"
+          tags={["general", "secret", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Arcana, Nature, Occultism, or
+              Religion.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Trigger:</b> A creature within line of sight casts a spell
+                that you don’t have prepared or in your spell repertoire, or a
+                trap or similar object casts such a spell. You must be aware of
+                the casting.
+              </span>
+              <br />
+              If you are trained in the appropriate skill for the spell’s
+              tradition and it’s a common spell of 2nd level or lower, you
+              automatically identify it (you still roll to attempt to get a
+              critical success, but can’t get a worse result than success). The
+              highest level of spell you automatically identify increases to 4
+              if you’re an expert, 6 if you’re a master, and 10 if you’re
+              legendary. The GM rolls a secret Arcana, Nature, Occultism, or
+              Religion check, whichever corresponds to the tradition of the
+              spell being cast. If you’re not trained in the skill, you can’t
+              get a result better than failure.
+              <br />
+              <br />
+              <b>Critical Success:</b> You correctly recognize the spell and
+              gain a +1 circumstance bonus to your saving throw or your AC
+              against it.
+              <br />
+              <br />
+              <b>Success:</b> You correctly recognize the spell.
+              <br />
+              <br />
+              <b>Failure:</b> You fail to recognize the spell.
+              <br />
+              <br />
+              <b>Critical Failure:</b> You misidentify the spell as another
+              spell entirely, of the GM’s choice.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Root Worker",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Occultism", "Herbalism Lore"],
+    feat: "Root Magic",
+    description: (
+      <span>
+        Some ailments can’t be cured by herbs alone. You learned ritual remedies
+        as well, calling on nature spirits to soothe aches and ward off the evil
+        eye. Taking up with adventurers has given you company on the road, as
+        well as protection from those who would brand you a fake—or worse.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Herbalism Lore skill. You
+        gain the Root Magic skill feat.
+        <Feat
+          id={0}
+          name="Root Magic"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              Your talismans ward against foul magic. During your daily
+              preparations, you can assemble a small pouch with bits of herbs,
+              hair, sacred oils, and other ritual ingredients, which you give to
+              one ally. The first time that day the ally attempts a saving throw
+              against a spell or haunt, they gain a +1 circumstance bonus to the
+              roll. This bonus increases to +2 if you’re an expert in Occultism
+              or +3 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Rostland Partisan",
+    source: "Lost omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Diplomacy", "Politics Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        You grew up among the southern houses of Brevoy in old Rostland. You’re
+        accustomed to arguing from a position of underappreciated worth.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You're trained in the Diplomacy skill and the Politics Lore skill. You
+        gain the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Rostlander",
+    source: "Kingmaker Adventure Path",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Farming Lore"],
+    feat: "Hefty Hauler",
+    description: (
+      <span>
+        You were raised in the south of Brevoy, a land of dense forests and
+        rolling plains, of crystalline rivers and endless sapphire skies. You
+        come from hardy stock and were raised with simple sensibilities—that
+        hard work earns well-deserved gains, the importance of charity and
+        compassion, and the value of personal and familial honor. Yours is the
+        country of the Aldori swordlords and the heroes who refused to bend
+        before the armies of a violent conqueror. You care little for matters of
+        politics and nobles or of deception and schemes. You are thoroughly
+        Brevic, and the call for champions willing to expand your land’s
+        influence into the Stolen Lands has inflamed your sense of patriotism
+        and honor, and so you have joined an expedition to journey southward and
+        build a kingdom.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Farming Lore skill. You
+        gain the Hefty Hauler skill feat.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Royalty",
+    source: "Advanced Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society"],
+    feat: "Courtly Graces",
+    description: (
+      <span>
+        You are a prominent member of a royal family. You have taken up the life
+        of an adventurer—perhaps you’re a deposed queen hoping to regain her
+        throne, a prince seeking a more exciting life, or a princess on a secret
+        mission.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in Society. You gain the Courtly Graces skill feat and
+        can influence commoners in your family’s territory, as well as nobility
+        anywhere. If you later gain the Connections skill feat, you
+        automatically have common and noble connections within any community in
+        your royal family’s territory and have noble connections in large
+        communities outside your territory.
+        <Feat
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ruby Phoenix Fanatic",
+    source: "Fists of the Ruby Phoenix: Player's guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Axis Lore, Gladiatorial Lore, and Goka Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        Have you heard of the peerless sorcerer Hao Jin, also known as the Ruby
+        Phoenix? Of course you have! You’re her biggest fan! She’s got amazing
+        powers of self-resurrection, her hair is as red and fiery as a phoenix,
+        and she has a huge vault full of the most incredible treasures in the
+        multiverse. Now she’s finally back from a mysterious 300-year quest on
+        the plane of Axis so she can host this year’s Ruby Phoenix
+        Tournament—and you can’t wait to meet her!
+        <br />
+        <br />
+        In order to get as close to Hao Jin as possible, you've researched
+        everything there is to know about the Ruby Phoenix's home, her planar
+        escapades, and her competition. You've also trained your body to prove
+        yourself a worthy champion. When Hao Jin’s committee invited you and
+        some friends to take part in the tournament’s prequalifier, you just
+        about fainted from excitement. Is your dream of meeting the Ruby Phoenix
+        about to come true? As long as you win enough matches to get into the
+        actual tournament, it just might! Just try not to act too star-struck
+        when you finally get a chance to talk to her, okay?
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Axis Lore, Gladiatorial Lore, and Goka Lore
+        skills. You gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ruin Delver",
+    source: "Ruins of Gauntlight, Abomination Vaults: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Acrobatics", "Roseguard Lore"],
+    feat: "Cat Fall",
+    description: (
+      <span>
+        You’ve looked through some of the smaller ruins in the Otari hinterlands
+        but have never quite built up the courage to check out the creepy
+        lighthouse called Gauntlight. You’ve heard that these ruins are pretty
+        well picked over, and mostly collapsed, but you always planned to some
+        day explore them and perhaps find some bauble left behind from the
+        centuries-old battle where the Roseguard slew an evil sorcerer. You know
+        that the crumbled stone of old ruins has a tendency to shift, so you’d
+        better step lightly if you get the chance to explore Gauntlight.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Acrobatics and the Roseguard Lore skill. You gain the
+        Cat Fall skill feat.
+        <Feat
+          id={0}
+          name="Cat Fall"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              Your catlike aerial acrobatics allow you to cushion your falls.
+              Treat falls as 10 feet shorter. If you’re an expert in Acrobatics,
+              treat falls as 25 feet shorter. If you’re a master in Acrobatics,
+              treat them as 50 feet shorter. If you’re legendary in Acrobatics,
+              you always land on your feet and don’t take damage, regardless of
+              the distance of the fall.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Runner",
+    source: "Lost Omens: Firebrands",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Intelligence"],
+    skillTraining: ["Athletics", "Lore"],
+    feat: "Quick Jump",
+    description: (
+      <span>
+        You served as a messenger for a specific faction, guild, house, or
+        individual, often running those messages on a short timeline. Finding
+        the quickest path from point A to point B is your specialty and you’ve
+        learned to make the most of your athleticism and navigational skill.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Athletics skill and a Lore skill for the city in
+        which you were a messenger. You gain the Quick Jump skill feat.
+        <Feat
+          id={0}
+          name="Quick Jump"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can use High Jump and Long Jump as a single action instead of
+              2 actions. If you do, you don’t perform the initial Stride (nor do
+              you fail if you don’t Stride 10 feet).
             </span>
           }
         />
