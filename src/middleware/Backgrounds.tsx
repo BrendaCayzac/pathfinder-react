@@ -11824,4 +11824,53 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Quick",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Charisma", "Constitution"],
+    skillTraining: ["Deception", "Undead Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        Staying alive among the scheming, ravenous undead of Geb required a deep
+        knowledge of their motivations, capabilities, and weaknesses. More often
+        than not, it also required the ability to weave alibis and
+        life-preserving half-truths capable of swaying a stilled heart.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Undead Lore skill. You
+        gain the Charming Liar skill feat.
+        <Feat
+          id={0}
+          name="Charming liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
