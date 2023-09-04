@@ -10920,14 +10920,14 @@ export const backgrounds: Array<Background> = [
         You’re trained in the Nature skill and the Plains Lore skill. You gain
         the Express Rider skill feat.
         <Feat
-	        id={0}
-	        name="Courtly Graces"
-	        tags={["general", "skill"]}
-	        action=""
-	        level={1}
-	        feat="Feat 1"
-	        description={
-		        <span>
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
               <span className="frequency">
                 <b>Prerequisites:</b> trained in a skill with the Recall
                 Knowledge action.
@@ -10939,7 +10939,887 @@ export const backgrounds: Array<Background> = [
               knowledge and a bit of erroneous knowledge, but you don’t have any
               way to differentiate which is which.
             </span>
-	        }
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Pathfinder Hopeful",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Society", "Pathfinder Society Lore"],
+    feat: "Additional Lore",
+    description: (
+      <span>
+        You’ve long wanted to join the adventurous Pathfinder Society. You have
+        taken up the dangerous life of an adventurer in hopes of earning a spot
+        among the Pathfinders.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Pathfinder Society Lore
+        skill. You gain the Additional Lore skill feat.
+        <Feat
+          id={0}
+          name="Additional Lore"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              Your knowledge has expanded to encompass a new field. Choose an
+              additional Lore skill subcategory. You become trained in it. At
+              3rd, 7th, and 15th levels, you gain an additional skill increase
+              you can apply only to the chosen Lore subcategory.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once. Each time
+              you must select a new subcategory of Lore and you gain the
+              additional skill increases to that subcategory for the listed
+              levels.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Pathfinder Recruiter",
+    source: "Lost Omens: Pathfinder Society Guide",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Diplomacy", "Lore"],
+    feat: "Group Impression",
+    description: (
+      <span>
+        The Pathfinder Society’s always on the lookout for talent, but that
+        talent rarely just stumbles into the Grand Lodge. Whether you’re
+        professionally trained to encourage new recruits or the Society’s own
+        scouts identified your potential and raised you from childhood, you’re
+        committed to expanding the Society’s roster.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and a Lore skill related to one
+        city you’ve visited often. You gain the Group Impression skill feat.
+        <Feat
+          id={0}
+          name="Group Impression"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              When you Make an Impression, you can compare your Diplomacy check
+              result to the Will DCs of two targets instead of one. It’s
+              possible to get a different degree of success for each target. The
+              number of targets increases to four if you’re an expert, 10 if
+              you’re a master, and 25 if you’re legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Perfection Seeker",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Acrobatics", "Warfare Lore"],
+    feat: "Cat Fall",
+    description: (
+      <span>
+        You aspire to perfect your body and mind in the tradition of Jalmeray’s
+        Houses of Perfection, honing your acrobatic skills and mental faculties
+        in preparation for a lifetime pushing the edge of what most consider
+        possible.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Acrobatics skill as well as the Warfare Lore
+        skill. You gain the Cat Fall skill feat.
+        <Feat
+          id={0}
+          name="Cat Fall"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              Your catlike aerial acrobatics allow you to cushion your falls.
+              Treat falls as 10 feet shorter. If you’re an expert in Acrobatics,
+              treat falls as 25 feet shorter. If you’re a master in Acrobatics,
+              treat them as 50 feet shorter. If you’re legendary in Acrobatics,
+              you always land on your feet and don’t take damage, regardless of
+              the distance of the fall.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Pilgrim",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Religion", "Lore"],
+    feat: "Pilgrim’s Token",
+    description: (
+      <span>
+        In your youth, you made several pilgrimages to important shrines and
+        holy sites. You might have been a mendicant friar, a seller of holy
+        relics (real or fraudulent), or just a simple farmer following the
+        dictates of your faith. Whatever the aims of your wanderings now, your
+        faith still protects you on the road.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Lore skill for your patron
+        deity. You gain the Pilgrim’s Token skill feat.
+        <Feat
+          id={0}
+          name="Pilgrim’s Token"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              You carry a small token of protection from a site holy to your
+              faith, or you touched your religious symbol to a relic or altar at
+              such a site. So long as this token is in your possession, when you
+              tie an adversary’s initiative roll, you go first.
+              <br />
+              <br />
+              <b>Special:</b> If you select this feat at 1st level, you receive
+              your pilgrim’s token for free. Alternately, if you have a
+              religious symbol, it is already attuned, as described above.
+              <br />
+              <br />
+              If you select this feat at a later level, or if you lose your
+              pilgrim’s token, you must purchase or Craft a replacement and
+              attune it at a holy site. Such a token usually costs at least 2
+              sp, and the attunement takes 10 minutes of prayer and requires a
+              successful DC 20 Religion check. Your GM might adjust the price
+              and DC depending on the token’s material and quality and the
+              religious significance of the site; the more significant the
+              location, the easier the attunement.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Pillar",
+    source: "Lost Omens: Knights of Lastwall",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Medicine, Society, or Survival", "Labor Lore"],
+    feat: "Additional Lore",
+    description: (
+      <span>
+        Not every Knight of Lastwall contributes to the crusade through combat.
+        Pillars provide essential upkeep and service at camps, enjoying the same
+        rank of knight as the crusaders and strategists for which the knights
+        are known. You spent time as an assistant among the pillars, learning
+        how noncombatants provide for the physical and mental wellbeing of an
+        army.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in one of your choice of the Medicine, Society, or
+        Survival skills, as well as the Labor Lore skill. You gain the
+        Additional Lore skill feat.
+        <Feat
+          id={0}
+          name="Additional Lore"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              Your knowledge has expanded to encompass a new field. Choose an
+              additional Lore skill subcategory. You become trained in it. At
+              3rd, 7th, and 15th levels, you gain an additional skill increase
+              you can apply only to the chosen Lore subcategory.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once. Each time
+              you must select a new subcategory of Lore and you gain the
+              additional skill increases to that subcategory for the listed
+              levels.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Planar Migrant",
+    source: "Rage of Elements",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Constitution"],
+    skillTraining: [
+      "Athletics",
+      "Plane of Air Lore, Plane of Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of Water Lore, or Plane of Wood Lore",
+    ],
+    feat: "Hefty Hauler and Prescient Planner",
+    description: (
+      <span>
+        Your birthplace was on one of the elemental planes, but you traveled to
+        the Universe for some reason. Maybe you left on good terms, or maybe you
+        were driven out and hope to one day return. Maybe you were even exiled,
+        and any mention of it brings pain and resentment. In any case, nowhere
+        has quite felt like home since, and you’ve roamed the land, carrying
+        your life’s possessions on your back wherever you go. You adventure
+        possibly in search of a place to belong or a way to return to your plane
+        of origin and settle unfinished business.
+        <br />
+        <br />
+        Choose two attribute boosts. One must be Dexterity or Constitution, and
+        one is a free attribute boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and one of the following lore
+        skills: Plane of Air Lore, Plane of Earth Lore, Plane of Fire Lore,
+        Plane of Metal Lore, Plane of Water Lore, or Plane of Wood Lore. You
+        gain the Hefty Hauler and Prescient Planner skill feats.
+        <Feat
+          id={0}
+          name="Hefty Hauler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can carry more than your frame implies. Increase your maximum
+              and encumbered Bulk limits by 2.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Prescient Planner"
+          tags={["general"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Cost:</b> the Price of the chosen item.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Prerequisites:</b> You haven’t used this ability since the
+                last time you were able to purchase goods.
+              </span>
+              <br />
+              You regularly create convoluted plans and contingencies, using
+              your resources to enact them. You take 1 minute to remove your
+              backpack, then carefully remove an item you hadn’t previously
+              declared that you purchased—you intuited that you would come to
+              need the item and purchased it at the latest opportunity. The item
+              must be a piece of adventuring gear (from the Table 6-9 in the
+              Core Rulebook or other sources of adventuring gear), and can’t be
+              a weapon, armor, alchemical item, magic item, or other treasure.
+              It must be common with a level no higher than half your level, and
+              its Bulk must be low enough that carrying it wouldn’t have made
+              you encumbered.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Plant whisperer",
+    source: "Secrets of Magic",
+    tags: [""],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Nature", "Plant Lore"],
+    feat: "Natural Medicine",
+    description: (
+      <span>
+        You’ve always had a green thumb, allowing you to care for plants that
+        others found too difficult to grow and tend with a skill that borders on
+        the magical. As you travel, you encounter all sorts of new plants and
+        plant creatures, allowing you to expand your horizons and deepen your
+        understanding of flora.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in Nature and Plant Lore. You gain the Natural Medicine
+        skill feat.
+        <Feat
+          id={0}
+          name="Natural Medicine"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You can apply natural cures to heal your allies. You can use
+              Nature instead of Medicine to Treat Wounds. If you’re in the
+              wilderness, you might have easier access to fresh ingredients,
+              allowing you to gain a +2 circumstance bonus to your check to
+              Treat Wounds using Nature, subject to the GM’s determination.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Political Scion",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Diplomacy", "Legal Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        Like your parents and your parents before them, you initially followed
+        the long path toward politics from an early age. Your close association
+        with Absalom’s upper echelons put you in touch with the city’s various
+        military or special operations units—the First Guard, the Wave Riders,
+        the Varlokkur— though you avoided any actual duty with these groups.
+        Thanks to your strict upbringing and the connections of your family, you
+        soon became a lauded and highly respected member of Absalom’s political
+        elite. But you couldn’t stifle a certain feeling that you were destined
+        for more than simply filling the pointed shoes of your forebears.
+        Despite your easily earned accolades and a relatively cushy life as a
+        young lawyer or councilmember, you sought to do more with your
+        diplomatic training and not live out the exact same life as your
+        ancestors.
+        <br />
+        <br />
+        Your decision to transfer to the Edgewatch has rubbed your
+        traditionalist family the wrong way, and they’ve cut off the financial
+        aid they’ve provided you your whole life. But you don’t care—you know
+        you’re doing the right thing by taking on the rough jobs of a
+        low-ranking guard, and you’re ready to shine based on your own merits,
+        not those of your lofty kin.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and Legal Lore. You gain a +1
+        circumstance bonus to Deception, Diplomacy, and Intimidation checks to
+        interact with members of Absalom’s political establishment. You gain the
+        Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Post Guard of All Trades",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Performance", "Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        Not all cops are passionate about their jobs. For some, the pursuit of
+        justice is just another way to pay the bills. Honestly, it was probably
+        the Post Guard’s generous time-off policy that drew you to their
+        service, and during your yearly sabbaticals you’ve dabbled in hobbies as
+        diverse as fishing, baking, or even stand-up comedy. Even while on duty,
+        you’re probably idly fiddling with a lucky coin or practicing magic
+        tricks with a deck of cards. You probably irritate your fellow guards a
+        bit with your non sequiturs, casual attitude, and tendency to daydream,
+        but results don’t lie, and more often than not you prove your worth when
+        the chips are down.
+        <br />
+        <br />
+        For all the excitement of guarding Absalom’s Postern Gate, the Post
+        Guard wasn’t really the right fit for someone as distractible as
+        yourself, so your boss put in a “promotion” for you to transfer to the
+        newly formed Edgewatch. You’re all for the reassignment, since it will
+        put you smack in the middle of the most entertaining and diverse
+        gathering of the century, the Radiant Festival.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill, a Lore skill of your choice,
+        and you gain a bonus language. You gain a +1 circumstance bonus to
+        Deception, Diplomacy, and Intimidation checks to interact with Post
+        Guards. You gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Press-Ganged",
+    source: "Guns & Gears",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Labor Lore"],
+    feat: "Armor Assist",
+    description: (
+      <span>
+        Was it five shots or six? It doesn’t really matter in the end, because
+        after those nice folks bought all your drinks, you woke up on the lowest
+        rung of the ladder. Whether a crewmate on a ship, a conscript in an
+        army, or something worse, you’ve nowhere to go but up. This background
+        generally requires buy-in with the entire group to tell a story allowing
+        you to play a character starting their adventuring due to circumstances
+        outside their own control. However, you can also play a character who
+        was once press-ganged and has since escaped that life. If you do,
+        press-ganged doesn’t have the uncommon trait, and it has the same
+        mechanical effects either way.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Labor Lore skill. You gain
+        the Armor Assist skill feat.
+        <Feat
+          id={0}
+          name="Armor Assist"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics or Warfare Lore.
+              </span>
+              <br />
+              After your service aiding armored combatants, you are practiced in
+              helping yourself and others don heavy gear. You can attempt an
+              Athletics or Warfare Lore check with a DC determined by the GM
+              (but usually 15 for common armor, DC 20 for uncommon armor, and DC
+              25 for rare armor) to halve the time you take to don armor. You
+              can halve an ally’s time to don armor by working with them to don
+              the armor and succeeding at an Athletics or Warfare Lore check
+              against the same DC.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Press-Ganged Sailor",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Society", "Sailing Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        You were forced into service as a sailor against your will. Perhaps you
+        were punished for a crime, were drafted into military service, are
+        repaying a debt, or simply were abducted. Though you were initially
+        trained as a simple deckhand, you may have subsequently studied a trade
+        under one of the vessel’s specialists.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Sailing Lore skill. You gain
+        the Experienced Professional skill feat.
+        <Feat
+          id={0}
+          name="Experienced Professional"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              <br />
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Printer",
+    source: "Guns & Gears",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society", "Scribing Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        Keeping your finger on the pulse of the city, you write a small news
+        broadsheet to sell on street corners. You rent the use of a printing
+        press to achieve this goal, so you’re familiar with such machines.
+        However, people and their stories are your main focus, and you adventure
+        to chase the latest scoop.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Scribing Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Prisoner",
+    source: "Core Rulebook",
+    tags: [""],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Stealth", "Underworld Lore"],
+    feat: "Experienced Smuggler",
+    description: (
+      <span>
+        You might have been imprisoned for crimes (whether you were guilty or
+        not), or enslaved for some part of your upbringing. In your adventuring
+        life, you take full advantage of your newfound freedom.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Stealth skill and the Underworld Lore skill. You
+        gain the Experienced Smuggler skill feat.
+        <Feat
+          id={0}
+          name="Experienced Smuggler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Stealth.
+              </span>
+              <br />
+              You often smuggle things past the authorities. When the GM rolls
+              your Stealth check to see if a passive observer notices a small
+              item you have concealed, the GM uses the number rolled or
+              10—whichever is higher—as the result of your die roll, adding it
+              to your Stealth modifier to determine your Stealth check result.
+              If you’re a master in Stealth, the GM uses the number rolled or
+              15, and if you’re legendary in Stealth, you automatically succeed
+              at hiding a small concealed item from passive observers. This
+              provides no benefits when a creature attempts a Perception check
+              while actively searching you for hidden items. Due to your
+              smuggling skill, you’re more likely to find more lucrative
+              smuggling jobs when using Underworld Lore to Earn Income.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Propaganda Promoter",
+    source: "Blood Lords: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Charisma", "Dexterity"],
+    skillTraining: ["Acrobatics or Performance", "Urgathoa Lore"],
+    feat: "Steady Balance or Impressive Performance",
+    description: (
+      <span>
+        The ghost king Geb has returned to a more active role in leading his
+        nation after thousands of years, and it’s shocking that some people in
+        the nation haven’t heard that. You helped the Celebrants plan parades,
+        exciting displays like circuses, news missives, and more to help push
+        messages of loyalty to the nation. Even though most Celebrants are
+        followers of Urgathoa, deity of gluttony and undeath, you might follow a
+        different faith (or no faith at all); more important is helping
+        Celebrants spread their message. You started to see that propaganda was
+        often timed to help the Celebrants, in addition to the nation as a
+        whole, and you saw just how powerful the right message at the right time
+        can be.
+        <br />
+        <br />
+        You are still well-regarded by the Celebrants. Your party gains 1
+        Reputation Point with the Celebrants at the start of the campaign.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Acrobatics or Performance skill.
+        You gain a skill feat: Steady Balance if you chose Acrobatics or
+        Impressive Performance if you chose Performance. You’re also trained in
+        Urgathoa Lore.
+        <Feat
+          id={0}
+          name="Steady Balance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              You can keep your balance easily, even in adverse conditions.
+              Whenever you roll a success using the Balance action, you get a
+              critical success instead. You’re not flat-footed while attempting
+              to Balance on narrow surfaces and uneven ground. Thanks to your
+              incredible balance, you can attempt an Acrobatics check instead of
+              a Reflex save to Grab an Edge.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Impressive Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              Your performances inspire admiration and win you fans. You can
+              Make an Impression using Performance instead of Diplomacy.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Purveyor of the Bizarre",
+    source: "Lost Omens: World Guide",
+    tags: [""],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Arcana", "Mercantile Lore"],
+    feat: "Quick Identification",
+    description: (
+      <span>
+        Whether in Katapesh or one of the bustling markets along the Path of
+        Salt, you’ve spent enough time buying and selling ancient or unusual
+        items to give you an instinctive ability to quickly sort valuable
+        trinkets from worthless baubles.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Mercantile Lore skill. You
+        gain the Quick Identification skill feat.
+        <Feat
+          id={0}
+          name="Quick Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana, Nature, Occultism or
+                Religion.
+              </span>
+              <br />
+              You can Identify Magic swiftly. You take only 1 minute when using
+              Identify Magic to determine the properties of an item, ongoing
+              effect, or location, rather than 10 minutes. If you’re a master,
+              it takes a 3-action activity, and if you’re legendary, it takes 1
+              action.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Pyre tender",
+    source: "Book of the Dead",
+    tags: [""],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Funeral Lore"],
+    feat: "Alchemical Crafting",
+    description: (
+      <span>
+        You’re experienced at building funeral pyres. You might have lit flaming
+        biers in the Land of the Linnorm Kings, tended the cremation pits of
+        Cheliax or Vudra, or been a backwoods charcoal burner, using the right
+        mixture of alchemy to act as an accelerant. However you worship, you
+        know nothing sends off the departed like flame.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Funeral Lore skill. You
+        gain the Alchemical Crafting skill feat.
+        <Feat
+          id={0}
+          name="Alchemical Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You can use the Craft activity to create alchemical items. When
+              you select this feat, you immediately add the formulas for four
+              common 1st-level alchemical items to your formula book.
+            </span>
+          }
         />
       </span>
     ),
