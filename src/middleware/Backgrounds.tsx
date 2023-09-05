@@ -16750,4 +16750,106 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Varisian Wanderer",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Performance", "Circus Lore"],
+    feat: "Fascinating Performance",
+    description: (
+      <span>
+        You have spent your youth wandering the lands of Varisia and beyond
+        among the brightly painted wagons of a Varisian caravan. You have heard
+        endless tales of your people’s history and lore, and have learned many
+        songs and stories from the disparate people you have met.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and the Circus Lore skill. You
+        gain the Fascinating Performance skill feat.
+        <Feat
+          id={0}
+          name="Fascinating Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              When you Perform, compare your result to the Will DC of one
+              observer. If you succeed, the target is fascinated by you for 1
+              round. If the observer is in a situation that demands immediate
+              attention, such as combat, you must critically succeed to
+              fascinate it and the Perform action gains the incapacitation
+              trait. You must choose which creature you’re trying to fascinate
+              before you roll your check, and the target is then temporarily
+              immune for 1 hour.
+              <br />
+              <br />
+              If you’re an expert in Performance, you can fascinate up to four
+              observers; if you’re a master, you can fascinate up to 10
+              observers; and if you’re legendary, you can fascinate any number
+              of observers at the same time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Vidrian Reformer",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Charisma"],
+    skillTraining: ["Diplomacy", "Politics Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        You know that the only way your homeland of Vidrian can remain free from
+        outside conquerors is by forging a strong and unified government. As
+        such, you seek to bind your fellow citizens together through careful
+        diplomacy and force of personality—or, if necessary, subterfuge and
+        intrigue.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Politics Lore skill. You
+        gain the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
