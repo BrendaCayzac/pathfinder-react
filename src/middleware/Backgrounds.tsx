@@ -16340,4 +16340,414 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Ulfen Raider",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Sailing Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        You are an Ulfen warrior, feared among Avistan for the merciless and
+        devastating raids your people once conducted along the shores. Though
+        the days of these Ulfen raids are largely past, you have been trained to
+        strike terror into the hearts of those who face you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Sailing Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Undercover Contender",
+    source: "Fists of Ruby Phoenix: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Charisma", "Dexterity"],
+    skillTraining: ["Deception", "Underworld Lore"],
+    feat: "Lengthy Diversion",
+    description: (
+      <span>
+        Gangsters and cheats seem as drawn to the Ruby Phoenix Tournament as
+        piranhas to a bloody hippo, and you’re dead set on making sure this
+        tournament is as scandal-free as possible. Your reasons are your
+        own—maybe a high-ranking official in Goka has tasked you with the case,
+        or maybe foul play led to losing someone dear to you in the last
+        tournament. Maybe you just hate to see fair fighters get knocked out by
+        crooked contenders. Whatever your motives, you’ve promised to be in the
+        ring in case anyone tries to derail the contest. The Golden League crime
+        syndicate is the most obvious suspect, what with their meddling in the
+        Ruby Phoenix Tournament a decade ago, but maybe there will be
+        others—unscrupulous contenders trying to pull one over on Hao Jin,
+        perhaps, or an entirely new devious conspiracy hoping to hijack the
+        event for their own evil purposes. In any case, you’ll be around to
+        deliver the hammer of justice.
+        <br />
+        <br />
+        You’ve told a small squad of your closest confidants about your mission,
+        and you’ve managed to secure a spot in the tournament’s prequalifier
+        along with them. You and your team have to win fights to stay in the
+        competition long enough to make sure things go smoothly. If that means
+        you end up being the Ruby Phoenix Champions, all the better.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Deception and the Underworld Lore skill. You gain the
+        Lengthy Diversion skill feat.
+        <Feat
+          id={0}
+          name="Lengthy Diversion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              When you critically succeed to Create a Diversion, you continue to
+              remain hidden after the end of your turn. This effect lasts for an
+              amount of time that depends on the diversion and situation, as
+              determined by the GM (minimum 1 additional round).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Undercover Lotus Guard",
+    source: "Agents of Edgewatch: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Deception", "Underworld Lore"],
+    feat: "Charming Liar",
+    description: (
+      <span>
+        It’s a well-known secret that for every playhouse in the Ivy District,
+        there’s an underground criminal element lurking somewhere in the
+        shadows. To get intel on the occultists, assassins, and thieves’ guilds
+        that pull the strings of power in the Ivy District, the Lotus Guard
+        trains some of the best undercover agents and operatives in all of
+        Absalom. You’re one such agent, and you’ve put your life on the line
+        more times than you can count by getting close to the Ivy’s most
+        dangerous criminals. Your risky missions and thrill-seeking derring-do
+        have earned you many accolades—but also no shortage of enemies.
+        <br />
+        <br />
+        You transferred to the Edgewatch after your cover was unexpectedly blown
+        and you needed a safe place to lie low away from the Ivy District. With
+        your mastery of disguise and your ability to confidently converse with
+        criminal masterminds, it won’t be long before you’ve made yourself an
+        indispensable undercover operator in this precinct as well.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You're trained in the Deception skill, Art Lore, and Underworld Lore.
+        You gain a +1 circumstance bonus to Deception, Diplomacy, and
+        Intimidation checks to interact with Lotus Guards and high-ranking
+        criminals like guild masters, gang leaders, and mob bosses. You gain the
+        Charming Liar skill feat.
+        <Feat
+          id={0}
+          name="Charming liar"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              Your charm allows you to win over those you lie to. When you get a
+              critical success using the Lie action, the target’s attitude
+              toward you improves by one step, as though you’d succeeded at
+              using Diplomacy to Make an Impression. This works only once per
+              conversation, and if you critically succeed against multiple
+              targets using the same result, you choose one creature’s attitude
+              to improve. You must be lying to impart seemingly important
+              information, inflate your status, or ingratiate yourself, which
+              trivial or irrelevant lies can’t achieve.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Undersea Enthusiast",
+    source: "Lost Omens: Wolrd Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Ocean Lore"],
+    feat: "Underwater Marauder",
+    description: (
+      <span>
+        You love diving and exploring the world beneath the waves, and long
+        periods of swimming have trained you to move easily through the water.
+        You’re also fascinated by undersea creatures and cultures—and may even
+        have a trace of one of them in your own lineage.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Ocean Lore skill. You gain
+        the Underwater Marauder skill feat.
+        <Feat
+          id={0}
+          name="Underwater Marauder"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You’ve learned to fight underwater. You are not flat-footed while
+              in water, and you don’t take the usual penalties for using a
+              bludgeoning or slashing melee weapon in water.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Undertaker",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Medicine", "Lore"],
+    feat: "Forensic Acumen",
+    description: (
+      <span>
+        People die. This is the unfortunate fact of life on which you’ve founded
+        your business, because wherever people die, there is a demand for
+        mortuary services. You might be a Pharasmin priest or a secular
+        professional, but your job is seeing to the body, comforting the
+        bereaved, and making sure that the deceased goes to their ultimate
+        reward with all due dignity. Of course, someone in your position sees a
+        lot of strange deaths, and chances are one of them set you on the road
+        to adventure.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Medicine skill and a Lore skill specializing in
+        one local type of undead. You gain the Forensic Acumen skill feat.
+        <Feat
+          id={0}
+          name="Forensic Acumen"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Medicine.
+              </span>
+              <br />
+              You understand the principles of forensic medicine, making you
+              better at examining a body to determine the cause of death or
+              injury. You can perform a forensic examination on a body, as
+              described under Recall Knowledge in the Medicine skill, in half
+              the normal amount of time it would take (to a minimum of 5
+              minutes). If you succeed at your check, you can attempt an
+              immediate check to Recall Knowledge to follow up on something you
+              found, with a +2 circumstance bonus. This check is usually related
+              to the cause of injury or death, such as a Crafting check to
+              identify a poison or weapon that was used or an additional
+              Medicine check to identify a specific disease. If you prefer, you
+              can instead attempt to Recall Knowledge about the type of creature
+              whose body you were examining, using the appropriate skill and
+              gaining the same circumstance bonus.
+              <br />
+              <br />
+              The circumstance bonus increases to +3 if you have master
+              proficiency in Medicine and +4 if you have legendary proficiency.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Union Representative",
+    source: "Lost Omens: Highhelm",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Diplomacy", "Legal Lore"],
+    feat: "Contract Negotiator",
+    description: (
+      <span>
+        You might have fought for fairer ore distribution for the Metalmaker’s
+        Union, higher chef’s pay in the Provisioners’ Union, or better mercenary
+        contracts for the Union of Axe and Coin. Whatever the case, you have
+        experience in the high-stakes world of the negotiating table, experience
+        that translates surprisingly well to adventuring.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, the
+        other is a free boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Legal Lore skill. You gain
+        the Contract Negotiator skill feat.
+        <Feat
+          id={0}
+          name="Contract Negotiator"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Legal Lore.
+              </span>
+              <br />
+              Your experience with bargaining and deciding terms as part of
+              Highhelm’s guilds helps you make deals in other situations. When
+              negotiating deals or agreements, you can use Legal Lore in place
+              of Diplomacy to Make an Impression or a Request, even if there is
+              no legal framework under which you are negotiating. If you are an
+              expert in Diplomacy, you gain a +1 circumstance bonus to these
+              checks; if you are a master in Diplomacy, this increases to +2,
+              and +3 if you are legendary.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Unremarkable",
+    source: "Lost Omens: Firebrands",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Deception", "Acting Lore"],
+    feat: "Lengthy Diversion",
+    description: (
+      <span>
+        Your face is particularly unremarkable, even if your presence or actions
+        may not be. You know how to use this to your advantage, making it
+        difficult for people to identify and collect information about you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in the Deception skill and the Acting Lore skill. You
+        gain the Lengthy Diversion skill feat.
+        <Feat
+          id={0}
+          name="Lengthy Diversion"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              <br />
+              When you critically succeed to Create a Diversion, you continue to
+              remain hidden after the end of your turn. This effect lasts for an
+              amount of time that depends on the diversion and situation, as
+              determined by the GM (minimum 1 additional round).
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ustalavic Academic",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Crafting", "Academia Lore"],
+    feat: "Skill Training",
+    description: (
+      <span>
+        You were educated at a famed Ustalavic academy, such as the University
+        of Lepidstadt or the Sincomakti School of Sciences, and received quality
+        instruction in advanced concepts of mathematics, science, and
+        engineering.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Academia Lore skill. You
+        gain the Skill Training skill feat.
+        <Feat
+          id={0}
+          name="Skill Training"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> Intelligence 12.
+              </span>
+              <br />
+              You become trained in the skill of your choice.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times, choosing
+              a new skill to become trained in each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
 ];
