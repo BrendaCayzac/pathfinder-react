@@ -15163,4 +15163,1181 @@ export const backgrounds: Array<Background> = [
       </span>
     ),
   },
+  {
+    name: "Taldan Schemer",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Charisma", "Constitution"],
+    skillTraining: ["Diplomacy", "Politics Lore"],
+    feat: "Hobnobber",
+    description: (
+      <span>
+        Whether willing or unwilling, you have been involved in the many
+        cutthroat political intrigues within Taldor. You might have been born
+        into it as a member of the aristocracy, or you might have taken an
+        active role in the recent events of the War for the Crown.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill and the Politics Lore skill. You
+        gain the Hobnobber skill feat.
+        <Feat
+          id={0}
+          name="Hobnobber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Diplomacy.
+              </span>
+              <br />
+              You are skilled at learning information through conversation. The
+              Gather Information exploration activity takes you half as long as
+              normal (typically reducing the time to 1 hour). If you’re a master
+              in Diplomacy and you Gather Information at the normal speed, when
+              you attempt to do so and roll a critical failure, you get a
+              failure instead. There is still no guarantee that a rumor you
+              learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tall Tale",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Performance", "Politics Lore"],
+    feat: "Impressive Performance, Connections, Courtly Graces",
+    description: (
+      <span>
+        You’ve ridden a tornado, lassoed a river, mooned a dragon under a full
+        moon, and shot six zombies with one bullet. That’s what the stories say,
+        anyway, and even if people don’t strictly believe them, they are curious
+        about you. Certainly, the stories keep spreading, and it would appear
+        that you either have a unique destiny or are trying to convince the
+        world that you do.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Performance. You gain the Impressive Performance skill
+        feat. You can gain the Connections skill feat later without being expert
+        in Society or having Courtly Graces—this represents less traditional
+        social connections and more the way that your legend has spread, and
+        you’ve learned to leverage your legend, with people wanting to meet you
+        and see you for themselves.
+        <Feat
+          id={0}
+          name="Impressive Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              Your performances inspire admiration and win you fans. You can
+              Make an Impression using Performance instead of Diplomacy.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Connections"
+          tags={["uncommon", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> expert in Society, Courtly Graces.
+              </span>
+              <br />
+              You have social connections you can leverage to trade favors or
+              meet important people. When you’re in an area with connections
+              (typically a settlement where you’ve spent downtime building
+              connections, or possibly another area in the same nation), you can
+              attempt a Society check to arrange a meeting with an important
+              political figure or ask for a favor in exchange for a later favor
+              of your contact’s choice. The GM decides the DC based on the
+              difficulty of the favor and the figure’s prominence.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Courtly Graces"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tax Collector",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Lore"],
+    feat: "Quick Coercion",
+    description: (
+      <span>
+        Reviled but required, you were sent when taxes were due. Performing your
+        job might have required travel and persuasion, or perhaps you were
+        responsible for collecting taxes on trade. Either way, it sometimes
+        meant dirty hands, and adventuring seemed the next logical step to you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Lore skill for the
+        settlement that employed you. You gain the Quick Coercion skill feat.
+        <Feat
+          id={0}
+          name="Quick Coercion"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can bully others with just a few choice implications. You can
+              Coerce a creature after 1 round of conversation instead of 1
+              minute. You still can’t Coerce a creature in the midst of combat,
+              or without engaging in a conversation.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Teacher",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Performance or Society", "Academia Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        You are incredibly knowledgeable, skilled, and perhaps even trained to
+        teach children and adults about the world and its wonders. From books to
+        classes, you’re committed to imparting knowledge to all. Not everything
+        can be taught or learned from a book, though, so you’ve become an
+        adventurer to learn subjects more directly and bring that wisdom back to
+        your students.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in your choice of the Performance or Society skills,
+        along with the Academia Lore skill. You gain the Experienced
+        Professional skill feat.
+        <Feat
+          id={0}
+          name="Experienced Professional"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              <br />
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Teamster",
+    source: "The Fall of Plaguestone",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Nature", "Mercantile Lore"],
+    feat: "Train Animal",
+    description: (
+      <span>
+        You left your home a few months back for a life on the road, working for
+        one caravan company and then another, always on the lookout for a new
+        job and a better life. Last week, you were hired by the Bort Bargith’s
+        company in Elidir. You don’t know anyone from the company just yet, but
+        most of its members seem to be honest merchants and traders.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You are trained in the Nature skill and the Mercantile Lore skill. You
+        gain the Train Animal skill feat.
+        <Feat
+          id={0}
+          name="Train Animal"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You spend time teaching an animal to do a certain action. You can
+              either select a basic action the animal already knows how to do
+              (typically those listed in the Command an Animal action) or
+              attempt to teach the animal a new basic action. The GM determines
+              the DC of any check required and the amount of time the training
+              takes (usually at least a week). It’s usually impossible to teach
+              an animal a trick that uses critical thinking. If you’re expert,
+              master, or legendary in Nature, you might be able to train more
+              unusual creatures, at the GM’s discretion.
+              <br />
+              <br />
+              <b>Success"</b> The animal learns the action. If it was an action
+              the animal already knew, you can Command the Animal to take that
+              action without attempting a Nature check. If it was a new basic
+              action, add that action to the actions the animal can take when
+              Commanded, but you must still roll.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tech-reliant",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Crafting", "Medicine", "Mercantile Lore"],
+    feat: "Battle Medicine",
+    description: (
+      <span>
+        Some event, be it an accident, attack, or disaster, has left you
+        horribly scarred by magic. Your body no longer tolerates magical
+        healing, and you can’t use magic, forcing you to rely on gadgets and
+        ingenuity where others trust in spells and magical items. You might have
+        been well-versed in magic before, or barely familiar with its use. This
+        event may have injured your body in visible ways, but no matter the
+        extent of your injuries, your body no longer interacts with healing
+        magic in any capacity.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Medicine skill. You gain
+        the Battle Medicine skill feat, and a +1 circumstance bonus to saving
+        throws against spells. Healing spells, healing magic items, and magical
+        effects with the healing trait have no effect on you.
+        <Feat
+          id={0}
+          name="Battle Medicine"
+          tags={["general", "healing", "manipulate", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <b>Prerequisites:</b> trained in Medicine.
+              <br />
+              <br />
+              <span className="frequency">
+                <b>Requirements:</b> You’re holding or wearing healer’s tools.
+              </span>
+              <br />
+              You can patch up wounds, even in combat. Attempt a Medicine check
+              with the same DC as for Treat Wounds and restore the corresponding
+              amount of HP; this doesn’t remove the wounded condition. As with
+              Treat Wounds, you can attempt checks against higher DCs if you
+              have the minimum proficiency rank. The target is then temporarily
+              immune to your Battle Medicine for 1 day.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Thassilonian traveler",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Intelligence"],
+    skillTraining: ["Arcana", "Thassilon Lore"],
+    feat: "Dubious Knowledge",
+    description: (
+      <span>
+        You come from ancient Thassilon, one of the citizens that appeared out
+        of time alongside the city of Xin-Edasseril. You know many things that
+        have been long forgotten... along with many things that are no longer
+        correct.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Intelligence,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Thassilon Lore skill. You
+        gain the Dubious Knowledge skill feat.
+        <Feat
+          id={0}
+          name="Dubious Knowledge"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in a skill with the Recall
+                Knowledge action.
+              </span>
+              <br />
+              You’re a treasure trove of information, but not all of it comes
+              from reputable sources. When you fail (but don’t critically fail)a
+              Recall Knowledge check using any skill, you learn a bit of true
+              knowledge and a bit of erroneous knowledge, but you don’t have any
+              way to differentiate which is which.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Thrill-seeker",
+    source: "Lost Omens: Firebrands",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Athletics", "Engineering Lore"],
+    feat: "Combat Climber",
+    description: (
+      <span>
+        You once survived a life-or-death situation and found it surprisingly
+        exhilarating, so now you chase that feeling of invincibility you only
+        get when dancing with death. Your desire for exhilaration has you
+        scaling buildings, leaping off rooftops, jumping chasms, and performing
+        other death-defying stunts.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in the Athletics skill and the Engineering Lore skill.
+        You gain the Combat Climber skill feat.
+        <Feat
+          id={0}
+          name="Combat Climber"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              Your techniques allow you to fight as you climb. You’re not
+              flat-footed while Climbing and can Climb with a hand occupied. You
+              must still use another hand and both legs to Climb.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Thrune Loyalist",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Religion", "Hell Lore"],
+    feat: "Student of the Canon",
+    description: (
+      <span>
+        Despite the setbacks Cheliax has suffered recently, your loyalties lie
+        with the devil-backed House Thrune. You consider the current queen to be
+        the rightful ruler of your homeland, and you are willing to act against
+        her enemies.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Hell Lore skill. You gain
+        the Student of the Canon skill feat.
+        <Feat
+          id={0}
+          name="Student of the Canon"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Religion.
+              </span>
+              <br />
+              You’ve researched many faiths enough to recognize notions about
+              them that are unlikely to be true. If you roll a critical failure
+              at a Religion check to Decipher Writing of a religious nature or
+              to Recall Knowledge about the tenets of faiths, you get a failure
+              instead. When attempting to Recall Knowledge about the tenets of
+              your own faith, if you roll a failure, you get a success instead,
+              and if you roll a success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Thuvian Unifier",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Intimidation", "Politics Lore"],
+    feat: "Quick Coercion",
+    description: (
+      <span>
+        You believe the city-states of Thuvia should be united into one nation
+        under the rule of your home city (most commonly Aspenthar), and you’re
+        willing to do whatever it takes to make it happen.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Charisma, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Politics Lore skill.
+        You gain the Quick Coercion skill feat.
+        <Feat
+          id={0}
+          name="Quick Coercion"
+          tags={["downtime", "general", "manipulate", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can bully others with just a few choice implications. You can
+              Coerce a creature after 1 round of conversation instead of 1
+              minute. You still can’t Coerce a creature in the midst of combat,
+              or without engaging in a conversation.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tide Watcher",
+    source: "Lost Omens: Travel Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma", "Intelligence"],
+    skillTraining: ["Nature", "Ocean Lore"],
+    feat: "",
+    description: (
+      <span>
+        Where you hail from, the ocean is the lifeblood of your community;
+        knowing how it changes according to the moon was integral to everyday
+        life. You’ve studied the moon’s phases to predict the rise and fall of
+        the ocean waters. Eventually, you gained a supernatural ability to
+        foretell to some degree of accuracy the coming of more severe changes,
+        such as tidal waves or encroaching storms. At times, it fell on you to
+        warn settlements of such oncoming natural disasters.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Nature and Ocean Lore. During the night when you can
+        see the moon, you gain a +1 circumstance bonus to Survival checks to
+        discern weather patterns and predict upcoming weather conditions—this
+        bonus increases to +2 if you’re in the vicinity of the ocean.
+      </span>
+    ),
+  },
+  {
+    name: "Time Traveler",
+    source: "Secrets of Magic",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Lore", "Lore", "Lore"],
+    feat: "",
+    description: (
+      <span>
+        You come from a different time. Whether by your own doing or a terrible
+        accident, powerful magic has resulted in you coming to this time from
+        the future or from the past, but you are unable to return. You might be
+        from New Thassilon, an entire nation of time travelers.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You are trained in three Lore skills of your choice that represent your
+        knowledge from your old time. You gain the Bend Time reaction.
+        <br />
+        <br />
+        Bend Time{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="One action icons"
+        />
+        (occult, transmutation)
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> Your turn begins;{" "}
+        <b>Effect:</b> You are quickened this turn. You can use your extra
+        action to Stride.
+      </span>
+    ),
+  },
+  {
+    name: "Tinker",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Engineering Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        Creating all sorts of minor inventions scratches your itch for
+        problem-solving. Your engineering skills take a particularly creative
+        bent, and no one know what you’ll come up with next. It might be a
+        genius device with tremendous potential... or it might explode.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Engineering Lore skill. You
+        gain the Specialty Crafting skill feat.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>Artistry</td>
+                    <td>Fine art, including jewelry</td>
+                  </tr>
+                  <tr>
+                    <td>Blacksmithing</td>
+                    <td>Durable metal goods, including metal armor</td>
+                  </tr>
+                  <tr>
+                    <td>Bookmaking</td>
+                    <td>Books and paper</td>
+                  </tr>
+                  <tr>
+                    <td>Glassmaking</td>
+                    <td>Glass, including glassware and windows</td>
+                  </tr>
+                  <tr>
+                    <td>Leatherworking</td>
+                    <td>Leather goods, including leather armor</td>
+                  </tr>
+                  <tr>
+                    <td>Pottery</td>
+                    <td>Ceramic goods</td>
+                  </tr>
+                  <tr>
+                    <td>Shipbuilding</td>
+                    <td>Ships and boats</td>
+                  </tr>
+                  <tr>
+                    <td>Stonemasonry</td>
+                    <td>Stone goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>Tailoring</td>
+                    <td>Clothing</td>
+                  </tr>
+                  <tr>
+                    <td>Weaving</td>
+                    <td>Textiles, baskets, and rugs</td>
+                  </tr>
+                  <tr>
+                    <td>Woodworking</td>
+                    <td>Wooden goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tomb Born",
+    source: "Book of the Dead",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Crafting", "Engineering Lore"],
+    feat: "",
+    description: (
+      <span>
+        Your parents conceived you for a fell purpose at a site tainted by
+        death, like a wight’s barrow, mass grave, or ossuary. Their reasons
+        could be a mystery, or you might know of their grand design and seek to
+        escape—or fulfill—their plans. Either way, you’re at your most dangerous
+        when near death.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Undead Lore skill. You gain the Final Spite
+        reaction.
+        <br />
+        <br />
+        Final Spite{" "}
+        <img src={require("../assets/img/reaction.png")} alt="reaction icon" />
+        <br />
+        <br />
+        <b>Frequency:</b> once per day; <b>Trigger:</b> You’re reduced to 0 Hit
+        Points; <b>Effect:</b> You make a Strike before falling unconscious.
+      </span>
+    ),
+  },
+  {
+    name: "Total Power",
+    source: "Gatewalkers Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Intimidation", "Legal Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        Whether you desire simple security after a life of uncertainty or you’re
+        actually just a control freak, power over your own fate is the thing
+        you’ve always wanted. On the night of the Missing Moment, you glimpsed
+        such power amid the light of a glowing archway, and you stepped through,
+        eager to claim control over your destiny. What happened next, you don’t
+        remember—you came to at the same place you’d started, though clearly a
+        lot of time had passed. Ever since that night, your body has felt
+        heavier than before. You soon discovered that you could will your very
+        bones into extending from your flesh like thorns from a rose’s stem.
+        Though you didn’t choose the title gatewalker for yourself, you’re sure
+        you can use your strange new power to exercise control over your life.
+        <br />
+        <br />
+        Your deviant abilities are of the troll classification. You gain the
+        Bone Spikes deviant feat. As a quirk, whenever you use a deviant
+        ability, the very fibers of your muscles flex and expand to impossible
+        proportions. Your actual strength remains the same during these times,
+        but few can deny your fearsome appearance.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Wisdom, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Legal Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Touched by Dahak",
+    source: "Broken Promises",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Strength", "Charisma"],
+    skillTraining: ["Athletics", "Dragon Lore"],
+    feat: "Titan Wrestler",
+    description: (
+      <span>
+        As the manifestation of Dahak was destroyed, a shard of the dragon god’s
+        wrathful nature infused you, resulting in a violent temper, strange
+        apocalyptic dreams, an obsession with dragon hunting, or some other
+        touch of his influence.
+        <br />
+        <br />
+        Choose two ability boosts. One must be in Strength or Charisma, and the
+        other is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Athletics skill and the Dragon Lore skill. You
+        gain the Titan Wrestler skill feat.
+        <Feat
+          id={0}
+          name="Titan Wrestler"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Athletics.
+              </span>
+              <br />
+              You can attempt to Disarm, Grapple, Shove, or Trip creatures up to
+              two sizes larger than you, or up to three sizes larger than you if
+              you’re legendary in Athletics.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Toymaker",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Crafting", "Mercantile Lore"],
+    feat: "Specialty Crafting",
+    description: (
+      <span>
+        You delight in making little trinkets for children of all ages, and
+        seeing their faces light up thanks to one of your creations brings joy
+        to your heart. Perhaps you sell your wares from a particular shop or
+        from the back of a wagon as you travel from town to town.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Crafting skill and the Mercantile Lore skill. You
+        gain the Specialty Crafting skill feat, choosing artistry,
+        blacksmithing, glassmaking, leatherworking, tailoring, or woodworking as
+        your specialty.
+        <Feat
+          id={0}
+          name="Specialty Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              Your training focused on Crafting one particular kind of item.
+              Select one of the specialties listed below; you gain a +1
+              circumstance bonus to Crafting checks to Craft items of that type.
+              If you are a master in Crafting, this bonus increases to +2. If
+              it’s unclear whether the specialty applies, the GM decides. Some
+              specialties might apply only partially. For example, if you were
+              making a morningstar and had specialty in woodworking, the GM
+              might give you half your bonus because the item requires both
+              blacksmithing and woodworking.
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Specialty</th>
+                    <th>Applicable items</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alchemy*</td>
+                    <td>Alchemical items such as elixirs</td>
+                  </tr>
+                  <tr>
+                    <td>Artistry</td>
+                    <td>Fine art, including jewelry</td>
+                  </tr>
+                  <tr>
+                    <td>Blacksmithing</td>
+                    <td>Durable metal goods, including metal armor</td>
+                  </tr>
+                  <tr>
+                    <td>Bookmaking</td>
+                    <td>Books and paper</td>
+                  </tr>
+                  <tr>
+                    <td>Glassmaking</td>
+                    <td>Glass, including glassware and windows</td>
+                  </tr>
+                  <tr>
+                    <td>Leatherworking</td>
+                    <td>Leather goods, including leather armor</td>
+                  </tr>
+                  <tr>
+                    <td>Pottery</td>
+                    <td>Ceramic goods</td>
+                  </tr>
+                  <tr>
+                    <td>Shipbuilding</td>
+                    <td>Ships and boats</td>
+                  </tr>
+                  <tr>
+                    <td>Stonemasonry</td>
+                    <td>Stone goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>Tailoring</td>
+                    <td>Clothing</td>
+                  </tr>
+                  <tr>
+                    <td>Weaving</td>
+                    <td>Textiles, baskets, and rugs</td>
+                  </tr>
+                  <tr>
+                    <td>Woodworking</td>
+                    <td>Wooden goods and structures</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      * You must have the Alchemical Crafting skill feat to
+                      Craft alchemical items
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Trade Consortium Underling",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Society", "Business Lore"],
+    feat: "Experienced Professional",
+    description: (
+      <span>
+        Your experience as a ledger-keeper for one of Absalom’s trade guilds has
+        made you a canny investor and shrewd entrepreneur.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Business Lore skill. You
+        gain the Experienced Professional skill feat.
+        <Feat
+          id={0}
+          name="Experienced Professional"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Lore.
+              </span>
+              <br />
+              You carefully safeguard your professional endeavors to prevent
+              disaster. When you use Lore to Earn Income, if you roll a critical
+              failure, you instead get a failure. If you’re an expert in Lore,
+              you gain twice as much income from a failed check to Earn Income,
+              unless it was originally a critical failure.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Trailblazer",
+    source: "Lost Omens: Pathfinder Society Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Survival", "Cartography Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        Uncharted realms have always intrigued you, and you’ve explored and
+        mapped large territories in service to merchants, governments, or your
+        own curiosity. Where some see a blank spot on a map, you see the
+        potential for something new and undiscovered.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill and the Cartography Lore skill. You
+        gain the Terrain Expertise skill feat with one terrain you’ve explored
+        (such as forest or underground).
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Translator",
+    source: "Lost Omens: Pathfinder Society Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Charisma"],
+    skillTraining: ["Society", "Scribing Lore"],
+    feat: "Multilingual",
+    description: (
+      <span>
+        In your youth, you learned to transcribe books and translate scrolls to
+        preserve knowledge or perhaps to aid wealthy merchants and politicians.
+        Whether you set out to make your own fortune or are drawn to decipher
+        the strangest codes, your linguistic training will guide your
+        discoveries.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Scribing Lore skill. You
+        gain the Multilingual skill feat.
+        <Feat
+          id={0}
+          name="Multilingual"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You easily pick up new languages. You learn two new languages,
+              chosen from common languages, uncommon languages, and any others
+              you have access to. You learn an additional language if you are or
+              become a master in Society and again if you are or become
+              legendary.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat multiple times. Each
+              time, you learn additional languages.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Truth Seeker",
+    source: "Age of Ashes: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Deception", "Politics Lore"],
+    feat: "Lie to Me",
+    description: (
+      <span>
+        Whether you are a local or from out of town, you’ve heard rumors that
+        Breachill’s past contains a hidden secret. Perhaps you’ve heard strange
+        rumors that the town’s founder, Lamond Breachton, was not the hero
+        everyone touts, or maybe your grandmother heard stories from her own
+        grandmother that contradict the town’s accepted narrative of its
+        establishment. In the pursuit of the truth, you’ve learned to navigate
+        the tangles of politics, and to never take anyone’s word at face value.
+        <br />
+        <br />
+        You plan to join the Call for Heroes so that you can make yourself known
+        to the council, or perhaps even ingratiating yourself to them, so you
+        can seek the truth and eventually uncover Breachill’s secrets!
+        <br />
+        <br />
+        Choose two ability boosts. One must be Strength or Wisdom, and one is a
+        free ability boost.
+        <br />
+        <br />
+        You’re trained in the Deception skill and the Politics Lore skill. You
+        gain the Lie to Me skill feat.
+        <Feat
+          id={0}
+          name="Lie to Me"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Deception.
+              </span>
+              You can use Deception to weave traps to trip up anyone trying to
+              deceive you. If you can engage in conversation with someone trying
+              to Lie to you, use your Deception DC if it is higher than your
+              Perception DC to determine whether they succeed. This doesn’t
+              apply if you don’t have a back-and-forth dialogue, such as when
+              someone attempts to Lie during a long speech.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Tyrant Witness",
+    source: "Lost Omens: Knights of Lastwall",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Undead Lore"],
+    feat: "",
+    description: (
+      <span>
+        When Tar-Baphon broke free of Gallowspire, you saw him emerge. When the
+        god-slaying lich obliterated Vigil and Roslar’s Coffer, you scrambled to
+        safety. And when necrotic rainfall swept through the lands and the
+        Gallowgarden grew, you weathered the storms. Others talk of what the
+        Whispering Tyrant’s return did to Lastwall, but you were there. And it
+        changed you.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Undead Lore skill. You can cast disrupt undead as
+        a divine innate cantrip. As normal, the cantrip heightens to half your
+        level rounded up.
+      </span>
+    ),
+  },
 ];
