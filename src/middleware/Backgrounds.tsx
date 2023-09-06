@@ -10921,23 +10921,25 @@ export const backgrounds: Array<Background> = [
         the Express Rider skill feat.
         <Feat
           id={0}
-          name="Courtly Graces"
-          tags={["general", "skill"]}
+          name="Express Rider"
+          tags={["exploration", "general", "move", "skill"]}
           action=""
           level={1}
           feat="Feat 1"
           description={
             <span>
               <span className="frequency">
-                <b>Prerequisites:</b> trained in a skill with the Recall
-                Knowledge action.
+                <b>Prerequisites:</b> trained in Nature.
               </span>
               <br />
-              You’re a treasure trove of information, but not all of it comes
-              from reputable sources. When you fail (but don’t critically fail)a
-              Recall Knowledge check using any skill, you learn a bit of true
-              knowledge and a bit of erroneous knowledge, but you don’t have any
-              way to differentiate which is which.
+              You know how to encourage your mount to cover ground quickly. When
+              calculating your travel speed for the day while mounted, you can
+              attempt a Nature check to Command an Animal to increase your
+              mount’s travel speed. The DC is determined by the GM, but is
+              typically based on the mount’s level or the difficulty of the
+              environment, whichever is harder. On a success, increase your
+              mount’s travel speed by half. This has no effect on your mount’s
+              movement in encounters.
             </span>
           }
         />
@@ -16846,6 +16848,867 @@ export const backgrounds: Array<Background> = [
               you attempt to do so and roll a critical failure, you get a
               failure instead. There is still no guarantee that a rumor you
               learn with Gather Information is accurate.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wandering Preacher",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Wisdom"],
+    skillTraining: ["Religion", "Lore"],
+    feat: "Pilgrim’s Token",
+    description: (
+      <span>
+        While you once spoke to a small congregation in a ramshackle church,
+        those days are behind you now. Your church was destroyed, your
+        congregants scattered, and now you meander the lands holding a worn copy
+        of your religious text in one hand, and a fiery conviction in the other.
+        <br />
+        <br />
+        Choose two ability boosts. One boost must be to Constitution or Wisdom,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and a Lore skill associated with
+        the deity you preach for (such as Pharasmin Lore). You gain the
+        Pilgrim’s Token skill feat.
+        <Feat
+          id={0}
+          name="Pilgrim’s Token"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Acrobatics.
+              </span>
+              <br />
+              You carry a small token of protection from a site holy to your
+              faith, or you touched your religious symbol to a relic or altar at
+              such a site. So long as this token is in your possession, when you
+              tie an adversary’s initiative roll, you go first.
+              <br />
+              <br />
+              <b>Special:</b> If you select this feat at 1st level, you receive
+              your pilgrim’s token for free. Alternately, if you have a
+              religious symbol, it is already attuned, as described above.
+              <br />
+              <br />
+              If you select this feat at a later level, or if you lose your
+              pilgrim’s token, you must purchase or Craft a replacement and
+              attune it at a holy site. Such a token usually costs at least 2
+              sp, and the attunement takes 10 minutes of prayer and requires a
+              successful DC 20 Religion check. Your GM might adjust the price
+              and DC depending on the token’s material and quality and the
+              religious significance of the site; the more significant the
+              location, the easier the attunement.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wanderlust",
+    source: "Gatewalker Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Nature", "Stabling Lore"],
+    feat: "Titan Swing and Express Rider",
+    description: (
+      <span>
+        You’ve traveled the world for years in search of excitement and
+        adventure. On the night of the Missing Moment, all the many exciting
+        occasions you’ve experienced paled in comparison to the vision of
+        fantastic lands and incredible people you saw on the other side of the
+        glowing gate. You stepped through in the hopes of finally reaching the
+        thrilling highs you so desperately seek, but as soon as you’d gone there
+        you were again, standing in front of a lightless gateway with a
+        months-long gap in your memories. Frustrated at having come so close to
+        achieving your dreams, you swung at a nearby tree, smashing it to
+        splinters with surprising strength you never knew you had. This strange
+        new brawn wasn’t what you asked for—but it might help you pursue the
+        excitement you crave.
+        <br />
+        <br />
+        Your deviant abilities are of the troll classification. You gain the
+        Titan Swing deviant feat. As a quirk, whenever you use a deviant
+        ability, your feet elongate and your leg bones crack as your lower limbs
+        transform into those of a rabbit, wolf, or other spry, long-heeled
+        animal.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill and the Stabling Lore skill. You gain
+        the Express Rider skill feat.
+        <Feat
+          id={0}
+          name="Express Rider"
+          tags={["rare", "deviant", "magical", "transmutation"]}
+          action="two_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              Your limbs tense as you deliver a mighty swing. Make a melee
+              Strike. If it hits, you deal an extra die of weapon damage and
+              push the target back by 5 feet. If you’re at least 10th level,
+              increase this to two extra dice and push the target by 10 feet,
+              and if you’re at least 18th level, increase it to three extra dice
+              and push the target by 15 feet.
+              <br />
+              <br />
+              <b>Awakening:</b> On a critical hit, you push the target back
+              double the normal distance and knock it prone.
+              <br />
+              <br />
+              <b>Awakening:</b> On a hit, you deal 1d6 persistent bleed damage.
+              This increases to 2d6 at 10th level and 3d6 at 18th level.
+            </span>
+          }
+        />
+        <Feat
+          id={0}
+          name="Express Rider"
+          tags={["exploration", "general", "move", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You know how to encourage your mount to cover ground quickly. When
+              calculating your travel speed for the day while mounted, you can
+              attempt a Nature check to Command an Animal to increase your
+              mount’s travel speed. The DC is determined by the GM, but is
+              typically based on the mount’s level or the difficulty of the
+              environment, whichever is harder. On a success, increase your
+              mount’s travel speed by half. This has no effect on your mount’s
+              movement in encounters.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wanted Whitness",
+    source: "Outlaws of Alkenstar: Player's Guide",
+    tags: ["uncommon"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Society", "Alkenstar Lore"],
+    feat: "Read Lips",
+    description: (
+      <span>
+        You saw something you shouldn’t have, plain and simple. The shame is
+        that you don’t even know what it is, exactly, that you saw.
+        <br />
+        <br />
+        After moving to Alkenstar, you swiftly fell in love with the City of
+        Smog, but you found it difficult to get a foothold in the fast-paced
+        metropolis. Luckily, a chance invitation promised good work for someone
+        with your unique social talents. You went to an inconspicuous chamber in
+        a humble tower somewhere in the Capital District. There, you met some
+        clearly powerful, clearly corrupt members of the Alkenstar elite. Among
+        the faces you recognized were the notorious mogul Ambrost Mugland and
+        the steely-eyed shieldmarshal Anjelique Loveless. Before you were asked
+        to leave, you made quite an impression—but not a good one.
+        <br />
+        <br />
+        Not only did you not make the cut for whatever kinds of jobs were on
+        offer that day, but you soon discovered that you couldn’t get a room at
+        any inn in the city, and there were wanted posters with your name on
+        them plastered all over town. Friends and families turned their backs on
+        you, afraid to get involved. Clearly, someone at that meeting—Mugland,
+        maybe, or perhaps Loveless— believed you were a liability, and they had
+        you excised from Alkenstar society. All you want is to be able to walk
+        the streets without fearing for your life, and there’s only one way to
+        make that happen: find the villains responsible for your predicament and
+        get them to undo the curse now attached to your name.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Society skill and the Alkenstar Lore skill. You
+        gain the Read Lips skill feat.
+        <Feat
+          id={0}
+          name="Read Lips"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Society.
+              </span>
+              <br />
+              You can read lips of others nearby who you can clearly see. When
+              you’re at your leisure, you can do this automatically. In
+              encounter mode or when attempting a more difficult feat of
+              lipreading, you’re fascinated and flat-footed during each round in
+              which you focus on lip movements, and you must succeed at a
+              Society check (DC determined by the GM) to successfully read
+              someone’s lips. In either case, the language read must be one that
+              you know.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Ward",
+    source: "Advanced Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Performance", "Genealogy Lore"],
+    feat: "Fascinating Performance",
+    description: (
+      <span>
+        When you were young, you became the ward of another house—boarded, fed,
+        and educated, but never quite a part of the family. Perhaps you had to
+        tend to their needs in return for feeding and raising you, or perhaps
+        you were provided for but disregarded. Now, adventuring is your chance
+        to grow and roam free.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Performance skill and the Genealogy Lore skill.
+        You gain the Fascinating Performance skill feat.
+        <Feat
+          id={0}
+          name="Fascinating Performance"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Performance.
+              </span>
+              <br />
+              When you Perform, compare your result to the Will DC of one
+              observer. If you succeed, the target is fascinated by you for 1
+              round. If the observer is in a situation that demands immediate
+              attention, such as combat, you must critically succeed to
+              fascinate it and the Perform action gains the incapacitation
+              trait. You must choose which creature you’re trying to fascinate
+              before you roll your check, and the target is then temporarily
+              immune for 1 hour.
+              <br />
+              <br />
+              If you’re an expert in Performance, you can fascinate up to four
+              observers; if you’re a master, you can fascinate up to 10
+              observers; and if you’re legendary, you can fascinate any number
+              of observers at the same time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Warrior",
+    source: "Core Rulebook",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Constitution"],
+    skillTraining: ["Intimidation", "Warfare Lore"],
+    feat: "Intimidating Glare",
+    description: (
+      <span>
+        In your younger days, you waded into battle as a mercenary, a warrior
+        defending a nomadic people, or a member of a militia or army. You might
+        have wanted to break out from the regimented structure of these forces,
+        or you could have always been as independent a warrior as you are now.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Strength or Constitution, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Intimidation skill and the Warfare Lore skill. You
+        gain the Intimidating Glare skill feat.
+        <Feat
+          id={0}
+          name="Intimidating Glare"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Intimidation.
+              </span>
+              <br />
+              You can Demoralize with a mere glare. When you do, Demoralize
+              loses the auditory trait and gains the visual trait, and you don’t
+              take a penalty if the creature doesn’t understand your language.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Waster Walker",
+    source: "Guns & Gears",
+    tags: [],
+    abilityBoost: ["Free", "Strength", "Wisdom"],
+    skillTraining: ["Survival", "Mana Wastes Lore"],
+    feat: "Forager",
+    description: (
+      <span>
+        Whether you grew up in the Mana Wastes or another similarly desolate
+        place, you quickly learned that only the strong survive. You and your
+        family were forced to evade monsters, mutants, wild magic, and worse, as
+        each new day heralded the possibility of a danger or threat you’d never
+        seen before. You learned to adapt to the worst possible conditions and
+        how to forage and survive in a place few others would dare to live.
+        <br />
+        <br />
+        Choose two ability boosts. One boost must be to Strength or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Survival skill, and Mana Wastes Lore (or another
+        similar Lore skill associated with the wastes where you grew up). You
+        gain the Forager skill feat.
+        <Feat
+          id={0}
+          name="Forager"
+          tags={["fortune", "general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              While using Survival to Subsist, if you roll any result worse than
+              a success, you get a success. On a success, you can provide
+              subsistence living for yourself and four additional creatures, and
+              on a critical success, you can take care of twice as many
+              creatures as on a success.
+              <br />
+              <br />
+              Each time your proficiency rank in Survival increases, double the
+              number of additional creatures you can take care of on a success
+              (to eight if you’re an expert, 16 if you’re a master, or 32 if
+              you’re legendary). You can choose to care for half the number of
+              additional creatures and provide a comfortable living instead of
+              subsistence living.
+              <br />
+              <br />
+              Multiple smaller creatures or creatures with significantly smaller
+              appetites than a human are counted as a single creature for this
+              feat, and larger creatures or those with significantly greater
+              appetites each count as multiple creatures. The GM determines how
+              much a non-human creature needs to eat.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Whispering Way Scion",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Wisdom"],
+    skillTraining: ["Religion", "Undead Lore"],
+    feat: "Student of the Canon",
+    description: (
+      <span>
+        Your family has long been associated with the enigmatic death cult known
+        as the Whispering Way, which was recently responsible for the terrible
+        devastation in the nation of Lastwall. Whether or not you have followed
+        in their footsteps, you know many of the philosophy’s secrets.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Wisdom, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Religion skill and the Undead Lore skill. You gain
+        the Student of the Canon skill feat.
+        <Feat
+          id={0}
+          name="Student of the Canon"
+          tags={["general", "skill"]}
+          action="three_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Religion.
+              </span>
+              <br />
+              You’ve researched many faiths enough to recognize notions about
+              them that are unlikely to be true. If you roll a critical failure
+              at a Religion check to Decipher Writing of a religious nature or
+              to Recall Knowledge about the tenets of faiths, you get a failure
+              instead. When attempting to Recall Knowledge about the tenets of
+              your own faith, if you roll a failure, you get a success instead,
+              and if you roll a success, you get a critical success instead.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wildwood Local",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Nature", "Forest Lore"],
+    feat: "Natural Medicine",
+    description: (
+      <span>
+        You might have been born and raised among the druids of the Verduran
+        Forest, or you may have spent time among them as an adult and come to
+        know their ways.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Nature skill as well as the Forest Lore skill. You
+        gain the Natural Medicine skill feat.
+        <Feat
+          id={0}
+          name="Natural Medicine"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Nature.
+              </span>
+              <br />
+              You can apply natural cures to heal your allies. You can use
+              Nature instead of Medicine to Treat Wounds. If you’re in the
+              wilderness, you might have easier access to fresh ingredients,
+              allowing you to gain a +2 circumstance bonus to your check to
+              Treat Wounds using Nature, subject to the GM’s determination.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Willing Host",
+    source: "Book of the Dead",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Wisdom", "Charisma"],
+    skillTraining: ["Spirit Lore"],
+    feat: "",
+    description: (
+      <span>
+        You speak to spirits only you can perceive: wispy shreds of lost souls,
+        household guardians, ancestral spirits, and other entities. You can
+        negotiate with these beings, allowing them into your body to impart
+        knowledge or aid in a task for the price of a favor.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom or Charisma, and one is
+        a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Spirit Lore skill. You gain the Host Spirit
+        action.
+        <br />
+        <br />
+        Host Spirit (exploration, necromancy, occult) Frequency once per day;
+        Effect You attempt one skill check to perform an exploration activity,
+        even if it normally requires you to be trained to do so. You’re trained
+        in the skill just long enough to make that single check (to a maximum of
+        10 minutes).
+        <br />
+        <br />
+        Whether or not the check succeeds, in the next 24 hours you must perform
+        a minor favor to appease the spirit who aided you, determined by the GM
+        (usually something sensation related, such as tasting a certain food,
+        listening to a specific song, or smoking a pipe). You can’t Host Spirit
+        again until you’ve performed the favor. If you haven’t completed it
+        after 24 hours, you’re fatigued until the obligation is fulfilled.
+      </span>
+    ),
+  },
+  {
+    name: "Winter's Child",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Arcana", "Weather Lore"],
+    feat: "Arcane Sense",
+    description: (
+      <span>
+        Your or one of your ancestors hails from Irrisen, and some spark of the
+        icy region’s magic has manifested itself within your bones. The blood of
+        Baba Yaga’s legacy runs in your veins, and you are at one with the
+        mysteries and dangers of the frozen land.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Arcana skill and the Weather Lore skill. You gain
+        the Arcane Sense skill feat.
+        <Feat
+          id={0}
+          name="Arcane Sense"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Arcana.
+              </span>
+              <br />
+              Your study of magic allows you to instinctively sense its
+              presence. You can cast 1st-level detect magic at will as an arcane
+              innate spell. If you’re a master in Arcana, the spell is
+              heightened to 3rd level; if you’re legendary, it is heightened to
+              4th leve
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wished Alive",
+    source: "Guns & Gears",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Constitution", "Charisma"],
+    skillTraining: ["Diplomacy"],
+    feat: "",
+    description: (
+      <span>
+        Once you were a simple construct or inanimate doll, but due to a deeply
+        felt wish, either yours or another’s, you came to life, and so you’re
+        now a living, breathing creature.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Constitution or Charisma, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Diplomacy skill. Once per day, you can fervently
+        wish for something you could work towards achieving as a single action
+        which has the concentrate trait. If you do, you gain a +2 circumstance
+        bonus on the first skill check you attempt before the end of your turn
+        to fulfill that wish.
+      </span>
+    ),
+  },
+  {
+    name: "Wishes for Riches",
+    source: "Gatewalkers Player's Guide",
+    tags: ["rare"],
+    abilityBoost: ["Free", "Charisma", "Dexterity"],
+    skillTraining: ["Thievery", "Games Lore"],
+    feat: "Subtle Theft",
+    description: (
+      <span>
+        On the night of the Missing Moment, you saw visions of fabulous riches
+        in the gate before you. Honestly, how someone could see anything but
+        piles of jewels and gold is utterly baffling to you. Having pined for
+        material wealth for as long as you could remember, you practically
+        sprang into the portal in hopes of securing your fortune. The next
+        moment, however, you were standing right where you’d just been, though
+        indeterminate time had passed. The night’s cold hardly bothered you; in
+        fact, you soon discovered that you could absorb the very chill in the
+        air, in the process changing the appearance of everything around you
+        into a sheen of finest silver. You’re no richer than before you walked
+        through the gate, unfortunately, but perhaps you could use this new
+        power somehow to pursue your avarice anew.
+        <br />
+        <br />
+        Your deviant abilities are of the dragon classification. You gain the
+        Consume Energy deviant feat with the cold type. As a quirk, your deviant
+        abilities manifest in a silver hue, and when you use a deviant ability
+        you absorb the color silver from your surroundings. The absorbed color
+        returns to your surroundings within an hour.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Charisma or Dexterity, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Thievery skill and the Games Lore skill. You gain
+        the Subtle Theft skill feat.
+        <Feat
+          id={0}
+          name="Subtle Theft"
+          tags={["general", "skill"]}
+          action="one_action"
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Thievery.
+              </span>
+              <br />
+              When you successfully Steal something, observers (creatures other
+              than the creature you stole from) take a –2 circumstance penalty
+              to their Perception DCs to detect your theft. Additionally, if you
+              first Create a Diversion using Deception, taking a single Palm an
+              Object or Steal action doesn’t end your undetected condition.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Witch Wary",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Intelligence"],
+    skillTraining: ["Occultism", "Curse Lore"],
+    feat: "Oddity Identification",
+    description: (
+      <span>
+        You have little love or trust for spellcraft and those who practice it,
+        and have developed a paranoid knack for recognizing such tricks. You are
+        constantly on guard for the magic of witches and have been trained to
+        spot the signs of those with minds affected by magic.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Intelligence, and
+        one is a free ability boost.
+        <br />
+        <br />
+        You’re trained in the Occultism skill and the Curse Lore skill. You gain
+        the Oddity Identification skill feat.
+        <Feat
+          id={0}
+          name="Oddity Identification"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Occultism.
+              </span>
+              <br />
+              You have a sense for spells that twist minds or reveal secrets.
+              You gain a +2 circumstance bonus to Occultism checks to Identify
+              Magic with the mental, possession, prediction, or scrying traits.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Witchlight follower",
+    source: "Ruins of Gauntlight, Abomination Vaults: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Dexterity", "Wisdom"],
+    skillTraining: ["Survival", "Wisp Lore"],
+    feat: "Terrain Expertise",
+    description: (
+      <span>
+        While in a dismal forest or remote swamp, you caught sight of a string
+        of lights bobbing through the trees. You stepped forward for a closer
+        look, and then still further when the lights retreated a few paces. Then
+        you remembered the rumors. Will-o’-wisps, rushlights, corpse
+        lanterns—whatever they’re called—such evil creatures lead people to
+        their doom. With a supreme effort of will, you broke free from the
+        alluring enchantment, and you’ve resolved to never let the strange
+        lights of remote wildernesses claim you again.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Dexterity or Wisdom, and one
+        is a free ability boost.
+        <br />
+        <br />
+        You’re trained in Survival and the Wisp Lore skill. You gain the Terrain
+        Expertise skill feat with both swamp terrain and subterranean bodies of
+        water.
+        <Feat
+          id={0}
+          name="Terrain Expertise"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Survival.
+              </span>
+              <br />
+              Your experience in navigating a certain type of terrain makes you
+              supremely confident while doing so. You gain a +1 circumstance
+              bonus to Survival checks in one of the following types of terrain,
+              chosen when you select this feat: aquatic, arctic, desert, forest,
+              mountain, plains, sky, swamp, or underground.
+              <br />
+              <br />
+              <b>Special:</b> You can select this feat more than once, choosing
+              a different type of terrain each time.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Wonder Taster",
+    source: "Lost Omens: World Guide",
+    tags: [],
+    abilityBoost: ["Free", "Intelligence", "Constitution"],
+    skillTraining: ["Crafting", "Alchemical Lore"],
+    feat: "Alchemical Crafting",
+    description: (
+      <span>
+        Having once sampled Numerian fluids, you've tasted knowledge beyond
+        comprehension. You are driven to recapture that astounding experience.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Intelligence or Constitution,
+        and one is a free ability boost.
+        <br />
+        <br />
+        You're trained in the Crafting skill and the Alchemical Lore skill. You
+        gain the Alchemical Crafting skill feat.
+        <Feat
+          id={0}
+          name="Alchemical Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You can use the Craft activity to create alchemical items. When
+              you select this feat, you immediately add the formulas for four
+              common 1st-level alchemical items to your formula book.
+            </span>
+          }
+        />
+      </span>
+    ),
+  },
+  {
+    name: "Writ in the Stars",
+    source: "Stolen Feats: Player's Guide",
+    tags: [],
+    abilityBoost: ["Free", "Wisdom"],
+    skillTraining: ["Fortune-Telling Lore"],
+    feat: "Pilgrim’s Token",
+    description: (
+      <span>
+        Destiny has always intrigued you. Maybe you grew up in a family where
+        fortune-telling and divinations were a day‑to‑day part of life, or
+        perhaps you had your fortune told as a young adult and the results were
+        so shockingly accurate that you became a believer. The mysteries of what
+        might lie in store for us all have long intrigued you, and you’re always
+        eager to debate whether or not we have free will or if destiny is
+        predetermined—be it for one side or the other. You may see the failure
+        of prophecy that began with the onset of the Age of Lost Omens as a dire
+        indication of some sort of horrible cosmic mistake. Conversely, you
+        could view this age as new era of freedom where reality is finally
+        admitting that each person is free to determine their own path to the
+        future. You still own a small token from your childhood that you view as
+        a lucky charm, but whatever your beliefs are today, many of your
+        fortunes have foretold that great things lie in store for you in the
+        future, and you can’t wait to find out what they might be!
+        <br />
+        <br />
+        This background is associated with the suit of Stars.
+        <br />
+        <br />
+        Choose two ability boosts. One must be to Wisdom, and one is a free
+        ability boost.
+        <br />
+        <br />
+        You gain the Pilgrim’s Token skill feat (this token need not be from a
+        faith and could simply be a good luck charm) and are trained in the
+        Fortune-Telling Lore skill. You also gain the following free action.
+        <br />
+        <br />
+        A Quick Glimpse Beyond{" "}
+        <img
+          src={require("../assets/img/one_action.png")}
+          alt="one action icon"
+        />{" "}
+        (fortune)
+        <br />
+        <br />
+        <b>Trigger:</b> You attempt a secret check; <b>Frequency:</b> once per
+        day; <b>Effect:</b> You can roll the secret check yourself rather than
+        have the GM roll it. As you roll, draw a harrow card. If the card drawn
+        is from the suit of Stars, the next secret check you make during the
+        next 24 hours can also be rolled by you. Each time you roll your own
+        additional secret check in this way, draw a new harrow card, and each
+        time you draw a card from the suit of Stars, your next secret check in
+        the next 24 hours can also be rolled by you. If you ever critically fail
+        a secret check that you roll yourself as a result of this ability, fate
+        turns away from you, and your Pilgrim’s Token no longer functions until
+        the next time you make your daily preparations.
+        <Feat
+          id={0}
+          name="Alchemical Crafting"
+          tags={["general", "skill"]}
+          action=""
+          level={1}
+          feat="Feat 1"
+          description={
+            <span>
+              <span className="frequency">
+                <b>Prerequisites:</b> trained in Crafting.
+              </span>
+              <br />
+              You can use the Craft activity to create alchemical items. When
+              you select this feat, you immediately add the formulas for four
+              common 1st-level alchemical items to your formula book.
             </span>
           }
         />
