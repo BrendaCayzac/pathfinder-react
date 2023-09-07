@@ -1,7 +1,7 @@
 import React from "react";
 import Feat from "../components/Feat";
 
-export interface Background {
+export interface BackgroundObject {
   name: string;
   source: string;
   tags: Array<string>;
@@ -11,7 +11,7 @@ export interface Background {
   description: React.JSX.Element;
 }
 
-export const backgrounds: Array<Background> = [
+export const backgrounds: Array<BackgroundObject> = [
   {
     name: "Abadar's avenger",
     source: "Fists of the Ruby Phoenix: Player's guide",
@@ -17673,8 +17673,7 @@ export const backgrounds: Array<Background> = [
         faith and could simply be a good luck charm) and are trained in the
         Fortune-Telling Lore skill. You also gain the following free action.
         <br />
-        <br />
-        A Quick Glimpse Beyond{" "}
+        <br />A Quick Glimpse Beyond{" "}
         <img
           src={require("../assets/img/one_action.png")}
           alt="one action icon"

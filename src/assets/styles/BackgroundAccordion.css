@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* MEDIA BREAKPOINTS */
+/* 600px */
+/* 768px */
+/* 960px; */
+/* 1280px; */
+/* 1800px */
+.background-accordion {
+  /* Accordion */
+  position: relative;
+  width: 100%;
+}
+.background-accordion label {
+  background-color: #FFFFFF;
+  color: #560c06;
+  padding: 1em;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.background-accordion label::before {
+  content: "↠";
+  font-size: 2rem;
+  padding-right: 0.625rem;
+  display: inline-block;
+}
+.background-accordion input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.background-accordion input:checked ~ label::before {
+  content: "↡";
+}
+.background-accordion input:checked ~ label {
+  background-color: #560c06;
+  color: #d5c48c;
+}
+.background-accordion input:checked ~ label ~ .content {
+  max-height: 700px;
+}
+.background-accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+}
+.background-accordion .content .summary {
+  padding: 1.5rem;
+  font-size: 0.85rem;
+}
+.background-accordion .content .summary .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0 0.625rem;
+}
+.background-accordion .content .summary .tags span {
+  background-color: #0a2760;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  margin-top: 0.625rem;
+  padding: 0.313rem;
+}
+.background-accordion .content .summary h1 {
+  color: #560c06;
+  font-size: 0.9rem;
+}
+.background-accordion .content .summary ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+.background-accordion .content .summary ul li::before {
+  content: "↠"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #0a2760; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.background-accordion .content .description {
+  padding: 1.5rem;
+  text-align: left;
+  width: 80%;
+  /* Tables */
+}
+.background-accordion .content .description ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+.background-accordion .content .description ul li::before {
+  content: "↠"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #0a2760; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.background-accordion .content .description table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.background-accordion .content .description table th, .background-accordion .content .description table td {
+  padding: 0.5rem;
+}
+.background-accordion .content .description table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+.background-accordion .content .description table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+.background-accordion .content .description table thead,
+.background-accordion .content .description table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
+
+/*# sourceMappingURL=BackgroundAccordion.css.map */

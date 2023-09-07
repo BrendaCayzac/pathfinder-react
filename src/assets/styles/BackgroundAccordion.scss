@@ -1,0 +1,154 @@
+@import "./custom";
+
+.background-accordion{
+	/* Accordion */
+		position: relative;
+		width: 100%;
+
+		label{
+			background-color: #FFFFFF;
+			color:$pathfinder-red;
+			padding:1em;
+			position: relative;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			font-family: $roboto;
+			font-weight: 500;
+			text-transform:uppercase;
+			transition: all 0.3s;
+
+			&::before{
+				content:"\21A0";
+				font-size: 2rem;
+				padding-right: 0.625rem;
+				display: inline-block;
+			}
+		}
+
+		input{
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			opacity:0;
+			visibility: hidden;
+
+			&:checked ~ label::before{
+				content:"\21A1";
+			}
+			&:checked ~ label{
+				background-color: $pathfinder-red;
+				color:$pathfinder-yellow;
+			}
+
+			&:checked ~ label ~ .content{
+				max-height:700px;
+			}
+		}
+
+		.content{
+			max-height:0;
+			overflow: hidden;
+			transition:max-height 0.5s;
+			background-color: #FFFFFF;
+			box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			padding: 0;
+
+			.summary{
+				padding: 1.5rem;
+				font-size: 0.85rem;
+
+				.tags{
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					flex-wrap: wrap;
+					gap: 0 0.625rem;
+
+					span{
+						background-color: $pathfinder-blue;
+						text-transform: uppercase;
+						font-family: $roboto;
+						font-weight: bold;
+						color: #FFFFFF;
+						font-size: 0.85rem;
+						margin-top: 0.625rem;
+						padding: 0.313rem;
+					}
+				}
+
+				h1{
+					color: $pathfinder-red;
+					font-size: 0.9rem;
+				}
+				ul {
+					margin-top: 0.3125rem;
+					list-style: none;
+
+					li {
+						&::before {
+							content: "\21A0"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+							color: $pathfinder-blue; /* Change the color */
+							font-weight: bold; /* If you want it to be bold */
+							display: inline-block; /* Needed to add space between the bullet and the text */
+							width: 1em; /* Also needed for space (tweak if needed) */
+							margin-left: -1em; /* Also needed for space (tweak if needed) */
+						}
+					}
+				}
+			}
+
+			.description{
+				padding: 1.5rem;
+				text-align: left;
+				width: 80%;
+
+				ul {
+					margin-top: 0.3125rem;
+					list-style: none;
+
+					li {
+						&::before {
+							content: "\21A0"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+							color: $pathfinder-blue; /* Change the color */
+							font-weight: bold; /* If you want it to be bold */
+							display: inline-block; /* Needed to add space between the bullet and the text */
+							width: 1em; /* Also needed for space (tweak if needed) */
+							margin-left: -1em; /* Also needed for space (tweak if needed) */
+						}
+					}
+				}
+
+				/* Tables */
+				table{
+					width: 100%;
+					font-family: $roboto;
+
+					th,td{
+						padding: 0.5rem;
+					}
+
+					tbody tr:nth-child(even) {
+						background-color: #F0EBDF;
+					}
+
+					tbody tr:nth-child(odd) {
+						background-color: #E0DACB;
+					}
+
+					thead,
+					tfoot {
+						background-color: $pathfinder-red;
+						color: #fff;
+					}
+
+				}
+			}
+		}
+
+}

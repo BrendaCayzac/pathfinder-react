@@ -1,0 +1,76 @@
+/* MEDIA BREAKPOINTS */
+/* 600px */
+/* 768px */
+/* 960px; */
+/* 1280px; */
+/* 1800px */
+.backgrounds {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.563rem;
+  overflow-y: scroll;
+}
+.backgrounds form {
+  width: 100%;
+  position: relative;
+}
+.backgrounds form .visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+.backgrounds form input {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  height: 2.5rem;
+  outline: none;
+  color: #202020;
+  font-family: "Roboto", sans-serif;
+}
+.backgrounds form svg {
+  position: absolute;
+  right: 2.226rem;
+  top: 0.75rem;
+  color: #0a2760;
+  pointer-events: none;
+}
+.backgrounds .backgrounds-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.backgrounds .backgrounds-list p {
+  margin: 0;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+@media screen and (min-width: 48rem) {
+  .backgrounds form {
+    margin: 0;
+    width: 25rem;
+  }
+  .backgrounds .backgrounds-list {
+    justify-content: flex-start;
+  }
+}
+
+/*# sourceMappingURL=BackgroundsPage.css.map */
