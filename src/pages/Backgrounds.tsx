@@ -40,7 +40,7 @@ const BackgroundsPage: React.ComponentType = () => {
       <div className="backgrounds-list">
         {filteredBackgrounds &&
         Object.keys(filteredBackgrounds).length === 0 ? (
-          <p>No ancestries to show</p>
+          <p>No backgrounds to show</p>
         ) : (
           filteredBackgrounds &&
           filteredBackgrounds.map((item, index) => (
