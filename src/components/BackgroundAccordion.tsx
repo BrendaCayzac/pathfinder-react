@@ -2,14 +2,26 @@ import React from "react";
 import "../assets/styles/BackgroundAccordion.scss";
 import { BackgroundObject } from "../middleware/Backgrounds";
 
-const BackgroundAccordion = (props: BackgroundObject) => {
-  const { name, source, tags, abilityBoost, skillTraining, feat, description } =
-    props;
+interface BackgroundProps extends BackgroundObject {
+  index: number;
+}
+
+const BackgroundAccordion = (props: BackgroundProps) => {
+  const {
+    name,
+    source,
+    tags,
+    abilityBoost,
+    skillTraining,
+    feat,
+    description,
+    index,
+  } = props;
 
   return (
     <div className="background-accordion" key={name}>
-      <input type="checkbox" id="heritage-5" />
-      <label htmlFor="heritage-5">{name}</label>
+      <input type="checkbox" id={"heritage-" + index.toString()} />
+      <label htmlFor={"heritage-" + index.toString()}>{name}</label>
       <div className="content">
         <div className="summary">
           <i>{source}</i>

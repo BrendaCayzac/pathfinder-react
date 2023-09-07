@@ -53,6 +53,7 @@ const BackgroundsPage: React.ComponentType = () => {
               skillTraining={item.skillTraining}
               feat={item.feat}
               description={item.description}
+              index={index}
             />
           ))
         )}
