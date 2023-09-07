@@ -16,18 +16,22 @@ const BackgroundAccordion = (props: BackgroundObject) => {
           <div className={tags ? "tags" : "hidden"}>
             {tags && tags.map((tag, index) => <span key={index}>{tag}</span>)}
           </div>
-          <h1>Ability Boosts</h1>
-          <ul>
-            {abilityBoost &&
-              abilityBoost.map((ability, index) => (
-                <li key={index}>{ability}</li>
-              ))}
-          </ul>
-          <h1>Skill Training</h1>
-          <ul>
-            {skillTraining &&
-              skillTraining.map((skill, index) => <li key={index}>{skill}</li>)}
-          </ul>
+          <div className="lists">
+            <h1>Ability Boosts</h1>
+            <ul>
+              {abilityBoost &&
+                abilityBoost.map((ability, index) => (
+                  <li key={index}>{ability}</li>
+                ))}
+            </ul>
+            <h1>Skill Training</h1>
+            <ul>
+              {skillTraining &&
+                skillTraining.map((skill, index) => (
+                  <li key={index}>{skill}</li>
+                ))}
+            </ul>
+          </div>
           <h1>Feat</h1>
           <p>{feat}</p>
         </div>

@@ -8,6 +8,10 @@ nav {
   background-color: #0a2760;
   height: 4.063rem;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   /* Checkbox */
   /* Menu list */
 }
@@ -65,7 +69,7 @@ nav #menuToggle span:nth-last-child(2) {
 nav #menu {
   position: absolute;
   width: 15rem;
-  height: 100vh;
+  height: 120vh;
   box-shadow: 0 0 10px #202020;
   margin: -3.125rem 0 0 -3.125rem;
   padding: 7.813rem 3.125rem 3.125rem;
@@ -125,6 +129,11 @@ nav #menu li a:hover {
   }
   nav #menu li a.active {
     color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 48rem) {
+  nav {
+    position: static;
   }
 }
 

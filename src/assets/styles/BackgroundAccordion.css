@@ -46,7 +46,7 @@
   color: #d5c48c;
 }
 .background-accordion input:checked ~ label ~ .content {
-  max-height: 700px;
+  max-height: 2000px;
 }
 .background-accordion .content {
   max-height: 0;
@@ -55,13 +55,19 @@
   background-color: #FFFFFF;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   padding: 0;
 }
 .background-accordion .content .summary {
-  padding: 1.5rem;
-  font-size: 0.85rem;
+  padding: 1.5rem 1.5rem 0;
+}
+.background-accordion .content .summary i {
+  color: #0a2760;
+}
+.background-accordion .content .summary p {
+  text-align: left;
 }
 .background-accordion .content .summary .tags {
   display: flex;
@@ -84,11 +90,16 @@
   color: #560c06;
   font-size: 0.9rem;
 }
-.background-accordion .content .summary ul {
+.background-accordion .content .summary .lists {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+.background-accordion .content .summary .lists ul {
   margin-top: 0.3125rem;
   list-style: none;
 }
-.background-accordion .content .summary ul li::before {
+.background-accordion .content .summary .lists ul li::before {
   content: "↠"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #0a2760; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -98,8 +109,8 @@
 }
 .background-accordion .content .description {
   padding: 1.5rem;
-  text-align: left;
-  width: 80%;
+  text-align: justify;
+  width: 100%;
   /* Tables */
 }
 .background-accordion .content .description ul {
@@ -130,7 +141,15 @@
 .background-accordion .content .description table thead,
 .background-accordion .content .description table tfoot {
   background-color: #560c06;
-  color: #fff;
+  color: #FFF;
+}
+
+@media screen and (min-width: 48rem) {
+  .background-accordion .content {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 }
 
 /*# sourceMappingURL=BackgroundAccordion.css.map */
