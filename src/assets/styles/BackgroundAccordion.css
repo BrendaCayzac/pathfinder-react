@@ -65,6 +65,7 @@
 }
 .background-accordion .content .summary i {
   color: #0a2760;
+  text-transform: capitalize;
 }
 .background-accordion .content .summary p {
   text-align: left;
@@ -89,6 +90,7 @@
 .background-accordion .content .summary h1 {
   color: #560c06;
   font-size: 0.9rem;
+  margin-bottom: 0;
 }
 .background-accordion .content .summary .lists {
   display: flex;
@@ -149,6 +151,12 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+  }
+  .background-accordion .content .summary {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+  .background-accordion .content .summary .lists {
+    flex-direction: column;
   }
 }
 
