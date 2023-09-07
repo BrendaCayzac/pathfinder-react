@@ -12,12 +12,12 @@ const BackgroundsPage: React.ComponentType = () => {
 
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
-    const query = (e.target as HTMLInputElement).value;
+    const query = (e.target as HTMLInputElement).value.toLowerCase();
     // Filtered list
     let updatedList = [...backgrounds];
     // Update list with elements containing the query
     updatedList = updatedList.filter((background) => {
-      return background.name.indexOf(query.toLowerCase()) !== -1;
+      return background.name.indexOf(query) !== -1;
     });
     // Trigger render with updated list
     setFilteredList(updatedList);
