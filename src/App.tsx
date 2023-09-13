@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 
 const AncestriesPage = React.lazy(() => import("./pages/Ancestries"));
 const BackgroundsPage = React.lazy(() => import("./pages/Backgrounds"));
+const ClassesPage = React.lazy(() => import("./pages/Classes"));
 const AnadiPage = React.lazy(() => import("./pages/Anadi"));
 const AndroidPage = React.lazy(() => import("./pages/Android"));
 const AutomatonPage = React.lazy(() => import("./pages/Automaton"));
@@ -65,6 +66,14 @@ const App = (): JSX.Element => {
             element={
               <React.Suspense fallback={<h1>Loading...</h1>}>
                 <BackgroundsPage />
+              </React.Suspense>
+            }
+          ></Route>
+          <Route
+            path="/classes"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <ClassesPage />
               </React.Suspense>
             }
           ></Route>

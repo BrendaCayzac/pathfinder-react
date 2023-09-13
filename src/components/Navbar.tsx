@@ -50,6 +50,18 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink
+              style={({ isActive }) => ({
+                fontWeight: isActive ? 300 : 800,
+                cursor: isActive ? "default" : "pointer",
+                pointerEvents: isActive ? "none" : "auto",
+              })}
+              to="classes"
+            >
+              Classes
+            </NavLink>
+          </li>
+          <li>
             <a
               href="https://github.com/BrendaCayzac/pathfinder-react"
               target="_blank"

@@ -1,0 +1,101 @@
+@import "custom";
+
+.classes-page{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	font-family: $roboto;
+
+	.navigation-sub-menu {
+		background-color: $pathfinder-red;
+		width: 100%;
+		border-bottom: $pathfinder-yellow 0.625rem solid;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		nav {
+			width: 18.75rem;
+			background: #D9D9D9;
+			margin: 2.5rem auto 3.5rem;
+			position: relative;
+
+			span {
+				padding: 30px;
+				background: #FFFFFF;
+				color: $pathfinder-red;
+				font-size: 1.2em;
+				font-variant: small-caps;
+				cursor: pointer;
+				display: block;
+
+				&::after {
+					float: right;
+					right: 10%;
+				}
+			}
+
+			/* UL */
+
+			.slide {
+				clear: both;
+				width: 100%;
+				height: 0;
+				overflow: hidden;
+				text-align: left;
+				transition: height .3s ease;
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				overflow-y: scroll;
+
+				li {
+					padding: 30px;
+
+					&:nth-child(even) {
+						background-color: #FFFFFF;
+					}
+
+					&:nth-child(odd) {
+						background-color: #E0DACB;
+					}
+
+					a {
+						text-decoration: none;
+						color: #202020;
+						font-family: $roboto-condensed;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+				}
+
+			}
+
+		}
+
+		#touch {
+			position: absolute;
+			opacity: 0;
+			height: 0;
+
+			&:checked ~ .slide {
+				height: 35rem;
+			}
+
+			&:checked + label span {
+				&::after{
+					content: "-";
+				}
+			}
+		}
+
+		#touch + label span {
+			&::after{
+				content: "+";
+			}
+		}
+
+	}
+}
