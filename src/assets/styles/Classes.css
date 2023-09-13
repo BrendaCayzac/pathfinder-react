@@ -28,7 +28,7 @@
   /* UL */
 }
 .classes-page .navigation-sub-menu nav span {
-  padding: 30px;
+  padding: 1.875rem;
   background: #FFFFFF;
   color: #560c06;
   font-size: 1.2em;
@@ -53,7 +53,7 @@
   overflow-y: scroll;
 }
 .classes-page .navigation-sub-menu nav .slide li {
-  padding: 30px;
+  padding: 1.875rem;
 }
 .classes-page .navigation-sub-menu nav .slide li:nth-child(even) {
   background-color: #FFFFFF;
@@ -67,6 +67,10 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  font-variant: small-caps;
+}
+.classes-page .navigation-sub-menu nav .slide li a img {
+  display: none;
 }
 .classes-page .navigation-sub-menu #touch {
   position: absolute;
@@ -81,6 +85,70 @@
 }
 .classes-page .navigation-sub-menu #touch + label span::after {
   content: "+";
+}
+
+@media screen and (min-width: 48rem) {
+  .classes-page .navigation-sub-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .classes-page .navigation-sub-menu nav {
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    padding: 0 1rem;
+  }
+  .classes-page .navigation-sub-menu nav span {
+    padding: 1rem;
+    background: transparent;
+    color: #d5c48c;
+    font-size: 2em;
+    cursor: default;
+  }
+  .classes-page .navigation-sub-menu nav .slide {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    overflow-y: hidden;
+  }
+  .classes-page .navigation-sub-menu nav .slide li {
+    padding: 1rem 1.25rem;
+    position: relative;
+    border-radius: 1.75rem;
+    cursor: pointer;
+  }
+  .classes-page .navigation-sub-menu nav .slide li:nth-child(even) {
+    background-color: #d6b77d;
+  }
+  .classes-page .navigation-sub-menu nav .slide li:nth-child(odd) {
+    background-color: #d6b77d;
+  }
+  .classes-page .navigation-sub-menu nav .slide li a {
+    text-decoration: none;
+    color: #202020;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    padding-left: 2.65rem;
+  }
+  .classes-page .navigation-sub-menu nav .slide li a img {
+    position: absolute;
+    display: initial;
+    width: 3.5rem;
+    top: -0.15rem;
+    left: -0.15rem;
+  }
+  .classes-page .navigation-sub-menu #touch:checked + label span::after {
+    content: "";
+  }
+  .classes-page .navigation-sub-menu #touch + label span::after {
+    content: "";
+  }
 }
 
 /*# sourceMappingURL=Classes.css.map */

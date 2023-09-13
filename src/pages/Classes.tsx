@@ -50,8 +50,12 @@ const ClassesPage: React.ComponentType = () => {
                       cursor: isActive ? "default" : "pointer",
                       pointerEvents: isActive ? "none" : "auto",
                     })}
-                    to="#"
+                    to={"/" + item}
                   >
+                    <img
+                      src={require("../assets/img/" + item + "_icon.png")}
+                      alt="class icon"
+                    />
                     {item}
                   </NavLink>
                 </li>

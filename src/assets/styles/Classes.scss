@@ -23,7 +23,7 @@
 			position: relative;
 
 			span {
-				padding: 30px;
+				padding: 1.875rem;
 				background: #FFFFFF;
 				color: $pathfinder-red;
 				font-size: 1.2em;
@@ -52,7 +52,7 @@
 				overflow-y: scroll;
 
 				li {
-					padding: 30px;
+					padding: 1.875rem;
 
 					&:nth-child(even) {
 						background-color: #FFFFFF;
@@ -68,6 +68,11 @@
 						font-family: $roboto-condensed;
 						font-weight: bold;
 						text-transform: uppercase;
+						font-variant: small-caps;
+
+						img{
+							display: none;
+						}
 					}
 				}
 
@@ -97,5 +102,89 @@
 			}
 		}
 
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.classes-page{
+
+		.navigation-sub-menu{
+			display: flex;
+			justify-content: center;
+			align-items:center;
+
+			nav{
+				background-color: transparent;
+				width: 100%;
+				height:fit-content;
+				padding: 0 1rem;
+
+				span {
+					padding: 1rem;
+					background: transparent;
+					color: $pathfinder-yellow;
+					font-size: 2em;
+					cursor: default;
+
+				}
+
+				.slide {
+					height: fit-content;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-wrap: wrap;
+					gap: 1rem 2rem;
+					overflow-y: hidden;
+
+					li {
+						padding: 1rem 1.25rem;
+						position: relative;
+						border-radius: 1.75rem;
+						cursor:pointer;
+
+						&:nth-child(even) {
+							background-color: #d6b77d;
+						}
+
+						&:nth-child(odd) {
+							background-color: #d6b77d;
+						}
+
+						a {
+							text-decoration: none;
+							color: #202020;
+							font-family: $roboto-condensed;
+							font-weight: bold;
+							text-transform: uppercase;
+							font-variant: small-caps;
+							padding-left: 2.65rem;
+
+							img{
+								position: absolute;
+								display: initial;
+								width: 3.5rem;
+								top: -0.15rem;
+								left: -0.15rem;
+							}
+						}
+					}
+				}
+			}
+
+			#touch {
+				&:checked + label span {
+					&::after{
+						content: "";
+					}
+				}
+			}
+
+			#touch + label span {
+				&::after{
+					content: "";
+				}
+			}
+		}
 	}
 }
