@@ -1,9 +1,44 @@
+@charset "UTF-8";
 /* MEDIA BREAKPOINTS */
 /* 600px */
 /* 768px */
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+/* Table */
+table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+table th, table td {
+  padding: 0.5rem;
+}
+table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+table thead,
+table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
+
+/* Lists */
+ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+ul li::before {
+  content: "↠";
+  color: #0a2760;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .classes-page {
   height: 100%;
   width: 100%;
@@ -12,6 +47,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
 }
 .classes-page .navigation-sub-menu {
   background-color: #560c06;
@@ -26,6 +62,7 @@
   background: #D9D9D9;
   margin: 2.5rem auto 3.5rem;
   position: relative;
+  z-index: 1;
   /* UL */
 }
 .classes-page .navigation-sub-menu nav span {
@@ -55,6 +92,9 @@
 }
 .classes-page .navigation-sub-menu nav .slide li {
   padding: 1.875rem;
+}
+.classes-page .navigation-sub-menu nav .slide li::before {
+  content: "";
 }
 .classes-page .navigation-sub-menu nav .slide li:nth-child(even) {
   background-color: #FFFFFF;

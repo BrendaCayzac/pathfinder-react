@@ -90,6 +90,10 @@ nav {
 		li {
 			padding: 10px 0;
 			transition-delay: 3s;
+			&::before {
+				content: "";
+				display: block;
+			}
 
 			a {
 				text-decoration: none;

@@ -42,22 +42,6 @@
 				margin: 2rem auto 0;
 			}
 
-			ul {
-				margin-top: 0.3125rem;
-				list-style: none;
-
-				li {
-					&::before {
-						content: "\21A0"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-						color: $pathfinder-blue; /* Change the color */
-						font-weight: bold; /* If you want it to be bold */
-						display: inline-block; /* Needed to add space between the bullet and the text */
-						width: 1em; /* Also needed for space (tweak if needed) */
-						margin-left: -1em; /* Also needed for space (tweak if needed) */
-					}
-				}
-			}
-
 			/* Featured */
 			.featured {
 				background-color: $pathfinder-light-blue;
@@ -231,31 +215,6 @@
 					opacity: 0.5;
 					z-index: 1;
 				}
-			}
-
-			/* Tables */
-			table{
-				width: 100%;
-				font-family: $roboto;
-
-				th,td{
-					padding: 0.5rem;
-				}
-
-				tbody tr:nth-child(even) {
-					background-color: #F0EBDF;
-				}
-
-				tbody tr:nth-child(odd) {
-					background-color: #E0DACB;
-				}
-
-				thead,
-				tfoot {
-					background-color: $pathfinder-red;
-					color: #fff;
-				}
-
 			}
 
 			/* Important information */

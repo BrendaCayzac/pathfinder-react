@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* MEDIA BREAKPOINTS */
+/* 600px */
+/* 768px */
+/* 960px; */
+/* 1280px; */
+/* 1800px */
+/* Table */
+table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+table th, table td {
+  padding: 0.5rem;
+}
+table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+table thead,
+table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
+
+/* Lists */
+ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+ul li::before {
+  content: "↠";
+  color: #0a2760;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.class {
+  padding: 1.5rem;
+  /* Header */
+  /* Content */
+  /* Featured */
+  /* Columns */
+  /* Table */
+}
+.class header {
+  position: relative;
+  margin-bottom: 4.5rem;
+}
+.class header h1 {
+  color: #560c06;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 1rem 0 0;
+}
+.class header i {
+  color: #0a2760;
+}
+.class header .introduction {
+  background-color: #202020;
+  padding: 2rem 2rem 4.5rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  text-align: left;
+}
+.class header figure {
+  width: 6rem;
+  overflow: hidden;
+  margin: 0;
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.class header figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.class p {
+  text-align: justify;
+}
+.class h2 {
+  color: #560c06;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem;
+}
+.class ul li {
+  padding: 0 0 0.625rem;
+}
+.class .featured, .class .featured-two {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 1rem;
+}
+.class .featured {
+  background-color: #560c06;
+}
+.class .featured h2 {
+  color: #d5c48c;
+}
+.class .featured b,
+.class .featured p {
+  color: #ffffff;
+}
+.class .featured-two {
+  background-color: #FFFFFF;
+}
+.class .columns {
+  display: flex;
+  flex-direction: column;
+}
+.class table a {
+  color: #560c06;
+}
+
+@media screen and (min-width: 48rem) {
+  .class {
+    max-width: 65rem;
+    margin: 0 auto;
+    /* Header */
+    /* Content */
+    /* Columns */
+  }
+  .class header .introduction {
+    width: 80%;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .class .featured {
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+  }
+  .class .featured h2 {
+    margin: 1rem 0;
+  }
+  .class .columns {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .class .columns .column-actions {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=ClassPage.css.map */
