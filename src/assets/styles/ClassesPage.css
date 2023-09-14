@@ -8,6 +8,7 @@
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   font-family: "Roboto", sans-serif;
@@ -151,4 +152,4 @@
   }
 }
 
-/*# sourceMappingURL=Classes.css.map */
+/*# sourceMappingURL=ClassesPage.css.map */

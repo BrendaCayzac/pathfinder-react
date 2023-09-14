@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "../assets/styles/Classes.scss";
+import { NavLink, Outlet } from "react-router-dom";
+import "../assets/styles/ClassesPage.scss";
 
 const ClassesPage: React.ComponentType = () => {
   const classPages = [
@@ -50,7 +50,7 @@ const ClassesPage: React.ComponentType = () => {
                       cursor: isActive ? "default" : "pointer",
                       pointerEvents: isActive ? "none" : "auto",
                     })}
-                    to={"/" + item}
+                    to={item}
                   >
                     <img
                       src={require("../assets/img/" + item + "_icon.png")}
@@ -63,6 +63,7 @@ const ClassesPage: React.ComponentType = () => {
           </ul>
         </nav>
       </div>
+      <Outlet />
     </div>
   );
 };
