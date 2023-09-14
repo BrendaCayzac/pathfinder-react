@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/styles/ClassPage.scss";
+import Feat from "../components/Feat";
+import Spell from "../components/Spell";
 
 const AlchemistPage: React.ComponentType = () => {
   return (
@@ -48,7 +50,7 @@ const AlchemistPage: React.ComponentType = () => {
           </p>
         </div>
       </div>
-      <h2>Initial Proficiencies</h2>
+      <h2 id="initial-proficiencies">Initial Proficiencies</h2>
       <p>
         At 1st level, you gain the listed proficiency ranks in the following
         statistics. You are untrained in anything not listed unless you gain a
@@ -165,10 +167,10 @@ const AlchemistPage: React.ComponentType = () => {
           <tr>
             <td>1</td>
             <td>
-              <a href="#">Ancestry and background</a>,
-              <a href="#">initial proficiencies</a>, <a href="#">alchemy</a>,
-              <a href="#">formula book</a>, <a href="#">research field</a>,
-              <a href="#">alchemist feat</a>
+              <a href="#ancestry-and-background">Ancestry and background</a>,{" "}
+              <a href="#initial-proficiencies">initial proficiencies</a>,{" "}
+              <a href="#">alchemy</a>, <a href="#">formula book</a>,{" "}
+              <a href="#">research field</a>, <a href="#">alchemist feat</a>
             </td>
           </tr>
           <tr>
@@ -306,6 +308,153 @@ const AlchemistPage: React.ComponentType = () => {
           </tr>
         </tbody>
       </table>
+      <h2>Key Terms</h2>
+      <p>You’ll see the following key terms in many alchemist abilities.</p>
+      <p>
+        <b>Additive:</b> Feats with the additive trait allow you to spend
+        actions to add special substances to bombs or elixirs. You can add only
+        one additive to a single alchemical item, and attempting to add another
+        spoils the item. You can typically use actions with the additive trait
+        only when you’re creating an infused alchemical item, and some can be
+        used only with the Quick Alchemy action. The additive trait is always
+        followed by a level, such as additive 2. An additive adds its level to
+        the level of the alchemical item you’re modifying; the result is the new
+        level of the mixture. The mixture’s item level must be no higher than
+        your advanced alchemy level.
+      </p>
+      <p>
+        <b>Infused:</b> You created an alchemical item with the infused trait
+        using your infused reagents, and it has a limited time before it becomes
+        inert. Any nonpermanent effects from your infused alchemical items, with
+        the exception of afflictions such as slow-acting poisons, end when you
+        make your daily preparations again.
+      </p>
+      <h2 id="ancestry-and-background">Ancestry and background</h2>
+      <p>
+        In addition to the abilities provided by your class at 1st level, you
+        have the benefits of your selected ancestry and background, as described
+        in Chapter 2.
+      </p>
+      <h2>Initial proficiencies</h2>
+      <p>
+        At 1st level, you gain a number of proficiencies that represent your
+        basic training. These proficiencies are noted at the start of this
+        class.
+      </p>
+      <h2>Alchemy</h2>
+      <p>
+        You understand the complex interactions of natural and unnatural
+        substances and can concoct alchemical items to meet your needs. You can
+        do this using normal reagents and the Craft activity, or you can use
+        special infused reagents that allow you to craft temporary items quickly
+        and at no cost. Over time, you can create more and more alchemical items
+        for free, and since each of them becomes more and more powerful, you
+        advance in power dramatically, leaving behind those who don’t understand
+        your strange science.
+      </p>
+      <p>
+        You gain the <b>Alchemical Crafting</b> feat, even if you don’t meet
+        that feat’s prerequisites, and you gain the four common 1st-level
+        alchemical formulas granted by that feat. The catalog of alchemical
+        items is in Chapter 11. You can use this feat to create alchemical items
+        as long as you have the items’ formulas in your formula book.
+      </p>
+
+      <Feat
+        id={0}
+        name="Alchemical Crafting"
+        tags={["general", "skill"]}
+        action=""
+        level={1}
+        feat="Feat 1"
+        description={
+          <span>
+            <span className="frequency">
+              <b>Prerequisites:</b> trained in Crafting.
+            </span>
+            <br />
+            You can use the Craft activity to create alchemical items. When you
+            select this feat, you immediately add the formulas for four common
+            1st-level alchemical items to your formula book.
+          </span>
+        }
+      />
+      <h2>Advanced Alchemy</h2>
+      <p>
+        During your daily preparations, after producing new infused reagents,
+        you can spend batches of those infused reagents to create infused
+        alchemical items. You don’t need to attempt a Crafting check to do this,
+        and you ignore both the number of days typically required to create the
+        items and any alchemical reagent requirements. Your advanced alchemy
+        level is equal to your level. For each batch of infused reagents you
+        spend, choose an alchemical item of your advanced alchemy level or lower
+        that’s in your formula book, and make a batch of two of that item. These
+        items have the infused trait and remain potent for 24 hours or until
+        your next daily preparations, whichever comes first.
+      </p>
+      <h2>Quick Alchemy</h2>
+      <p>
+        If you need a specific alchemical item on the fly, you can use your
+        infused reagents to quickly create it with the Quick Alchemy action.
+      </p>
+      <Spell
+        name="Quick alchemy"
+        action="one_action"
+        tags={["alchemist", "manipulate"]}
+        description={
+          <span>
+            <b>Cost:</b> 1 batch of infused reagents.
+            <br />
+            <span className="frequency">
+              <b>Requirements:</b> You have the formula for the alchemical item
+              you’re creating, and you’re either holding or wearing alchemist’s
+              tools.
+            </span>
+            <br />
+            You swiftly mix up a short-lived alchemical item to use at a
+            moment’s notice. You create a single alchemical consumable item of
+            your advanced alchemy level or lower that’s in your formula book
+            without having to spend the normal monetary cost in alchemical
+            reagents or needing to attempt a Crafting check. This item has the
+            infused trait, but it remains potent only until the start of your
+            next turn.
+          </span>
+        }
+      />
+      <h2>Formula book</h2>
+      <p>
+        An alchemist keeps meticulous formulas for every item they can create.
+        You start with a standard formula book worth 10 sp or less for free. The
+        formula book contains the formulas for two common 1st-level alchemical
+        items of your choice, in addition to those you gained from Alchemical
+        Crafting and your research field. The catalog of alchemical items is in
+        Chapter 11.
+      </p>
+      <p>
+        Each time you gain a level, you can add the formulas for two common
+        alchemical items to your formula book. These new formulas can be for any
+        level of item you can create. You learn these formulas automatically,
+        but it’s also possible to find or buy additional formulas in settlements
+        or from other alchemists, or to invent them with the Inventor feat.
+      </p>
+
+      <div className="featured-two">
+        <h2>Sample formula book</h2>
+        <p>
+          You can choose any 1st-level common alchemical items for your formula
+          book, but the list below contains a good selection of starter
+          formulas. A beginner’s book with these formulas called The
+          Fundamentals of Alchemy has become popular among mainstream alchemists
+          by staying away from controversial topics like mutagens, though it has
+          drawn criticism from fringe alchemists for guiding fledgling
+          alchemists away from more innovative experiments.
+        </p>
+        <p>
+          <b>Alchemical Item Formulas:</b> Lesser acid flask, lesser alchemist’s
+          fire, lesser antidote, lesser antiplague, lesser cheetah’s elixir,
+          lesser elixir of life, lesser tanglefoot bag, lesser smokestick.
+        </p>
+      </div>
     </div>
   );
 };

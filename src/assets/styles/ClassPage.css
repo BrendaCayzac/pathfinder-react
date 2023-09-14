@@ -10,8 +10,11 @@ table {
   width: 100%;
   font-family: "Roboto", sans-serif;
 }
-table th, table td {
-  padding: 0.5rem;
+table th {
+  padding: 1rem;
+}
+table td {
+  padding: 0.75rem;
 }
 table tbody tr:nth-child(even) {
   background-color: #F0EBDF;
@@ -83,17 +86,20 @@ ul li::before {
 }
 .class p {
   text-align: justify;
+  margin-top: 0.625rem;
+  font-family: "Lora", serif;
 }
 .class h2 {
   color: #560c06;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-  margin: 2rem 0 0.5rem;
+  margin: 1rem 0 0;
 }
 .class ul li {
   padding: 0 0 0.625rem;
 }
-.class .featured, .class .featured-two {
+.class .featured,
+.class .featured-two {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -112,11 +118,18 @@ ul li::before {
   color: #ffffff;
 }
 .class .featured-two {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .class .columns {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
+}
+.class table th:nth-child(even) {
+  text-align: left;
+}
+.class table td:first-child {
+  text-align: center;
 }
 .class table a {
   color: #560c06;
@@ -133,7 +146,7 @@ ul li::before {
   .class header .introduction {
     width: 80%;
     max-width: 50rem;
-    margin: 0 auto;
+    margin: 1rem auto 0;
   }
   .class .featured {
     flex-direction: row;

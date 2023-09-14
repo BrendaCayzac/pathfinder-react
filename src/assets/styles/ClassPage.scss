@@ -47,97 +47,108 @@
   /* Content */
   p {
     text-align: justify;
+	  margin-top: 0.625rem;
+	  font-family: $lora;
   }
 
   h2 {
     color: $pathfinder-red;
     font-family: $roboto-condensed;
     text-transform: uppercase;
-    margin: 2rem 0 0.5rem;
+    margin: 1rem 0 0;
   }
 
-	ul{
-		li{
-			padding: 0 0 0.625rem;
-		}
-	}
-
-	/* Featured */
-  .featured, .featured-two {
-	  padding: 2rem;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: flex-start;
-	  border-radius: 1rem;
+  ul {
+    li {
+      padding: 0 0 0.625rem;
+    }
   }
-	.featured{
-		background-color: $pathfinder-red;
 
-		h2 {
-			color: $pathfinder-yellow;
-		}
+  /* Featured */
+  .featured,
+  .featured-two {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1rem;
+  }
+  .featured {
+    background-color: $pathfinder-red;
 
-		b,
-		p {
-			color: #ffffff;
-		}
-	}
+    h2 {
+      color: $pathfinder-yellow;
+    }
 
-	.featured-two{
-		background-color: #FFFFFF;
-	}
+    b,
+    p {
+      color: #ffffff;
+    }
+  }
+
+  .featured-two {
+    background-color: #ffffff;
+  }
 
   /* Columns */
   .columns {
     display: flex;
     flex-direction: column;
+	  margin-top: 2rem;
   }
 
-	/* Table */
-	table{
-		a{
-			color: $pathfinder-red;
-		}
-	}
+  /* Table */
+  table {
+	  th:nth-child(even) {
+		  text-align: left;
+	  }
+
+    td:first-child {
+      text-align: center;
+    }
+
+    a {
+      color: $pathfinder-red;
+    }
+  }
 }
 
 @media screen and (min-width: $tablet) {
   .class {
-	  max-width:65rem;
-	  margin: 0 auto;
+    max-width: 65rem;
+    margin: 0 auto;
 
-	  /* Header */
-	  header {
-		  .introduction {
-			  width: 80%;
-			  max-width:50rem;
-			  margin: 0 auto;
-		  }
-	  }
+    /* Header */
+    header {
+      .introduction {
+        width: 80%;
+        max-width: 50rem;
+        margin: 1rem auto 0;
+      }
+    }
 
-	  /* Content */
-	  .featured {
-		  flex-direction: row;
-		  align-items: center;
-		  gap: 5rem;
+    /* Content */
+    .featured {
+      flex-direction: row;
+      align-items: center;
+      gap: 5rem;
 
-		  h2{
-			  margin: 1rem 0;
-		  }
-	  }
+      h2 {
+        margin: 1rem 0;
+      }
+    }
 
-	  /* Columns */
-	  .columns {
-		  flex-direction: row;
-		  align-items: flex-start;
-		  justify-content: center;
-		  gap: 3rem;
+    /* Columns */
+    .columns {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 3rem;
 
-
-		  .column-actions{
-			  width: 25%;
-		  }
-	  }
+      .column-actions {
+        width: 25%;
+      }
+    }
   }
 }
