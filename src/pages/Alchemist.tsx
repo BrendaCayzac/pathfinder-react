@@ -177,141 +177,166 @@ const AlchemistPage: React.ComponentType = () => {
             <td>
               <a href="#ancestry-and-background">Ancestry and background</a>,{" "}
               <a href="#initial-proficiencies">initial proficiencies</a>,{" "}
-              <a href="#">alchemy</a>, <a href="#">formula book</a>,{" "}
-              <a href="#">research field</a>, <a href="#">alchemist feat</a>
+              <a href="#alchemy">alchemy</a>,{" "}
+              <a href="formula-book">formula book</a>,{" "}
+              <a href="#research-field">research field</a>,{" "}
+              <a href="#alchemist-feat">alchemist feat</a>
             </td>
           </tr>
           <tr>
             <td>2</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>3</td>
             <td>
-              <a href="#">General feat</a>, <a href="#">skill increase</a>
+              <a href="#general-feat">General feat</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>4</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>5</td>
             <td>
-              <a href="#">Ability boosts</a>, <a href="#">ancestry feat</a>,{" "}
-              <a href="#">field discovery</a>, <a href="#">powerful alchemy</a>,{" "}
-              <a href="#">skill increase</a>
+              <a href="#ability-boosts">Ability boosts</a>,{" "}
+              <a href="#ancestry-feat">ancestry feat</a>,{" "}
+              <a href="#field-discovery">field discovery</a>,{" "}
+              <a href="#powerful-alchemy">powerful alchemy</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>6</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>7</td>
             <td>
-              <a href="#">Alchemical weapon expertise</a>,{" "}
-              <a href="#">general feat</a>, <a href="#">iron will</a>,{" "}
-              <a href="#">perpetual infusions</a>,{" "}
-              <a href="#">skill increase</a>
+              <a href="#alchemical-weapon-expertise">
+                Alchemical weapon expertise
+              </a>
+              , <a href="#general-feat">general feat</a>,{" "}
+              <a href="#iron-will">iron will</a>,{" "}
+              <a href="#perpetual-infusions">perpetual infusions</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>8</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>9</td>
             <td>
-              <a href="#">Alchemist expertise</a>, <a href="#">alertness</a>,{" "}
-              <a href="#">ancestry feat</a>, <a href="#">double brew</a>,{" "}
-              <a href="#">skill increase</a>
+              <a href="#alchemical-expertise">Alchemical expertise</a>,{" "}
+              <a href="#alertness">alertness</a>,{" "}
+              <a href="#ancestry-feat">ancestry feat</a>,{" "}
+              <a href="#double-brew">double brew</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>10</td>
             <td>
-              <a href="#">Ability boost</a>, <a href="#">alchemist feat</a>,{" "}
-              <a href="#">skill feat</a>
+              <a href="#ability-boost">Ability boost</a>,{" "}
+              <a href="#alchemist-feat">alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>11</td>
             <td>
-              <a href="#">General feat</a>, <a href="#">juggernaut</a>,{" "}
-              <a href="#">perpetual potency</a>, <a href="#">skill increase</a>
+              <a href="#general-feat">General feat</a>,{" "}
+              <a href="#">juggernaut</a>, <a href="#">perpetual potency</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>12</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>13</td>
             <td>
-              <a href="#">Ancestry feat</a>,{" "}
-              <a href="#">greater field discovery</a>,{" "}
+              <a href="#ancestry-feat">Ancestry feat</a>,{" "}
+              <a href="#field-discovery">greater field discovery</a>,{" "}
               <a href="#">medium armor expertise</a>,{" "}
-              <a href="#">skill increase</a>,{" "}
+              <a href="#skill-increase">skill increase</a>,{" "}
               <a href="#">weapon specialization</a>
             </td>
           </tr>
           <tr>
             <td>14</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>15</td>
             <td>
-              <a href="#">Ability boost</a>, <a href="#">alchemical alacrity</a>
-              , <a href="#">evasion</a>, <a href="#">general feat</a>,{" "}
-              <a href="#">skill increase</a>
+              <a href="#ability-boost">Ability boost</a>,{" "}
+              <a href="#alchemical-alacrity">alchemical alacrity</a>,{" "}
+              <a href="#evasion">evasion</a>,{" "}
+              <a href="#general-feat">general feat</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>16</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>17</td>
             <td>
-              <a href="#">Alchemical mastery</a>, <a href="#">ancestry feat</a>,{" "}
-              <a href="#">perpetual perfection</a>,{" "}
-              <a href="#">skill increase</a>
+              <a href="#alchemical-mastery">Alchemical mastery</a>,{" "}
+              <a href="#ancestry-feat">ancestry feat</a>,{" "}
+              <a href="#perpetual-perfection">perpetual perfection</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>18</td>
             <td>
-              <a href="#">Alchemist feat</a>, <a href="#">skill feat</a>
+              <a href="#alchemist-feat">Alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>19</td>
             <td>
-              <a href="#">General feat</a>, <a href="#">medium armor mastery</a>
-              , <a href="#">skill increase</a>
+              <a href="#general-feat">General feat</a>,{" "}
+              <a href="#medium-armor-mastery">medium armor mastery</a>,{" "}
+              <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>20</td>
             <td>
-              <a href="#">Ability boost</a>, <a href="#">alchemist feat</a>,{" "}
-              <a href="#">skill feat</a>
+              <a href="#ability-boost">Ability boost</a>,{" "}
+              <a href="#alchemist-feat">alchemist feat</a>,{" "}
+              <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
         </tbody>
@@ -351,7 +376,7 @@ const AlchemistPage: React.ComponentType = () => {
         class.
       </p>
 
-      <h3>Alchemy</h3>
+      <h3 id="alchemy">Alchemy</h3>
       <p>
         You understand the complex interactions of natural and unnatural
         substances and can concoct alchemical items to meet your needs. You can
@@ -434,7 +459,7 @@ const AlchemistPage: React.ComponentType = () => {
         }
       />
 
-      <h3>Formula book</h3>
+      <h3 id="formula-book">Formula book</h3>
       <p>
         An alchemist keeps meticulous formulas for every item they can create.
         You start with a standard formula book worth 10 sp or less for free. The
@@ -469,7 +494,7 @@ const AlchemistPage: React.ComponentType = () => {
         </p>
       </div>
 
-      <h3>Research field</h3>
+      <h3 id="research-field">Research field</h3>
       <p>
         Your inquiries into the alchemical nature of the universe have led you
         to focus on a particular field of research. You might have a degree from
@@ -571,26 +596,26 @@ const AlchemistPage: React.ComponentType = () => {
         }
       />
 
-      <h3>Alchemist Feats</h3>
+      <h3 id="alchemist-feat">Alchemist Feats</h3>
       <p>
         At 1st level and every even-numbered level thereafter, you gain an
         alchemist class feat. These are in the Alchemist Feats section.
       </p>
 
-      <h3>Skill Feats</h3>
+      <h3 id="skill-feat">Skill Feats</h3>
       <p>
         At 2nd level and every 2 levels thereafter, you gain a skill feat. Skill
         feats are in Chapter 5 and have the skill trait. You must be trained or
         better in the corresponding skill to select a skill feat.
       </p>
 
-      <h3>General Feats</h3>
+      <h3 id="general-feat">General Feats</h3>
       <p>
         At 3rd level and every 4 levels thereafter, you gain a general feat.
         General feats are listed in Chapter 5.
       </p>
 
-      <h3>Skill Increases</h3>
+      <h3 id="skill-increase">Skill Increases</h3>
       <p>
         At 3rd level and every 2 levels thereafter, you gain a skill increase.
         You can use this increase either to increase your proficiency rank to
@@ -604,7 +629,7 @@ const AlchemistPage: React.ComponentType = () => {
         in a skill in which you’re already a master.
       </p>
 
-      <h3>Ability Boosts</h3>
+      <h3 id="ability-boosts">Ability Boosts</h3>
       <p>
         At 5th level and every 5 levels thereafter, you boost four different
         ability scores. You can use these ability boosts to increase your
@@ -612,7 +637,7 @@ const AlchemistPage: React.ComponentType = () => {
         it’s already 18 or above, or by 2 if it starts out below 18.
       </p>
 
-      <h3>Ancestry Feats</h3>
+      <h3 id="ancestry-feat">Ancestry Feats</h3>
       <p>
         In addition to the ancestry feat you started with, you gain an ancestry
         feat at 5th level and every 4 levels thereafter. The list of ancestry
@@ -621,7 +646,7 @@ const AlchemistPage: React.ComponentType = () => {
       </p>
       <div className="flex">
         <div className="flex-column">
-          <h3>Field Discovery</h3>
+          <h3 id="field-discovery">Field Discovery</h3>
           <p>You learn a special discovery depending on your field.</p>
           <p>
             <b>Bomber:</b> When using advanced alchemy to make bombs during your
@@ -645,14 +670,14 @@ const AlchemistPage: React.ComponentType = () => {
             the same poison.
           </p>
 
-          <h3>Powerful alchemy</h3>
+          <h3 id="powerful-alchemy">Powerful alchemy</h3>
           <p>
             Alchemical items you create on the fly are particularly potent. When
             you use Quick Alchemy to create an infused alchemical item that
             allows a saving throw, you can change its DC to your class DC.
           </p>
 
-          <h2>Alchemical Weapon Expertise</h2>
+          <h2 id="alchemical-weapon-expertise">Alchemical Weapon Expertise</h2>
           <p>
             You’ve trained to more effectively wield the weapons you find in
             your lab. Your proficiency ranks for simple weapons, alchemical
@@ -668,13 +693,13 @@ const AlchemistPage: React.ComponentType = () => {
         </figure>
       </div>
 
-      <h3>Iron will</h3>
+      <h3 id="iron-will">Iron will</h3>
       <p>
         Your mental defenses are an iron fortress. Your proficiency rank for
         Will saves increases to expert.
       </p>
 
-      <h3>Perpetual Infusions</h3>
+      <h3 id="perpetual-infusions">Perpetual Infusions</h3>
       <p>
         You have learned how to create perpetual alchemical infusions that can
         provide a near-infinite supply of certain simple items. You gain the
@@ -702,7 +727,7 @@ const AlchemistPage: React.ComponentType = () => {
         <b>Toxicoligist:</b> Choose two common 1st-level alchemical poisons.
       </p>
 
-      <h3>Alchemical Expertise</h3>
+      <h3 id="alchemical-expertise">Alchemical Expertise</h3>
       <p>
         Constant practice has increased the effectiveness of your concoctions.
         Your proficiency rank for your alchemist class DC increases to expert.
@@ -710,13 +735,13 @@ const AlchemistPage: React.ComponentType = () => {
 
       <div className="flex reverse">
         <div className="flex-column">
-          <h3>Alertness</h3>
+          <h3 id="alertness">Alertness</h3>
           <p>
             You remain alert to threats around you. Your proficiency rank for
             Perception increases to expert.
           </p>
 
-          <h3>Double brew</h3>
+          <h3 id="double-brew">Double brew</h3>
           <p>
             You know your formulas so well that you can concoct two items at
             once. When using the Quick Alchemy action, instead of spending one
@@ -821,7 +846,7 @@ const AlchemistPage: React.ComponentType = () => {
         and to 4 if you’re legendary.
       </p>
 
-      <h3>Alchemy Alacrity</h3>
+      <h3 id="alchemical-alacrity">Alchemy Alacrity</h3>
       <p>
         Your comfort in concocting items is such that you can create three at a
         time. When using the Quick Alchemy action, you can spend up to three
@@ -832,7 +857,7 @@ const AlchemistPage: React.ComponentType = () => {
 
       <div className="flex">
         <div className="flex-column">
-          <h3>Evasion</h3>
+          <h3 id="evasion">Evasion</h3>
           <p>
             You’ve learned to move quickly to avoid explosions, dragon’s breath,
             and worse. Your proficiency rank for Reflex saves increases to
@@ -840,13 +865,13 @@ const AlchemistPage: React.ComponentType = () => {
             success instead.
           </p>
 
-          <h3>Alchemical Mastery</h3>
+          <h3 id="alchemical-mastery">Alchemical Mastery</h3>
           <p>
             Your alchemical concoctions are incredibly effective. Your
             proficiency rank for your alchemist class DC increases to master.
           </p>
 
-          <h3>Perpetual Perfection</h3>
+          <h3 id="perpetual-perfection">Perpetual Perfection</h3>
           <p>
             You have perfected your perpetual infusions, allowing you to use
             Quick Alchemy to create even more powerful items at no cost. The
@@ -868,7 +893,7 @@ const AlchemistPage: React.ComponentType = () => {
             alchemical poisons.
           </p>
 
-          <h3>Medium Armor Mastery</h3>
+          <h3 id="medium-armor-mastery">Medium Armor Mastery</h3>
           <p>
             Your skill with light and medium armor improves, increasing your
             ability to dodge blows. Your proficiency ranks for light armor,
