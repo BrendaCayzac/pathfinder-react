@@ -46,7 +46,9 @@ ul li::before {
   padding: 1.5rem;
   /* Header */
   /* Content */
+  /* Images */
   /* Featured */
+  /* Feat */
   /* Columns */
   /* Table */
 }
@@ -67,7 +69,7 @@ ul li::before {
   background-color: #202020;
   padding: 2rem 2rem 4.5rem;
   border-radius: 1rem;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: left;
 }
 .class header figure {
@@ -89,14 +91,31 @@ ul li::before {
   margin-top: 0.625rem;
   font-family: "Lora", serif;
 }
-.class h2 {
+.class h2, .class h3 {
   color: #560c06;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   margin: 1rem 0 0;
 }
+.class h3 {
+  border-bottom: solid #560c06 1px;
+  margin-top: 1.75rem;
+}
 .class ul li {
   padding: 0 0 0.625rem;
+}
+.class figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.class figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.class .figure-one {
+  margin: 2rem auto;
 }
 .class .featured,
 .class .featured-two {
@@ -115,15 +134,25 @@ ul li::before {
 }
 .class .featured b,
 .class .featured p {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .class .featured-two {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.class .feat {
+  background-color: #FFFfff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 .class .columns {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+}
+.class .columns p {
+  text-align: left;
 }
 .class table th:nth-child(even) {
   text-align: left;
@@ -142,6 +171,7 @@ ul li::before {
     /* Header */
     /* Content */
     /* Columns */
+    /* Flex columns */
   }
   .class header .introduction {
     width: 80%;
@@ -164,6 +194,14 @@ ul li::before {
   }
   .class .columns .column-actions {
     width: 25%;
+  }
+  .class .flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .class .reverse {
+    flex-direction: row-reverse;
   }
 }
 

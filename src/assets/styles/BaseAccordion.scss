@@ -1,0 +1,73 @@
+@import "custom";
+
+.accordion{
+	position: relative;
+	margin-bottom: 1rem;
+
+	label{
+		background-color: $pathfinder-blue;
+		color:$pathfinder-yellow;
+		padding:1em;
+		position: relative;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		font-family: $roboto;
+		font-weight: 500;
+
+		&::before{
+			content:"\21A0";
+			font-size: 2rem;
+			padding-right: 0.625rem;
+			display: inline-block;
+		}
+	}
+
+	input{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		opacity:0;
+		visibility: hidden;
+
+		&:checked ~ label::before{
+			content:"\21A1";
+		}
+
+		&:checked ~ label ~ .content{
+			max-height:700px;
+		}
+	}
+
+	.content{
+		max-height:0;
+		overflow: hidden;
+		transition:max-height 0.5s;
+		background-color: $pathfinder-light-blue;
+		box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+		padding: 0;
+
+		h3{
+			padding: 0 2em;
+			color: $pathfinder-blue;
+			text-transform: uppercase;
+			font-family: $roboto-condensed;
+		}
+
+		.text {
+			margin: 0;
+			padding:2em;
+		}
+
+		.text-two{
+			padding: 0 2rem 2rem;
+		}
+
+		.spell{
+			padding:0 2em 2rem;
+		}
+	}
+
+}
