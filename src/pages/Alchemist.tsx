@@ -1,10 +1,31 @@
-import React from "react";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 import "../assets/styles/ClassPage.scss";
+import AncestryThumbnail from "../components/AncestryThumbnail";
 import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
+import { AlchemistFeats } from "../middleware/AlchemistFeats";
+import { ClassFeat } from "../middleware/CutsomTypes";
 
 const AlchemistPage: React.ComponentType = () => {
+  const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
+    AlchemistFeats
+  );
+  const filterBySearch = (e: React.ChangeEvent) => {
+    // Input value
+    const query = (e.target as HTMLInputElement).value;
+    // Filtered list
+    let updatedList = [...AlchemistFeats];
+    // Update list with elements containing the query
+    updatedList = updatedList.filter((feats) => {
+      return feats.name.indexOf(query.toLowerCase()) !== -1;
+    });
+    // Trigger render with updated list
+    setFilteredList(updatedList);
+  };
+
   return (
     <div className="class">
       <header>
@@ -936,6 +957,42 @@ const AlchemistPage: React.ComponentType = () => {
       </ul>
 
       <h2>Feats</h2>
+      <p>
+        At every level that you gain an alchemist feat, you can select one of
+        the following feats. You must satisfy any prerequisites before taking
+        the feat.
+      </p>
+      <form>
+        <label className="visually-hidden" htmlFor="search">
+          Search
+        </label>
+        <input
+          name="search"
+          type="search"
+          className="search"
+          placeholder="Search in feats"
+          onChange={filterBySearch}
+        />
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </form>
+      <div className="feat-list">
+        {filteredList && Object.keys(filteredList).length === 0 ? (
+          <p>No feats to show</p>
+        ) : (
+          filteredList &&
+          filteredList.map((AlchemistFeat) => (
+            <Feat
+              key={AlchemistFeat.id}
+              id={AlchemistFeat.id}
+              name={AlchemistFeat.name}
+              action={AlchemistFeat.action}
+              level={AlchemistFeat.level}
+              feat={AlchemistFeat.feat}
+              description={AlchemistFeat.description}
+            />
+          ))
+        )}
+      </div>
     </div>
   );
 };
