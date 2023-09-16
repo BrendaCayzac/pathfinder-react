@@ -94,7 +94,10 @@ ul li::before {
 }
 .accordion .content .text {
   margin: 0;
-  padding: 2em;
+  padding: 2rem;
+}
+.accordion .content .text img {
+  width: 1.25rem;
 }
 .accordion .content .text-two {
   padding: 0 2rem 2rem;

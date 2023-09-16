@@ -93,7 +93,7 @@ ul li::before {
   margin-top: 0.625rem;
   font-family: "Lora", serif;
 }
-.class h2, .class h3 {
+.class h2, .class h3, .class h4 {
   color: #560c06;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -101,6 +101,10 @@ ul li::before {
 }
 .class h3 {
   border-bottom: solid #560c06 1px;
+  margin-top: 1.75rem;
+}
+.class h4 {
+  color: #a76652;
   margin-top: 1.75rem;
 }
 .class ul li {
@@ -213,6 +217,9 @@ ul li::before {
 .class .feat-list .feat {
   border-radius: 0;
   box-shadow: none;
+}
+.class .feat-list .feat .headline h4 {
+  color: #202020;
 }
 .class .feat-list .feat i {
   color: #0a2760;

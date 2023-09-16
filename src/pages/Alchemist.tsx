@@ -2,7 +2,6 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "../assets/styles/ClassPage.scss";
-import AncestryThumbnail from "../components/AncestryThumbnail";
 import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
@@ -45,16 +44,6 @@ const AlchemistPage: React.ComponentType = () => {
           />
         </figure>
       </header>
-      <p>
-        There’s no sight more beautiful to you than a strange brew bubbling in a
-        beaker, and you consume your ingenious elixirs with abandon. You’re
-        fascinated by uncovering the secrets of science and the natural world,
-        and you’re constantly experimenting in your lab or on the go with
-        inventive concoctions for every eventuality. You are fearless in the
-        face of risk, hurling explosive or toxic creations at your foes. Your
-        unique path toward greatness is lined with alchemical brews that push
-        your mind and body to their limits.
-      </p>
       <div className="featured">
         <div className="column">
           <h2>Key Ability</h2>
@@ -283,7 +272,8 @@ const AlchemistPage: React.ComponentType = () => {
             <td>11</td>
             <td>
               <a href="#general-feat">General feat</a>,{" "}
-              <a href="#">juggernaut</a>, <a href="#">perpetual potency</a>,{" "}
+              <a href="#juggernaut">juggernaut</a>,{" "}
+              <a href="#">perpetual potency</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -383,6 +373,7 @@ const AlchemistPage: React.ComponentType = () => {
         the exception of afflictions such as slow-acting poisons, end when you
         make your daily preparations again.
       </p>
+
       <h3 id="ancestry-and-background">Ancestry and background</h3>
       <p>
         In addition to the abilities provided by your class at 1st level, you
@@ -390,7 +381,7 @@ const AlchemistPage: React.ComponentType = () => {
         in Chapter 2.
       </p>
 
-      <h3>Initial proficiencies</h3>
+      <h3 id="initial-proficiencies">Initial proficiencies</h3>
       <p>
         At 1st level, you gain a number of proficiencies that represent your
         basic training. These proficiencies are noted at the start of this
@@ -772,7 +763,7 @@ const AlchemistPage: React.ComponentType = () => {
             same.
           </p>
 
-          <h3>Juggernaut</h3>
+          <h3 id="juggernaut">Juggernaut</h3>
           <p>
             Your body has become accustomed to physical hazards and resistant to
             pathogens and ailments. Your proficiency rank for Fortitude saves

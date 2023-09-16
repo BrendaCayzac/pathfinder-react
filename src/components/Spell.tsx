@@ -6,23 +6,29 @@ interface SpellProps {
   description: string | React.JSX.Element;
   action: string;
   tags?: Array<string>;
+  type?: string;
 }
 
 const Spell = (props: SpellProps) => {
-  const { name, description, action, tags } = props;
+  const { name, description, action, tags, type } = props;
   return (
     <div className="spell" key={name}>
-      <h4>
-        {name}
-        {action !== "" ? (
-          <img
-            src={require("../assets/img/" + action + ".png")}
-            alt="action value"
-          />
-        ) : (
-          ""
-        )}
-      </h4>
+      <div className="title">
+        <div>
+          <h4>
+            {name}
+            {action !== "" ? (
+              <img
+                src={require("../assets/img/" + action + ".png")}
+                alt="action value"
+              />
+            ) : (
+              ""
+            )}
+          </h4>
+        </div>
+        <h4>{type}</h4>
+      </div>
       <div className={tags ? "tags" : "hidden"}>
         {tags && tags.map((tag, index) => <span key={index}>{tag}</span>)}
       </div>

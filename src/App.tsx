@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 const AncestriesPage = React.lazy(() => import("./pages/Ancestries"));
 const BackgroundsPage = React.lazy(() => import("./pages/Backgrounds"));
 const ClassesPage = React.lazy(() => import("./pages/Classes"));
+
+/* Ancestries */
 const AnadiPage = React.lazy(() => import("./pages/Anadi"));
 const AndroidPage = React.lazy(() => import("./pages/Android"));
 const AutomatonPage = React.lazy(() => import("./pages/Automaton"));
@@ -44,7 +46,10 @@ const StrixPage = React.lazy(() => import("./pages/Strix"));
 const TenguPage = React.lazy(() => import("./pages/Tengu"));
 const VanaraPage = React.lazy(() => import("./pages/Vanara"));
 const VishkanyaPage = React.lazy(() => import("./pages/Vishkanya"));
+
+/* Classes */
 const AlchemistPage = React.lazy(() => import("./pages/Alchemist"));
+const AnimistPage = React.lazy(() => import("./pages/Animist"));
 
 const App = (): JSX.Element => {
   return (
@@ -83,6 +88,14 @@ const App = (): JSX.Element => {
               element={
                 <React.Suspense fallback={<h1>Loading...</h1>}>
                   <AlchemistPage />
+                </React.Suspense>
+              }
+            ></Route>
+            <Route
+              path="/classes/animist"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <AnimistPage />
                 </React.Suspense>
               }
             ></Route>
