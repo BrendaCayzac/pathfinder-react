@@ -189,9 +189,12 @@ const AnimistPage: React.ComponentType = () => {
               <a href="#ancestry-and-background">Ancestry and background</a>,{" "}
               <a href="#attribute-boosts">attribute boosts</a>,{" "}
               <a href="#initial-proficiencies"> initial proficiencies</a>,{" "}
-              <a href="apparition-attunement">apparition attunement</a>,{" "}
-              <a href="#">animist and apparition spellcasting</a>,{" "}
-              <a href="#"> animistic practice,</a> <a href="#">initial boon</a>
+              <a href="#apparition-attunement">apparition attunement</a>,{" "}
+              <a href="#animist-and-apparition-spellcasting">
+                animist and apparition spellcasting
+              </a>
+              , <a href="#animist-practice"> animistic practice</a>, initial
+              boon
             </td>
           </tr>
           <tr>
@@ -204,10 +207,9 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>3</td>
             <td>
-              <a href="#">2nd-rank spells</a>,{" "}
+              2nd-rank spells,
               <a href="#general-feat">General feat</a>,{" "}
-              <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#">spiritual fortitude</a>
+              <a href="#skill-increase">skill increase</a>, spiritual fortitude
             </td>
           </tr>
           <tr>
@@ -221,8 +223,7 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>5</td>
             <td>
-              <a href="#">3rd-rank spells</a>,{" "}
-              <a href="#attribute-boosts">Attribute boosts</a>,{" "}
+              3rd-rank spells, <a href="#attribute-boosts">Attribute boosts</a>,{" "}
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
@@ -237,10 +238,8 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>7</td>
             <td>
-              <a href="#">4th-rank spells</a>,{" "}
-              <a href="#general-feat">general feat</a>,{" "}
-              <a href="#expert-spellcaster,">expert spellcaster,</a>,{" "}
-              <a href="#">general feat</a>,{" "}
+              4th-rank spells, <a href="#general-feat">general feat</a>,{" "}
+              <a href="#expert-spellcaster">expert spellcaster,</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -257,8 +256,7 @@ const AnimistPage: React.ComponentType = () => {
               <a href="#">5th-rank spells,</a>,{" "}
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
               <a href="#apparition-awareness">apparition’s awareness</a>,{" "}
-              <a href="#intermediate-boon">intermediate boon</a>,{" "}
-              <a href="#skill-increase">skill increase</a>
+              intermediate boon, <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
@@ -273,11 +271,11 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>11</td>
             <td>
-              <a href="#">6th-rank spells</a>,{" "}
-              <a href="#">apparition’s warning</a>,{" "}
+              6th-rank spells,{" "}
+              <a href="#apparition-warning">apparition’s warning</a>,{" "}
               <a href="#general-feat">General feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#">simple weapon expertise</a>
+              <a href="#simple-weapon-expertise">simple weapon expertise</a>
             </td>
           </tr>
           <tr>
@@ -285,17 +283,15 @@ const AnimistPage: React.ComponentType = () => {
             <td>
               <a href="#animist-feat">Animist feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>,{" "}
-              <a href="#">fourth apparition</a>
+              <a href="#fourth-apparition">fourth apparition</a>
             </td>
           </tr>
           <tr>
             <td>13</td>
             <td>
-              <a href="#">7th-rank spells</a>,{" "}
-              <a href="#ancestry-feat">Ancestry feat</a>,{" "}
-              <a href="#">greater boon</a>,{" "}
-              <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#">weapon specialization</a>
+              7th-rank spells, <a href="#ancestry-feat">Ancestry feat</a>,{" "}
+              greater boon, <a href="#skill-increase">skill increase</a>,{" "}
+              <a href="#weapon-specialization">weapon specialization</a>
             </td>
           </tr>
           <tr>
@@ -308,8 +304,7 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>15</td>
             <td>
-              <a href="#">8th-rank spells</a>,{" "}
-              <a href="#attribute-boost">Attribute boost</a>,{" "}
+              8th-rank spells, <a href="#attribute-boost">Attribute boost</a>,{" "}
               <a href="#general-feat">general feat</a>,{" "}
               <a href="#master-spellcaster">master spellcaster</a>,{" "}
               <a href="#skill-increase">skill increase</a>
@@ -325,10 +320,8 @@ const AnimistPage: React.ComponentType = () => {
           <tr>
             <td>17</td>
             <td>
-              <a href="#">9th-rank spells,</a>,{" "}
-              <a href="#ancestry-feat">ancestry feat</a>,{" "}
-              <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#ultimate-boon">ultimate boon</a>
+              9th-rank spells, <a href="#ancestry-feat">ancestry feat</a>,{" "}
+              <a href="#skill-increase">skill increase</a>, ultimate boon
             </td>
           </tr>
           <tr>
@@ -926,7 +919,9 @@ const AnimistPage: React.ComponentType = () => {
         }
       />
 
-      <h3>Animist and apparition spellcasting</h3>
+      <h3 id="animist-and-apparition-spellcasting">
+        Animist and apparition spellcasting
+      </h3>
       <p>
         Your role as a spiritual medium connecting the mortal Universe to the
         realms beyond lets you cast your magic in two distinct ways. You both
@@ -1354,7 +1349,7 @@ const AnimistPage: React.ComponentType = () => {
         </tbody>
       </table>
 
-      <h3 id="">animalistic practice</h3>
+      <h3 id="animist-practice">animistic practice</h3>
       <p>
         At 1st level, the animist chooses a practice that influences the way
         their power grows and develops. Choose one of the following practices
@@ -1572,7 +1567,7 @@ const AnimistPage: React.ComponentType = () => {
         to become legendary in a skill in which you’re already a master.
       </p>
 
-      <h3 id="">Third Apparition</h3>
+      <h3 id="third-apparition">Third Apparition</h3>
       <p>
         You’ve learned to shelter more spirits, gaining access to more magic.
         When you attune to apparitions during your daily preparations, you
@@ -1588,21 +1583,21 @@ const AnimistPage: React.ComponentType = () => {
       </p>
       <div className="flex">
         <div className="flex-column">
-          <h3 id="">Expert spellcaster</h3>
+          <h3 id="expert-spellcaster">Expert spellcaster</h3>
           <p>You learn a special discovery depending on your field.</p>
           <p>
             The spirits’ magic flows freely through you. Your proficiency ranks
             for your spell attack modifier and spell DC increase to expert.
           </p>
 
-          <h3 id="">Apparition's awareness</h3>
+          <h3 id="apparition-awareness">Apparition's awareness</h3>
           <p>
             Your apparitions call attention to minute details you might
             otherwise overlook. Your proficiency rank for Perception increases
             to expert.
           </p>
 
-          <h3 id="">Advanced interlocution</h3>
+          <h3 id="advanced-interlocution">Advanced interlocution</h3>
           <p>
             You channel the power of spiritual forces and entities with
             incredible efficiency. You gain an additional apparition slot for
@@ -1611,14 +1606,14 @@ const AnimistPage: React.ComponentType = () => {
             1st-, 2nd-, and 3rd-rank apparition slot.
           </p>
 
-          <h3 id="">Apparition's warning</h3>
+          <h3 id="apparition-warning">Apparition's warning</h3>
           <p>
             The spiritual entities that protect you warn you of harm before it
             would occur, giving you more time to react. Your proficiency rank
             for Reflex saves increases to expert.
           </p>
 
-          <h3 id="">Simple weapon expertise</h3>
+          <h3 id="simple-weapon-expertise">Simple weapon expertise</h3>
           <p>
             Training from your spiritual companions has improved your weapon
             technique. Your proficiency rank for simple weapons and unarmed
@@ -1634,7 +1629,7 @@ const AnimistPage: React.ComponentType = () => {
         </figure>
       </div>
 
-      <h3 id="">Fourth apparition</h3>
+      <h3 id="fourth-apparition">Fourth apparition</h3>
       <p>
         You’re truly loved by the spirits, with apparitions flocking to you from
         far and wide. When you attune to apparitions during your daily
@@ -1642,7 +1637,7 @@ const AnimistPage: React.ComponentType = () => {
         being your primary apparition.
       </p>
 
-      <h3 id="">Weapon specialization</h3>
+      <h3 id="weapon-specialization">Weapon specialization</h3>
       <p>
         You’ve learned how to inflict greater injuries with the weapons you know
         best. You deal 2 additional damage with weapons and unarmed attacks in
@@ -1650,21 +1645,21 @@ const AnimistPage: React.ComponentType = () => {
         and 4 if you’re legendary.
       </p>
 
-      <h3 id="">Master spellcaster</h3>
+      <h3 id="master-spellcaster">Master spellcaster</h3>
       <p>
         Your affinity with the apparitions you bond to has further enhanced the
         potency of your magic. Your proficiency ranks for spell attack modifier
         and spell DC increase to master.
       </p>
 
-      <h3 id="">Legendary spellcaster</h3>
+      <h3 id="legendary-spellcaster">Legendary spellcaster</h3>
       <p>
         You are a near-perfect channel for the magical energies of the realms
         beyond. Your proficiency ranks for spell attack modifier and spell DC
         increase to legendary.
       </p>
 
-      <h3>Supreme incarnation</h3>
+      <h3 id="supreme-incarnation">Supreme incarnation</h3>
       <p>
         You become a nexus between the mortal and spiritual realms, capable of
         serving as the channel for your apparition to incarnate its full might
