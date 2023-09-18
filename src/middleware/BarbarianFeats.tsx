@@ -11,6 +11,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     feat: "Feat 1",
     description: (
       <p>
+        <i>Core Rulebook</i>
+        <br />
+        <br />
         When you are raging, your visual senses improve, granting you
         darkvision.
       </p>
@@ -25,6 +28,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     feat: "Feat 1",
     description: (
       <p>
+        <i>Advanced Player's Guide</i>
+        <br />
+        <br />
         In the heat of battle, you are capable of amazing feats of strength.
         While you are raging, increase your encumbered and maximum Bulk limits
         by 2; you also gain a +1 status bonus to Athletics checks to lift heavy
@@ -42,6 +48,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites</b> dragon instinct.
           </span>
@@ -63,6 +72,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You push back your rage for a moment in order to think clearly. Until
           the end of this turn, you can use actions with the concentrate trait
           even if those actions don’t have the rage trait.
@@ -80,6 +92,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           Your fury fills your foes with fear. While you are raging, your
           Demoralize and Scare to Death actions (from the Intimidation skill and
           an Intimidation skill feat, respectively) gain the rage trait,
@@ -100,6 +115,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           Thrown weapons become especially deadly in your fury. You apply the
           additional damage from Rage to your thrown weapon attacks. If you have
           the Brutal Critical feat or the devastator class feature, apply their
@@ -118,6 +136,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           With a quick sprint, you dash up to your foe and swing. Stride twice.
           If you end your movement within melee reach of at least one enemy, you
           can make a melee Strike against that enemy. You can use Sudden Charge
@@ -137,6 +158,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Acute Vision or darkvision.
           </span>
@@ -157,6 +181,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> trained in Athletics.
           </span>
@@ -181,6 +208,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Rage Elements</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> elemental instinct.
           </span>
@@ -198,31 +228,6 @@ export const BarbarianFeats: Array<ClassFeat> = [
   },
   {
     id: 11,
-    name: "Elemental Evolution",
-    action: "",
-    tags: ["barbarian"],
-    level: 2,
-    feat: "Feat 2",
-    description: (
-      <>
-        <p>
-          <span className="frequency">
-            <b>Prerequisites:</b> elemental instinct.
-          </span>
-          <br />
-          The elemental power within you is more mutable and versatile than
-          most. Choose a second damage type for your element. Whenever you Rage,
-          you can choose that type instead of the damage type you would normally
-          gain. The new damage type can be the one you did not choose when you
-          selected the element initially if you had multiple options available
-          for your element, or one of the following types: air cold, earth
-          poison, fire cold, metal electricity, water acid, wood poison.
-        </p>
-      </>
-    ),
-  },
-  {
-    id: 12,
     name: "Furious Finish",
     action: "one_action",
     tags: ["barbarian", "rage"],
@@ -231,6 +236,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           Desperate to finish the fight, you pour all your rage into one final
           blow. Make a Strike. If it hits, you gain a circumstance bonus to
           damage equal to the number of rounds remaining in your Rage (maximum
@@ -241,7 +249,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 13,
+    id: 12,
     name: "No escape",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -250,6 +258,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> A foe within reach attempts to move away from you.
           </span>
@@ -264,7 +275,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 14,
+    id: 13,
     name: "Second wind",
     action: "",
     tags: ["barbarian"],
@@ -273,6 +284,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You can enter a second rage, but afterward you need to catch your
           breath. You can Rage without waiting for 1 minute after the previous
           Rage (or 1 round, with quick rage), but when you end this second Rage,
@@ -282,7 +296,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 15,
+    id: 14,
     name: "Shake it off",
     action: "one_action",
     tags: ["barbarian", "concentrate", "rage"],
@@ -291,6 +305,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You concentrate on your rage, overcoming fear and fighting back
           sickness. Reduce your frightened condition value by 1, and attempt a
           Fortitude save to recover from the sickened condition as if you had
@@ -302,7 +319,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 16,
+    id: 15,
     name: "Barreling change",
     action: "two_action",
     tags: ["barbarian", "flourish"],
@@ -311,6 +328,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites</b> trained in Athletics.
           </span>
@@ -328,7 +348,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 17,
+    id: 16,
     name: "Farabellus flip",
     action: "reaction",
     tags: ["uncommon", "barbarian", "fighter", "ranger"],
@@ -337,6 +357,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Lost Omens: Pathfinder Society Guide</i>
+          <br />
+          <br />
           <b>Prerequisites</b> trained in Acrobatics and medium armor.
           <br />
           <span className="frequency">
@@ -355,7 +378,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 18,
+    id: 17,
     name: "Fast Movement",
     action: "",
     tags: ["barbarian"],
@@ -363,12 +386,17 @@ export const BarbarianFeats: Array<ClassFeat> = [
     feat: "Feat 4",
     description: (
       <>
-        <p>While raging, you gain a +10-foot status bonus to your Speed.</p>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          While raging, you gain a +10-foot status bonus to your Speed.
+        </p>
       </>
     ),
   },
   {
-    id: 19,
+    id: 18,
     name: "Ghost wrangler",
     action: "one_action",
     tags: ["uncommon", "barbarian", "divine", "instinct", "necromancy", "rage"],
@@ -377,6 +405,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Lost Omens: Knight of Lastwall</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites</b> spirit instinct.
           </span>
@@ -390,7 +421,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 20,
+    id: 19,
     name: "Inured to alchemy",
     action: "one_action",
     tags: ["uncommon", "alchemist", "barbarian", "fighter"],
@@ -399,6 +430,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Punks in a Powder Keg</i>
+          <br />
+          <br />
           <b>Prerequisites</b> expert in Fortitude saves.
           <br />
           <span className="frequency">
@@ -416,7 +450,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 21,
+    id: 20,
     name: "Oversized throw",
     action: "two_action",
     tags: ["barbarian", "rage"],
@@ -425,6 +459,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements</b> You have one or more hands free.
           </span>
@@ -444,7 +481,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 22,
+    id: 21,
     name: "Raging Athlete",
     action: "",
     tags: ["barbarian"],
@@ -453,6 +490,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites</b> expert in Athletics.
           </span>
@@ -468,7 +508,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 23,
+    id: 22,
     name: "Spiritual guides",
     action: "reaction",
     tags: ["barbarian", "concentrate", "fortune"],
@@ -477,6 +517,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <b>Prerequisites</b> spirit instinct
           <br />
           <b>Frequency</b> once per day.
@@ -495,7 +538,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 24,
+    id: 23,
     name: "Supernatural senses",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -504,6 +547,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites</b> Acute Scent or precise or imprecise scent.
           </span>
@@ -518,7 +564,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 25,
+    id: 24,
     name: "Swipe",
     action: "two_action",
     tags: ["barbarian", "flourish"],
@@ -527,6 +573,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You make a wide, arcing swing. Make a single melee Strike and compare
           the attack roll result to the ACs of up to two foes, each of whom must
           be within your melee reach and adjacent to the other. Roll damage only
@@ -541,7 +590,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 26,
+    id: 25,
     name: "Wounded rage",
     action: "reaction",
     tags: ["barbarian"],
@@ -550,6 +599,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> You take damage and are capable of entering a rage.
           </span>
@@ -560,7 +612,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 27,
+    id: 26,
     name: "Animal skin",
     action: "",
     tags: ["barbarian", "morph", "primal", "transmutation"],
@@ -569,6 +621,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> animal instinct.
           </span>
@@ -585,7 +640,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 28,
+    id: 27,
     name: "Attack of opportunity",
     action: "reaction",
     tags: ["barbarian"],
@@ -594,6 +649,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> A creature within your reach uses a manipulate
             action or a move action, makes a ranged attack, or leaves a square
@@ -610,7 +668,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 29,
+    id: 28,
     name: "Brutal Bully",
     action: "",
     tags: ["barbarian"],
@@ -619,6 +677,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> expert in Athletics.
           </span>
@@ -632,7 +693,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 30,
+    id: 29,
     name: "Cleave",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -641,6 +702,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> Your melee Strike kills a creature or knocks it
             unconscious, and another foe is adjacent to that creature.
@@ -653,7 +717,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 31,
+    id: 30,
     name: "Dragon's rage breath",
     action: "two_action",
     tags: ["arcane", "barbarian", "concentrate", "evocation", "rage"],
@@ -662,6 +726,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> dragon instinct.
           <br />
           <span className="frequency">
@@ -680,7 +747,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 32,
+    id: 31,
     name: "Elemental explosion",
     action: "two_action",
     tags: ["barbarian", "concentrate", "primal", "rage"],
@@ -689,6 +756,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Rage of Elements</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> elemental instinct.
           <br />
           <span className="frequency">
@@ -706,7 +776,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 33,
+    id: 32,
     name: "Giant's stature",
     action: "one_action",
     tags: ["barbarian", "polymorph", "primal", "rage", "transmutation"],
@@ -715,6 +785,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> giant instinct.
           <br />
           <span className="frequency">
@@ -729,7 +802,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 34,
+    id: 33,
     name: "Inner strength",
     action: "one_action",
     tags: ["barbarian", "concentrate", "rage"],
@@ -738,6 +811,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           Your strength is part of your rage, so as long as your anger remains,
           you can gather your strength and rage to overcome any sort of
           enfeeblement. You reduce your enfeebled condition’s value by 1.
@@ -746,7 +822,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 35,
+    id: 34,
     name: "Mage hunter",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -755,6 +831,10 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          {" "}
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> superstition instinct.
           <br />
           <span className="frequency">
@@ -770,7 +850,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 36,
+    id: 35,
     name: "Nocturnal sense",
     action: "",
     tags: ["barbarian", "rage"],
@@ -779,6 +859,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Acute Scent, or precise or imprecise scent and
             low-light vision
@@ -792,7 +875,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 37,
+    id: 36,
     name: "Pain tolerance",
     action: "reaction",
     tags: ["uncommon", "barbarian", "fighter"],
@@ -801,6 +884,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Punks in a Powder Keg</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> expert in Fortitude saves; Access You’re from
             Alkenstar or the Mana Wastes.
@@ -814,8 +900,8 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 38,
-    name: "Pain tolerance",
+    id: 37,
+    name: "Scouring Rage",
     action: "",
     tags: ["barbarian"],
     level: 6,
@@ -839,7 +925,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 39,
+    id: 38,
     name: "Spirit's interference",
     action: "one_action",
     tags: ["barbarian", "divine", "necromancy", "rage"],
@@ -848,6 +934,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> spirit instinct
           </span>
@@ -860,7 +949,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 40,
+    id: 39,
     name: "Animal rage",
     action: "one_action",
     tags: [
@@ -876,6 +965,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> animal instinct.
           </span>
@@ -891,7 +983,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 41,
+    id: 40,
     name: "Disarming assault",
     action: "one_action",
     tags: ["barbarian", "flourish", "rage"],
@@ -900,6 +992,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> trained in Athletics.
           </span>
@@ -912,7 +1007,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 42,
+    id: 41,
     name: "Follow-up assault",
     action: "one_action",
     tags: ["barbarian", "rage"],
@@ -921,6 +1016,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You used your previous action to make a melee
             Strike that missed.
@@ -934,7 +1032,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 43,
+    id: 42,
     name: "Friendly Toss",
     action: "two_action",
     tags: ["barbarian", "manipulate", "rage"],
@@ -943,6 +1041,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You are adjacent to an ally and have one or
             more hands free.
@@ -960,7 +1061,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 44,
+    id: 43,
     name: "furious Bully",
     action: "",
     tags: ["barbarian"],
@@ -969,6 +1070,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> master in Athletics.
           </span>
@@ -980,7 +1084,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 45,
+    id: 44,
     name: "Instinctive strike",
     action: "two_action",
     tags: ["barbarian", "manipulate", "rage"],
@@ -989,6 +1093,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Players Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Acute Scent or precise or imprecise scent.
           </span>
@@ -1003,7 +1110,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 46,
+    id: 45,
     name: "Renewed vigor",
     action: "one_action",
     tags: ["barbarian", "concentrate", "rage"],
@@ -1012,6 +1119,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You pause to recover your raging vigor. You gain temporary Hit Points
           equal to half your level plus your Constitution modifier.
         </p>
@@ -1019,7 +1129,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 47,
+    id: 46,
     name: "Share rage",
     action: "one_action",
     tags: ["auditory", "barbarian", "rage", "visual"],
@@ -1028,6 +1138,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You haven’t used this ability since you last
             Raged.
@@ -1041,7 +1154,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 48,
+    id: 47,
     name: "Sudden leap",
     action: "two_action",
     tags: ["barbarian"],
@@ -1050,6 +1163,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You swing at a foe while mid-leap. Make a Leap, High Jump, or Long
           Jump and attempt one melee Strike at any point during your jump.
           Immediately after the Strike, you fall to the ground if you’re in the
@@ -1066,7 +1182,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 49,
+    id: 48,
     name: "Thrash",
     action: "one_action",
     tags: ["barbarian", "rage"],
@@ -1075,6 +1191,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You have a foe grabbed.
           </span>
@@ -1088,7 +1207,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 50,
+    id: 49,
     name: "Come and get me",
     action: "one_action",
     tags: ["barbarian", "concentrate", "rage"],
@@ -1097,6 +1216,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You open yourself to attacks so you can respond in turn. Until your
           rage ends, you are flat-footed, and damage rolls against you gain a +2
           circumstance bonus. If a creature hits you, that creature is
@@ -1109,7 +1231,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 51,
+    id: 50,
     name: "Corpse-killer defiance",
     action: "reaction",
     tags: ["uncommon", "barbarian", "swashbuckler"],
@@ -1118,6 +1240,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Lost OmensL Knights of Lastwall</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You destroy an undead foe.
           </span>
@@ -1132,7 +1257,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 52,
+    id: 51,
     name: "Determined dash",
     action: "two_action",
     tags: ["barbarian", "rage"],
@@ -1141,6 +1266,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           Nothing can keep you from your enemy. Stride twice. During this
           movement you ignore difficult terrain, greater difficult terrain, and
           any effects that would impose a penalty to Speed. You can attempt an
@@ -1154,7 +1282,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 53,
+    id: 52,
     name: "Furious sprint",
     action: "two_action",
     tags: ["barbarian", "rage"],
@@ -1163,6 +1291,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You rush forward. Stride up to five times your Speed in a straight
           line. You can increase the number of actions this activity takes to 3
           to Stride up to eight times your Speed in a straight line instead.
@@ -1171,7 +1302,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 54,
+    id: 53,
     name: "Great cleave",
     action: "",
     tags: ["barbarian", "rage"],
@@ -1180,6 +1311,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Cleave.
           </span>
@@ -1195,7 +1329,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 55,
+    id: 54,
     name: "Impressive landing",
     action: "reaction",
     tags: ["barbarian"],
@@ -1204,6 +1338,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You fall at least 10 feet and land on a solid
             surface.
@@ -1219,7 +1356,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 56,
+    id: 55,
     name: "Knockback",
     action: "one_action",
     tags: ["barbarian", "rage"],
@@ -1228,6 +1365,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Your last action was a successful Strike.
           </span>
@@ -1240,7 +1380,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 57,
+    id: 56,
     name: "Overpowering charge",
     action: "",
     tags: ["barbarian"],
@@ -1249,6 +1389,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Barreling Charge.
           </span>
@@ -1263,7 +1406,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 58,
+    id: 57,
     name: "Resounding blow",
     action: "two_action",
     tags: ["barbarian", "rage"],
@@ -1272,6 +1415,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> You are wielding a melee weapon that deals
             bludgeoning damage.
@@ -1286,7 +1432,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 59,
+    id: 58,
     name: "Silencing strike",
     action: "one_action",
     tags: ["barbarian", "incapacitation", "rage"],
@@ -1295,8 +1441,10 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
-          A quick strike to the face or mouth silences your opponent. Make a
-          melee Strike against a foe. The foe must succeed at a Fortitude save
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />A quick strike to the face or mouth silences your opponent. Make
+          a melee Strike against a foe. The foe must succeed at a Fortitude save
           against your class DC.
         </p>
         <p>
@@ -1316,7 +1464,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 60,
+    id: 59,
     name: "Tangle of battle",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -1325,6 +1473,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> You critically hit an adjacent enemy.
           </span>
@@ -1337,7 +1488,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 61,
+    id: 60,
     name: "Terrifying howl",
     action: "one_action",
     tags: ["auditory", "barbarian", "rage"],
@@ -1346,6 +1497,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Intimidating Glare.
           </span>
@@ -1359,7 +1513,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 62,
+    id: 61,
     name: "Dragon's rage wings",
     action: "one_action",
     tags: ["barbarian", "morph", "primal", "rage", "transmutation"],
@@ -1368,6 +1522,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> dragon instinct.
           </span>
@@ -1382,7 +1539,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 63,
+    id: 62,
     name: "Embrace the pain",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -1391,6 +1548,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> A creature damages you with a melee attack.
           </span>
@@ -1403,7 +1563,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 64,
+    id: 63,
     name: "Furious grab",
     action: "one_action",
     tags: ["barbarian", "rage"],
@@ -1412,6 +1572,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> Your last action was a successful Strike, and
             either you have a hand free or your Strike used a grapple weapon.
@@ -1425,7 +1588,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 65,
+    id: 64,
     name: "Predator's pounce",
     action: "one_action",
     tags: ["barbarian", "flourish", "open", "rage"],
@@ -1434,6 +1597,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> animal instinct.
           <br />
           <span className="frequency">
@@ -1448,7 +1614,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 66,
+    id: 65,
     name: "Spirit's wrath",
     action: "one_action",
     tags: ["attack", "barbarian", "concentrate", "rage"],
@@ -1457,6 +1623,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> spirit instinct.
           </span>
@@ -1480,7 +1649,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 67,
+    id: 66,
     name: "Sunder spell",
     action: "two_action",
     tags: ["attack", "barbarian", "concentrate", "rage"],
@@ -1489,6 +1658,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Adavnced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> superstition instinct.
           </span>
@@ -1513,7 +1685,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 68,
+    id: 67,
     name: "Titan's stature",
     action: "",
     tags: ["barbarian", "polymorph", "transmutation"],
@@ -1522,6 +1694,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> giant instinct, Giant’s Stature.
           </span>
@@ -1535,7 +1710,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 69,
+    id: 68,
     name: "Unbalancing sweep",
     action: "three_action",
     tags: ["barbarian", "flourish", "open"],
@@ -1544,6 +1719,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           You make a great sweep about yourself, knocking creatures off their
           feet and away from you. Choose up to three adjacent foes and choose
           whether to Shove or Trip all three of them. Whichever of the two
@@ -1556,7 +1734,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 70,
+    id: 69,
     name: "Awesome blow",
     action: "",
     tags: ["barbarian", "concentrate", "rage"],
@@ -1565,6 +1743,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Knockback.
           </span>
@@ -1588,7 +1769,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 71,
+    id: 70,
     name: "Awesome blow",
     action: "one_action",
     tags: ["barbarian", "concentrate", "rage"],
@@ -1597,6 +1778,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> giant instinct
           </span>
@@ -1612,7 +1796,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 72,
+    id: 71,
     name: "Impaling thrust",
     action: "two_action",
     tags: ["barbarian", "rage"],
@@ -1621,6 +1805,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> You are wielding a melee weapon that deals
             piercing damage.
@@ -1637,7 +1824,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 73,
+    id: 72,
     name: "Sunder enchantement",
     action: "",
     tags: ["barbarian"],
@@ -1646,6 +1833,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Sunder Spell.
           </span>
@@ -1663,7 +1853,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 74,
+    id: 73,
     name: "Vengeful strike",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -1672,6 +1862,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> Come and Get Me
           <br />
           <b>Trigger:</b> A creature within your reach succeeds or critically
@@ -1690,7 +1883,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 75,
+    id: 74,
     name: "Whirlwind strike",
     action: "three_action",
     tags: ["barbarian", "flourish", "open"],
@@ -1699,6 +1892,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You attack all nearby adversaries. Make a melee Strike against each
           enemy within your melee reach. Each attack counts toward your multiple
           attack penalty, but do not increase your penalty until you have made
@@ -1708,7 +1904,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 76,
+    id: 75,
     name: "Collateral thrash",
     action: "",
     tags: ["barbarian", "rage"],
@@ -1717,6 +1913,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Thrash.
           </span>
@@ -1729,7 +1928,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 77,
+    id: 76,
     name: "Dragon transformation",
     action: "one_action",
     tags: [
@@ -1745,6 +1944,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> dragon instinct, Dragon’s Rage Wings.
           </span>
@@ -1764,7 +1966,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 78,
+    id: 77,
     name: "Furious vengeance",
     action: "reaction",
     tags: ["barbarian", "rage"],
@@ -1773,6 +1975,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> fury instinct.
           <br />
           <span className="frequency">
@@ -1787,7 +1992,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 79,
+    id: 78,
     name: "Penetrating projectile",
     action: "two_action",
     tags: ["barbarian", "flourish", "rage"],
@@ -1796,6 +2001,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Requirements:</b> You are wielding a ranged or thrown weapon that
             deals piercing damage.
@@ -1812,7 +2020,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 80,
+    id: 79,
     name: "Reckless abandon",
     action: "",
     tags: ["barbarian", "rage"],
@@ -1821,6 +2029,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> Your turn begins, and you are at half or fewer Hit
             Points.
@@ -1836,7 +2047,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 81,
+    id: 80,
     name: "Shattering blows",
     action: "",
     tags: ["barbarian", "rage"],
@@ -1845,6 +2056,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           Your forceful blows shatter objects with ease. While you are raging,
           your melee Strikes ignore 5 points of an object’s Hardness. If you
           have the devastator class feature, you instead ignore 10 points of an
@@ -1854,7 +2068,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 82,
+    id: 81,
     name: "Brutal critical",
     action: "",
     tags: ["barbarian"],
@@ -1863,6 +2077,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           Your critical hits are particularly devastating. On a critical hit
           with a melee Strike, add one extra damage die. This is in addition to
           any extra dice you gain if the weapon is deadly or fatal. The target
@@ -1881,6 +2098,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Trigger:</b> You fail or critically fail an attack roll or Will
             save.
@@ -1904,6 +2124,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           You make a vicious attack that maims your enemy. Make a melee Strike.
           If the Strike hits and deals damage, the target is drained 1, or
           drained 2 on a critical success.
@@ -1921,6 +2144,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Prerequisites:</b> Share Rage.
           </span>
@@ -1945,6 +2171,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Broken promises</i>
+          <br />
+          <br />
           You are unstoppable, able to shrug off mortal wounds with ease. You
           gain resistance equal to 3 + your Constitution modifier to all damage,
           and your resistance from raging resistance increases to 8 + your
@@ -1968,6 +2197,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
           <span className="frequency">
             <b>Frequency:</b> once per 10 minutes.
           </span>
@@ -1988,6 +2220,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
           You have become a brutal, unstoppable force of nature, able to shrug
           off mortal wounds with ease. You gain resistance equal to 3 + your
           Constitution modifier to all damage, and your resistance from raging
@@ -2006,6 +2241,9 @@ export const BarbarianFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
+          <i>Fists of Ruby Phoenix Adventures</i>
+          <br />
+          <br />
           <b>Prerequisites:</b> Collateral Thrash
           <br />
           <span className="frequency">
