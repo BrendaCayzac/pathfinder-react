@@ -1197,7 +1197,7 @@ export const BarbarianFeats: Array<ClassFeat> = [
   {
     id: 55,
     name: "Impressive landing",
-    action: "reactive",
+    action: "reaction",
     tags: ["barbarian"],
     level: 10,
     feat: "Feat 10",

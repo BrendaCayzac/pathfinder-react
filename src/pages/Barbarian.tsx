@@ -135,7 +135,7 @@ const BarbarianPage: React.ComponentType = () => {
         <div className="column-actions">
           <h2>In downtime...</h2>
           <p>
-            YYou might head to a tavern to carouse, build up the fearsome legend
+            You might head to a tavern to carouse, build up the fearsome legend
             of your mighty deeds, or recruit followers to become a warlord in
             your own right.
           </p>
@@ -216,7 +216,6 @@ const BarbarianPage: React.ComponentType = () => {
             <td>
               <a href="#ability-boosts">Ability boosts</a>,{" "}
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
-              <a href="#barbarian">Barbarian</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -230,7 +229,7 @@ const BarbarianPage: React.ComponentType = () => {
           <tr>
             <td>7</td>
             <td>
-              , <a href="#general-feat">general feat</a>,{" "}
+              <a href="#general-feat">general feat</a>,{" "}
               <a href="#juggernaut">juggernaut</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
               <a href="#weapon-specialization">weapon specialization</a>
