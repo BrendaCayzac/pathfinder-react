@@ -154,6 +154,11 @@
 		a {
 			color: $pathfinder-red;
 		}
+
+		li{
+			list-style: none;
+			padding: 0.3125rem;
+		}
 	}
 
 	/*  Search */
@@ -224,7 +229,7 @@
 			}
 
 			img{
-				width: 1.2rem;
+				height: 1.2rem;
 			}
 		}
 

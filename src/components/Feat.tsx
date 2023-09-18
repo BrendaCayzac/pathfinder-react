@@ -4,7 +4,6 @@ import { AncestryFeat } from "../middleware/FeatsButtons";
 
 const Feat = (props: AncestryFeat) => {
   const { id, name, feat, action, description, tags } = props;
-
   return (
     <div className="feat" key={id}>
       <div className="headline">

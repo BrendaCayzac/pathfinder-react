@@ -273,7 +273,7 @@ const AlchemistPage: React.ComponentType = () => {
             <td>
               <a href="#general-feat">General feat</a>,{" "}
               <a href="#juggernaut">juggernaut</a>,{" "}
-              <a href="#">perpetual potency</a>,{" "}
+              <a href="#perpetual-potency">perpetual potency</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -289,9 +289,9 @@ const AlchemistPage: React.ComponentType = () => {
             <td>
               <a href="#ancestry-feat">Ancestry feat</a>,{" "}
               <a href="#field-discovery">greater field discovery</a>,{" "}
-              <a href="#">medium armor expertise</a>,{" "}
+              <a href="#medium-armor-expertise">medium armor expertise</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#">weapon specialization</a>
+              <a href="#weapon-specialization">weapon specialization</a>
             </td>
           </tr>
           <tr>
@@ -771,7 +771,7 @@ const AlchemistPage: React.ComponentType = () => {
             you get a critical success instead.
           </p>
 
-          <h3>Perpetual Potency</h3>
+          <h3 id="perpetual-potency">Perpetual Potency</h3>
           <p>
             Your perpetual infusions improve, allowing you to use Quick Alchemy
             to create more powerful items with no cost. The items you can select
@@ -843,14 +843,14 @@ const AlchemistPage: React.ComponentType = () => {
         The target takes the effects of both poisons for its current stage.
       </p>
 
-      <h3>Medium Armor Expertise</h3>
+      <h3 id="medium-armor-expertise">Medium Armor Expertise</h3>
       <p>
         You’ve learned how to dodge while wearing light, medium, or no armor.
         Your proficiency ranks for light armor, medium armor, and unarmored
         defense increase to expert.
       </p>
 
-      <h3>Weapon specialization</h3>
+      <h3 id="weapon-specialization">Weapon specialization</h3>
       <p>
         You’ve learned how to inflict greater injuries with the weapons you know
         best. You deal 2 additional damage with weapons and unarmed attacks in
@@ -971,15 +971,16 @@ const AlchemistPage: React.ComponentType = () => {
           <p>No feats to show</p>
         ) : (
           filteredList &&
-          filteredList.map((AlchemistFeat) => (
+          filteredList.map((ClassFeat) => (
             <Feat
-              key={AlchemistFeat.id}
-              id={AlchemistFeat.id}
-              name={AlchemistFeat.name}
-              action={AlchemistFeat.action}
-              level={AlchemistFeat.level}
-              feat={AlchemistFeat.feat}
-              description={AlchemistFeat.description}
+              key={ClassFeat.id}
+              id={ClassFeat.id}
+              name={ClassFeat.name}
+              action={ClassFeat.action}
+              tags={ClassFeat.tags}
+              level={ClassFeat.level}
+              feat={ClassFeat.feat}
+              description={ClassFeat.description}
             />
           ))
         )}

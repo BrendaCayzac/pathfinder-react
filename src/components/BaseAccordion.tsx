@@ -13,7 +13,7 @@ const BaseAccordion = (props: {
       <input type="checkbox" id={"heritage-" + number} />
       <label htmlFor={"heritage-" + number}>{title}</label>
       <div className="content">
-        <p className="text">{text}</p>
+        <div className="text">{text}</div>
       </div>
     </div>
   );

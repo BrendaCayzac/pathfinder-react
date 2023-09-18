@@ -50,6 +50,7 @@ const VishkanyaPage = React.lazy(() => import("./pages/Vishkanya"));
 /* Classes */
 const AlchemistPage = React.lazy(() => import("./pages/Alchemist"));
 const AnimistPage = React.lazy(() => import("./pages/Animist"));
+const BarbarianPage = React.lazy(() => import("./pages/Barbarian"));
 
 const App = (): JSX.Element => {
   return (
@@ -99,6 +100,14 @@ const App = (): JSX.Element => {
                 </React.Suspense>
               }
             ></Route>
+            <Route
+              path="/classes/barbarian"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <BarbarianPage />
+                </React.Suspense>
+              }
+            />
           </Route>
           <Route
             path="/anadi"

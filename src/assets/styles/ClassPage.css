@@ -169,6 +169,10 @@ ul li::before {
 .class table a {
   color: #560c06;
 }
+.class table li {
+  list-style: none;
+  padding: 0.3125rem;
+}
 .class form {
   width: 100%;
   position: relative;
@@ -225,7 +229,7 @@ ul li::before {
   color: #0a2760;
 }
 .class .feat-list .feat img {
-  width: 1.2rem;
+  height: 1.2rem;
 }
 
 @media screen and (min-width: 48rem) {

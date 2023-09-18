@@ -1695,15 +1695,16 @@ const AnimistPage: React.ComponentType = () => {
           <p>No feats to show</p>
         ) : (
           filteredList &&
-          filteredList.map((AlchemistFeat) => (
+          filteredList.map((ClassFeat) => (
             <Feat
-              key={AlchemistFeat.id}
-              id={AlchemistFeat.id}
-              name={AlchemistFeat.name}
-              action={AlchemistFeat.action}
-              level={AlchemistFeat.level}
-              feat={AlchemistFeat.feat}
-              description={AlchemistFeat.description}
+              key={ClassFeat.id}
+              id={ClassFeat.id}
+              name={ClassFeat.name}
+              action={ClassFeat.action}
+              tags={ClassFeat.tags}
+              level={ClassFeat.level}
+              feat={ClassFeat.feat}
+              description={ClassFeat.description}
             />
           ))
         )}
