@@ -52,7 +52,7 @@ ul li::before {
   /* Columns */
   /* Table */
   /*  Search */
-  /*  Feats */
+  /*  Feats & Spells */
 }
 .class header {
   position: relative;
@@ -205,7 +205,7 @@ ul li::before {
   color: #0a2760;
   pointer-events: none;
 }
-.class .feat-list {
+.class .feat-list, .class .spell-list {
   height: 31.25rem;
   overflow-y: scroll;
   border-top: 2px solid #560c06;
@@ -213,23 +213,27 @@ ul li::before {
   padding: 1rem;
   width: 100%;
 }
-.class .feat-list .no-feats {
+.class .feat-list .no-feats, .class .spell-list .no-feats {
   display: block;
   width: 100%;
   text-align: center;
 }
-.class .feat-list .feat {
+.class .feat-list .feat, .class .feat-list .spell, .class .spell-list .feat, .class .spell-list .spell {
   border-radius: 0;
   box-shadow: none;
 }
-.class .feat-list .feat .headline h4 {
+.class .feat-list .feat .headline h4, .class .feat-list .spell .headline h4, .class .spell-list .feat .headline h4, .class .spell-list .spell .headline h4 {
   color: #202020;
 }
-.class .feat-list .feat i {
+.class .feat-list .feat i, .class .feat-list .spell i, .class .spell-list .feat i, .class .spell-list .spell i {
   color: #0a2760;
 }
-.class .feat-list .feat img {
+.class .feat-list .feat img, .class .feat-list .spell img, .class .spell-list .feat img, .class .spell-list .spell img {
   height: 1.2rem;
+}
+.class .spell {
+  background-color: #FFFFFF;
+  padding: 2rem;
 }
 
 @media screen and (min-width: 48rem) {

@@ -9,3 +9,12 @@ export interface ClassFeat {
   feat: string;
   description: React.JSX.Element;
 }
+
+export interface FocusSpell {
+  id: number;
+  name: string;
+  action: string;
+  tags: Array<string>;
+  type: string;
+  description: React.JSX.Element;
+}

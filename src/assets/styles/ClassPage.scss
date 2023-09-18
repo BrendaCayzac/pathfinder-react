@@ -199,8 +199,8 @@
 		}
 	}
 
-	/*  Feats */
-	.feat-list{
+	/*  Feats & Spells */
+	.feat-list ,.spell-list{
 		height: 31.25rem;
 		overflow-y: scroll;
 		border-top: 2px solid $pathfinder-red;
@@ -214,7 +214,8 @@
 			text-align: center;
 		}
 
-		.feat{
+
+		.feat, .spell{
 			border-radius: 0;
 			box-shadow: none;
 
@@ -233,6 +234,10 @@
 			}
 		}
 
+	}
+	.spell{
+		background-color: #FFFFFF;
+		padding: 2rem;
 	}
 }
 

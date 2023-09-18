@@ -4,13 +4,17 @@ import React, { useState } from "react";
 import "../assets/styles/ClassPage.scss";
 import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
+import Spell from "../components/Spell";
 import { BardFeats } from "../middleware/BardFeats";
-import { ClassFeat } from "../middleware/CutsomTypes";
+import { BardFocusSpells } from "../middleware/BardFocusSpells";
+import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
 
 const BardPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
     BardFeats
   );
+  const [filteredSpellList, setFilteredSpellList] =
+    useState<Array<FocusSpell> | null>(BardFocusSpells);
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
@@ -22,6 +26,19 @@ const BardPage: React.ComponentType = () => {
     });
     // Trigger render with updated list
     setFilteredList(updatedList);
+  };
+
+  const filterSpellsBySearch = (e: React.ChangeEvent) => {
+    // Input value
+    const query = (e.target as HTMLInputElement).value;
+    // Filtered list
+    let updatedList = [...BardFocusSpells];
+    // Update list with elements containing the query
+    updatedList = updatedList.filter((feats) => {
+      return feats.name.indexOf(query.toLowerCase()) !== -1;
+    });
+    // Trigger render with updated list
+    setFilteredSpellList(updatedList);
   };
 
   return (
@@ -781,7 +798,7 @@ const BardPage: React.ComponentType = () => {
         can’t cast them using spell slots. Taking feats can give you more focus
         spells and increase the size of your focus pool, though your focus pool
         can never hold more than 3 Focus Points. The full rules for focus spells
-        appear in the <b>Focus Spells</b> section.
+        appear in the <a href="#focus-spells">Focus Spells</a> section.
       </p>
       <p>
         You learn the <b>counter performance</b> composition spell, protecting
@@ -1095,6 +1112,42 @@ const BardPage: React.ComponentType = () => {
               level={ClassFeat.level}
               feat={ClassFeat.feat}
               description={ClassFeat.description}
+            />
+          ))
+        )}
+      </div>
+      <br />
+      <br />
+      <h2 id="focus-spells">Focus Spells</h2>
+      <p>
+        Bards can gain the following composition spells. This section also
+        includes their composition cantrips.
+      </p>
+      <form>
+        <label className="visually-hidden" htmlFor="search">
+          Search
+        </label>
+        <input
+          name="search"
+          type="search"
+          className="search"
+          placeholder="Search in spells"
+          onChange={filterSpellsBySearch}
+        />
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </form>
+      <div className="spell-list">
+        {filteredSpellList && Object.keys(filteredSpellList).length === 0 ? (
+          <p>No spells to show</p>
+        ) : (
+          filteredSpellList &&
+          filteredSpellList.map((focusSpell) => (
+            <Spell
+              name={focusSpell.name}
+              type={focusSpell.type}
+              action={focusSpell.action}
+              tags={focusSpell.tags}
+              description={focusSpell.description}
             />
           ))
         )}
