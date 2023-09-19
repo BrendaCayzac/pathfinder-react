@@ -3,6 +3,37 @@
 .spell{
 	width: 100%;
 	margin: 1rem 0 1.25rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 0.938rem;
+
+	.level{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		gap:0;
+		background-color: #202020;
+		padding: 0.625rem;
+		border-radius: 0.5rem;
+
+		h4{
+			padding: 0;
+			font-weight: 500;
+			color: #ffffff;
+			font-size: 1rem;
+		}
+
+		p{
+			color: #ffffff;
+			margin: 0;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-family: $roboto;
+			font-size: 0.75rem;
+		}
+	}
 
 	.title{
 		display: flex;
@@ -10,6 +41,14 @@
 		align-items: center;
 		border-bottom: 1px solid #202020;
 		width: 100%;
+
+		div{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap:0.625rem;
+
+		}
 	}
 		h4{
 			margin: 0;

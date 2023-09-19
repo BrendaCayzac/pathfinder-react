@@ -45,6 +45,34 @@ ul li::before {
 .spell {
   width: 100%;
   margin: 1rem 0 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.938rem;
+}
+.spell .level {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  background-color: #202020;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+}
+.spell .level h4 {
+  padding: 0;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.spell .level p {
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
 }
 .spell .title {
   display: flex;
@@ -52,6 +80,12 @@ ul li::before {
   align-items: center;
   border-bottom: 1px solid #202020;
   width: 100%;
+}
+.spell .title div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
 }
 .spell h4 {
   margin: 0;

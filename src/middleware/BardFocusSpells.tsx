@@ -4,6 +4,7 @@ import { FocusSpell } from "./CutsomTypes";
 export const BardFocusSpells: Array<FocusSpell> = [
   {
     id: 1,
+    level: 1,
     name: "Counter Performance",
     action: "reaction",
     tags: [
@@ -39,6 +40,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 2,
+    level: 1,
     name: "Hymn of healing",
     action: "two_action",
     tags: [
@@ -80,6 +82,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 3,
+    level: 0,
     name: "Inspire competence",
     action: "one_action",
     tags: [
@@ -126,6 +129,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 4,
+    level: 0,
     name: "Inspire courage",
     action: "one_action",
     tags: [
@@ -161,6 +165,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 5,
+    level: 1,
     name: "Lingering Composition",
     action: "one_action",
     tags: ["uncommon", "bard", "enchantment", "metamagic"],
@@ -197,6 +202,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 6,
+    level: 1,
     name: "Loremaster's etude",
     action: "one_action",
     tags: ["uncommon", "bard", "enchantment", "metamagic"],
@@ -227,6 +233,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 7,
+    level: 0,
     name: "Silver's Refrain",
     action: "one_action",
     tags: ["rare", "abjuration", "bard", "cantrip", "composition"],
@@ -263,6 +270,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 8,
+    level: 0,
     name: "Song of Strength",
     action: "one_action",
     tags: [
@@ -306,6 +314,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 9,
+    level: 0,
     name: "Inspire Defence",
     action: "one_action",
     tags: [
@@ -342,6 +351,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 10,
+    level: 0,
     name: "Triple time",
     action: "one_action",
     tags: [
@@ -377,6 +387,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 11,
+    level: 0,
     name: "Dirge of doom",
     action: "one_action",
     tags: [
@@ -412,6 +423,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 12,
+    level: 0,
     name: "Song of marching",
     action: "one_action",
     tags: [
@@ -453,6 +465,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 13,
+    level: 4,
     name: "Inspire Heroics",
     action: "one_action",
     tags: ["uncommon", "bard", "enchantement", "metamagic"],
@@ -497,6 +510,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 14,
+    level: 0,
     name: "House of Imaginary walls",
     action: "one_action",
     tags: ["uncommon", "bard", "cantrip", "composition", "illusion", "visual"],
@@ -533,6 +547,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 15,
+    level: 5,
     name: "Ode to Ouroboros",
     action: "reaction",
     tags: ["uncommon", "bard", "composition", "necromancy"],
@@ -564,6 +579,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 16,
+    level: 5,
     name: "Symphony of the unfettered heart",
     action: "two_action",
     tags: ["uncommon", "abjuration", "bard", "composition"],
@@ -597,6 +613,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 17,
+    level: 0,
     name: "Allegro",
     action: "one_action",
     tags: [
@@ -633,6 +650,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 18,
+    level: 7,
     name: "Soothing Ballad",
     action: "two_action",
     tags: [
@@ -679,6 +697,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 19,
+    level: 10,
     name: "Soothing Ballad",
     action: "one_action",
     tags: [
@@ -726,6 +745,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 20,
+    level: 10,
     name: "Pied Piping",
     action: "two_action",
     tags: [
@@ -785,6 +805,7 @@ export const BardFocusSpells: Array<FocusSpell> = [
   },
   {
     id: 21,
+    level: 10,
     name: "Song of the fallen",
     action: "two_action",
     tags: ["uncommon", "bard", "composition", "necromancy"],

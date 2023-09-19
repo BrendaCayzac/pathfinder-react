@@ -841,7 +841,7 @@ const BardPage: React.ComponentType = () => {
       />
       <BaseAccordion
         title="Maestro"
-        number={1}
+        number={2}
         text={
           <>
             <p>
@@ -858,7 +858,7 @@ const BardPage: React.ComponentType = () => {
       />
       <BaseAccordion
         title="Polymath"
-        number={1}
+        number={3}
         text={
           <>
             <p>
@@ -875,7 +875,7 @@ const BardPage: React.ComponentType = () => {
       />
       <BaseAccordion
         title="Warrior"
-        number={1}
+        number={4}
         text={
           <>
             <p>
@@ -1036,10 +1036,7 @@ const BardPage: React.ComponentType = () => {
         </div>
 
         <figure>
-          <img
-            src={require("../assets/img/bard_03.webp")}
-            alt="Barbarian example"
-          />
+          <img src={require("../assets/img/bard_03.webp")} alt="Bard example" />
         </figure>
       </div>
       <h3 id="magnum-opus">Magnum Opus</h3>
@@ -1143,6 +1140,7 @@ const BardPage: React.ComponentType = () => {
           filteredSpellList &&
           filteredSpellList.map((focusSpell) => (
             <Spell
+              level={focusSpell.level}
               name={focusSpell.name}
               type={focusSpell.type}
               action={focusSpell.action}

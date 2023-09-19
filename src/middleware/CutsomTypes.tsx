@@ -13,6 +13,7 @@ export interface ClassFeat {
 export interface FocusSpell {
   id: number;
   name: string;
+  level: number;
   action: string;
   tags: Array<string>;
   type: string;
