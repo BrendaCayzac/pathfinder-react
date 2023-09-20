@@ -255,7 +255,7 @@ const ChampionPage: React.ComponentType = () => {
               <a href="#armor-expertise">Armor expertise</a>,{" "}
               <a href="#general-feat">general feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#weapon-specialization">weapon specializationr</a>
+              <a href="#weapon-specialization">weapon specialization</a>
             </td>
           </tr>
           <tr>

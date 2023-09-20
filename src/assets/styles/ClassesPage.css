@@ -10,8 +10,11 @@ table {
   width: 100%;
   font-family: "Roboto", sans-serif;
 }
-table th, table td {
-  padding: 0.5rem;
+table th {
+  padding: 1rem;
+}
+table td {
+  padding: 0.75rem;
 }
 table tbody tr:nth-child(even) {
   background-color: #F0EBDF;
@@ -153,7 +156,7 @@ ul li::before {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem 2rem;
+    gap: 1rem;
     overflow-y: hidden;
   }
   .classes-page .navigation-sub-menu nav .slide li {
