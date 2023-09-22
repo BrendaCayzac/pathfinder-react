@@ -5,13 +5,13 @@ import "../assets/styles/ClassPage.scss";
 import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
-import { ClericFeats } from "../middleware/ClericFeats";
 import { ClericFocusSpells } from "../middleware/ClericFocusSpells";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
+import { DruidFeats } from "../middleware/DruidFeats";
 
 const DruidPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
-    ClericFeats
+    DruidFeats
   );
 
   const [filteredSpellList, setFilteredSpellList] =
@@ -20,7 +20,7 @@ const DruidPage: React.ComponentType = () => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
     // Filtered list
-    let updatedList = [...ClericFeats];
+    let updatedList = [...DruidFeats];
     // Update list with elements containing the query
     updatedList = updatedList.filter((feats) => {
       return feats.name.indexOf(query.toLowerCase()) !== -1;
