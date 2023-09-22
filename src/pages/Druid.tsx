@@ -9,7 +9,7 @@ import { ClericFeats } from "../middleware/ClericFeats";
 import { ClericFocusSpells } from "../middleware/ClericFocusSpells";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
 
-const ClericPage: React.ComponentType = () => {
+const DruidPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
     ClericFeats
   );
@@ -44,14 +44,13 @@ const ClericPage: React.ComponentType = () => {
   return (
     <div className="class">
       <header>
-        <h1>Cleric</h1>
-        <i>Core Rulebook, Pathfinder Primer</i>
+        <h1>Druid</h1>
+        <i>Core Rulebook</i>
         <p className="introduction">
-          The cleric is dedicated to the worship of a single deity and draws
-          divine magic from this devotion. Clerics can be vastly different
-          depending on who they worship, and whether they’re cloistered clerics
-          who pursue one of their deity’s domains or war priests who serve as
-          the sword arm of their god.
+          The druid walks the wild, primordial places of the world without fear,
+          harnessing the primal magic of nature and controlling it with calm
+          purpose. A devotee of the wilderness, the druid finds nourishment in
+          its power, allies among its creatures, and strength in its fury.
         </p>
         <figure>
           <img
@@ -76,14 +75,16 @@ const ClericPage: React.ComponentType = () => {
         </div>
       </div>
       <figure className="figure-one">
-        <img src={require("../assets/img/cleric_01.webp")} alt="Cleric image" />
+        <img src={require("../assets/img/druid_01.webp")} alt="Druid image" />
       </figure>
+
       <h2 id="initial-proficiencies">Initial Proficiencies</h2>
       <p>
         At 1st level, you gain the listed proficiency ranks in the following
         statistics. You are untrained in anything not listed unless you gain a
         better proficiency rank in some other way.
       </p>
+
       <div className="featured-two">
         <h2>Perception</h2>
         <p>Trained in Perception</p>
@@ -95,8 +96,8 @@ const ClericPage: React.ComponentType = () => {
         </ul>
         <h2>Skills</h2>
         <ul>
-          <li>Trained in Religion</li>
-          <li>Trained in one skill determined by your choice of deity</li>
+          <li>Trained in Nature</li>
+          <li>Trained in one skill determined by your druidic order</li>
           <li>
             Trained in a number of additional skills equal to 2 plus your
             Intelligence modifier
@@ -105,86 +106,95 @@ const ClericPage: React.ComponentType = () => {
         <h2>Attacks</h2>
         <ul>
           <li>Trained in simple weapons</li>
-          <li>
-            Trained in the favored weapon of your deity. If your deity’s favored
-            weapon is uncommon, you also gain access to that weapon.
-          </li>
           <li>Trained in unarmed attacks</li>
         </ul>
         <h2>Defences</h2>
         <ul>
-          <li>Untrained in all armor, though your doctrine might alter this</li>
+          <li>Trained in light armor</li>
+          <li>Trained in medium armor</li>
           <li>Trained in unarmored defense</li>
         </ul>
         <h2>Spells</h2>
-        <p>Trained in divine spell attacks</p>
-        <p>Trained in divine spell DCs</p>
+        <p>Trained in primal spell attacks</p>
+        <p>Trained in primal spell DCs</p>
       </div>
+
       <div className="columns">
         <div className="column-actions">
           <h2>During combat encounters...</h2>
           <p>
-            If you’re a warpriest, you balance between casting spells and
-            attacking with weapons—typically the favored weapon of your deity.
-            If you’re a cloistered cleric, you primarily cast spells. Most of
-            your spells can boost, protect, or heal your allies. Depending on
-            your deity, you get extra spells to heal your allies or harm your
-            enemies.
+            You call upon the forces of nature to defeat your enemies and
+            protect your allies. You cast spells that draw upon primal magic to
+            protect yourself and your friends, heal their wounds, or summon
+            deadly animals to fight at your side. Depending on your bond to
+            nature, you might call upon powerful elemental magic or change shape
+            into a terrifying beast.
           </p>
         </div>
         <div className="column-actions">
           <h2>During social encounters...</h2>
           <p>
-            You might make diplomatic overtures or deliver impressive speeches.
-            Because you’re wise, you also pick up on falsehoods others tell.
+            You represent balance and a reasoned approach to problems, looking
+            for solutions that not only are best for the natural world, but also
+            allow the creatures within it to live in harmony and peace. You
+            often propose compromises that allow both sides to gain what they
+            truly need, even if they can’t have all that they desire.
           </p>
         </div>
         <div className="column-actions">
           <h2>While exploring...</h2>
           <p>
-            You detect nearby magic and interpret any religious writing you come
-            across. You might also concentrate on a protective spell for your
-            allies in case of attack. After a battle or hazard, you might heal
-            anyone who was hurt.
+            Your nature skills are invaluable. You track down enemies, navigate
+            the wilderness, and use spells to detect magical auras around you.
+            You might even ask wild animals to lend their extraordinary senses
+            and scouting abilities to your group.
           </p>
         </div>
         <div className="column-actions">
           <h2>In downtime...</h2>
           <p>
-            You might perform services at a temple, travel to spread the word of
-            your deity, research scripture, celebrate holy days, or even found a
-            new temple.
+            You might craft magic items or potions. Alternatively, your tie to
+            nature might lead you to tend a wilderness area, befriending beasts
+            and healing the wounds caused by civilization. You might even teach
+            sustainable farming and animal husbandry techniques that allow
+            others to subsist off the land without harming the natural balance.
           </p>
         </div>
       </div>
       <h2>You might...</h2>
       <ul>
+        <li>Have a deep and meaningful respect for the power of nature.</li>
         <li>
-          Visit the temples and holy places sacred to your faith, and have an
-          immediate affinity with other worshippers of your deity.
+          Be in constant awe of the natural world, eager to share it with others
+          but wary of their influence upon it.
         </li>
         <li>
-          Know the teachings of your religion’s holy texts and how they apply to
-          a dilemma.
-        </li>
-        <li>
-          Cooperate with your allies, provided they don’t ask you to go against
-          divine will.
+          Treat plants and animals as allies, working with them to reach your
+          goals.
         </li>
       </ul>
       <h2>Others probably...</h2>
       <ul>
         <li>
-          Find your devotion impressive, even if they don’t understand it.
+          View you as a representative of nature, and are sure you can control
+          it.
         </li>
-        <li>Expect you to heal their wounds.</li>
-        <li>Rely on you to interact with other religious figures.</li>
+        <li>
+          Assume you’re a recluse who avoids society and cities and prefers to
+          live in the wild.
+        </li>
+        <li>
+          Consider you a mystic, similar to a priest, but answering only to the
+          forces of nature.
+        </li>
       </ul>
+
       <h2>Class Features</h2>
       <p>
-        You gain these abilities as a cleric. Abilities gained at higher levels
-        list requisite levels next to their names.
+        You gain these abilities as a druid. Abilities gained at higher levels
+        list the level at which you gain them next to the features’ names.
       </p>
+
       <table>
         <thead>
           <tr>
@@ -198,16 +208,18 @@ const ClericPage: React.ComponentType = () => {
             <td>
               <a href="#ancestry-and-background">Ancestry and background</a>,{" "}
               <a href="#initial-proficiencies">initial proficiencies</a>,{" "}
-              <a href="#deity">deity</a>,{" "}
-              <a href="divine-spellcasting">divine spellcasting</a>,{" "}
-              <a href="#divine-font">divine font</a>,{" "}
-              <a href="#doctrine">doctrine</a>
+              <a href="#primal-spellcasting">primal spellcasting</a>,{" "}
+              <a href="#anathema">anathema</a>,{" "}
+              <a href="#druidic-language">druidic language</a>,{" "}
+              <a href="#druidic-order">druidic order</a>,{" "}
+              <a href="#shield-block">shield block</a>,{" "}
+              <a href="#wild-empathy">shield block</a>
             </td>
           </tr>
           <tr>
             <td>2</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -216,14 +228,15 @@ const ClericPage: React.ComponentType = () => {
             <td>
               2nd-level spells,
               <a href="#general-feat">general feat</a>,{" "}
-              <a href="#second-doctrine">second doctrine</a>,{" "}
+              <a href="#alertness">alertness</a>,{" "}
+              <a href="#great-fortitude">great fortitude</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>4</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="skill-feat">skill feat</a>
             </td>
           </tr>
@@ -234,13 +247,13 @@ const ClericPage: React.ComponentType = () => {
               <a href="#ability-boosts">ability boosts</a>,{" "}
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#alertness">alertness</a>
+              <a href="#lightning-reflexes">lightning reflexes</a>
             </td>
           </tr>
           <tr>
             <td>6</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -250,13 +263,13 @@ const ClericPage: React.ComponentType = () => {
               4th-level spells,
               <a href="#general-feat">general feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#third-doctrine">third doctrine</a>
+              <a href="#expert-spellcaster">expert spellcaster</a>
             </td>
           </tr>
           <tr>
             <td>8</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -265,7 +278,6 @@ const ClericPage: React.ComponentType = () => {
             <td>
               5th-level spells,
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
-              <a href="#resolve">resolve</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -273,7 +285,7 @@ const ClericPage: React.ComponentType = () => {
             <td>10</td>
             <td>
               <a href="#ability-boost">Ability boost</a>,{" "}
-              <a href="#cleric-feat">cleric feat</a>,{" "}
+              <a href="#druid-feat">druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -281,16 +293,16 @@ const ClericPage: React.ComponentType = () => {
             <td>11</td>
             <td>
               6th-level spells,
-              <a href="#fourth-doctrine">fourth doctrine</a>, ,{" "}
+              <a href="#druid-weapon-expertise">druid weapon expertise</a>, ,{" "}
               <a href="#general-feat">general feat</a>, ,{" "}
-              <a href="#lightning-reflexes">lightning reflexes</a>,{" "}
+              <a href="#resolve">resolve</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
           <tr>
             <td>12</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -299,7 +311,7 @@ const ClericPage: React.ComponentType = () => {
             <td>
               7th-level spells,
               <a href="#ancestry-feat">ancestry feat</a>,{" "}
-              <a href="#divine-defense">divine defense</a>,{" "}
+              <a href="#medium-armor-expertise">medium armor expertise</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
               <a href="#weapon-specialization">weapon specialization</a>
             </td>
@@ -307,7 +319,7 @@ const ClericPage: React.ComponentType = () => {
           <tr>
             <td>14</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -317,15 +329,14 @@ const ClericPage: React.ComponentType = () => {
               8th-level spells,
               <a href="#ability-boost">ability boost</a>,{" "}
               <a href="#general-feat">general feat</a>,{" "}
-              <a href="#fifth-doctrine">fifth doctrine</a>,{" "}
+              <a href="#master-spellcasterf">master spellcaster</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
-
           <tr>
             <td>16</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
@@ -340,16 +351,16 @@ const ClericPage: React.ComponentType = () => {
           <tr>
             <td>18</td>
             <td>
-              <a href="#cleric-feat">Cleric feat</a>,{" "}
+              <a href="#druid-feat">Druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
           <tr>
             <td>19</td>
             <td>
-              <a href="#final-doctrine,"> Final doctrine,</a>,{" "}
               <a href="#general-feat">general feat</a>,{" "}
-              <a href="#miraculous-spell">miraculous spell</a>,{" "}
+              <a href="#legendary-spellcaster">legendary spellcaster,</a>,{" "}
+              <a href="#primal-hierophant">primal hierophant</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -357,21 +368,23 @@ const ClericPage: React.ComponentType = () => {
             <td>20</td>
             <td>
               <a href="#ability-boost">Ability boost</a>,{" "}
-              <a href="#cleric-feat">cleric feat</a>,{" "}
+              <a href="#druid-feat">druid feat</a>,{" "}
               <a href="#skill-feat">skill feat</a>
             </td>
           </tr>
         </tbody>
       </table>
+
       <h2>Key Terms</h2>
-      <p>You’ll see the following term in many cleric class features.</p>
+      <p>You’ll see the following key term in many druid class features.</p>
       <p>
-        <b>Metamagic:</b> These actions tweak your spells. You must use a
-        metamagic action directly before Casting the Spell you want to alter. If
-        you use any action (including free actions and reactions) other than
-        Cast a Spell directly after, you waste the benefits of the metamagic
-        action. Effects added by a metamagic action are part of the spell’s
-        effect, not of the metamagic action.
+        <b>Metamagic:</b> Actions with the metamagic trait tweak the properties
+        of your spells. These actions usually come from metamagic feats. You
+        must use the metamagic action directly before Casting the Spell you want
+        to alter. If you use any action (including free actions and reactions)
+        other than Cast a Spell directly after, you waste the benefits of the
+        metamagic action. Any additional effects added by a metamagic action are
+        part of the spell’s effect, not of the metamagic action itself.
       </p>
 
       <h3 id="ancestry-and-background">Ancestry and background</h3>
@@ -383,95 +396,49 @@ const ClericPage: React.ComponentType = () => {
 
       <h3 id="initial-proficiencies">Initial proficiencies</h3>
       <p>
-        At 1st level, you gain a number of proficiencies that represent your
-        basic training, noted at the start of this class.
+        At 1st level you gain a number of proficiencies, representing your basic
+        training. These proficiencies are noted at the start of this class.
       </p>
 
-      <h3 id="deity">Deity</h3>
-      <p>
-        As a cleric, you are a mortal servitor of a deity you revere above all
-        others. The most common deities in Pathfinder appear in the Deities
-        section, along with their alignments, areas of concern, and the benefits
-        you get for being a cleric of that deity. Your alignment must be one
-        allowed by your deity, as listed in their entry. Your deity grants you
-        the trained proficiency rank in one skill and with the deity’s favored
-        weapon. If the favored weapon is uncommon, you also get access to that
-        weapon.
-      </p>
-      <p>
-        Your deity also adds spells to your spell list. You can prepare these
-        just like you can any spell on the divine spell list, once you can
-        prepare spells of their level as a cleric. Some of these spells aren’t
-        normally on the divine list, but they’re divine spells if you prepare
-        them this way.
-      </p>
+      <figure className="figure-one">
+        <img src={require("../assets/img/druid_02.webp")} alt="Druid image" />
+      </figure>
 
-      <h4>Anathema</h4>
+      <h3 id="primal-spellcasting">Primal Spellcasting</h3>
       <p>
-        Acts fundamentally opposed to your deity’s alignment or ideals are
-        anathema to your faith. Learning or casting spells, committing acts, and
-        using items that are anathema to your deity remove you from your deity’s
-        good graces.
-      </p>
-      <p>
-        Casting spells with the evil trait is almost always anathema to good
-        deities, and casting good spells is likewise anathema to evil deities;
-        similarly, casting chaotic spells is anathema to lawful deities, and
-        casting lawful spells is anathema to chaotic deities. A neutral cleric
-        who worships a neutral deity isn’t limited this way, but their alignment
-        might change over time if they frequently cast spells or use abilities
-        with a certain alignment. Similarly, casting spells that are anathema to
-        the tenets or goals of your faith could interfere with your connection
-        to your deity. For example, casting a spell to create undead would be
-        anathema to Pharasma, the goddess of death. For borderline cases, you
-        and your GM determine which acts are anathema.
-      </p>
-      <p>
-        If you perform enough acts that are anathema to your deity, or if your
-        alignment changes to one not allowed by your deity, you lose the magical
-        abilities that come from your connection to your deity. The class
-        features that you lose are determined by the GM, but they likely include
-        your <b>divine font</b> and all <b>divine spellcasting</b>. These
-        abilities can be regained only if you demonstrate your repentance by
-        conducting an <b>atone</b>
-        ritual.
-      </p>
-
-      <h3 id="divine-spellcasting">Divine Spellcasting</h3>
-      <p>
-        Your deity bestows on you the power to cast divine spells. You can cast
-        divine spells using the Cast a Spell activity, and you can supply
-        material, somatic, and verbal components when casting spells (see
-        <b>Casting Spells</b>). Because you’re a cleric, you can usually hold a
-        divine focus (such as a <b>religious symbol</b>) for spells requiring
-        material components instead of needing to use a{" "}
-        <b>material component pouch</b>.
+        The power of the wild world flows through you. You can cast primal
+        spells using the Cast a Spell activity, and you can supply material,
+        somatic, and verbal components when casting spells (see{" "}
+        <b>Casting Spells</b>). Because you’re a druid, you can usually hold a
+        primal focus (such as
+        <b>holly and mistletoe</b>) for spells requiring material components
+        instead of needing to use a <b>material component pouch</b>.
       </p>
       <p>
         At 1st level, you can prepare two 1st-level spells and five cantrips
-        each morning from the common spells on the <b>divine spell list</b> in
-        this source or from other divine spells to which you gain access and
-        learn via Learn a Spell. Prepared spells remain available to you until
-        you cast them or until you prepare your spells again. The number of
-        spells you can prepare is called your spell slots.
+        each morning from the common spells on the primal spell list in this
+        source, or from other primal spells to which you gain access and learn
+        via Learn a Spell. Prepared spells remain available to you until you
+        cast them or until you prepare your spells again. The number of spells
+        you can prepare is called your spell slots.
       </p>
       <p>
-        As you increase in level as a cleric, the number of spells you can
+        As you increase in level as a druid, the number of spells you can
         prepare each day increases, as does the highest level of spell you can
-        cast, as shown in Table 3–9: Cleric Spells per Day.
+        cast, as shown in Table 3–11: Druid Spells per Day.
       </p>
       <p>
         Some of your spells require you to attempt a spell attack roll to see
-        how effective they are, or your enemies to roll against your spell DC
+        how effective they are, or have your enemies roll against your spell DC
         (typically by attempting a saving throw). Since your key ability is
         Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier.
-        Details on calculating these statistics appear in the{" "}
-        <b>Spell Attack Rolls</b> section.
+        Details on calculating these statistics appear in the Spell Attack Rolls
+        section.
       </p>
 
       <h4>Heightening spells</h4>
       <p>
-        When you get spell slots of 2nd level and higher, you can fill those
+        When you gain spell slots of 2nd level and higher, you can fill those
         slots with stronger versions of lower-level spells. This increases the
         spell’s level, heightening it to match the spell slot. Many spells have
         specific improvements when they are heightened to certain levels.
@@ -482,9 +449,9 @@ const ClericPage: React.ComponentType = () => {
         A cantrip is a special type of spell that doesn’t use spell slots. You
         can cast a cantrip at will, any number of times per day. A cantrip is
         always automatically heightened to half your level rounded up—this is
-        usually equal to the highest level of cleric spell slot you have. For
-        example, as a 1st-level cleric, your cantrips are 1st-level spells, and
-        as a 5th-level cleric, your cantrips are 3rd-level spells.
+        usually equal to the highest level of druid spell slot you have. For
+        example, as a 1st-level druid, your cantrips are 1st-level spells, and
+        as a 5th-level druid, your cantrips are 3rd-level spells.
       </p>
 
       <table>
@@ -508,7 +475,7 @@ const ClericPage: React.ComponentType = () => {
           <tr>
             <td>1</td>
             <td>5</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -522,7 +489,7 @@ const ClericPage: React.ComponentType = () => {
           <tr>
             <td>2</td>
             <td>5</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -537,7 +504,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>5</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -551,7 +518,7 @@ const ClericPage: React.ComponentType = () => {
             <td>4</td>
             <td>5</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -566,7 +533,7 @@ const ClericPage: React.ComponentType = () => {
             <td>5</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -580,7 +547,7 @@ const ClericPage: React.ComponentType = () => {
             <td>5</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -595,7 +562,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -609,7 +576,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -624,7 +591,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -638,7 +605,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -653,7 +620,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -667,7 +634,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -682,7 +649,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -696,7 +663,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
@@ -711,7 +678,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
             <td>—</td>
           </tr>
@@ -725,7 +692,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
             <td>—</td>
           </tr>
@@ -740,7 +707,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>2*</td>
+            <td>2</td>
             <td>—</td>
           </tr>
           <tr>
@@ -754,7 +721,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>3*</td>
+            <td>3</td>
             <td>—</td>
           </tr>
           <tr>
@@ -769,7 +736,7 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>1*^</td>
+            <td>1*</td>
           </tr>
           <tr>
             <td>20</td>
@@ -783,161 +750,247 @@ const ClericPage: React.ComponentType = () => {
             <td>3</td>
             <td>3</td>
             <td>3</td>
-            <td>1*^</td>
+            <td>1*</td>
           </tr>
           <tr>
             <td colSpan={13}>
-              * Your <b>divine font</b> gives you additional <b>heal</b> or{" "}
-              <b>harm</b> spells of this level. The number is equal to 1 + your
-              Charisma modifier.
-            </td>
-          </tr>
-          <tr>
-            <td colSpan={13}>
-              ^ The <b>miraculous spell</b> class feature gives you a 10th-level
-              spell slot that works a bit differently from other spell slots.
+              * The primal hierophant class feature gives you a 10th-level spell
+              slot that works a bit differently from other spell slots.
             </td>
           </tr>
         </tbody>
       </table>
 
-      <h3 id="divine-font">Divine Font</h3>
+      <h3 id="anathema">Anathema</h3>
       <p>
-        Through your deity’s blessing, you gain additional spells that channel
-        either the life force called positive energy or its counterforce,
-        negative energy. When you prepare your spells each day, you can prepare
-        additional <b>heal</b> or <b>harm</b> spells, depending on your{" "}
-        <b>deity</b>. The divine font spell your deity provides is listed in the
-        Divine Font entry for your deity; if both are listed, you can choose
-        between heal or harm. Once you choose, you can’t change your choice
-        short of an ethical shift or divine intervention.
+        As stewards of the natural order, druids find affronts to nature
+        anathema. If you perform enough acts that are anathema to nature, you
+        lose your magical abilities that come from the druid class, including
+        your primal spellcasting and the benefits of your order. These abilities
+        can be regained only if you demonstrate your repentance by conducting an
+        atone ritual.
       </p>
+      <p>The following acts are anathema to all druids:</p>
+      <ul>
+        <li>Using metal armor or shields.</li>
+        <li>Despoiling natural places.</li>
+        <li>Teaching the Druidic language to non-druids.</li>
+      </ul>
       <p>
-        <b>Healing Font:</b> You gain additional spell slots each day at your
-        highest level of cleric spell slots. You can prepare only heal spells in
-        these slots, and the number of slots is equal to 1 plus your Charisma
-        modifier.
-      </p>
-      <p>
-        <b>Harmful Font:</b> You gain additional spell slots each day at your
-        highest level of cleric spell slots. You can prepare only harm spells in
-        these slots, and the number of slots is equal to 1 plus your Charisma
-        modifier.
+        Each druidic order also has additional anathema acts, detailed in the
+        order’s entry.
       </p>
 
-      <h3 id="doctrine">Doctrine</h3>
+      <h3 id="druidic-language">Druidic language</h3>
       <p>
-        Even among followers of the same deity, there are numerous doctrines and
-        beliefs, which sometimes vary wildly between clerics. At 1st level, you
-        select a doctrine and gain the benefits of its first doctrine. The
-        doctrines presented in this book are cloistered cleric and warpriest.
-        Each doctrine grants you initial benefits at 1st level. At 3rd, 7th,
-        11th, 15th, and 19th levels, you gain the benefits granted by your
-        doctrine’s second, third, fourth, fifth, and final doctrines
-        respectively.
+        You know Druidic, a secret language known to only druids, in addition to
+        any languages you know through your ancestry. Druidic has its own
+        alphabet. Teaching the Druidic language to non-druids is anathema.
+      </p>
+
+      <h3 id="druidic-order">Druidic order</h3>
+      <p>
+        Upon becoming a druid, you align yourself with a druidic order, which
+        grants you a class feat, an order spell (see below), and an additional
+        trained skill tied to your order. While you’ll always be a member of
+        your initial order, it’s not unheard of for a druid to request to study
+        with other orders in search of greater understanding of the natural
+        world, and PC druids are among the most likely to blend the powers of
+        different orders.
+      </p>
+      <p>
+        Order spells are a type of focus spell. It costs 1 Focus Point to cast a
+        focus spell, and you start with a focus pool of 1 Focus Point. You
+        refill your focus pool during your daily preparations, and you can
+        regain 1 Focus Point by spending 10 minutes using the Refocus activity
+        to commune with local nature spirits or otherwise tend to the wilderness
+        in a way befitting your order.
+      </p>
+      <p>
+        Focus spells are automatically heightened to half your level rounded up,
+        much like cantrips. Focus spells don’t require spell slots to cast, and
+        you can’t cast them using spell slots. Selecting druid feats can give
+        you more focus spells and increase the size of your focus pool, though
+        your focus pool can never hold more than 3 points. The full rules for
+        focus spells appear in Chapter 7.
       </p>
 
       <BaseAccordion
-        title="Cloistered cleric"
+        title="Animal"
         number={1}
         text={
           <>
             <p>
-              You are a cleric of the cloth, focusing on divine magic and your
-              connection to your deity’s domains.
-            </p>
-            <p>
-              <b>First Doctrine (1st):</b> You gain the Domain Initiate cleric
-              feat.
-            </p>
-            <p>
-              <b>Second Doctrine (3rd):</b> Your proficiency rank for Fortitude
-              saves increases to expert.
-            </p>
-            <p>
-              <b>Third Doctrine (7th):</b> Your proficiency ranks for divine
-              spell attack rolls and spell DCs increase to expert.
-            </p>
-            <p>
-              <b>Fourth Doctrine (11th):</b> You gain expert proficiency with
-              your deity’s favored weapon, simple weapons, and unarmed attacks.
-              When you critically succeed at an attack roll using your deity’s
-              favored weapon, you apply the weapon’s critical specialization
-              effect; use your divine spell DC if necessary.
-            </p>
-            <p>
-              <b>Fifth Doctrine (15th):</b> Your proficiency ranks for divine
-              spell attack rolls and spell DCs increase to master.
-            </p>
-            <p>
-              <b>Final Doctrine (19th):</b> Your proficiency ranks for divine
-              spell attack rolls and spell DCs increase to legendary.
+              You have a strong connection to beasts, and you are allied with a
+              beast companion. You are trained in Athletics. You also gain the
+              Animal Companion druid feat. You gain the heal animal order spell.
+              Committing wanton cruelty to animals or killing animals
+              unnecessarily is anathema to your order. (This doesn’t prevent you
+              from defending yourself against animals or killing them cleanly
+              for food.)
             </p>
           </>
         }
       />
       <BaseAccordion
-        title="Warpriest"
+        title="Leaf"
         number={2}
         text={
           <>
             <p>
-              You have trained in the more militant doctrine of your church,
-              focusing on both spells and battle.
+              You revere plants and the bounty of nature, acting as both a
+              gardener and warden for the wilderness, teaching sustainable
+              techniques to communities, and helping areas regrow after
+              disasters or negligent humanoid expansion. You are trained in
+              Diplomacy. You also gain the Leshy Familiar druid feat. You gain
+              the goodberry order spell, and you increase the number of Focus
+              Points in your focus pool by 1. Committing wanton cruelty to
+              plants or fungi or killing them unnecessarily is anathema to your
+              order. (This doesn’t prevent you from defending yourself against
+              plants or fungi or harvesting them when necessary for survival.)
             </p>
+          </>
+        }
+      />
+      <BaseAccordion
+        title="Storm"
+        number={3}
+        text={
+          <>
             <p>
-              <b>First Doctrine (1st):</b> You’re trained in light and medium
-              armor, and you have expert proficiency in Fortitude saves. You
-              gain the Shield Block general feat, a reaction to reduce damage
-              with a shield. If your deity’s favored weapon is a simple weapon
-              or an unarmed attack, you gain the Deadly Simplicity cleric feat.
-              At 13th level, if you gain the divine defense class feature, you
-              also gain expert proficiency in light and medium armor.
+              You carry the fury of the storm within you, channeling it to
+              terrifying effect and riding the winds through the sky. You are
+              trained in Acrobatics. You also gain the Storm Born druid feat.
+              You gain the tempest surge order spell, and you increase the
+              number of Focus Points in your focus pool by 1. Polluting the air
+              or allowing those who cause major air pollution or climate shifts
+              to go unpunished is anathema to your order. (This doesn’t force
+              you to take action against merely potential harm to the
+              environment or to sacrifice yourself against an obviously superior
+              foe.)
             </p>
+          </>
+        }
+      />
+      <BaseAccordion
+        title="Wild"
+        number={4}
+        text={
+          <>
             <p>
-              <b>Second Doctrine (3rd):</b> You’re trained in martial weapons.
+              The savage, uncontrollable call of the natural world infuses you,
+              granting you the ability to change your shape and take on the
+              ferocious form of a wild creature. You are trained in
+              Intimidation. You also gain the Wild Shape druid feat. You gain
+              the wild morph order spell. Becoming fully domesticated by the
+              temptations of civilization is anathema to your order. (This
+              doesn’t prevent you from buying and using processed goods or
+              staying in a city for an adventure, but you can never come to rely
+              on these conveniences or truly call such a place your permanent
+              home.)
             </p>
+          </>
+        }
+      />
+      <BaseAccordion
+        title="Flame"
+        number={4}
+        text={
+          <>
             <p>
-              <b>Third Doctrine (7th):</b> You gain expert proficiency with your
-              deity’s favored weapon, simple weapons, and unarmed attacks. When
-              you critically succeed at an attack roll using your deity’s
-              favored weapon, you apply the weapon’s critical specialization
-              effect; use your divine spell DC if necessary.
+              <i>Secrets of Magic</i>
+              <br />
+              <br />
+              You feel a kinship with flames and can use them for succor and
+              destruction. You’re trained in Acrobatics. You also gain the Fire
+              Lung druid feat. You gain the wildfire order spell. Allowing
+              unnatural fires to spread or preventing natural fires from
+              occurring in a way that harms the environment are anathema to your
+              order (this doesn’t prevent you from using fire destructively or
+              force you to combat a controlled or natural fire).
             </p>
+          </>
+        }
+      />
+      <BaseAccordion
+        title="Stone"
+        number={5}
+        text={
+          <>
             <p>
-              <b>Fourth Doctrine (11th):</b> Your proficiency ranks for divine
-              spell attack rolls and spell DCs increase to expert.
+              <i>Secrets of Magic</i>
+              <br />
+              <br />
+              You’re as enduring as stone, and you take comfort in its steadfast
+              presence, both natural and worked. You’re trained in Crafting. You
+              also gain the Steadying Stone druid feat. You gain the crushing
+              ground order spell. Poisoning or polluting the land and heedlessly
+              carving the earth to plunder its natural resources are anathema to
+              your order (this doesn’t prevent you from responsibly digging or
+              mining).
             </p>
+          </>
+        }
+      />
+      <BaseAccordion
+        title="Wave"
+        number={5}
+        text={
+          <>
             <p>
-              <b>Fifth Doctrine (15th):</b> Your proficiency rank for Fortitude
-              saves increases to master. When you roll a success at a Fortitude
-              save, you get a critical success instead.
-            </p>
-            <p>
-              <b>Final Doctrine (19th):</b> Your proficiency ranks for divine
-              spell attack rolls and spell DCs increase to master.
+              <i>Secrets of Magic</i>
+              <br />
+              <br />
+              Water is the source of life, and you’ve learned to shape how it
+              flows. You’re trained in Medicine. You also gain the Shore Step
+              druid feat. You gain the rising surf order spell. Polluting water
+              or allowing those who pollute water sources to go unpunished is
+              anathema to your order (this doesn’t force you to take action
+              against potential water pollution or to sacrifice yourself against
+              an obviously superior foe).
             </p>
           </>
         }
       />
 
-      <h3 id="cleric-feat">Cleric Feats</h3>
+      <h3 id="shield-block">Shield Block</h3>
       <p>
-        At 2nd level and every 2 levels thereafter, you gain a cleric class
-        feat.
+        You gain the Shield Block general feat, a reaction that lets you reduce
+        damage with your shield.
+      </p>
+
+      <h3 id="wild-empathy">Wild Empathy</h3>
+      <p>
+        You have a connection to the creatures of the natural world that allows
+        you to communicate with them on a rudimentary level. You can use
+        Diplomacy to Make an Impression on animals and to make very simple
+        Requests of them. In most cases, wild animals will give you time to make
+        your case.
+      </p>
+
+      <h3 id="druid-feat">Druid Feats</h3>
+      <p>
+        At 2nd level and every even-numbered level, you gain a druid class feat.
       </p>
 
       <h3 id="skill-feat">Skill Feats</h3>
       <p>
         At 2nd level and every 2 levels thereafter, you gain a skill feat. Skill
-        feats can be found in Chapter 5 and have the skill trait. You must be
-        trained or better in the corresponding skill to select a skill feat.
+        feats appear in Chapter 5 and have the skill trait. You must be trained
+        or better in the corresponding skill to select a skill feat.
       </p>
 
       <h3 id="general-feat">General Feats</h3>
       <p>
         At 3rd level and every 4 levels thereafter, you gain a general feat.
         General feats are listed in Chapter 5.
+      </p>
+
+      <h3 id="alertness">Alertness</h3>
+      <p>
+        Experience has made you increasingly aware of threats around you, and
+        you react more quickly to danger. Your proficiency rank for Perception
+        increases to expert.
       </p>
 
       <h3 id="skill-increase">Skill Increases</h3>
@@ -962,10 +1015,10 @@ const ClericPage: React.ComponentType = () => {
         it’s already 18 or above, or by 2 if it starts out below 18.
       </p>
 
-      <h3 id="alertness">Alertness</h3>
+      <h3 id="great-fortitude">Great fortitude</h3>
       <p>
-        You remain alert to threats around you. Your proficiency rank for
-        Perception increases to expert.
+        Your physique is incredibly hardy. Your proficiency rank for Fortitude
+        saves increases to expert.
       </p>
 
       <h3 id="ancestry-feat">Ancestry Feats</h3>
@@ -978,76 +1031,120 @@ const ClericPage: React.ComponentType = () => {
 
       <div className="flex">
         <div className="flex-column">
-          <h3 id="resolve">Resolve</h3>
-          <p>
-            You’ve steeled your mind with resolve. Your proficiency rank for
-            Will saves increases to master. When you roll a success at a Will
-            save, you get a critical success instead.
-          </p>
-
-          <h3 id="lightning-reflexes">Lightning reflexes</h3>
+          <h3 id="lightning-reflexes">Lightning Reflexes</h3>
           <p>
             Your reflexes are lightning fast. Your proficiency rank for Reflex
             saves increases to expert.
           </p>
 
-          <h3 id="divine-defense">Divine Defense</h3>
+          <h3 id="expert-spellcaster">Expert spellcaster</h3>
           <p>
-            Your training and your deity protect you from harm. Your proficiency
-            rank in unarmored defense increases to expert.
+            Your command of primal forces has deepened, empowering your spells.
+            Your proficiency ranks for primal spell attack rolls and spell DCs
+            increase to expert.
           </p>
 
-          <h3 id="weapon-specialization">Weapon specialization</h3>
+          <h3 id="druid-weapon-expertis">Druid weapon expertise</h3>
           <p>
-            You’ve learned how to inflict greater injuries with your weapons.
-            You deal 2 additional damage with weapons and unarmed attacks in
-            which you are an expert. This damage increases to 3 if you’re a
-            master, and to 4 if you’re legendary.
+            You have become thoroughly familiar with the weapons of your trade.
+            Your proficiency ranks for all simple weapons and unarmed attacks
+            increase to expert.
+          </p>
+
+          <h3 id="resolve">Resolve</h3>
+          <p>
+            You’ve steeled your mind with incredible resolve. Your proficiency
+            rank for Will saves increases to master. When you roll a success at
+            a Will save, you get a critical success instead.
           </p>
         </div>
 
         <figure>
           <img
-            src={require("../assets/img/cleric_02.webp")}
-            alt="cleric example"
+            src={require("../assets/img/druid_03.webp")}
+            alt="druid example"
           />
         </figure>
       </div>
 
-      <h3 id="miraculous-spells">Miraculous spell</h3>
+      <h3 id="medium-armor-expertise">Medium Armor Expertise</h3>
       <p>
-        You’re exalted by your deity and gain truly incredible spells. You gain
-        a single 10th-level spell slot and can prepare a spell in that slot
-        using divine spellcasting. You can’t use this spell slot for abilities
-        that let you cast spells without expending spell slots or that give you
-        more spell slots. You don’t gain more 10th-level spells as you level up,
-        though you can take the Maker of Miracles feat to gain a second slot.
+        You’ve learned to defend yourself better against attacks. Your
+        proficiency ranks for light armor, medium armor, and unarmored defense
+        increase to expert.
       </p>
 
-      <h2>Cleric Class Kit</h2>
+      <h3 id="weapon-specialization">Weapon specialization</h3>
+      <p>
+        You’ve learned how to inflict greater injuries with the weapons you know
+        best. You deal 2 additional damage with weapons and unarmed attacks in
+        which you are an expert. This damage increases to 3 if you’re a master,
+        and to 4 if you’re legendary.
+      </p>
+
+      <div className="flex reverse">
+        <div className="flex-column">
+          <h3 id="master-spellcaster">Master spellcaster</h3>
+          <p>
+            Primal magic answers your command. Your proficiency ranks for primal
+            spell attack rolls and spell DCs increase to master.
+          </p>
+
+          <h3 id="legendary-spellcaster">Legendary Spellcaster</h3>
+          <p>
+            You have developed an unparalleled rapport with the magic of nature.
+            Your proficiency ranks for primal spell attack rolls and spell DCs
+            increase to legendary.
+          </p>
+
+          <h3 id="primal-hierophant">Primal hierophant</h3>
+          <p>
+            You command the most potent forces of primal magic and can cast a
+            spell of truly incredible power. You gain a single 10th-level spell
+            slot and can prepare a spell in that slot using primal spellcasting.
+            You can’t use this spell slot for abilities that let you cast spells
+            without expending spell slots or that give you more spell slots. You
+            don’t gain more 10th-level spells as you level up, though you can
+            take the Hierophant’s Power feat to gain a second slot.
+          </p>
+        </div>
+
+        <figure>
+          <img
+            src={require("../assets/img/druid_04.webp")}
+            alt="druid example"
+          />
+        </figure>
+      </div>
+
+      <h2>Druid Class Kit</h2>
       <ul>
         <li>
-          <b>Price:</b> 2 gp, 2 sp.
+          <b>Price:</b> 4 gp, 4 sp.
         </li>
         <li>
-          <b>Bulk:</b> 1 Bulk, 3 light.
+          <b>Bulk:</b> 4 Bulk, 4 light.
         </li>
         <li>
-          <b>Money Left Over:</b> 12 gp, 8 sp.
+          <b>Money Left Over:</b> 10 gp, 6 sp.
         </li>
         <li>
-          <b>Gear:</b> adventurer’s pack, 2 sets of caltrops , religious symbol
-          (wooden).
+          <b>Armor:</b> leather armor.
         </li>
         <li>
-          <b>Options</b> your deity’s favored weapon (see the deity entries; use
-          the Price listed in this chapter), hide armor (2 gp).
+          <b>Weapon:</b> 4 javelins, longspear.
+        </li>
+        <li>
+          <b>Gear:</b> adventurer’s pack, holly and mistletoe.
+        </li>
+        <li>
+          <b>Options</b> healer’s tools (5 gp).
         </li>
       </ul>
 
       <h2>Feats</h2>
       <p>
-        At each level that you gain a cleric feat, you can select one of the
+        At every level that you gain a druid feat, you can select one of the
         following feats. You must satisfy any prerequisites before selecting the
         feat.
       </p>
@@ -1086,78 +1183,7 @@ const ClericPage: React.ComponentType = () => {
       <br />
       <br />
       <h2 id="focus-spells">Focus Spells</h2>
-      <p>
-        Clerics can gain the following domain spells by selecting the
-        <b>Domain Initiate</b> or <b>Advanced Domain</b> feat.
-      </p>
-      <Feat
-        id={0}
-        name="Domain
-        Initiate"
-        action=""
-        level={1}
-        feat="Feat 1"
-        tags={["cleric"]}
-        description={
-          <>
-            <p>
-              Your deity bestows a special spell related to their powers. Select
-              one domain—a subject of particular interest to you within your
-              religion—from your deity’s list. You gain an initial domain spell
-              for that domain, a spell unique to the domain and not available to
-              other clerics. Each domain’s theme and domain spells appear in
-              Table 8–2: Domains.
-            </p>
-            <p>
-              Domain spells are a type of focus spell. It costs 1 Focus Point to
-              cast a focus spell, and you start with a focus pool of 1 Focus
-              Point. You refill your focus pool during your daily preparations,
-              and you can regain 1 Focus Point by spending 10 minutes using the
-              Refocus activity to pray to your deity or do service toward their
-              causes.
-            </p>
-            <p>
-              Focus spells are automatically heightened to half your level
-              rounded up. Focus spells don’t require spell slots, nor can you
-              cast them using spell slots. Certain feats can give you more focus
-              spells and increase the size of your focus pool, though your focus
-              pool can never hold more than 3 Focus Points. The full rules for
-              focus spells appear in the Focus Spells section.
-            </p>
-            <p>
-              <b>Special</b> You can select this feat multiple times, selecting
-              a different domain each time and gaining its domain spell.
-            </p>
-          </>
-        }
-      />
-
-      <Feat
-        id={0}
-        name="Advanced Domain"
-        action=""
-        level={1}
-        feat="Feat 1"
-        tags={["cleric"]}
-        description={
-          <>
-            <p>
-              <span className="frequency">
-                <b>Prerequisites:</b> Domain Initiate.
-              </span>
-              Your studies or prayers have unlocked deeper secrets of your
-              deity’s domain. You gain an advanced domain spell from one of your
-              domains (as listed in Table 8–2: Domains). Increase the number of
-              Focus Points in your focus pool by 1.
-            </p>
-            <p>
-              <b>Special</b> You can select this feat multiple times. Each time,
-              you must select a different advanced domain spell from a domain
-              for which you have an initial domain spell.
-            </p>
-          </>
-        }
-      />
+      <p>Druids can gain the following order spells.</p>
       <form>
         <label className="visually-hidden" htmlFor="search">
           Search
@@ -1193,4 +1219,4 @@ const ClericPage: React.ComponentType = () => {
   );
 };
 
-export default ClericPage;
+export default DruidPage;
