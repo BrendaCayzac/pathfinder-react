@@ -1069,4 +1069,328 @@ export const DruidFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 41,
+    name: "Soaring shape",
+    action: "",
+    tags: ["druid"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Wild Shape.
+          </span>
+          <br />
+          Wings free you from the shackles of the ground below. Add the bat and
+          bird forms in aerial form to your wild shape list. If you have Insect
+          Shape, you also add the wasp form to your wild shape list. If you have
+          Ferocious Shape, you also add the pterosaur form to your wild shape
+          list. Whenever you use wild shape to gain a form that grants you a
+          specific Acrobatics modifier, you gain a +1 status bonus to Acrobatics
+          checks.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 42,
+    name: "Wind caller",
+    action: "",
+    tags: ["druid"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> storm order.
+          </span>
+          <br />
+          You bid the winds to lift and carry you through the air. You gain the
+          stormwind flight order spell. Increase the number of Focus Points in
+          your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 43,
+    name: "Eerie proclamation",
+    action: "",
+    tags: [
+      "uncommon",
+      "druid",
+      "auditory",
+      "curse",
+      "concentrate",
+      "linguistic",
+      "manipulate",
+      "necromancy",
+      "primal",
+      "ranger",
+    ],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+          <br />
+          <br />
+          <b>Prerequisites</b> expert in Occultism, expert in Survival.
+          <br />
+          <b>Frequency</b> once per hour.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You must be in either natural terrain or in
+            abandoned or relatively unused artificial terrain (such as a
+            darkened alley or haunted house).
+          </span>
+          <br />
+          You know there are places in the world that are just wrong—places
+          where the birds don’t sing and where you always feel like you’re being
+          watched. You can spot these places, and you can awaken them. To do so,
+          you must gesture toward a 10-foot by 10-foot square you can see and
+          make an ominous proclamation of some manner (i.e. “This is cursed
+          ground,” “That is an ill-omened place.”). The next creature that
+          enters the marked territory must attempt a Will save against your
+          spell DC (if you’re a druid) or class DC (if you’re a ranger).
+        </p>
+        <p>
+          <b>Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Failure</b> Something goes horribly awry for the victim in the
+          cursed ground. The details are up to the GM—it can be a purely
+          “natural” accident (they step into an old bear trap, perhaps) or
+          something stranger and more spectral. The target gains a condition for
+          2 rounds. Roll 1d4 on the table and use the failure column to
+          determine which condition.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but the effect is astonishingly
+          gruesome. Use the critical failure column, and the condition lasts for
+          1 minute.
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>d4</th>
+              <th>Failure</th>
+              <th>Critical Failure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Clumsy 2</td>
+              <td>Clumsy 3</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Enfeebled 2</td>
+              <td>Enfeebled 3</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Stupefied 2</td>
+              <td>Stupefied 3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Dazzled</td>
+              <td>Blinded for 1 round, then dazzled</td>
+            </tr>
+          </tbody>
+        </table>
+      </>
+    ),
+  },
+  {
+    id: 44,
+    name: "Elemental shape",
+    action: "",
+    tags: ["druid"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Wild Shape.
+          </span>
+          <br />
+          You understand the fundamental elements of nature such that you can
+          imbue them into your body and manifest as a living embodiment of those
+          elements. Add the forms in elemental form to your wild shape list.
+          Whenever you’re polymorphed into another form using wild shape, you
+          gain resistance 5 to fire.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 45,
+    name: "Harden flesh",
+    action: "one_action",
+    tags: ["druid", "earth"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+          <br />
+          <br />
+          <b>Prerequisites</b> stone order.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You’re standing on earthen or stone ground.
+          </span>
+          <br />
+          You fortify your skin with minerals drawn from earth and stone. You
+          gain resistance 3 to physical damage, except adamantine, until the
+          beginning of your next turn. At 12th level, and every 4 levels
+          thereafter, the resistance increases by 1, to a maximum of resistance
+          6 at 20th level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 46,
+    name: "Healing transformation",
+    action: "one_action",
+    tags: ["druid", "metamagic"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          You can take advantage of shapechanging magic to close wounds and
+          patch injuries. If your next action is to cast a non-cantrip polymorph
+          spell that targets only one creature, your polymorph spell also
+          restores 1d6 Hit Points per spell level to that creature. This is a
+          healing effect.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 47,
+    name: "Overwhelming energy",
+    action: "one_action",
+    tags: ["druid", "manipulate", "metamagic"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          With a complex gesture, you call upon the primal power of your spell
+          to overcome enemies’ resistances. If the next action you use is to
+          Cast a Spell, the spell ignores an amount of the target’s resistance
+          to acid, cold, electricity, fire, or sonic damage equal to your level.
+          This applies to all damage the spell deals, including persistent
+          damage and damage caused by an ongoing effect of the spell, such as
+          the wall created by wall of fire. A creature’s immunities are
+          unaffected.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 48,
+    name: "Plant shape",
+    action: "",
+    tags: ["druid"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> leaf order or Wild Shape.
+          </span>
+          <br />
+          You can take the form of a plant creature. Add the forms listed in
+          plant form to your wild shape list; if you don’t have wild shape, you
+          can instead cast plant form once per day, heightened to the same level
+          as your highest-level druid spell slot. Whenever you’re polymorphed
+          into another form using wild shape, you gain resistance 5 to poison.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 49,
+    name: "Pristine weapon",
+    action: "",
+    tags: ["druid"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Verdant Weapon.
+          </span>
+          <br />
+          Your verdant weapon can cut through the resistances of magical
+          creatures. The weapon is treated as cold iron and silver. If you
+          critically hit a creature that has a weakness to cold iron or silver,
+          the target takes 1d6 persistent bleed damage as the primal energies
+          within your weapon slow its natural healing.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 50,
+    name: "Side by side",
+    action: "",
+    tags: ["druid"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Animal Companion.
+          </span>
+          <br />
+          You and your animal companion fight in tandem, distracting your foes
+          and keeping them off balance. Whenever you and your animal companion
+          are adjacent to the same foe, you are both flanking that foe with each
+          other, regardless of your actual positions.
+        </p>
+      </>
+    ),
+  },
 ];

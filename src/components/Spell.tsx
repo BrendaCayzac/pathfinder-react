@@ -14,7 +14,7 @@ const Spell = (props: SpellProps) => {
   const { name, description, action, tags, type, level } = props;
   return (
     <div className="spell" key={name}>
-      <div className="level">
+      <div className={level ? "level" : "hidden"}>
         <p>lvl</p>
         <h4>{level}</h4>
       </div>
