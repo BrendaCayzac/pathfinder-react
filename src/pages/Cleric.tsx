@@ -6,7 +6,7 @@ import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
 import { ClericFeats } from "../middleware/ClericFeats";
-import { ChampionFocusSpells } from "../middleware/ChampionFocusSpells";
+import { ClericFocusSpells } from "../middleware/ClericFocusSpells";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
 
 const ClericPage: React.ComponentType = () => {
@@ -15,7 +15,7 @@ const ClericPage: React.ComponentType = () => {
   );
 
   const [filteredSpellList, setFilteredSpellList] =
-    useState<Array<FocusSpell> | null>(ChampionFocusSpells);
+    useState<Array<FocusSpell> | null>(ClericFocusSpells);
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
@@ -33,7 +33,7 @@ const ClericPage: React.ComponentType = () => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
     // Filtered list
-    let updatedList = [...ChampionFocusSpells];
+    let updatedList = [...ClericFocusSpells];
     // Update list with elements containing the query
     updatedList = updatedList.filter((feats) => {
       return feats.name.indexOf(query.toLowerCase()) !== -1;
@@ -1086,7 +1086,78 @@ const ClericPage: React.ComponentType = () => {
       <br />
       <br />
       <h2 id="focus-spells">Focus Spells</h2>
-      <p>Champions can gain the following devotion spells.</p>
+      <p>
+        Clerics can gain the following domain spells by selecting the
+        <b>Domain Initiate</b> or <b>Advanced Domain</b> feat.
+      </p>
+      <Feat
+        id={0}
+        name="Domain
+        Initiate"
+        action=""
+        level={1}
+        feat="Feat 1"
+        tags={["cleric"]}
+        description={
+          <>
+            <p>
+              Your deity bestows a special spell related to their powers. Select
+              one domain—a subject of particular interest to you within your
+              religion—from your deity’s list. You gain an initial domain spell
+              for that domain, a spell unique to the domain and not available to
+              other clerics. Each domain’s theme and domain spells appear in
+              Table 8–2: Domains.
+            </p>
+            <p>
+              Domain spells are a type of focus spell. It costs 1 Focus Point to
+              cast a focus spell, and you start with a focus pool of 1 Focus
+              Point. You refill your focus pool during your daily preparations,
+              and you can regain 1 Focus Point by spending 10 minutes using the
+              Refocus activity to pray to your deity or do service toward their
+              causes.
+            </p>
+            <p>
+              Focus spells are automatically heightened to half your level
+              rounded up. Focus spells don’t require spell slots, nor can you
+              cast them using spell slots. Certain feats can give you more focus
+              spells and increase the size of your focus pool, though your focus
+              pool can never hold more than 3 Focus Points. The full rules for
+              focus spells appear in the Focus Spells section.
+            </p>
+            <p>
+              <b>Special</b> You can select this feat multiple times, selecting
+              a different domain each time and gaining its domain spell.
+            </p>
+          </>
+        }
+      />
+
+      <Feat
+        id={0}
+        name="Advanced Domain"
+        action=""
+        level={1}
+        feat="Feat 1"
+        tags={["cleric"]}
+        description={
+          <>
+            <p>
+              <span className="frequency">
+                <b>Prerequisites:</b> Domain Initiate.
+              </span>
+              Your studies or prayers have unlocked deeper secrets of your
+              deity’s domain. You gain an advanced domain spell from one of your
+              domains (as listed in Table 8–2: Domains). Increase the number of
+              Focus Points in your focus pool by 1.
+            </p>
+            <p>
+              <b>Special</b> You can select this feat multiple times. Each time,
+              you must select a different advanced domain spell from a domain
+              for which you have an initial domain spell.
+            </p>
+          </>
+        }
+      />
       <form>
         <label className="visually-hidden" htmlFor="search">
           Search
@@ -1107,6 +1178,7 @@ const ClericPage: React.ComponentType = () => {
           filteredSpellList &&
           filteredSpellList.map((focusSpell) => (
             <Spell
+              key={focusSpell.id}
               level={focusSpell.level}
               name={focusSpell.name}
               type={focusSpell.type}
