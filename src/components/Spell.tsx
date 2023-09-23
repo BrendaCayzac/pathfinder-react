@@ -33,7 +33,7 @@ const Spell = (props: SpellProps) => {
               )}
             </h4>
           </div>
-          <h4>{type}</h4>
+          <h4 className={type ? "" : "hidden"}>{type}</h4>
         </div>
         <div className={tags ? "tags" : "hidden"}>
           {tags && tags.map((tag, index) => <span key={index}>{tag}</span>)}

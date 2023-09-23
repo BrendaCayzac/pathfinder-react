@@ -5,9 +5,9 @@ import "../assets/styles/ClassPage.scss";
 import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
-import { ClericFocusSpells } from "../middleware/ClericFocusSpells";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
 import { DruidFeats } from "../middleware/DruidFeats";
+import { DruidFocusSpells } from "../middleware/DruidFocusSpells";
 
 const DruidPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
@@ -15,7 +15,8 @@ const DruidPage: React.ComponentType = () => {
   );
 
   const [filteredSpellList, setFilteredSpellList] =
-    useState<Array<FocusSpell> | null>(ClericFocusSpells);
+    useState<Array<FocusSpell> | null>(DruidFocusSpells);
+
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
@@ -33,7 +34,7 @@ const DruidPage: React.ComponentType = () => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
     // Filtered list
-    let updatedList = [...ClericFocusSpells];
+    let updatedList = [...DruidFocusSpells];
     // Update list with elements containing the query
     updatedList = updatedList.filter((feats) => {
       return feats.name.indexOf(query.toLowerCase()) !== -1;

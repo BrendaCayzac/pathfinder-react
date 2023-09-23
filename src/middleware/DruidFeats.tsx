@@ -1393,4 +1393,716 @@ export const DruidFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 51,
+    name: "Dragon shape",
+    action: "",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Soaring Shape.
+          </span>
+          <br />
+          You can take on the form of some of the world’s most fearsome
+          creatures. Add the forms listed in dragon form to your wild shape
+          list. Whenever you’re polymorphed into another form using wild shape,
+          you gain resistance 5 to your choice of acid, cold, electricity, fire,
+          or poison.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 52,
+    name: "Green tongue",
+    action: "",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Green Empathy.
+          </span>
+          <br />
+          You share a special kinship with all things green and living. You (and
+          your leshy familiar, if you have one) are constantly under the effects
+          of speak with plants. Most non-creature plants recognize you as a
+          druid of the leaf order and are friendly to you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 53,
+    name: "Necromantic deflection",
+    action: "",
+    tags: ["uncommon", "druid", "champion"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+          <br />
+          <br />
+          You imbue your shield with life-giving energy to deflect harmful
+          necromantic magic. When you have your shield raised, you gain the
+          shield’s circumstance bonus to your AC and saving throws against
+          necromancy spells. If you have the Shield Block reaction, damage you
+          take as a result of a necromancy spell can trigger that reaction, even
+          if it isn’t physical damage.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 54,
+    name: "Pesh skin",
+    action: "one_action",
+    tags: ["uncommon", "druid", "morph"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Against the Scarlet Triad</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are transformed into a plant by a polymorph
+            spell.
+          </span>
+          <br />
+          Your plant form sprouts hundreds of spines, and your blood causes mild
+          hallucinations in creatures exposed to it. Each time a creature
+          touches you, hits you with an unarmed attack, or hits you with a melee
+          weapon attack while adjacent to you, that creature takes 1d6 piercing
+          damage. Increase the damage to 2d6 if the polymorph spell is 8th level
+          or higher, or to 3d6 if it’s 10th level.
+        </p>
+        <p>
+          When an adjacent creature damages you with piercing or slashing
+          damage, it must succeed at a Fortitude save against your class DC or
+          become stupefied 1 (or stupefied 2 on a critical failure) until the
+          end of its next turn.
+        </p>
+        <p>
+          These benefits last until you’re no longer polymorphed into a plant.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 55,
+    name: "Primal focus",
+    action: "",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          Your connection to nature is particularly strong, and the spirits of
+          nature flock around you, helping you replenish your focus. If you have
+          spent at least 2 Focus Points since the last time you Refocused, you
+          recover 2 Focus Points when you Refocus instead of 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 56,
+    name: "Primal summons",
+    action: "",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Call of the Wild.
+          </span>
+          <br />
+          Whenever you summon an ally, you can empower it with the elemental
+          power of air, earth, fire, or water. You gain the primal summons order
+          spell.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 57,
+    name: "Purifying spell",
+    action: "one_action",
+    tags: ["druid", "concentrate", "metamagic", "water"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> wave order.
+          </span>
+          <br />
+          You purify the water within a creature’s body to cleanse them of
+          illness. If the next action you use is to cast heal targeting a single
+          living creature, you can attempt to counteract a disease or poison
+          affecting the target, in addition to the other benefits of heal. If
+          you do, heal gains the water trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 58,
+    name: "Wandering Oasis",
+    action: "",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> master in Survival.
+          </span>
+          <br />
+          You’re surrounded by soothing energy. You and allies within 60 feet of
+          you are protected from severe environmental heat and cold. If you’re
+          legendary in Survival, you and those allies are also protected from
+          extreme environmental heat and cold.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 59,
+    name: "Bizarre transformation",
+    action: "one_action",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Wild Shape.
+          </span>
+          <br />
+          The forms you take on defy belief—chimerical sights of twisted antlers
+          or acidic drool. If your next action is to cast wild shape, you can
+          change the damage type of a single unarmed attack granted by the wild
+          shape form to one of the following: acid, bludgeoning, cold,
+          electricity, fire, poison, piercing, or slashing. The chosen attack
+          gains the appropriate trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 60,
+    name: "Reactive transformation",
+    action: "reaction",
+    tags: ["druid"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+          <br />
+          <br />
+          <b>Prerequisites</b> Wild Shape; Dragon Shape, Elemental Shape, Plant
+          Shape, or Soaring Shape.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> varies.
+          </span>
+          <br />
+          You transform reflexively when in danger. You cast wild shape to
+          transform into one form granted by one of the prerequisite feats you
+          have, depending on the trigger. Your form’s resistances and weaknesses
+          apply against the triggering damage.
+        </p>
+        <ul>
+          <li>
+            <b>Trigger</b> You fall 10 feet or more; <b>Effect</b> Choose a form
+            from aerial form.
+          </li>
+          <li>
+            <b>Trigger</b> You take acid, cold, electricity, fire, or poison
+            damage; <b>Effect</b> Choose a form from dragon form that resists
+            the triggering damage.
+          </li>
+          <li>
+            <b>Trigger</b> You take fire damage; <b>Effect</b> Choose a fire
+            elemental form from elemental form.
+          </li>
+          <li>
+            <b>Trigger</b> You take poison damage; <b>Effect</b> Choose a form
+            from plant form.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: 61,
+    name: "Sow spell",
+    action: "one_action",
+    tags: ["druid", "concentrate", "metamagic"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
+          You fold your spell into a seed. If your next action is to Cast a
+          Spell using 1 action or 2 actions, the spell instead plants itself in
+          an adjacent square. You must make all decisions regarding the spell at
+          the time you cast it. Within the next 10 minutes, you can direct your
+          sown spell to sprout and produce the spell’s effects as a reaction,
+          which is triggered when a creature enters the sown spell’s space or a
+          square adjacent to it. You can have only one sown spell at a time, and
+          if you don’t trigger the spell within 10 minutes, it dissipates and
+          the spell is lost. A creature can notice the sown spell with a
+          successful Perception check against your spell DC.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 62,
+    name: "Specialized companion",
+    action: "",
+    tags: ["druid"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Incredible Companion.
+          </span>
+          <br />
+          Your animal companion continues to grow in power and ability, and it
+          is now cunning enough to become specialized. Your animal companion
+          gains one specialization of your choice. (See the Animal Companion
+          section.)
+        </p>
+        <p>
+          <b>Special</b> You can select this feat up to three times. Each time,
+          add a different specialization to your companion.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 63,
+    name: "Timeless nature",
+    action: "",
+    tags: ["druid"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          With primal magic sustaining you, you cease aging. The overflowing
+          primal energy gives you a +2 status bonus to saves against diseases
+          and primal magic.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 64,
+    name: "Verdant metamorphosis",
+    action: "",
+    tags: ["druid"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> leaf order.
+          </span>
+          <br />
+          You transform into a plant version of yourself. You gain the plant
+          trait and lose any trait that’s inappropriate for your new form
+          (typically humanoid for a PC, but also possibly animal or fungus). You
+          can change from a form that looks mostly like your old self into a
+          tree or any other non-creature plant as a single action, which has the
+          concentrate trait. This has the same effect as tree shape, except you
+          can turn into any kind of non-creature plant and your AC is 30.
+        </p>
+        <p>
+          If you rest for 10 minutes while transformed into a non-creature plant
+          during daylight hours under direct sunlight, you recover half your
+          maximum Hit Points. If you take your daily rest in this way, the rest
+          restores you to maximum Hit Points and removes all non-permanent
+          drained, enfeebled, clumsy, and stupefied conditions, as well as all
+          poisons and diseases of 19th level or lower.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 65,
+    name: "Effortless concentration",
+    action: "",
+    tags: ["druid"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> Your turn begins.
+          </span>
+          <br />
+          You maintain a spell with hardly a thought. You immediately gain the
+          effects of the Sustain a Spell action, allowing you to extend the
+          duration of one of your active druid spells.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 66,
+    name: "Impaling briars",
+    action: "",
+    tags: ["druid"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> leaf order.
+          </span>
+          <br />
+          You can fill an area with devastating briars that impale and impede
+          your foes. You gain the impaling briars order spell. Increase the
+          number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 67,
+    name: "Monstrosity shape",
+    action: "",
+    tags: ["druid"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Wild Shape.
+          </span>
+          <br />
+          You can transform into a powerful magical creature. Add the purple
+          worm and sea serpent forms listed in monstrosity form to your wild
+          shape list. If you have Soaring Shape, also add the phoenix form to
+          your wild shape list.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 68,
+    name: "Invoke Disaster",
+    action: "",
+    tags: ["druid"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Wind Caller.
+          </span>
+          <br />
+          You can invoke nature’s fury upon your foes. You gain the storm lord
+          order spell. Increase the number of Focus Points in your focus pool by
+          1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 69,
+    name: "Perfect form control",
+    action: "",
+    tags: ["druid"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Form Control, Strength 18.
+          </span>
+          <br />
+          Thanks to magic and muscle memory, you can stay in your alternate
+          forms indefinitely; you may have even forgotten your original form.
+          When you use Form Control, instead of lasting 1 hour, wild shape is
+          permanent until you Dismiss it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 70,
+    name: "Primal Aegis",
+    action: "",
+    tags: ["druid"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+          <br />
+          <br />
+          You surround yourself with a thick field of protective primal energy.
+          You and allies within 30 feet of you gain resistance equal to your
+          Wisdom modifier to acid, cold, electricity, fire, negative, and
+          positive damage.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 71,
+    name: "Primal Wellspring",
+    action: "",
+    tags: ["druid"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Primal Focus.
+          </span>
+          <br />
+          Your reservoir of Focus Points is a deep wellspring. If you have spent
+          at least 3 Focus Points since the last time you Refocused, you recover
+          3 Focus Points when you Refocus instead of 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 72,
+    name: "Apex Companion",
+    action: "",
+    tags: ["uncommon", "druid"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Broken Promises</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Animal Companion.
+          </span>
+          <br />
+          You can call upon the essence of every individual animal of a
+          particular species to temporarily transform your animal into an
+          exemplar of its kind. You learn the apex companion order spell.
+          Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 73,
+    name: "Heart of the Kaijuu",
+    action: "",
+    tags: ["uncommon", "druid"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Monstrosity Shape.
+          </span>
+          <br />
+          Witnessing the might of the kaiju King Mogaru, Alru, and Toraloa up
+          close awoke a new ferocity within you. When you transform using
+          Monstrosity Shape, you can take on a kaiju form. When you take this
+          feat, choose acid, cold, electricity, fire, or sonic damage; this is
+          the damage your breath weapon deals. You can’t change this later. The
+          battle form is Gargantuan size with the following specific abilities;
+          the damage values already include the extra die from being a 9th-level
+          spell.
+        </p>
+        <ul>
+          <li>
+            <b>Kaiju</b> Speed 40 feet; physical resistance 5; <b>Melee</b>{" "}
+            <img
+              src={require("../assets/img/one_action.png")}
+              alt="one action icon"
+            />{" "}
+            jaws (reach 20 feet), Damage 3d12+20 piercing; <b>Melee</b>{" "}
+            <img
+              src={require("../assets/img/one_action.png")}
+              alt="one action icon"
+            />{" "}
+            claws (agile, reach 20 feet), Damage 3d8+20 slashing;{" "}
+            <b>Breath Weapon</b>{" "}
+            <img
+              src={require("../assets/img/two_action.png")}
+              alt="two action icon"
+            />{" "}
+            (evocation, primal) Each creature in a 60-foot cone takes 15d6
+            damage (of your chosen damage type), with a basic Reflex save
+            against your spell DC. Once activated, your breath weapon can’t be
+            used again for 1d4 rounds.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: 74,
+    name: "Hierophant's power",
+    action: "",
+    tags: ["druid"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          You have entwined yourself with the natural world, and its full power
+          flows through you. You gain an additional 10th-level spell slot.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 75,
+    name: "Hierophant's power",
+    action: "",
+    tags: ["druid", "concentrate", "manipulate", "metamagic"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Frequency</b> once per minute.
+          </span>
+          <br />
+          You can cast your spells effortlessly by tapping into the leylines of
+          the world. If your next action is to Cast a Spell of 5th level or
+          lower that has no duration, you don’t expend the prepared spell as you
+          cast it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 76,
+    name: "True Shapeshifter",
+    action: "two_action",
+    tags: ["druid", "concentrate"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+          <br />
+          <br />
+          <span className="frequency">
+            <b>Prerequisites</b> Dragon Shape, Wild Shape.
+          </span>
+          <br />
+          You transcend the limitations of form. While under the effects of wild
+          shape, you can change into any other form on your wild shape list; if
+          the durations of the forms would vary, use the shorter of the two
+          durations.
+        </p>
+        <p>
+          Once per day, you can transform into a kaiju, with the effects of
+          nature incarnate; if you have Plant Shape, you can instead transform
+          into a green man.
+        </p>
+      </>
+    ),
+  },
 ];

@@ -5,6 +5,30 @@
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+/* Table */
+table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+table th {
+  padding: 1rem;
+}
+table td {
+  padding: 0.75rem;
+}
+table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+table thead,
+table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
+
+/* Lists */
 ul {
   margin-top: 0.3125rem;
   list-style: none;
@@ -231,9 +255,11 @@ ul li::before {
 .ancestry-page section .content .relevant ul li::before {
   color: #d5c48c; /* Change the color */
 }
-.ancestry-page section .content .relevant h4 {
-  color: #FFFFFF;
+.ancestry-page section .content .relevant .title {
   border-bottom: #d5c48c 1px solid;
+}
+.ancestry-page section .content .relevant .title h4 {
+  color: #FFFFFF;
 }
 .ancestry-page section .content .feat-section {
   display: flex;
