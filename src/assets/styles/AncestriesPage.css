@@ -1,9 +1,47 @@
+@charset "UTF-8";
 /* MEDIA BREAKPOINTS */
 /* 600px */
 /* 768px */
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+/* Table */
+table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+table th {
+  padding: 1rem;
+}
+table td {
+  padding: 0.75rem;
+}
+table tbody tr:nth-child(even) {
+  background-color: #F0EBDF;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #E0DACB;
+}
+table thead,
+table tfoot {
+  background-color: #560c06;
+  color: #fff;
+}
+
+/* Lists */
+ul {
+  margin-top: 0.3125rem;
+  list-style: none;
+}
+ul li::before {
+  content: "↠";
+  color: #0a2760;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .ancestries {
   height: 100%;
   width: 100%;
@@ -57,7 +95,7 @@
 }
 .ancestries .ancestries-list p {
   margin: 0;
-  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 

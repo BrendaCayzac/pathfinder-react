@@ -214,7 +214,7 @@ const DruidPage: React.ComponentType = () => {
               <a href="#druidic-language">druidic language</a>,{" "}
               <a href="#druidic-order">druidic order</a>,{" "}
               <a href="#shield-block">shield block</a>,{" "}
-              <a href="#wild-empathy">shield block</a>
+              <a href="#wild-empathy">wild empathy</a>
             </td>
           </tr>
           <tr>
@@ -294,8 +294,8 @@ const DruidPage: React.ComponentType = () => {
             <td>11</td>
             <td>
               6th-level spells,
-              <a href="#druid-weapon-expertise">druid weapon expertise</a>, ,{" "}
-              <a href="#general-feat">general feat</a>, ,{" "}
+              <a href="#druid-weapon-expertise">druid weapon expertise</a>,{" "}
+              <a href="#general-feat">general feat</a>,{" "}
               <a href="#resolve">resolve</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
@@ -330,7 +330,7 @@ const DruidPage: React.ComponentType = () => {
               8th-level spells,
               <a href="#ability-boost">ability boost</a>,{" "}
               <a href="#general-feat">general feat</a>,{" "}
-              <a href="#master-spellcasterf">master spellcaster</a>,{" "}
+              <a href="#master-spellcaster">master spellcaster</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
           </tr>
@@ -360,7 +360,7 @@ const DruidPage: React.ComponentType = () => {
             <td>19</td>
             <td>
               <a href="#general-feat">general feat</a>,{" "}
-              <a href="#legendary-spellcaster">legendary spellcaster,</a>,{" "}
+              <a href="#legendary-spellcaster">legendary spellcaster</a>,{" "}
               <a href="#primal-hierophant">primal hierophant</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
@@ -1045,7 +1045,7 @@ const DruidPage: React.ComponentType = () => {
             increase to expert.
           </p>
 
-          <h3 id="druid-weapon-expertis">Druid weapon expertise</h3>
+          <h3 id="druid-weapon-expertise">Druid weapon expertise</h3>
           <p>
             You have become thoroughly familiar with the weapons of your trade.
             Your proficiency ranks for all simple weapons and unarmed attacks

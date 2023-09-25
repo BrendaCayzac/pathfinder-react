@@ -55,6 +55,8 @@ const BardPage = React.lazy(() => import("./pages/Bard"));
 const ChampionPage = React.lazy(() => import("./pages/Champion"));
 const ClericPage = React.lazy(() => import("./pages/Cleric"));
 const DruidPage = React.lazy(() => import("./pages/Druid"));
+const ExemplarPage = React.lazy(() => import("./pages/Exemplar"));
+const FighterPage = React.lazy(() => import("./pages/Fighter"));
 
 const App = (): JSX.Element => {
   return (
@@ -80,6 +82,8 @@ const App = (): JSX.Element => {
               </React.Suspense>
             }
           ></Route>
+
+          {/* Classes */}
           <Route
             path="/classes"
             element={
@@ -144,7 +148,25 @@ const App = (): JSX.Element => {
                 </React.Suspense>
               }
             />
+            <Route
+              path="/classes/exemplar"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <ExemplarPage />
+                </React.Suspense>
+              }
+            />
+            <Route
+              path="/classes/fighter"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <FighterPage />
+                </React.Suspense>
+              }
+            />
           </Route>
+
+          {/* Ancestries */}
           <Route
             path="/anadi"
             element={

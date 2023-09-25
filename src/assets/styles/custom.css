@@ -5,6 +5,11 @@
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+/* Text */
+p {
+  line-height: 1.75rem;
+}
+
 /* Table */
 table {
   width: 100%;

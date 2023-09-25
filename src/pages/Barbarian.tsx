@@ -65,7 +65,7 @@ const BarbarianPage: React.ComponentType = () => {
       <figure className="figure-one">
         <img
           src={require("../assets/img/barbarian_01.webp")}
-          alt="Alchemist explosion"
+          alt="Barbarian image"
         />
       </figure>
       <h2 id="initial-proficiencies">Initial Proficiencies</h2>

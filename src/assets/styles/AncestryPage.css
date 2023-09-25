@@ -60,7 +60,7 @@ ul li::before {
   display: none;
 }
 .ancestry-page section .content {
-  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
   padding: 3rem 1.5rem 4rem;
   /* Featured */
   /* Accordion */
@@ -311,7 +311,7 @@ ul li::before {
     max-width: 55rem;
   }
   .ancestry-page section .content {
-    font-family: "Lora", serif;
+    font-family: "Roboto", sans-serif;
     padding: 3rem 0 4rem;
     /* image */
   }
