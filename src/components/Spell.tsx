@@ -18,7 +18,7 @@ const Spell = (props: SpellProps) => {
         <p>lvl</p>
         <h4>{level}</h4>
       </div>
-      <div className="content">
+      <div className="spell-content">
         <div className="title">
           <div>
             <h4>

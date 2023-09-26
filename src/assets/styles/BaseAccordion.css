@@ -5,6 +5,11 @@
 /* 960px; */
 /* 1280px; */
 /* 1800px */
+/* Text */
+p {
+  line-height: 1.5rem;
+}
+
 /* Table */
 table {
   width: 100%;
@@ -76,7 +81,7 @@ ul li::before {
   content: "↡";
 }
 .accordion input:checked ~ label ~ .content {
-  max-height: 700px;
+  max-height: 2000px;
 }
 .accordion .content {
   max-height: 0;
@@ -103,7 +108,7 @@ ul li::before {
   padding: 0 2rem 2rem;
 }
 .accordion .content .spell {
-  padding: 0 2em 2rem;
+  padding: 2em 2rem;
 }
 
 /*# sourceMappingURL=BaseAccordion.css.map */

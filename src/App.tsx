@@ -57,6 +57,7 @@ const ClericPage = React.lazy(() => import("./pages/Cleric"));
 const DruidPage = React.lazy(() => import("./pages/Druid"));
 const ExemplarPage = React.lazy(() => import("./pages/Exemplar"));
 const FighterPage = React.lazy(() => import("./pages/Fighter"));
+const GunslingerPage = React.lazy(() => import("./pages/Gunslinger"));
 
 const App = (): JSX.Element => {
   return (
@@ -161,6 +162,14 @@ const App = (): JSX.Element => {
               element={
                 <React.Suspense fallback={<h1>Loading...</h1>}>
                   <FighterPage />
+                </React.Suspense>
+              }
+            />
+            <Route
+              path="/classes/gunslinger"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <GunslingerPage />
                 </React.Suspense>
               }
             />
