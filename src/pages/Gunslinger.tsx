@@ -302,7 +302,7 @@ const GunslingerPage: React.ComponentType = () => {
             <td>
               <a href="#ancestry-feat">Ancestry feat</a>,{" "}
               <a href="#skill-increase">skill increase</a>,{" "}
-              <a href="#gunslinging-legend,">gunslinging legend,</a>,{" "}
+              <a href="#gunslinging-legend">gunslinging legend</a>,{" "}
               <a href="#medium-armor-expertise">medium armor expertise</a>
             </td>
           </tr>
@@ -410,7 +410,7 @@ const GunslingerPage: React.ComponentType = () => {
         class.
       </p>
 
-      <h3 id="gunslinger-s-way">Gunslinger's way</h3>
+      <h3 id="gunslingers-way">Gunslinger's way</h3>
       <p>
         All gunslingers have a particular way they follow, a combination of
         philosophy and combat style that defines both how they fight and the
