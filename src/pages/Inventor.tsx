@@ -178,7 +178,7 @@ const InventorPage: React.ComponentType = () => {
 
       <h2>Class Features</h2>
       <p>
-        YYou gain these abilities as an inventor. Abilities gained at higher
+        You gain these abilities as an inventor. Abilities gained at higher
         levels list the level at which you gain them next to the features’
         names.
       </p>
