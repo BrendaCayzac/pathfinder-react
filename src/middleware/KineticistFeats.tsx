@@ -3275,4 +3275,352 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 101,
+		name: "Sea glass guardians",
+		action: "one_action",
+		tags: ["kineticist", "water", "impulse", "primal", "stance"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Eerily beautiful elemental water beings race around you,
+					eager to protect and heal you and your allies. Their forms
+					vary and might include eels formed of undulating water or
+					ice crystals whirling in the shape of a jellyfish. The
+					guardians flow around combatants and don’t occupy a space.
+					They attempt to intercept all dangers, granting you and your
+					allies within your kinetic aura a +1 status bonus to AC and
+					saving throws.
+				</p>
+				<p>
+					If any creature affected is critically hit or critically
+					fails at a saving throw against an attack, effect from an
+					enemy, or hazard and remains above 0 HP, the guardians reach
+					out to heal that creature. The creature regains 4d8+8 Hit
+					Points, and the impulse ends. If the creature is in water,
+					the healing dice are d10s instead of d8s.
+				</p>
+				<p>
+					<b>Level (+3)</b> If any creature affected is critically hit
+					                  or critically fails at a saving throw
+					                  against an attack, effect from an enemy,
+					                  or hazard and remains above 0 HP, the
+					                  guardians reach out to heal that creature.
+					                  The creature regains 4d8+8 Hit Points, and
+					                  the impulse ends. If the creature is in
+					                  water, the healing dice are d10s instead
+					                  of d8s.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 102,
+		name: "Shattershields",
+		action: "one_action",
+		tags: ["kineticist", "metal", "impulse", "primal", "stance"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Four plates of pitted metal float around you to intercept
+					attacks. You and allies in your kinetic aura gain a +1
+					circumstance bonus to AC. When any creature with this bonus
+					would take damage from a physical attack, one of the plates
+					reduces the damage by its Hardness of 5. If the damage
+					exceeds the Hardness, that plate is destroyed. You can
+					replenish all destroyed plates as a single action that has
+					the concentrate trait.
+				</p>
+				<p>
+					<b>Level (+2)</b> The Hardness increases by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 103,
+		name: "Wiles on the wind",
+		action: "two_action",
+		tags: ["kineticist", "air", "auditory", "illusion", "impulse", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Speaking lies, you set them loose upon a drifting wind. You
+					create an auditory illusion that comes from a square within
+					500 feet and can be as loud as four normal humans talking.
+					The sound can be intricate, including speech or music,
+					though the GM might require you to attempt a check or know a
+					language for it to be convincing. The illusion lasts until
+					the end of your next turn, and you can Sustain the impulse.
+				</p>
+				<p>
+					You can have any creature within 40 feet of the illusion, or
+					that comes within 40 feet of it during the duration, attempt
+					a Will save against your class DC. This is a mental effect.
+				</p>
+				<p>
+					<b>Success</b> The creature is unaffected, disbelieves the
+					               illusion, and is temporarily immune for 1
+					               hour.
+				</p>
+				<p>
+					<b>Failure</b> The creature is fascinated with the source of
+					               the sound until the end of its next turn.
+					               When the fascination ends, the creature is
+					               temporarily immune for 1 hour.
+				</p>
+				<p>
+					<b>Critical Failure</b> As failure, but the creature is
+					                        fascinated for 1 minute or until it
+					                        disbelieves.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 104,
+		name: "Witchwood seed",
+		action: "two_action",
+		tags: ["kineticist", "wood", "impulse", "overflow", "plant", "polymorph", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You touch a creature to implant a malignant seed in its
+					body. The creature takes 5d10 piercing damage and other
+					effects depending on its Fortitude save against your class
+					DC. The creature is then temporarily immune for 24 hours.
+					Creatures with the fungus, plant, or wood trait are immune.
+				</p>
+				<p>
+					<b>Critical Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The creature takes half damage and takes a
+					               –10-foot status penalty to all its Speeds
+					               until the end of its next turn.
+				</p>
+				<p>
+					<b>Failure</b> The target takes full damage and is clumsy 2
+					               and immobilized until the end of its next
+					               turn.
+				</p>
+				<p>
+					<b>Critical Failure</b> The target takes double damage and
+					                        is clumsy 2 and immobilized. It
+					                        attempts a new save at the end of
+					                        each of its turns, ending the effect
+					                        if it succeeds.
+				</p>
+				<p>
+					<b>Level (+4)</b> The damage increases by 1d10.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 105,
+		name: "Alloy flesh and steel",
+		action: "two_action",
+		tags: ["kineticist", "metal", "impulse", "manipulate", "polymorph", "primal"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Elemental energy replaces every cell of your body with raw
+					metal. You gain the benefits of the ferrous form spell
+					(except you can’t cast needle darts) until the end of your
+					next turn. You can Sustain the impulse up to 1 minute, and
+					when you do, you can Raise a metal Shield if you’re wielding
+					one. Your metal Elemental Blasts deal an additional die of
+					damage. If you suspend any conditions with Alloy Flesh and
+					Steel, when it ends, you’re temporarily immune to Alloy
+					Flesh and Steel for 1 hour.
+				</p>
+				<p>
+					<b>Level (16th)</b> The resistance is 15.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 106,
+		name: "Assume Earth's mantle",
+		action: "one_action",
+		tags: ["kineticist", "earth", "impulse", "primal", "stance"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Enormous pieces of rock cluster around your body. You can
+					Dismiss this impulse.
+				</p>
+				<ul>
+					<li>
+						You become Large if you were smaller. This increases
+						your reach by 5 feet (or by 10 feet if you started out
+						Tiny).
+					</li>
+					<li>
+						You gain a climb Speed equal to your land Speed, but you
+						can use it only to climb surfaces of earthen matter.
+					</li>
+					<li>
+						The armor grants you a +1 circumstance bonus to your
+						Fortitude saves and a +2 circumstance bonus to your
+						Fortitude or Reflex DCs against attempts to Shove you,
+						Trip you, or knock you prone.
+					</li>
+					<li>
+						If your Strength is below +4, this armor raises your
+						Strength to +4. If your Strength is +4 or higher, this
+						armor grants you a +1 item bonus to your Strength.
+					</li>
+					<li>
+						If you have the Armor in Earth impulse, you can add its
+						effects to Assume Earth’s Mantle.
+					</li>
+				</ul>
+			</>
+		),
+	},
+	{
+		id: 107,
+		name: "Barrier of boreal frost",
+		action: "three_action",
+		tags: ["kineticist", "water", "cold", "impulse", "manipulate", "overflow", "primal"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You form an intricate structure of ice, such as a wall of
+					bricks made of packed snow or a screen of enormous icicles.
+					This has the effect of a wall of ice spell with a spell rank
+					equal to half your level rounded up. It can only be a wall
+					(not a hemisphere), and you choose whether the ice is
+					transparent or opaque. The wall lasts until the end of your
+					next turn, but you can Sustain it up to 1 minute.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 108,
+		name: "Body of air",
+		action: "react",
+		tags: ["kineticist", "air", "impulse", "overflow", "polymorph", "primal"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> An enemy you can observe targets you with an attack or other damaging effect.
+					</span>
+					<br />
+					Your gathered air consumes your body, leaving only a cloud
+					of living vapor. This has the same effects on you as vapor
+					form. The effect lasts until the end of your next turn, but
+					you can Sustain the form up to 5 minutes. If you activate
+					your kinetic aura, Body of Air ends.
+				</p>
+				<p>
+					You can use Body of Air as a reaction only when the trigger
+					is met, but you can use it as a 2-action activity without
+					the trigger being met.
+				</p>
+				<p>
+					<b>Level (+1)</b> The resistance increases by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 109,
+		name: "Nourishing gare",
+		action: "",
+		tags: ["kineticist"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You can sustain yourself on a single drop of elemental dew
+					or the slightest spark from the Plane of Fire. You gain a +2
+					status bonus to saving throws against poisons, sleep, and
+					effects that would make you paralyzed. You don’t need to
+					breathe, eat, or sleep, though you must still take a full
+					night’s rest every 24 hours to be able to make your daily
+					preparations. During this time, you remain awake and alert,
+					but you must spend the time meditating or attuning to your
+					kinetic gate rather than engaging in other complex
+					activities. Each kineticist attunes in their own individual
+					way.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 110,
+		name: "Orchard's endurance",
+		action: "one_action",
+		tags: ["kineticist", "wood", "impulse", "plant", "primal", "stance"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Patches of bark appear on the skin of you and your nearby
+					allies. You and your allies in your kinetic aura gain
+					resistance 5 to bludgeoning and piercing damage. In
+					addition, you and your affected allies roll flat checks to
+					recover from persistent damage twice and take the higher
+					result; this is a fortune effect.
+				</p>
+				<p>
+					<b>Level (+4)</b> The resistance increases by 2.
+				</p>
+			</>
+		),
+	},
 ];
