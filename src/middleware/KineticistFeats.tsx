@@ -3623,4 +3623,642 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 111,
+		name: "Rapid reattunement",
+		action: "",
+		tags: ["kineticist", "concentrate", "exploration"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> reflow elements.
+					</span>
+					<br />
+					You spend 10 minutes realigning your elemental connections
+					in an elemental trance. Replace one of your impulse feats
+					using the same process as reflow elements. If you have
+					double reflow, you can replace two impulse feats instead of
+					one.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 112,
+		name: "Walk through the conflagration",
+		action: "two_action",
+		tags: ["kineticist", "fire", "impulse", "overflow", "primal", "teleportation"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You fall through your own kinetic gate, leaving behind an
+					effigy of flame and reappearing majestically near another
+					fire. You instantly transport yourself, and any items you’re
+					wearing and holding, from your current space to a clear
+					space within 120 feet you can observe that’s adjacent to an
+					open flame or a creature taking persistent fire damage. If
+					this would bring another creature with you—even if you’re
+					carrying it in an extradimensional container—the action
+					fails.
+				</p>
+				<p>
+					A whorl of fire surrounds you in a 5-foot emanation either
+					before you depart or after you arrive. Each creature in the
+					area takes 4d6 fire damage with a basic Reflex save against
+					your class DC.
+				</p>
+				<p>
+					<b>Level (+3)</b> The fire damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 113,
+		name: "Imperious aura",
+		action: "",
+		tags: ["kineticist", "impulse", "primal"],
+		level: 16,
+		feat: "Feat 16",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> one or more stance impulses that affect
+					                     your kinetic aura.
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> Your turn begins.
+					</span>
+					<br />
+					                     Your glowing and majestic kinetic aura
+					                     marks you as a true child of the
+					                     elements. Use a stance impulse that
+					                     affects your kinetic aura.
+				</p>
+				<p>
+					<b>Level (+3)</b> The fire damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 114,
+		name: "All shall end in flames",
+		action: "three_action",
+		tags: ["kineticist", "fire", "death", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					White-hot fire consumes everything in a cataclysmic sphere
+					of death. The fire fills your choice of a 30-foot burst
+					within 500 feet or a 30-foot emanation. This deals 13d6 fire
+					damage with a basic Reflex save against your class DC. Any
+					creature dropped to 0 HP by this fire dies, reduced to a
+					pile of ash.
+				</p>
+				<p>
+					If you die to this impulse, you return to life at the start
+					of your next turn in the same space. When you return, you
+					have Hit Points equal to double your level.
+				</p>
+				<p>
+					<b>Level (20th)</b> The damage is 15d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 115,
+		name: "Beasts of slumbering steel",
+		action: "three_action",
+		tags: ["kineticist", "metal", "impulse", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You conjure metal elemental mounts made of interlocking
+					metal pieces. Target up to 5 Medium or smaller willing
+					creatures within 30 feet. Large mounts appear underneath
+					them, and the targets can immediately Mount the creatures.
+					Each mount can take four different forms. One form has only
+					a land Speed of 80 feet, and the other forms each have a
+					land Speed of 30 feet with a climb, fly, or swim Speed of 60
+					feet. Each rider chooses the initial form and can change the
+					form as a single action, which has the concentration trait.
+				</p>
+				<p>
+					The mounts have AC 40, Fortitude +30, Reflex +30, Will +25,
+					and 180 Hit Points. They’re mindless and immune to bleed,
+					healing, paralyzed, poison, and sleep. They can’t attack.
+					They remain for 1 minute or until you use this impulse
+					again. You can use this impulse as a 1-minute exploration
+					activity to make the duration 1 hour, but this halves the
+					mounts’ defenses and HP.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 116,
+		name: "Crowned in tempest's fury",
+		action: "one_action",
+		tags: ["kineticist", "air", "electricity", "impulse", "primal", "stance"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You become one with a devastating thunderstorm from the
+					Plane of Air, placing a crown of lightning upon your brow.
+					Sparks flash in your eyes, and lightning strikes constantly
+					in the air around you as howling winds lift you from the
+					ground.
+				</p>
+				<ul>
+					<li>
+						Any creature that enters your kinetic aura or ends its
+						turn there takes 2d12 electricity damage.
+					</li>
+					<li>
+						If you don’t have a fly Speed, you gain a 20-foot fly
+						Speed. If you have the Cyclonic Ascent impulse, you
+						instead gain that fly Speed and the extra benefits.
+					</li>
+					<li>
+						You gain a +10-foot status bonus to all your Speeds.
+					</li>
+					<li>
+						Your air Elemental Blasts deal an additional 1d12
+						electricity damage.
+					</li>
+				</ul>
+			</>
+		),
+	},
+	{
+		id: 117,
+		name: "Elemental apotheosis",
+		action: "",
+		tags: ["kineticist"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> Nourishing Gate, exactly one kinetic element.
+					</span>
+					<br />
+					You take on an elemental countenance, appearing like a type
+					of elemental of your element. You gain any Speeds listed in
+					the elemental form spell for your element and gain
+					darkvision if you don’t already have it. You also gain the
+					elemental trait and the trait of your chosen element.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 118,
+		name: "Hell of 1,000,000 needles",
+		action: "three_action",
+		tags: ["kineticist", "metal", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The landscape fills with monumental filaments of metal. The
+					needles lance into a cube 30 feet on a side within 500 feet.
+					Each creature in the area takes 13d6 piercing damage, with a
+					basic Reflex save against your class DC. Each creature that
+					fails its save is impaled, becoming immobilized until it
+					Escapes (the DC is your class DC); a creature that
+					critically failed is also off-guard as long as it’s impaled.
+				</p>
+				<p>
+					The hell remains until the end of your next turn, but you
+					can Sustain it up to 1 minute. Using this impulse again ends
+					any previous one. The first time you Sustain it each round,
+					lightning crisscrosses the needles. Each creature in the
+					area takes 3d12 electricity damage with a basic Reflex save
+					against your class DC. Squares in the area are hazardous
+					terrain. A creature takes 6 piercing damage for every square
+					of the area it moves through.
+				</p>
+				<p>
+					<b>Level (20th)</b> The initial damage is 17d6, and the
+					                    hazardous terrain damage is 7.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 119,
+		name: "Ignite the sun",
+		action: "two_action",
+		tags: ["kineticist", "fire", "impulse", "light", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The fires of creation become yours to control. You create a
+					miniature sun in a 5-foot burst within 500 feet. A creature
+					takes 7d6 fire damage any time it’s in the miniature sun,
+					with a basic Reflex save against your class DC. A creature
+					can take this damage no more than once per round. The sun
+					sheds bright light in a 500-foot emanation (and dim light
+					for another 500 feet); this is sunlight for creatures with a
+					particular vulnerability to sunlight.
+				</p>
+				<p>
+					The sun lasts until the end of your next turn, but you can
+					Sustain it up to 1 minute. The first time you Sustain the
+					impulse each round, you can choose to increase the size of
+					the sun’s burst by 5 feet, then make it Fly up to 30 feet.
+					The sun can move through creatures, damaging them as
+					described above.
+				</p>
+				<p>
+					The sun continually channels fire into you and your allies.
+					You and each of your allies within the sun’s light deal an
+					additional 1d6 fire damage with all Strikes, spells that
+					deal fire damage, and impulses that deal fire damage (except
+					for Ignite the Sun itself). These aren’t cumulative with
+					multiple suns.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 120,
+		name: "Infinite expanse of bluest heaven",
+		action: "three_action",
+		tags: ["kineticist", "air", "illusion", "impulse", "mental", "overflow", "primal", "visual"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					An illusion of a limitless expanse with an impossibly blue
+					sky makes all within feel the sensation of falling...
+					forever. The vision appears in a 20-foot burst within 100
+					feet. The illusion lasts until the end of your next turn,
+					but you can Sustain it up to 1 minute. Using this impulse
+					again ends any previous one.
+				</p>
+				<p>
+					Each creature in the area or that later enters it must
+					attempt a Will save against your class DC. Creatures with
+					the air trait are immune. Any effect of the illusion ends
+					for a creature as soon as it leaves the illusion’s area or
+					the impulse ends, and the creature then becomes temporarily
+					immune for 1 hour.
+				</p>
+				<p>
+					<b>Critical Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The creature is off-guard.
+				</p>
+				<p>
+					<b>Failure</b> The creature is off-guard. It is fleeing from
+					               the illusory sky but is also disoriented; any
+					               time it uses an action to attempt to flee, it
+					               must succeed at a DC 11 flat check or flee to
+					               a space that’s still within the illusion. The
+					               GM determines where the creatures ends up,
+					               but the creature can’t stay stationary if
+					               it’s able to move.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 121,
+		name: "Rebirth in living stone",
+		action: "one_action",
+		tags: ["kineticist", "earth", "impulse", "polymorph", "primal", "stance"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Rock overflows from within you to consume your form before
+					cracking open to reveal your body transformed into living
+					stone. You gain 40 temporary Hit Points. You’re immune to
+					critical hits and precision damage. You can’t be pushed,
+					pulled, or tripped while you’re standing on earth or stone.
+					Your earth Elemental Blasts deal an additional 1d10 damage
+					of their normal type. These benefits last until the end of
+					your next turn, but you can Sustain them up to 1 minute.
+					After you gain temporary Hit Points from this impulse, you
+					can’t do so again for 10 minutes.
+				</p>
+				<p>
+					<b>Level (20th)</b> You gain 50 temporary Hit Points.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 122,
+		name: "Ride the tsunami",
+		action: "three_action",
+		tags: ["kineticist", "water", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Booming, crashing walls of water, enough to fill a harbor,
+					smash out ahead of you, overwhelming all in their path. The
+					waves move forward in your choice of a 60-foot cone or
+					120-foot line. If you’re in water, you can increase these
+					waves to a 90-foot cone or 180-foot line. Each creature in
+					the area takes 10d10 bludgeoning damage with a basic Reflex
+					save against your class DC. A creature that fails its save
+					is pushed 20 feet (or 40 feet on a critical failure). Any
+					unattended object of 1 Bulk or less in the area is pushed to
+					the far edge of the area. The sheer mass of water
+					extinguishes all non-magical flames in the area.
+				</p>
+				<p>
+					As the wave crashes down, you can catch it to your
+					destination. After the impulse deals damage, you can Swim in
+					a straight line to any point in its area before the water
+					disappears.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 123,
+		name: "Rouse the forest's fury",
+		action: "three_action",
+		tags: ["kineticist", "wood", "impulse", "overflow", "plant", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Terrifying trees attack your enemies. Three Large trees
+					appear in unoccupied spaces within 500 feet, at least 15
+					feet from one another. Each tree has AC 40, Fortitude +33,
+					Reflex +24, Will +30, and 200 HP. The trees can flank, but
+					are unable to move. When the trees appear, each makes a
+					Strike; they share a multiple attack penalty. The tree’s
+					melee Strike is a branch that has reach 10 feet; on a hit,
+					the target is grabbed by the tree (Escape DC 40). The ranged
+					Strike is a hurled fruit, gourd, seed, or stone with a range
+					increment of 60 feet. Either Strike has a +30 attack
+					modifier and deals 4d10+9 bludgeoning damage.
+				</p>
+				<p>
+					The trees last until the end of your next turn, and you can
+					Sustain the impulse. Each time you Sustain the impulse, you
+					can have one tree make a Strike.
+				</p>
+				<p>
+					<b>Level (20th)</b> The attack modifier is +32 and the
+					                    Strike damage is 5d10+9.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 124,
+		name: "The shattered mountain weeps",
+		action: "three_action",
+		tags: ["kineticist", "earth", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A massive sphere of rock explodes, unleashing a cataclysm of
+					falling debris and deadly shrapnel. Its destruction falls in
+					a 20-foot burst within 120 feet. Creatures in the area take
+					9d10 bludgeoning damage with a basic Fortitude save against
+					your class DC. Those who fail are knocked prone. For the
+					next minute, rocks continue to fall, making the area
+					difficult terrain and dealing 3d10 bludgeoning damage to any
+					creature that ends its turn in the area. If you use this
+					impulse again, any previous one ends.
+				</p>
+				<p>
+					<b>Level (20th)</b> The initial damage is 10d10, and the
+					                    area damage is 4d10.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 125,
+		name: "Turn the wheel of seasons",
+		action: "three_action",
+		tags: ["kineticist", "wood", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The seasons shift rapidly. This impulse affects a cube 100
+					feet in each dimension within 1,000 feet. Choose the
+					starting season. The impulse lasts for 4 rounds, proceeding
+					to the next season at the start of each of your turns. You
+					can’t use this impulse again until the previous one ends.
+				</p>
+				<p>
+					<b>Spring</b> Each ally in the cube gains 20 temporary HP
+					              that last until the start of your next turn.
+					              Any dying ally rolls a recovery check, but
+					              can’t get worse than a success.
+				</p>
+				<p>
+					<b>Summer</b> (light) Each enemy in the area is exposed to
+					              sunlight and must attempt a Reflex save
+					              against your class DC. It’s unaffected on a
+					              critical success, dazed until the start of
+					              your next turn on a success, or blinded until
+					              the start of your next turn on a failure.
+				</p>
+				<p>
+					<b>Autumn</b> Leaves and rain make everything in the area
+					              concealed until the start of your next turn,
+					              and a cold wind makes each enemy in the area
+					              slowed 1 until the start of your next turn
+					              unless it succeeds at a Fortitude save against
+					              your class DC.
+				</p>
+				<p>
+					<b>Winter</b> Each enemy in the aura takes 5d6 cold damage
+					              with a basic Reflex save against your class
+					              DC. A creature that fails its save also takes
+					              2d6 persistent cold damage.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 126,
+		name: "Usurp the lunar reins",
+		action: "three_action",
+		tags: ["kineticist", "water", "impulse", "overflow", "primal"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The moon has always been connected to the tides, and now you
+					can grasp that connection. You can create massive amounts of
+					water and control these tides, subverting even the moon’s
+					sovereignty over the oceans and seas. Choose an area 50 feet
+					long by 50 feet wide within 500 feet, and choose two
+					different effects from the options provided below. The
+					effects take place in the listed order.
+				</p>
+				<ul>
+					<li>
+						<b>Flood</b> You create a pool of pure, clean water in
+						             the area, which coalesces from ambient
+						             moisture. This water must be created on a
+						             surface—not in air—and flows normally.
+					</li>
+					<li>
+						<b>Control</b> You tug on the moon to raise or lower the
+						               level of bodies of water in the area by
+						               10 feet. If you control a portion of a
+						               larger body of water, the water then
+						               equalizes normally.
+					</li>
+					<li>
+						<b>Modulate</b> With a wave of your hand, you create or
+						                smooth ripples, making all bodies of
+						                water in the area either calm or
+						                turbulent. Making it calm turns
+						                difficult terrain or greater difficult
+						                terrain to calm water, and making it
+						                turbulent turns calm water into
+						                difficult terrain.
+					</li>
+					<li>
+						<b>Slow</b> By exercising your rightful control over all
+						            water, each creature with the water trait in
+						            the area must succeed at a Fortitude save
+						            against your class DC or be slowed 1 (or
+						            slowed 2 on a critical failure).
+					</li>
+				</ul>
+				<p>
+					Flood and control are permanent and non-magical. Modulate
+					and slow last until the end of your next turn, but you can
+					Sustain the impulse to continue them.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 127,
+		name: "Kinetic pinnacle",
+		action: "",
+		tags: ["kineticist"],
+		level: 20,
+		feat: "Feat 20",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					No one can match the pace at which elements flow from you.
+					You’re permanently quickened. You can use your extra action
+					only to Channel Elements, use a 1-action Elemental Blast, or
+					use a 1-action stance impulse.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 128,
+		name: "Omnikinesis",
+		action: "one_action",
+		tags: ["kineticist"],
+		level: 20,
+		feat: "Feat 20",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> reflow elements.
+					</span>
+					<br />
+					You can realign your kinetic gate with a thought. Replace
+					one of your impulse feats using the same process as reflow
+					elements. You can replace only one, even if you have double
+					reflow.
+				</p>
+			</>
+		),
+	},
 ];
