@@ -1964,10 +1964,6 @@ export const KineticistFeats: Array<ClassFeat> = [
 					<i>Rage of elements</i>
 					<br />
 					<br />
-					<span className="frequency">
-						<b>Prerequisites</b> a familiar.
-					</span>
-					<br />
 					A speeding wind heeds your call, picking someone up and
 					depositing them nearby. Choose a creature within 60 feet of
 					you. The target jumps in any direction, up to a maximum of
@@ -1993,6 +1989,351 @@ export const KineticistFeats: Array<ClassFeat> = [
 				</p>
 				<p>
 					<b>Level (+2)</b> The maximum distance increases by 15 feet.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 61,
+		name: "Jagged berms",
+		action: "three_action",
+		tags: ["kineticist", "earth", "wood", "composite", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You conjure up to six cube-shaped mounds of packed earth.
+					Each appears in an unoccupied square within 120 feet, fills
+					its square, and provides cover. A mound has AC 10, Hardness
+					10, and 20 HP, and is immune to critical hits and precision
+					damage. If destroyed, a mound becomes difficult terrain. The
+					mounds last for an unlimited duration, but if you use the
+					impulse again, any previous one ends.
+				</p>
+				<p>
+					Sharpened wooden stakes protrude from each mound into
+					adjacent squares. They can project from any of its sides;
+					you choose which sides for each mound. For each square of
+					wooden stakes a creature enters, that creature takes 2d6
+					piercing damage. Destroying a mound also destroys its
+					stakes.
+				</p>
+				<p>
+					<b>Level (+2)</b> The HP of each section of the wall
+					                  increases by 10, and the piercing damage
+					                  increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 62,
+		name: "Lightning rod",
+		action: "three_action",
+		tags: ["kineticist", "air", "metal", "composite", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You smash a metal rod into your foe and call lightning to
+					it. Attempt a 1-action melee Elemental Blast using the metal
+					element. On a hit, the target is skewered with a metal rod,
+					which gives it a –1 circumstance penalty to AC and saves
+					against electricity; the penalty is –2 if the creature also
+					has the metal trait, is made of metal, or is wearing metal
+					armor. A hit creature immediately takes 1d12 electricity
+					damage with a basic Reflex save against your class DC. The
+					creature can Interact to attempt a DC 10 Athletics check to
+					pull the lightning rod free.
+				</p>
+				<p>
+					<b>Level (+6)</b> The electricity damage increases by 1d12.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 63,
+		name: "Molten wire",
+		action: "two_action",
+		tags: ["kineticist", "fire", "metal", "composite", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Spinning molten iron through a vortex of fire, you trap your
+					foe in searing wires. Make an impulse attack roll against a
+					creature within 15 feet. On a success, the target takes 2d6
+					slashing damage and is wrapped in molten wire for 1 minute.
+					It is clumsy 1 and takes 2d4 fire damage at the start of
+					each of its turns, with a basic Reflex save. The wire’s
+					Escape DC is your class DC. The wire has AC 10 and 75 HP.
+					The impulse ends if the creature Escapes or the wire is
+					destroyed.
+				</p>
+				<p>
+					<b>Level (+4)</b> The slashing damage increases by 1d6, the
+					                  fire damage increases by 1d4, and the
+					                  wire’s HP increases by 25.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 64,
+		name: "Rising hurricane",
+		action: "three_action",
+		tags: ["kineticist", "air", "water", "composite", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A hurricane lifts your enemies into the air before bringing
+					them crashing down in a bloody rain. Your hurricane appears
+					in a cylinder that’s 40 feet tall, has a 30-foot diameter,
+					and is within 120 feet. All creatures in the area take 2d6
+					bludgeoning damage with a basic Fortitude save against your
+					class DC. Lift any creature that fails its save to any
+					height you choose within the area, move it up to 5 feet in
+					any direction, then drop it. It takes falling damage
+					normally unless it has a fly Speed.
+				</p>
+				<p>
+					<b>Level (+3)</b> The rain damage increases by 1d6, and the
+					                  cylinder’s height increases by 5 feet.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 65,
+		name: "Roiling mudslide",
+		action: "two_action",
+		tags: ["kineticist", "earth", "water", "composite", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You form water and earth into a mudslide that smashes your
+					opponents and coats them in mud. Each creature in the area
+					takes 2d8 bludgeoning damage with a basic Fortitude save
+					against your class DC. A creature that fails is also pushed
+					5 feet (or 10 feet on a critical failure) and coated in mud
+					until the end of its next turn. While coated in mud, the
+					creature falls prone at the end of its movement any time it
+					ends a move action other than a Crawl or Step. The creature
+					can attempt an Acrobatics check or Reflex save against your
+					class DC, avoiding the fall if it succeeds.
+				</p>
+				<p>
+					<b>Level (+4)</b> The damage increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 66,
+		name: "Sand snatcher",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A figure of sand with grasping arms arises in an unoccupied
+					square within 30 feet. You can choose to make it Small or
+					Medium size, and it can flank. When the sand snatcher
+					appears, you can have it attempt to Grapple one creature
+					adjacent to it that’s no more than one size larger than it.
+					This Grapple uses your impulse attack roll instead of an
+					Athletics check and shares your multiple attack penalty. The
+					sand snatcher lasts until the end of your next turn, and you
+					can Sustain the impulse up to 1 minute. Each time you
+					Sustain the impulse, you can have the sand snatcher either
+					Grapple again or Burrow, Climb, or Stride up to 20 feet.
+					Attempts to Escape its grasp use your class DC.
+				</p>
+				<p>
+					<b>Level (10th)</b> You can also choose Large size.
+				</p>
+				<p>
+					<b>Level (14th)</b> You can also choose Large or Huge size.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 67,
+		name: "Scrap barricade",
+		action: "three_action",
+		tags: ["kineticist", "metal", "impulse", "manipulate", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Ragged pieces of metal weld together into a ramshackle
+					structure. The barricade is up to 30 feet long, 15 feet
+					high, and 1/2 inch thick. It must form in a straight line in
+					an unbroken open space that doesn’t pass through any
+					creatures or objects, or the impulse fails. Each
+					10-foot-by-10-foot section of the wall has AC 10, Hardness
+					10, and 20 Hit Points, and it’s immune to critical hits and
+					precision damage. If any section is destroyed, the entire
+					wall collapses, and each creature adjacent to the wall takes
+					2d8 slashing damage with a basic Reflex save against your
+					class DC. The wall lasts until the end of your next turn,
+					but you can Sustain it up to 1 minute.
+				</p>
+				<p>
+					<b>Level (+2)</b> The maximum length of the wall increases
+					                  by 10 feet, the HP of each section
+					                  increases by 10, and the damage when it’s
+					                  destroyed increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 68,
+		name: "Steam knight",
+		action: "one_action",
+		tags: ["kineticist", "fire", "water", "composite", "impulse", "primal", "stance"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You shape your kinetic aura into swirling armor of steam
+					that scalds your enemies and propels you on super-heated jet
+					streams. A creature can take damage from Steam Knight only
+					once per round. Your steam armor has the following effects.
+				</p>
+				<ul>
+					<li>
+						You gain a +10-foot status bonus to your Speed.
+					</li>
+					<li>
+						When you Leap, you can jump up to your Speed. You don’t
+						immediately fall at the end of a jump, provided you Leap
+						again with your next action. If you Leap over a creature
+						and come within 10 feet, that creature takes 2d6 fire
+						damage with a basic Reflex save against your class DC.
+					</li>
+					<li>
+						At the start of each of your turns, you can emit steam
+						as a free action. It deals 2d6 fire damage to each
+						creature in your kinetic aura with a basic Reflex save
+						against your class DC. A creature that fails is also
+						pushed 5 feet.
+					</li>
+				</ul>
+				<p>
+					<b>Level (+5)</b> The fire damage from a jump or blast of
+					                  steam increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 69,
+		name: "Torrent in the blood",
+		action: "two_action",
+		tags: ["kineticist", "water", "healing", "impulse", "manipulate", "overflow", "primal", "vitality"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A healing wave splashes across creatures in a 30-foot cone,
+					its cleansing water driving afflictions from the body. Each
+					creature in the area regains 3d8 Hit Points and can attempt
+					a new save against one poison or disease affliction
+					affecting it; on a failed save, the condition doesn’t
+					worsen.
+				</p>
+				<p>
+					Each creature that benefited from this impulse becomes
+					temporarily immune to Torrent in the Blood for 10 minutes.
+				</p>
+				<p>
+					<b>Level (+2)</b> The healing increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 70,
+		name: "Tree of duality",
+		action: "three_action",
+		tags: ["kineticist", "air", "wood", "composite", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					An ephemeral tree bursts forth, floating on air in an
+					unoccupied square of your choice within 60 feet. Blooming
+					flowers and fungal growths shed pollen and spores, which a
+					swirling gust of air spreads in a 10-foot emanation around
+					it. The tree lasts until the end of your next turn, and you
+					can Sustain it up to 1 minute.
+				</p>
+				<ul>
+					<li>
+						<b>Cleansing Pollen</b> (healing, vitality) Each living
+						                        ally that’s in the area or
+						                        enters it regains 3d4 HP and is
+						                        then temporarily immune to
+						                        regaining HP from Tree of
+						                        Duality for 10 minutes.
+					</li>
+					<li>
+						<b>Hallucinogenic Spores</b> (mental) Enemies in the
+						                             area are dazzled. An enemy
+						                             that leaves the area
+						                             remains dazzled until the
+						                             start of its next turn.
+					</li>
+				</ul>
+				<p>
+					<b>Level (+2)</b> The healing increases by 1d4.
 				</p>
 			</>
 		),
