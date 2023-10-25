@@ -1285,7 +1285,7 @@ export const KineticistFeats: Array<ClassFeat> = [
 		id: 40,
 		name: "Magnetic field",
 		action: "one_action",
-		tags: ["kineticist", "metal","impulse", "stance", "primal"],
+		tags: ["kineticist", "metal", "impulse", "stance", "primal"],
 		level: 4,
 		feat: "Feat 4",
 		description: (
@@ -1316,6 +1316,318 @@ export const KineticistFeats: Array<ClassFeat> = [
 					             objects of light Bulk or less in your kinetic
 					             aura away. They stop moving once they’re
 					             outside your aura.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 41,
+		name: "Plate in treasure",
+		action: "one_action",
+		tags: ["kineticist", "metal", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Precious metal flows from your fingers to plate an object.
+					This has the effects of a clad in metal spell with a rank
+					equal to half your level rounded up. While you’re wearing or
+					holding an item of light Bulk or greater that’s Plated in
+					Treasure, any metal created by one of your impulses is
+					plated with the metal. If you use Plate in Treasure again,
+					any previous one ends.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 42,
+		name: "Rain of rust",
+		action: "three_action",
+		tags: ["kineticist", "metal", "water", "composite", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You conjure a red raincloud in a 10-foot burst within 60
+					feet, which pours rust-colored rain directly below it. Any
+					creature in the rain with the metal trait, that is made of
+					metal, or is wearing metal armor is covered in corrosive
+					build-up. Any such creature is clumsy 1 as long as it
+					remains in the area. If such a creature is in the rain at
+					the start of its turn, it takes 3d6 damage with a basic
+					Fortitude save against your class DC, plus 1d6 persistent
+					damage if it fails. Damage from this impulse ignores
+					Hardness.
+				</p>
+				<p>
+					<b>Level (+2)</b> The initial damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 43,
+		name: "Ravel of thorns",
+		action: "one_action",
+		tags: ["kineticist", "wood", "plant", "impulse", "primal", "stance"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Thorny vines grow in geometric patterns on surfaces in your
+					kinetic aura. A creature that starts its turn in the thorns
+					takes a –10-foot circumstance penalty to its Speeds until it
+					leaves the area. The thorns are hazardous terrain. A
+					creature takes 2 piercing damage each time it moves into one
+					of these squares. If any square the thorns grow on is water
+					or soil, double the hazardous terrain damage for all thorns.
+					If you move, the thorns disappear; new thorns grow at the
+					end of your turn.
+				</p>
+				<p>
+					<b>Level (+4)</b> The damage increases by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 44,
+		name: "Return to the sea",
+		action: "two_action",
+		tags: ["kineticist", "water", "morph", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You adapt a creature to living and moving in water. Target a
+					willing creature within 30 feet. For 10 minutes, it gains
+					the effects of a feet to fins spell, can breathe water, and
+					gets a +1 status bonus to AC and saves against any creature
+					with the amphibious, aquatic, or water trait. In addition,
+					its attacks ignore the effects water normally has on
+					bludgeoning and slashing attacks. If you use Return to the
+					Sea again, any existing one ends.
+				</p>
+				<p>
+					<b>Level (6th)</b> You can target up to 5 willing creatures.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 45,
+		name: "Safe elements",
+		action: "",
+		tags: ["kineticist"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Elements are wild and dangerous, but you’ve found ways to
+					reduce their risk. When you Channel Elements or use a stance
+					impulse that affects your kinetic aura, you can designate a
+					number of creatures up to your Constitution modifier
+					(minimum 1 creature). Choose whether they are immune to the
+					benefits of your kinetic aura or immune to its damage and
+					drawbacks. You don’t have to be able to see a creature to
+					designate it, nor does it need to be in your kinetic aura,
+					but you can’t designate a creature that’s unnoticed by you.
+				</p>
+				<p>
+					In addition, you gain the Pacifying Infusion action.
+				</p>
+				<p>
+					<b>Pacifying Infusion</b>
+					<img src={require("../assets/img/one_action.png")}
+					     alt="one action icon" />
+					(infusion) If your next action is an impulse, it gains the
+					nonlethal trait. If it has an area, you can exclude
+					creatures you’ve designated with Safe Elements from its
+					effects.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 46,
+		name: "Thermal nimbus",
+		action: "one_action",
+		tags: ["kineticist", "fire", "impulse", "primal", "stance"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You direct waves of warmth into or out of your kinetic gate
+					to drastically shift the temperature around you. Choose cold
+					or fire. You and allies in your kinetic aura gain resistance
+					equal to your level to damage of that type. Any creature
+					that starts its turn in your kinetic aura or moves into your
+					aura during its turn takes damage equal to half your level
+					of the chosen type. Elemental resistance from a gate
+					junction is cumulative with resistance from Thermal Nimbus.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 47,
+		name: "Tumbling limber",
+		action: "two_action",
+		tags: ["kineticist", "wood", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A slew of logs eject from the Plane of Wood and slam into
+					your enemies. They roll in a 10-foot-wide, 30-foot-long
+					line. Non-magical difficult terrain on any ground the logs
+					roll over is smashed flat; greater difficult terrain
+					remains. Each creature in the area takes 2d8 bludgeoning
+					damage and might be moved by the logs, depending on its
+					Reflex save against your class DC.
+				</p>
+				<p>
+					<b>Critical Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The creature takes half damage.
+				</p>
+				<p>
+					<b>Failure</b> The creature takes full damage and is pushed
+					               out of the line in the most direct path
+					               available.
+				</p>
+				<p>
+					<b>Critical Failure</b> The creature takes double damage and
+					                        is knocked prone.
+				</p>
+				<p>
+					<b>Level (+3)</b> The damage increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 48,
+		name: "Whirling grindstone",
+		action: "two_action",
+		tags: ["kineticist", "metal", "attack", "composite", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A whirling grindstone made of flint appears in an unoccupied
+					square within 30 feet. The grindstone shreds flesh and
+					shoots sparks. Attempt an impulse attack roll against the AC
+					of a creature adjacent to the grindstone. On a hit, the
+					creature takes 2d6 slashing damage and 1d6 fire damage (or
+					double damage on a critical hit). The grindstone lasts until
+					the end of your next turn, and you can Sustain the impulse
+					up to 1 minute. On subsequent turns, the first time you
+					Sustain the impulse that turn, you can roll the grindstone
+					up to 20 feet and can repeat the attack.
+				</p>
+				<p>
+					A creature within reach of the grindstone can Interact with
+					it to sharpen a metal weapon. This grants a +2 circumstance
+					bonus to the next damage roll made with that weapon within 1
+					minute.
+				</p>
+				<p>
+					<b>Level (+5)</b> The grindstone’s damage increases by 1d6
+					                  slashing and 1d6 fire, and the bonus to
+					                  weapons increases by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 49,
+		name: "Winter sleet",
+		action: "one_action",
+		tags: ["kineticist", "water", "cold", "stance", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Bone-chilling, swirling sleet surrounds you, cruel as
+					deepest winter. Surfaces in your kinetic aura are coated in
+					slippery ice. A creature that moves on this uneven ground
+					immediately falls unless it Balances (DC 15). A creature is
+					off-guard on the ice, as normal for uneven ground. You’re
+					immune to these effects.
+				</p>
+				<p>
+					If a creature on the ice is critically hit by one of your
+					water impulses or critically fails at a save against one,
+					that creature is slowed 1 until the end of its next turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 50,
+		name: "Ash strider",
+		action: "two_action",
+		tags: ["kineticist", "air", "fire", "impulse", "overflow", "polymorph", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You discorporate into a cloud of whirling ash and Stride. If
+					you have a fly Speed, you can Fly instead. This movement
+					doesn’t trigger reactions, you can move through occupied
+					spaces and tiny cracks, and you ignore any difficult terrain
+					and greater difficult terrain that wouldn’t impede smoke.
+					The first creature you pass through during this movement
+					takes 3d6 fire damage with a basic Reflex save against your
+					class DC. Ash lingers around you after your movement is
+					complete, granting you concealment until the start of your
+					next turn.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d6.
 				</p>
 			</>
 		),
