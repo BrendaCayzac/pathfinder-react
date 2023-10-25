@@ -2978,4 +2978,301 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 91,
+		name: "Elemental transformation",
+		action: "one_action",
+		tags: ["kineticist", "polymorph", "primal"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> exactly one kinetic element.
+					<br />
+					<b>Frequency</b> once per day.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> Your kinetic gate is deactivated.
+					</span>
+					<br />
+					                     You open your kinetic gate, but rather
+					                     than activating your kinetic aura, you
+					                     instead become overwhelmed with
+					                     transformative elemental energy. You’re
+					                     affected by an elemental form spell
+					                     with the same trait as your kinetic
+					                     element. You can heighten it to any
+					                     spell rank up to half your level
+					                     rounded up.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 92,
+		name: "Architect of flames",
+		action: "three_action",
+		tags: ["kineticist", "fire", "impulse", "manipulate", "overflow", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Flames rise and shape to your will, forming a wall or dome
+					of your design. You create a wall of fire. In addition to
+					the normal choices, you can make the wall up to 10 feet long
+					and 60 feet high. The wall lasts until the end of your next
+					turn, but you can Sustain it up to 1 minute.
+				</p>
+				<p>
+					<b>Level (+3)</b> The damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 93,
+		name: "Effortless impulse",
+		action: "",
+		tags: ["kineticist"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> Your turn begins.
+					</span>
+					<br />
+					A steady ripple from your kinetic gate maintains one of your
+					impulses. You immediately Sustain one of your active
+					impulses that can be sustained.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 94,
+		name: "Furnace form",
+		action: "two_action",
+		tags: ["kineticist", "fire", "manipulate", "polymorph", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Opening your kinetic gate, you allow flames to consume your
+					form and leave you a living flame. You gain the benefits of
+					the fiery body spell (except the ability to cast ignition)
+					until the end of your next turn. You can Sustain the impulse
+					up to 1 minute, and when you do, you can Fly up to half your
+					fly Speed. Your fire Elemental Blasts deal an additional die
+					of damage.
+				</p>
+				<p>
+					<b>Level (16th)</b> This duration is 1 minute, you can’t
+					                    Sustain the impulse, and you can Dismiss
+					                    the impulse.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 95,
+		name: "Ghosts in the storm",
+		action: "one_action",
+		tags: ["kineticist", "air", "electricity", "impulse", "primal", "stance"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Clouds, like eager pets, are drawn to you and to those in
+					your good graces. Fast-moving gray clouds surround you, as
+					well as your allies while they’re in your kinetic aura.
+					Anyone surrounded by these clouds gains a +2 status bonus to
+					Reflex saves and Acrobatics checks. When an affected
+					creature uses a move action, clouds dance around it. Until
+					the start of its next turn, it’s concealed, and its Strikes
+					gain the shock rune.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 96,
+		name: "Glacial prison",
+		action: "two_action",
+		tags: ["kineticist", "water", "cold", "impulse", "overflow", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Intense cold swirls around your foe, covering it in frost
+					that slows it down and turns its body to ice. Target a
+					creature you can observe within 120 feet. It must attempt a
+					Fortitude save against your class DC. The creature is then
+					temporarily immune for 24 hours.
+				</p>
+				<p>
+					<b>Critical Success</b> The target is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The target is slowed 1 until the end of its
+					               next turn.
+				</p>
+				<p>
+					<b>Failure</b> The target is frozen solid. It can’t act, its
+					               AC is 9, it has Hardness 5, and it’s immune
+					               to other cold effects, critical hits, and
+					               precision damage. This lasts until the end of
+					               your next turn, but if the target is affected
+					               by a hostile action, this effect ends
+					               immediately after that action.
+				</p>
+				<p>
+					<b>Critical Failure</b> As failure, but after becoming
+					                        unfrozen, the creature is slowed 1
+					                        until the end of its next turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 97,
+		name: "Hedge maze",
+		action: "three_action",
+		tags: ["kineticist", "wood", "impulse", "overflow", "plant", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You sculpt a manicured maze of hedges. You create a wall of
+					shrubs in a square 30 feet on a side, with 15-foot-high
+					walls. You can place up to four more walls inside, each 10
+					feet wide and 15 feet high. The hedge lasts until the end of
+					your next turn, and you can Sustain the impulse up to 1
+					minute.
+				</p>
+				<p>
+					You can spend 10 minutes using this impulse as an
+					exploration activity to instead create a cozy cabin with
+					hedges for walls. It lasts for 12 hours, but ends if you use
+					the impulse again.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 98,
+		name: "Rain of razors",
+		action: "three_action",
+		tags: ["kineticist", "metal", "impulse", "overflow", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Razor-sharp slivers of metal fall from the sky. Each
+					creature in a 20-foot burst within 60 feet takes 9d6
+					slashing damage with a basic Reflex save against your class
+					DC. The razors embed in all surfaces in the area, making
+					them hazardous terrain for 1 minute. A creature that moves
+					through this hazardous terrain takes 3 slashing damage for
+					every square of the area it moves into.
+				</p>
+				<p>
+					<b>Level (+2)</b> The initial damage increases by 1d6 and
+					                  the hazardous terrain damage increases by
+					                  1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 99,
+		name: "Rattle the earth",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "overflow", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Striking the ground with the gravity of the deepest rocks,
+					you cause an earthquake. This has the effects of earthquake
+					but comes from you, with an area of a 60-foot cone or an
+					emanation with the same size as your kinetic aura. You and
+					your space are unaffected by the quake. The fissures are
+					only 10 feet deep, and the DC of the flat check for a
+					collapse is 4 higher.
+				</p>
+				<p>
+					<b>Level (16th)</b> Fissures are 20 feet deep, and the DC of
+					                    the flat check is 2 higher.
+				</p>
+				<p>
+					<b>Level (20th)</b> The fissures and flat check are
+					                    unchanged from the spell.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 100,
+		name: "Rock rampart",
+		action: "three_action",
+		tags: ["kineticist", "earth", "impulse", "overflow", "primal"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Drawing on your connection to the Plane of Earth, you form a
+					wall of rock and earth. This has the effect of wall of
+					stone, but the wall’s maximum length is 40 feet. The wall
+					lasts until the end of your next turn, but you can Sustain
+					it up to 1 minute.
+				</p>
+				<p>
+					<b>Level (+4)</b> The maximum length of the wall increases
+					                  by 10 feet, and the Hit Points of each
+					                  section increase by 5.
+				</p>
+			</>
+		),
+	},
 ];
