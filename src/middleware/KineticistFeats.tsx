@@ -2338,4 +2338,327 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 71,
+		name: "two-element infusion",
+		action: "",
+		tags: ["kineticist", "infusion"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> two or more kinetic elements.
+					</span>
+					<br />
+					Slamming one element into another, you combine their
+					strengths. If the next action you use is an Elemental Blast,
+					choose two of your kinetic elements instead of one. The
+					blast gains the traits of both elements and uses the highest
+					range and damage die among the two elements. Half the
+					blast’s damage is the damage type of one element, and the
+					other half is the damage type of the other element. If the
+					total damage is an odd number, you choose which element
+					deals the higher damage. Determine the damage amounts before
+					altering the amount due to halving, doubling, resistances,
+					weaknesses, and other calculations. If either element can
+					deal more than one type of damage, you can still choose
+					which damage type to use. You gain any added effects of both
+					elements, such as their critical blast junction effects.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 72,
+		name: "Volcanic escape",
+		action: "reaction",
+		tags: ["kineticist", "fire", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> An enemy in your kinetic aura damages you.
+					</span>
+					<br />
+					Lava reflexively explodes underneath you and the creature
+					that hurt you. The triggering enemy takes 1d6 fire damage
+					with a basic Reflex save against your class DC. You Leap up
+					to half your Speed in any direction; this movement doesn’t
+					trigger reactions.
+				</p>
+				<p>
+					<b>Level (+4)</b> The damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 73,
+		name: "Weight of stone",
+		action: "three_action",
+		tags: ["kineticist", "earth", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A packed cloud of thundering boulders descends from the sky,
+					beating down everyone in its path. The rain of stone falls
+					in a cylinder 20 feet in diameter and 80 feet high, and the
+					bottom must be within 120 feet of you. Each creature in the
+					area takes 4d8 bludgeoning damage and might be pushed
+					downward, depending on its Reflex save against your class
+					DC.
+				</p>
+				<p>
+					<b>Critical Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The creature takes half damage.
+				</p>
+				<p>
+					<b>Failure</b> The creature takes full damage and is pushed
+					               downward 40 feet without taking falling
+					               damage. If it reaches the bottom of the
+					               cylinder or the ground, the push ends. If the
+					               creature is pushed to the ground, it can’t
+					               Fly, levitate, or otherwise leave the ground
+					               for 1 round.
+				</p>
+				<p>
+					<b>Critical Failure</b> As failure, but double damage and
+					                        the distance the creature is pushed
+					                        is 80 feet.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 74,
+		name: "Wooden palisade",
+		action: "three_action",
+		tags: ["kineticist", "wood", "impulse", "manipulate", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Planks of wood, embellished with carvings, spring forth to
+					form a wall. The palisade is up to 30 feet long, 20 feet
+					high, and 1 inch thick. It must form in a straight line in
+					an unbroken open space that doesn’t pass through any
+					creatures or objects, or the impulse fails. When you create
+					the wall, you can choose to create ledges on one side of the
+					wall, 4 feet from the top, with ladders reaching to them
+					from the bottom of the wall.
+
+				</p>
+				<p>
+					Each 10-foot-by-10-foot section of the wall has AC 10,
+					Hardness 10, and 20 Hit Points, and is immune to critical
+					hits and precision damage. The wall lasts until the end of
+					your next turn, but you can Sustain it up to 1 minute.
+				</p>
+				<p>
+					<b>Level (+2)</b> The maximum length of the wall increases
+					                  by 10 feet, and the HP of each section
+					                  increase by 10.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 75,
+		name: "Call the hurricane",
+		action: "two_action",
+		tags: ["kineticist", "water", "impulse", "overflow", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Massive waves spiral around you, with you as the eye of the
+					hurricane. The waves appear in a 20-foot emanation, or a
+					30-foot emanation if you’re in a body of water. Each
+					creature in the area takes 6d8 bludgeoning damage with a
+					basic Reflex save against your class DC. A creature that
+					fails its save is battered by the waves and pushed 10 feet
+					(or 20 feet on a critical failure).
+				</p>
+				<p>
+					<b>Level (+2)</b> Level (+2) The damage increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 76,
+		name: "Conductive sphere",
+		action: "two_action",
+		tags: ["kineticist", "metal", "electricity", "impulse", "manipulate", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A floating metal ball forms in a space within 30 feet,
+					flashing with electricity. It can’t be targeted or damaged.
+					Any of your allies adjacent to it gain resistance to
+					electricity equal to your level and add the shock rune to
+					all their Strikes with metal objects. The sphere lasts until
+					the end of your next turn, but you can Sustain it up to 1
+					minute.
+				</p>
+				<p>
+					When you conjure the sphere and the first time you Sustain
+					the impulse on subsequent rounds, you can either have it Fly
+					up to 20 feet or deal 1d12 electricity damage to an adjacent
+					creature with a basic Reflex save against your class DC.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 77,
+		name: "Cyclonic ascent",
+		action: "two_action",
+		tags: ["kineticist", "air", "impulse", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Whorls of wind surround your lower body, forming a cyclone
+					that lifts you into the air. You gain a fly Speed equal to
+					your land Speed or 30 feet, whichever is greater, for 10
+					minutes. Unlike with a normal fly Speed, you can move upward
+					without treating it as difficult terrain. In addition, you
+					can remain in the air at the end of your turn if you used an
+					air impulse during that turn, even if you didn’t use a Fly
+					action that turn.
+				</p>
+				<p>
+					<b>Level (14th)</b> You can target up to five additional
+					                    creatures, each of which gains a fly
+					                    Speed equal to its land Speed or 30
+					                    feet, whichever is greater. They don’t
+					                    gain the other benefits
+				</p>
+			</>
+		),
+	},
+	{
+		id: 78,
+		name: "Drifting pollen",
+		action: "one_action",
+		tags: ["kineticist", "wood", "impulse", "plant", "primal", "stance"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A haze of pollen floats around you. A creature in your
+					kinetic aura when you enter the stance, or who later enters
+					the aura or ends its turn in the aura, attempts at a
+					Fortitude save against your class DC. On a failure, it’s
+					sickened 1 (sickened 2 on a critical failure) and dazzled
+					until it’s no longer sickened. A creature attempts this save
+					no more than once per round and doesn’t attempt a new save
+					if already affected.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 79,
+		name: "Elemental overlap",
+		action: "",
+		tags: ["kineticist"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> exactly one kinetic element.
+					</span>
+					<br />
+					Though you’ve dedicated yourself to one element, you learn
+					to mix that element with another. Gain a composite impulse
+					feat that includes your kinetic element. You can use that
+					impulse even though you can’t channel all its elements. The
+					feat’s level must be lower than the level at which you
+					selected Elemental Overlap.
+				</p>
+				<p>
+					<b>Special</b> You can select this feat more than once,
+					               choosing a different impulse feat each time.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 80,
+		name: "Impenetrable fog",
+		action: "three_action",
+		tags: ["kineticist", "water", "impulse", "manipulate", "overflow", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Fog condenses in a chaotic, swirling pattern, thick enough
+					that it seems to push back against you. You call forth a fog
+					bank in a 10-foot burst within 120 feet. All creatures in
+					the fog are concealed, and all creatures outside the fog
+					become concealed to creatures within it. The fog is so
+					magically dense it impedes movement, making the area
+					difficult terrain. The fog lasts until the end of your next
+					turn, and you can Sustain the impulse up to 1 minute.
+				</p>
+				<p>
+					<b>Level (+3)</b> You can make the radius of the burst
+					                  larger. Increase its maximum size by 5
+					                  feet.
+				</p>
+			</>
+		),
+	},
 ];
