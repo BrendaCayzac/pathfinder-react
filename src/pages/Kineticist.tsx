@@ -6,17 +6,17 @@ import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
 import { ClassFeat } from "../middleware/CutsomTypes";
-import { InvestigatorFeats } from "../middleware/InvestigatorFeats";
+import { KineticistFeats } from "../middleware/KineticistFeats";
 
 const KineticistPage: React.ComponentType = () => {
 	const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
-		InvestigatorFeats,
+		KineticistFeats,
 	);
 	const filterBySearch = (e: React.ChangeEvent) => {
 		// Input value
 		const query = (e.target as HTMLInputElement).value;
 		// Filtered list
-		let updatedList = [...InvestigatorFeats];
+		let updatedList = [...KineticistFeats];
 		// Update list with elements containing the query
 		updatedList = updatedList.filter((feats) => {
 			return feats.name.indexOf(query.toLowerCase()) !== -1;
