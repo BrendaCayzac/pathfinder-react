@@ -2661,4 +2661,321 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 81,
+		name: "Kindle inner flames",
+		action: "one_action",
+		tags: ["kineticist", "fire", "impulse", "primal", "stance"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					As a candle can light another, you awaken the latent
+					potential to channel fire in other creatures. You shed
+					faint, glowing embers, as do your allies while they’re in
+					your kinetic aura. Anyone shedding these embers gains a +1
+					status bonus to Reflex saves and Acrobatics checks and can
+					Step as a free action once per round. When an affected
+					creature takes a move action, its Strikes deal an extra 2
+					fire damage until the end of its turn.
+				</p>
+				<p>
+					<b>Level (12th)</b> The status bonus to Reflex saves and
+					                    Acrobatics checks is +2, and the Strikes
+					                    gain the flaming rune instead of the
+					                    extra 2 fire damage.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 82,
+		name: "Purify element",
+		action: "two_action",
+		tags: ["kineticist", "impulse", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You turn an element into its purest form. Choose one of your
+					kinetic elements and target up to 1 cubic foot of that
+					element within 30 feet. (One cubic foot of liquid is roughly
+					8 gallons.) You remove toxins and pollutants from the
+					element as well as anything intruding into the element, such
+					as plant roots in soil. This can’t change the grade of a
+					material, alter the form of a manufactured object, or change
+					the structural integrity of the element. If the purification
+					would remove an alchemical or magical pollutant (such as a
+					poison or curse), Purify Element attempts to counteract that
+					impurity, using your class DC — 10 for the counteract check.
+					If it fails to counteract a particular impurity, any further
+					attempt you make to counteract that impurity with Purify
+					Element fails as well.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 83,
+		name: "Retch rust",
+		action: "two_action",
+		tags: ["kineticist", "metal", "impulse", "overflow", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You exhale tendrils formed from flakes of rusted metal. All
+					creatures in a 30-foot cone take 4d10 slashing damage with a
+					basic Fortitude save against your class DC. A metal creature
+					that fails its save also takes 2d4 persistent slashing
+					damage.
+				</p>
+				<p>
+					<b>Heightened (+2)</b> The cloud’s slashing damage increases
+					                       by 1d10 and the persistent damage
+					                       increases by 1d4.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 84,
+		name: "Sanguivolent roots",
+		action: "three_action",
+		tags: ["kineticist", "wood", "impulse", "overflow", "plant", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Blood-drinking vines grow from the ground in a 15-foot burst
+					within 120 feet. Each living enemy in the area has its blood
+					drained, taking 3d6 piercing damage with a basic Fortitude
+					save against your class DC. Each time the vines drink blood,
+					living creatures in the area who aren’t your enemies regain
+					HP equal to half the damage a single creature took;
+					calculate this using the highest damage a single creature
+					took. This is a healing vitality effect. Your enemies with
+					void healing in the area take vitality damage in the same
+					amount as the healing.
+				</p>
+				<p>
+					The vines last until the end of your next turn, and you can
+					Sustain the impulse. The first time you Sustain the impulse
+					on subsequent turns, you can repeat the effect.
+				</p>
+				<p>
+					<b>Heightened (+2)</b> The damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 85,
+		name: "Solar detonation",
+		action: "three_action",
+		tags: ["kineticist", "fire", "impulse", "incapacitation", "overflow", "primal", "vitality"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Blinding flames explode in a swirling sphere! The detonation
+					fills a 20-foot burst within 60 feet of you. Each creature
+					in the area takes 6d6 fire damage, plus 2d6 vitality damage
+					if it has void healing, and can become dazzled or blinded
+					depending on the result of its Reflex save. The light from
+					Solar Detonation is sunlight for creatures with a particular
+					vulnerability to sunlight. Each creature that attempts a
+					save becomes temporarily immune to being dazzled or blinded
+					by Solar Detonation for 10 minutes, but not the impulse’s
+					other effects.
+				</p>
+				<p>
+					<b>Critical Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Success</b> The creature takes half damage and is dazzled
+					               until the start of your next turn.
+				</p>
+				<p>
+					<b>Failure</b> The creature takes full damage and is blinded
+					               until the start of your next turn.
+				</p>
+				<p>
+					<b>Critical Failure</b> The creature takes double damage and
+					                        is blinded for 1 minute.
+				</p>
+				<p>
+					<b>Heightened (+2)</b> Increase the fire damage by 1d6 and
+					                       the vitality damage by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 86,
+		name: "Spike skin",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You touch a willing creature, causing its skin to harden and
+					form spiky protrusions. The target gains resistance 4 to all
+					physical damage (except adamantine). Whenever a creature
+					damages the target with an unarmed attack or non-reach melee
+					weapon, the attacking creature takes 2 piercing damage.
+				</p>
+				<p>
+					This impulse lasts for 10 minutes, but each time the target
+					takes physical damage, the duration decreases by 1 minute.
+					The target is temporarily immune to this impulse for 1 hour.
+					If you use Spike Skin again, any previous one ends.
+				</p>
+				<p>
+					<b>Level (+2)</b> The resistance and damage each increase by
+					                  2.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 87,
+		name: "Storm spiral",
+		action: "three_action",
+		tags: ["kineticist", "air", "electricity", "impulse", "overflow", "primal", "sonic"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Dark thunderclouds swirl in a miniature storm, crisscrossed
+					with lightning bolts; a tremendous thunderclap fills the
+					air. The storm appears in a 20-foot burst within 60 feet.
+					Each creature in the area takes 3d12 electricity damage and
+					1d10 sonic damage, with a basic Reflex save against your
+					class DC. A creature that fails its save is deafened until
+					the end of its next turn (or for 1 minute on a critical
+					failure). A creature wearing metal armor or made of metal
+					takes a –1 circumstance penalty to its save.
+				</p>
+				<p>
+					<b>Level (+3)</b> The electricity damage increases by 1d12.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 88,
+		name: "Swim through earth",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "primal"],
+		level: 8,
+		feat: "Feat 8",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The earth parts before you, letting you swim through it. You
+					gain a burrow Speed equal to your land Speed and can
+					immediately Burrow once. You don’t gain the ability to
+					breathe while in the earth, so you must hold your breath.
+					The impulse ends at the end of your next turn, but you can
+					Sustain it up to 1 minute. If you’re inside the earth when
+					the impulse ends, you immediately return to the surface
+					directly above you, fall prone when you reach the surface,
+					and are slowed 1 until the end of your next turn.
+				</p>
+				<p>
+					<b>Level (14th)</b> You can burrow through rock and similar
+					                    dense earthen matter, leaving no tunnels
+					                    or signs of your passing.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 89,
+		name: "Aura shaping",
+		action: "",
+		tags: ["kineticist"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You control the size of your kinetic aura. You can make your
+					kinetic aura’s emanation any size from a 5-foot emanation to
+					a 20-foot emanation (you must choose a multiple of 5). You
+					choose the size when you Channel Elements and can change it
+					when you use a stance impulse that affects your kinetic
+					aura. Increase the maximum size you can choose by 5 feet at
+					15th and 20th levels.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 90,
+		name: "Chain confusion",
+		action: "one_action",
+		tags: ["kineticist", "infusion"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					The elemental matter in your blast keeps reconstituting
+					itself to travel onward, no matter how many bodies it
+					collides with. If your next action is an Elemental Blast and
+					it hits, attempt a new ranged Elemental Blast from the
+					target against a different creature that’s within the
+					blast’s range, measuring from the creature you hit. You can
+					keep chaining the blast in this way each time you hit. Your
+					multiple attack penalty applies normally to any blasts in
+					the chain after the first. You can make up to five blasts
+					total, but you can’t target the same creature more than
+					once. Roll damage only once and apply it to each creature
+					you hit. (If you start with a melee blast, you still add
+					your Strength to only that blast, not the successive ranged
+					blasts.)
+				</p>
+			</>
+		),
+	},
 ];
