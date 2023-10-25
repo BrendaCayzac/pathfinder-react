@@ -674,4 +674,302 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 21,
+		name: "Stepping stones",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "primal", "manipulate"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Disks of rock fly to points that you designate to make a new
+					path. You can set them horizontally to make a path across
+					the ground or atop a liquid, or anchor them into a vertical
+					surface to make steps. The path can be up to 20 feet (4
+					squares) long, and steps can extend up to 10 feet up the
+					side of the surface. All squares must be contiguous and
+					within 60 feet of you. Moving across the path lets a
+					creature ignore difficult terrain and hazardous terrain from
+					the ground beneath it. The disks last until the end of your
+					next turn, but you can Sustain the impulse.
+				</p>
+				<p>
+					<b>Level (+2)</b> Increase the length of the path by 10 feet
+					                  or the height of the steps by 5 feet, and
+					                  increase the maximum distance away from
+					                  you a square can be by 10 feet.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 22,
+		name: "Tidal hands",
+		action: "two_action",
+		tags: ["kineticist", "water", "impulse", "primal", "overflow"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					With an emphatic gesture, you create waves that rush out
+					from you in the shape of your hands. You either form two
+					15-foot cones that don’t overlap or you combine the hands
+					into one 30-foot cone. Each creature in a wave takes 1d8
+					bludgeoning damage with a basic Reflex save against your
+					class DC. If a creature critically fails, you also push that
+					creature 5 feet.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 23,
+		name: "Timber sentinel",
+		action: "two_action",
+		tags: ["kineticist", "wood", "impulse", "primal", "plant"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A slim, symmetrical tree travels from the Plane of Wood. You
+					conjure a tree within 30 feet, as a protector tree SoM spell
+					of a rank equal to half your level rounded up. If you use
+					this impulse again, any previous one ends, and an ordinary
+					tree remains.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 24,
+		name: "Tremor",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "primal", "overflow"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You unleash a small, localized tremor in a 10-foot burst
+					within 30 feet. Each creature in the area takes 1d8
+					bludgeoning damage with a basic Fortitude save against your
+					class DC. A creature that critically fails is knocked prone.
+					Earth and stone in the area is difficult terrain until the
+					start of your next turn.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d10.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 25,
+		name: "Versatile blasts",
+		action: "",
+		tags: ["kineticist"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Accessing a wider realm of elemental manifestations, you can
+					make blasts with rare forms of your elements. Add the
+					following damage types to those you can choose for Elemental
+					Blasts of that element: air cold, earth poison, fire cold,
+					metal electricity, water acid, wood poison.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 26,
+		name: "Weapon infusion",
+		action: "",
+		tags: ["kineticist", "infusion"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					With a signature flair, you shape blasts of elemental power
+					into the form of a weapon, such as a sword made of whirling
+					wind or a bow that shoots flames. If your next action is an
+					Elemental Blast, choose a weapon shape for it to take. You
+					can choose to change the blast’s damage type to bludgeoning,
+					piercing, or slashing—whichever suits the weapon shape—and
+					you can choose other alterations depending on whether you
+					make a melee or ranged blast.
+				</p>
+				<p>
+					<b>Melee</b> Add one of the following traits of your choice:
+					             agile, backswing, forceful, reach, sweep.
+				</p>
+				<p>
+					<b>Ranged</b> Choose one of three options: range increment
+					              100 feet and the volley 30 feet trait, range
+					              increment 50 feet and the propulsive trait, or
+					              range increment 20 feet and the thrown trait.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 27,
+		name: "Whisper on the wind",
+		action: "one_action",
+		tags: ["kineticist", "air", "auditory", "illusion", "impulse", "linguistic", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You speak in a whisper, a soft wind carrying your words far
+					away. This has the effect of the message spell with a range
+					of 500 feet, and it can target only a creature surrounded by
+					air. If you start your message with the target’s name, you
+					and the target don’t need to be able to see each other, nor
+					do you need line of effect.
+				</p>
+				<p>
+					<b>Level (4th)</b> The range is 1 mile.
+				</p>
+				<p>
+					<b>Level (14th)</b> The range is planetary plus the Plane of
+					                    Air.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 28,
+		name: "Winter's clutch",
+		action: "two_action",
+		tags: ["kineticist", "water", "cold", "impulse", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Gleaming flakes of chilling snow fall in a 10-foot burst
+					within 60 feet. Each creature in the area takes 2d4 cold
+					damage with a basic Reflex save against your class DC. The
+					ground in the area is covered in a snow drift, which is
+					difficult terrain. Each square of the drift lasts until it
+					melts, either naturally or until fire damage is dealt in
+					that square.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d4.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 29,
+		name: "Kinetic activation",
+		action: "",
+		tags: ["kineticist"],
+		level: 2,
+		feat: "Feat 2",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Rather than incantations and gestures, you can use your
+					kinetic gate to directly unlock the potential of elementally
+					empowered magic items. You can Activate magic items that
+					require you to be able to Cast a Spell, provided you
+					activate them to Cast a Spell with the same trait as one of
+					your kinetic elements; for example, if you can channel fire,
+					you could Activate a scroll of fireball. For any effects of
+					these items that use a spell attack roll or spell DC, you
+					can substitute your impulse attack roll or class DC.
+				</p>
+				<p>
+					Rather than incantations and gestures, you can use your
+					kinetic gate to directly unlock the potential of elementally
+					empowered magic items. You can Activate magic items that
+					require you to be able to Cast a Spell, provided you
+					activate them to Cast a Spell with the same trait as one of
+					your kinetic elements; for example, if you can channel fire,
+					you could Activate a scroll of fireball. For any effects of
+					these items that use a spell attack roll or spell DC, you
+					can substitute your impulse attack roll or class DC.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 30,
+		name: "Voice of elements",
+		action: "",
+		tags: ["kineticist"],
+		level: 2,
+		feat: "Feat 2",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You can speak with the secret tones of elements you channel,
+					finding words in the crackle of flame, the grinding of
+					stone. Your kinetic aura grants you these three benefits
+					while active.
+				</p>
+				<ul>
+					<li>You can speak all the languages of your kinetic elements
+					    (Sussuran for air, Petran for earth, Pyric for fire,
+					    Talican for metal, Thalassic for water, Muan for wood).
+					</li>
+					<li>
+						You can communicate with mindless elementals on a basic
+						level if they have a trait that matches one of your
+						kinetic elements or are made of one of those elements.
+						This allows you to use Diplomacy to Make an Impression
+						on them and to make very simple Requests.
+					</li>
+					<li>
+						You gain a +2 circumstance bonus to Charisma-based skill
+						checks you attempt against elementals of one of your
+						kinetic elements.
+					</li>
+				</ul>
+			</>
+		),
+	},
 ];
