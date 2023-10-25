@@ -972,4 +972,352 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 31,
+		name: "Air shroud",
+		action: "one_action",
+		tags: ["kineticist", "air", "impulse", "primal", "stance"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Turbulent air suffuses your kinetic aura. This doesn’t
+					displace other matter but provides air for creatures in your
+					kinetic aura that need air to breathe. Attacks with ranged
+					weapons take a –1 circumstance penalty to their attack rolls
+					if their paths pass through your kinetic aura. Air in your
+					kinetic aura is difficult terrain for flying creatures other
+					than yourself.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 32,
+		name: "Ambush bladderwort",
+		action: "three_action",
+		tags: ["kineticist", "water", "wood", "composite", "impulse", "plant", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You plant the seed of a giant bladderwort in an unoccupied
+					square of ground or water within 30 feet. It lasts for 10
+					minutes. Using this impulse again ends any previous one. If
+					a creature enters its square, the seed erupts into a
+					voluminous, translucent plant that seals tight around the
+					triggering creature and fills with water. Unless the
+					creature succeeds at a Reflex save against your class DC,
+					it’s immobilized within the bladderwort and must hold its
+					breath or begin drowning. The Escape DC is also your class
+					DC. The plant has AC 10 and 50 Hit Points.
+				</p>
+				<p>
+					If a creature dies inside it, the plant shrinks down,
+					converting itself and the remains into a watery fruit. A
+					creature can eat this consumable to regain 1d8+4 HP, after
+					which that creature is temporarily immune for 10 minutes.
+					This fruit rots after 1 hour.
+				</p>
+				<p>
+					<b>Level (+4)</b> The bladderwort’s HP increase by 25 and
+					                  the fruit’s healing increases by 1d8+4.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 33,
+		name: "Blazing wave",
+		action: "two_action",
+		tags: ["kineticist", "fire", "impulse", "overflow", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Flames flow out of you in a cascade, engulfing everyone in a
+					30-foot cone. Each creature in the area takes 4d6 fire
+					damage with a basic Reflex save against your class DC. A
+					creature that critically fails its save is knocked prone.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 34,
+		name: "Calcifying sand",
+		action: "reaction",
+		tags: ["kineticist", "earth", "incapacitation", "overflow", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> A creature damages you with an attack using an unarmed attack or a non-reach melee weapon.
+					</span>
+					<br />
+					Your flesh gives way as you’re struck, becoming coarse sand
+					that can magically turn your enemy to stone. You gain
+					resistance equal to your level to physical damage from the
+					triggering attack. The attacking creature must attempt a
+					Fortitude save against your class DC. Regardless of the
+					result, that creature can’t trigger Calcifying Sand again
+					for 1 hour.
+				</p>
+				<p>
+					<b>Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Failure</b> The creature is slowed 1 until the end of its
+					               next turn.
+				</p>
+				<p>
+					<b>Critical Failure</b> The creature is petrified until the
+					                        end of its next turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 35,
+		name: "Command elemental",
+		action: "two_action",
+		tags: ["kineticist", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You grasp the animating force within an elemental creature
+					and bend it to your will. Choose a trait matching one of
+					your kinetic elements and target an elemental creature
+					within 30 feet that has the chosen trait. The elemental
+					becomes controlled by you if its level is equal to or lower
+					than your level — 3, or slowed 1 for as long as you Sustain
+					the effect if its level is equal to your level — 2 or
+					higher. It can attempt a Will saving throw against your
+					class DC to resist being controlled by you or to end the
+					slowed effect. If the target is already under someone else’s
+					command, it can’t be slowed by this ability, and the
+					controlling creature also rolls a saving throw, with the
+					elemental using the better result.
+				</p>
+				<p>
+					<b>Critical Success</b> The target is unaffected and is
+					                        temporarily immune for 24 hours.
+				</p>
+				<p>
+					<b>Success</b> The target is unaffected.
+				</p>
+				<p>
+					<b>Failure</b> The elemental creature is controlled or
+					               slowed as long as you Sustain the impulse, up
+					               to 1 minute. This effect ends if you or an
+					               ally attacks the elemental.
+				</p>
+				<p>
+					<b>Critical Failure</b> As failure, but you can Sustain the
+					                        impulse up to 1 hour.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 36,
+		name: "Igneogenesis",
+		action: "two_action",
+		tags: ["kineticist", "earth", "impulse", "manipulate", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You can create a permanent stone object, either sculpting
+					stone pulled directly from your kinetic gate or manipulating
+					earth and stone around you. It must fit within one 5-foot
+					cube that’s adjacent to you and on solid ground, and you can
+					make the object large enough to occupy the square. If you
+					create the object underneath you or another willing
+					creature, you cause the target to rise on top of the object;
+					you can’t create it under an unwilling creature. This
+					impulse has an unlimited duration, but if you use
+					Igneogenesis again, the object returns to its original
+					location or form. You can spend 1 hour to use Igneogenesis
+					as an exploration activity; in this case, the object is
+					permanent and non-magical.
+				</p>
+				<p>
+					The object can’t include any intricate parts or moving
+					pieces. You can attempt a Crafting skill check as part of
+					using this impulse to add details to your creation, such as
+					a symbol, short message, or pattern (with the DC determined
+					by the GM).
+				</p>
+				<p>
+					<b>Level (+3)</b> You can add an additional 5-foot cube to
+					                  the object. Each cube must be contiguous.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 37,
+		name: "Lava leap",
+		action: "two_action",
+		tags: ["kineticist", "earth", "fire", "composite", "impulse", "overflow", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You wreath yourself in molten stone and hurtle toward your
+					enemy. Leap up to your Speed. At the end of your Leap, a
+					wave of lava crashes onto all creatures in a 10-foot
+					emanation. Each creature in the area takes 1d6 bludgeoning
+					damage and 2d6 fire damage, with a basic Reflex save against
+					your class DC.
+				</p>
+				<p>
+					The cooling remains of the lava form a temporary protective
+					shell around you, granting you a +2 circumstance bonus to AC
+					until the start of your next turn.
+				</p>
+				<p>
+					<b>Level (+3)</b> Each type of damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 38,
+		name: "Lightning dash",
+		action: "two_action",
+		tags: ["kineticist", "air", "electricity", "impulse", "move", "overflow", "polymorph", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					For an instant, you transform yourself into a being of pure
+					lightning and fly forward, shocking anyone in your way. You
+					propel yourself forward in a 30-foot line. You can move
+					through creatures during this movement, and this movement
+					doesn’t trigger reactions that are triggered by movement.
+					Each creature you move through takes 2d12 electricity damage
+					with a basic Reflex save against your class DC. You return
+					to your normal form in the final square of the line. If
+					you’re in the air, you fall unless you have a fly Speed.
+				</p>
+				<p>
+					<b>Level (+3)</b> The length of the line increases by 5
+					                  feet, and the damage increases by 1d12.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 39,
+		name: "Living bonfire",
+		action: "two_action",
+		tags: ["kineticist", "fire", "wood", "composite", "impulse", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Roots and branches of living wood writhe in elemental fire
+					at your command, forming a bonfire fearsome enough to scare
+					off predators in the night. You conjure a bonfire in an
+					unoccupied 10-foot-square space within 30 feet. The bonfire
+					burns for 10 hours, providing all the benefits of a normal
+					campfire. If you use this impulse again, any previous one
+					ends.
+				</p>
+				<p>
+					When you make a wood ranged Elemental Blast, you can have it
+					come from the bonfire instead of you, flinging burning logs.
+					This blast deals an additional 1d6 fire damage. Each time
+					you do this, the size of the bonfire is reduced by one
+					5-foot square. If all the squares are removed, the impulse
+					ends.
+				</p>
+				<p>
+					<b>Level (+5)</b> The fire damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 40,
+		name: "Magnetic field",
+		action: "one_action",
+		tags: ["kineticist", "metal","impulse", "stance", "primal"],
+		level: 4,
+		feat: "Feat 4",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A magnetic field surrounds you. Choose a polarity when you
+					take this action. You can switch the polarity as a free
+					action at the start of each of your turns while you remain
+					in this stance.
+				</p>
+				<p>
+					<b>Attract</b> A creature that is wearing metal armor, has
+					               the metal trait, or is made of metal treats
+					               squares in your kinetic aura as difficult
+					               terrain when moving away from you. You pull
+					               unattended metal objects of light Bulk or
+					               less in your kinetic aura to you. They gather
+					               in your space and move with you.
+				</p>
+				<p>
+					<b>Repel</b> A creature that is wearing metal armor, has the
+					             metal trait, or is made of metal treats squares
+					             in your kinetic aura as difficult terrain when
+					             moving closer to you. You push unattended metal
+					             objects of light Bulk or less in your kinetic
+					             aura away. They stop moving once they’re
+					             outside your aura.
+				</p>
+			</>
+		),
+	},
 ];
