@@ -1632,4 +1632,369 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 51,
+		name: "Clear as air",
+		action: "two_action",
+		tags: ["kineticist", "air", "illusion", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Compact layers of air diffract and bend light around your
+					body, making you appear as clear as the sky on a perfect
+					day. You become invisible until the end of your next turn.
+					You can Sustain the impulse. If you use a hostile action,
+					the impulse ends after that action is completed. If you
+					activate your kinetic aura, the impulse conceals its
+					elements, though any special effects of your aura might give
+					away your location.
+				</p>
+				<p>
+					This impulse weakens if you use it too frequently. Using it
+					again within 10 minutes makes you concealed instead of
+					invisible.
+				</p>
+				<p>
+					<b>Level (10th)</b> The impulse doesn’t end if you take a
+					                    hostile action, but if you’re invisible,
+					                    you become concealed instead of
+					                    invisible until the start of your next
+					                    turn.
+				</p>
+				<p>
+					<b>Level (16th)</b> Taking a hostile action has no effect on
+					                    the impulse.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 52,
+		name: "Consume power",
+		action: "reaction",
+		tags: ["kineticist", "metal", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> You would take acid, electricity, fire, or sonic damage.
+					</span>
+					<br />
+					You absorb energy and hold it in your kinetic gate. You gain
+					resistance equal to your level to the triggering
+					damage—choose one eligible type of resistance. If this
+					reaction prevents any damage, you gain a status bonus equal
+					to half your level to the damage roll of the next metal
+					impulse you use before the end of your next turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 53,
+		name: "Counter element",
+		action: "reaction",
+		tags: ["kineticist", "impulse"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> exactly one kinetic element.
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> You’re targeted by or in the area of an effect that has the trait matching your kinetic element and originates from an enemy or hazard.
+					</span>
+					<br />
+					                     Your absolute dedication to a single
+					                     element lets you attempt to gain
+					                     control over it, even when the element
+					                     is in service to another entity. You
+					                     attempt to counteract the effect, using
+					                     your kineticist class DC – 10 as your
+					                     counteract check modifier and half this
+					                     impulse’s level rounded up as the
+					                     counteract rank. If you counteract the
+					                     effect, you protect only yourself
+					                     unless you got a critical success on
+					                     your counteract check.
+				</p>
+				<p>
+					<b>Level (12th)</b> If you successfully counteract the
+					                    effect, you can have it target or affect
+					                    a different creature within 30 feet of
+					                    you. If you got a critical success on
+					                    the counteract check, you can choose the
+					                    effect’s targets or entire area.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 54,
+		name: "Crawling fire",
+		action: "two_action",
+		tags: ["kineticist", "fire", "impulse", "manipulate", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You mimic the motions of a beast of your devising, and it
+					becomes real, with a flaming pelt and searing claws. It is
+					Small and appears in an unoccupied space within 30 feet. You
+					can sense from the crawling fire’s space as well as your
+					own, using your senses. When you use a fire impulse, you can
+					have it originate from the crawling fire instead of you
+					(with the exception of impulses that affect your kinetic
+					aura).
+				</p>
+				<p>
+					The creation lasts until the end of your next turn, but you
+					can Sustain it up to 1 minute. Each time you Sustain it, you
+					can have the crawling fire Stride up to 40 feet. The
+					crawling fire can be attacked. It uses your statistics for
+					defenses but is immune to fire. Any damage that would be
+					dealt to the crawling fire is dealt to you instead, though
+					you take damage only once from any ability that includes
+					both you and the creation in the area of effect. If you use
+					Crawling Fire again, any previous one ends.
+				</p>
+				<p>
+					<b>Level (8th)</b> The fire can be Small or Medium.
+				</p>
+				<p>
+					<b>Level (10th)</b> The fire can be Small, Medium, or Large.
+				</p>
+				<p>
+					<b>Level (14th)</b> The fire can be Small, Medium, Large, or
+					                    Huge.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 55,
+		name: "Dash of herbs",
+		action: "two_action",
+		tags: ["kineticist", "wood", "healing", "impulse", "plant", "primal", "vitality"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A small cloud of medicinal herbs heal a creature. The type
+					of herbs depends on which malady you decide to treat:
+					confused, disease, poison, sickened, or injuries. Target one
+					living creature within 30 feet, who regains 2d8+4 HP and can
+					attempt a new save against one malady of the chosen kind. If
+					you chose injuries, instead increase the healing dice to
+					d10s. The creature becomes temporarily immune to Dash of
+					Herbs for 10 minutes.
+				</p>
+				<p>
+					Alternatively, you can add the herbs to a dish of food being
+					prepared for up to six people. Creatures who partake in the
+					meal gain the benefits. The herbs’ healing effects wear off
+					if not eaten within an hour, though their flavor remains.
+				</p>
+				<p>
+					<b>Level (+2)</b> The healing increases by 1d8.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 56,
+		name: "Desert wind",
+		action: "one_action",
+		tags: ["kineticist", "air", "earth", "composite", "impulse", "primal", "stance"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A vortex of sand and dust surrounds you. Each creature
+					inside your kinetic aura (including you) is concealed from
+					any creature outside your kinetic aura, and creatures
+					outside the aura are concealed from creatures inside the
+					aura other than you.
+
+				</p>
+				<p>
+					Your air impulses carry sands that cut at great speed. When
+					you use a damaging air impulse that affects at least one
+					creature in your kinetic aura, that impulse deals 1
+					additional slashing damage, or 2 if the impulse has a single
+					target.
+				</p>
+				<p>
+					<b>Level (+2)</b> The extra damage increases by 1, or 2 if
+					                  the impulse has a single target.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 57,
+		name: "Driving rain",
+		action: "three_action",
+		tags: ["kineticist", "water", "impulse", "overflow", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Heavy drops of rain batter down, hitting like sling stones
+					and impeding vision. Each creature in a 15-foot burst within
+					120 feet takes 3d8 bludgeoning damage with a basic Reflex
+					save against your class DC. Until the start of your next
+					turn, all creatures are concealed while in the area, and all
+					creatures outside the area are concealed to creatures within
+					it.
+				</p>
+				<p>
+					<b>Level (+2)</b> The extra damage increases by 1, or 2 if
+					                  the impulse has a single target.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 58,
+		name: "Elemental artillery",
+		action: "three_action",
+		tags: ["kineticist", "wood", "metal", "composite", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Spinning wood and metal together, you create a rugged wooden
+					ballista. The ballista is Medium and appears in an
+					unoccupied space within 30 feet. It immediately shoots a
+					bolt with a jagged tip of elemental metal. Make an impulse
+					attack roll against the AC of a target within 120 feet. The
+					target takes 3d12 piercing damage on a hit (or double damage
+					on a critical hit).
+				</p>
+				<p>
+					The ballista can be shot again, but it must first be
+					reloaded with two Interact actions. The ballista lasts until
+					the end of your next turn, and you can Sustain the impulse.
+					Each time you Sustain it, you can roll the ballista up to 20
+					feet, shoot it if it’s loaded, or contribute 1 action toward
+					reloading it.
+				</p>
+				<p>
+					<b>Level (+3)</b> The damage increases by 1d12.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 59,
+		name: "Fearsome familiar",
+		action: "three_action",
+		tags: ["kineticist", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> a familiar.
+					</span>
+					<br />
+					Your elemental familiar trades places with an elemental from
+					its elemental plane. Summon a common creature that has the
+					elemental trait and a level no greater than your level – 4.
+					This creature appears in the same space as your familiar,
+					which disappears for the duration of this impulse. You can
+					Sustain this impulse up to 1 minute. When the impulse ends,
+					the familiar appears in the space the summoned elemental
+					occupied. A familiar can endure this process only so
+					often—if you use this impulse on your familiar more than
+					once per day, it dies as soon as it returns the second time.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 60,
+		name: "Flinging updraft",
+		action: "two_action",
+		tags: ["kineticist", "air", "impulse", "primal"],
+		level: 6,
+		feat: "Feat 6",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> a familiar.
+					</span>
+					<br />
+					A speeding wind heeds your call, picking someone up and
+					depositing them nearby. Choose a creature within 60 feet of
+					you. The target jumps in any direction, up to a maximum of
+					30 feet. If the target doesn’t land on a space of solid
+					ground within 30 feet of where it started, it falls unless
+					it has a fly Speed but doesn’t take any damage from the
+					fall. You choose the distance and direction of the jump.
+				</p>
+				<p>
+					If you target an unwilling creature, it attempts a Reflex
+					save against your class DC with the following results.
+				</p>
+				<p>
+					<b>Success</b> The creature is unaffected.
+				</p>
+				<p>
+					<b>Failure</b> You make the creature jump up to half the
+					               maximum distance.
+				</p>
+				<p>
+					<b>Critical Failure</b> You make the creature jump up to the
+					                        maximum distance.
+				</p>
+				<p>
+					<b>Level (+2)</b> The maximum distance increases by 15 feet.
+				</p>
+			</>
+		),
+	},
 ];
