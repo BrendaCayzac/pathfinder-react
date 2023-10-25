@@ -364,4 +364,314 @@ export const KineticistFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 11,
+		name: "Four winds",
+		action: "two_action",
+		tags: ["kineticist", "impulse", "air", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Mimicking the anemoi—monarchs of the four winds—you propel
+					four creatures. Target up to four willing creatures within
+					30 feet of you. Each of those creatures can Stride up to
+					half its Speed. If it has a fly Speed, it can instead Fly up
+					to half its fly Speed.
+				</p>
+				<p>
+					<b>Level (10th)</b> The targets move up to full Speed
+					                    instead of half.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 12,
+		name: "Fresh produce",
+		action: "one_action",
+		tags: ["kineticist", "healing", "impulse", "plant", "primal", "vitality", "wood"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You grow a nourishing nut, vegetable, seed, or fruit. Choose
+					a creature in your kinetic aura. The produce grows in their
+					open hand, or at their feet if they have no open hands. The
+					produce has light Bulk. A creature can eat it with an
+					Interact action to regain 1d4 + 1 HP; this is a healing
+					vitality effect. The creature feels full for 10 minutes,
+					during which it has resistance 2 to void damage and can’t
+					eat another piece of produce. Produce not consumed by the
+					start of your next turn withers away.
+				</p>
+				<p>
+					<b>Level (+2)</b> The healing increases by 1d4+5, and the
+					                  resistance increases by 2.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 13,
+		name: "Geologic attunement",
+		action: "one_action",
+		tags: ["kineticist", "earth", "impulse", "primal", "stance"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					You tune to the earth and stone around you, extending your
+					senses through it in rippling waves. You gain tremorsense
+					(imprecise) in your kinetic aura. Once per round, you can
+					Point Out a creature you can sense with tremorsense as a
+					free action.
+				</p>
+				<p>
+					<b>Level (13th)</b> The tremorsense becomes precise.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 14,
+		name: "Hail of splinters",
+		action: "two_action",
+		tags: ["kineticist", "wood", "impulse", "primal", "overflow"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A fusillade of jagged splinters flies from you. Creatures in
+					a 30-foot cone take 1d4 piercing damage and 1d4 persistent
+					bleed damage with a basic Reflex save against your class DC.
+				</p>
+				<p>
+					<b>Level (+2)</b> Each type of damage increases by 1d4.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 15,
+		name: "Hardwood armor",
+		action: "one_action",
+		tags: ["kineticist", "wood", "impulse", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Wood and bark grow over your body like armor. This hardwood
+					armor is medium armor but uses your highest armor
+					proficiency. The wooden armor’s statistics are: AC Bonus +3;
+					Dex Cap +2; Check Penalty –2; Speed Penalty –5 feet;
+					Strength 14; Bulk 1; Group wood TV. Any bonuses, runes, and
+					magical abilities of your actual armor are suppressed, but
+					any runes that could apply to the hardwood armor are
+					replicated onto it.
+				</p>
+				<p>
+					When you use this impulse, you can also create a wooden
+					shield in a free hand. You can Shield Block with this shield
+					even if you don’t have that feat. The hand wielding this
+					shield counts as a free hand for using impulses. The shield
+					decays in an instant if it becomes broken or leaves your
+					grasp.
+				</p>
+				<p>
+					The armor lasts for 10 minutes, and you can Dismiss this
+					impulse. If you use this impulse again, any existing one
+					ends.
+				</p>
+				<p>
+					<b>Level (+3)</b> The shield’s Hardness increases by 1, its
+					                  HP by 4, and its BT by 2.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 16,
+		name: "Magnetic pinions",
+		action: "three_action",
+		tags: ["kineticist", "metal", "impulse", "primal", "overflow"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Small pieces of metal fly from you, propelled with magnetism
+					at great velocity. Make ranged impulse attack rolls against
+					up to three creatures within 60 feet of you; you gain a +1
+					circumstance bonus to your attack roll against any target
+					wearing metal armor or made of metal. All three attacks
+					count toward your multiple attack penalty, but it doesn’t
+					increase until after all the attacks. The metal pieces deal
+					1d4 bludgeoning damage and 1d4 piercing damage on a hit (or
+					double damage on a critical hit).
+				</p>
+				<p>
+					<b>Level (+2)</b> Each type of damage increases by 1d4.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 17,
+		name: "Metal carapace",
+		action: "one_action",
+		tags: ["kineticist", "metal", "impulse", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Sheets of bent and rusted metal cover you in an armored
+					shell. The carapace is medium armor but uses your highest
+					armor proficiency. The carapace’s statistics are: AC Bonus
+					+3; Dex Cap +2; Check Penalty –2; Speed Penalty –5 feet;
+					Strength 14; Bulk 2; Group plate; Armor Traits noisy. Any
+					bonuses, runes, and magical abilities of your actual armor
+					are suppressed, but any that could apply to the metal
+					carapace are replicated onto it.
+				</p>
+				<p>
+					When you use this impulse, you can also create a rusty steel
+					shield in a free hand, which uses the statistics of a
+					regular steel shield. You can Shield Block with this shield
+					even if you don’t have that feat. The hand wielding this
+					shield counts as a free hand for using impulses. The shield
+					crumbles to flakes of rust if it becomes broken or leaves
+					your grasp.
+				</p>
+				<p>
+					The impulse lasts for 10 minutes, and you can Dismiss this
+					impulse. If you use this impulse again, any existing one
+					ends. The metal is rusted and fragile. If you take damage
+					from a critical hit, the metal shatters and the impulse
+					ends.
+				</p>
+				<p>
+					<b>Level (+3)</b> The shield’s Hardness increases by 1, its
+					                  HP by 4, and its BT by 2.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 18,
+		name: "Ocean's balm",
+		action: "one_action",
+		tags: ["kineticist", "water", "impulse", "primal", "healing", "manipulate", "vitality"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					A blessing of the living sea salves wounds and douses
+					flames. Touch a willing living creature. It regains 1d8 Hit
+					Points and gains resistance 2 to fire for 1 minute. If it
+					has persistent fire damage, it can attempt a flat check to
+					remove it with especially appropriate help. The target is
+					temporarily immune to healing from Ocean’s Balm for 10
+					minutes.
+				</p>
+				<p>
+					<b>Level (+2)</b> The healing increases by 1d8, and the
+					                  resistance increases by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 19,
+		name: "Scorching column",
+		action: "three_action",
+		tags: ["kineticist", "fire", "impulse", "primal", "overflow"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					With an upward gesture, you shape a vertical column of
+					extreme heat. The cylinder is 10 feet in diameter and 30
+					feet high, and the bottom must be within 60 feet of you.
+					Each creature in the area takes 1d6 fire damage with a basic
+					Reflex save against your class DC.
+				</p>
+				<p>
+					The flame remains briefly, making all squares in the column
+					hazardous terrain until the end of your next turn, and you
+					can Sustain the impulse up to 1 minute. A creature takes 1
+					fire damage each time it moves into one of these squares.
+				</p>
+				<p>
+					<b>Level (+2)</b> The initial damage increases by 1d6, and
+					                  the hazardous terrain damage increases by
+					                  2.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 20,
+		name: "Shard strike",
+		action: "two_action",
+		tags: ["kineticist", "metal", "impulse", "primal"],
+		level: 1,
+		feat: "Feat 1",
+		description: (
+			<>
+				<p>
+					<i>Rage of elements</i>
+					<br />
+					<br />
+					Jagged metal shards form in the air and lash out from you.
+					You choose shards or spines, which changes the area, damage
+					type, and critical failure effect. Each creature in the area
+					attempts a basic Reflex save against your class DC. Shards
+					deal 1d6 slashing damage in a 15-foot cone, and a creature
+					that critically fails takes 1d6 persistent bleed damage.
+					Spines deal 1d6 piercing damage in a 30-foot line, and a
+					creature that critically fails is clumsy 1 until the start
+					of your next turn.
+				</p>
+				<p>
+					<b>Level (+2)</b> The damage increases by 1d6.
+				</p>
+			</>
+		),
+	},
 ];
