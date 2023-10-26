@@ -1329,4 +1329,179 @@ export const magusFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 41,
+		name: "Resounding cascade",
+		action: "",
+		tags: ["magus"],
+		level: 16,
+		feat: "Feat 16",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Arcane Cascade.
+					<br />
+					<span className="frequency">
+						<b>Trigger</b> You use Arcane Cascade.
+					</span>
+					<br />
+					                     When you enter your Arcane Cascade, you
+					                     disperse the magical reinforcement to
+					                     nearby allies. You grant the extra
+					                     damage of Arcane Cascade in an aura
+					                     affecting all allies in a 5-foot
+					                     emanation. This uses only the base
+					                     damage of the stance, based on the
+					                     ally’s weapon specialization; it
+					                     doesn’t use any increase you get from
+					                     bonuses, the laughing shadow hybrid
+					                     study, or the like. As normal for
+					                     duplicate effects, multiple Arcane
+					                     Cascades affecting the same creature
+					                     aren’t cumulative.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 42,
+		name: "Conflux wellspring",
+		action: "",
+		tags: ["magus"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> Conflux Focus.
+					</span>
+					<br />
+					You’ve achieved perfect magical and physical balance,
+					allowing magic to flow into and through you more easily. You
+					can recover 3 Focus Points when you Refocus instead of 1 if
+					you have spent at least 3 Focus Points since the last time
+					you Refocused.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 43,
+		name: "Versatile Spellstrike",
+		action: "",
+		tags: ["magus"],
+		level: 18,
+		feat: "Feat 18",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> Spellstrike.
+					</span>
+					<br />
+					You can channel the entire realm of possibilities of your
+					spellbook into an attack. Once during your daily
+					preparations, you can use a spell slot to hold that infinite
+					potential, rather than using it to prepare a spell. When you
+					make a Spellstrike, you can expend this special spell slot
+					to immediately prepare and cast a spell from your spellbook
+					at 2 levels lower than the slot’s level. (As normal for
+					preparing spells, you can use a spell of an even-lower
+					level, heightening it accordingly.) You don’t have any spell
+					prepared in that slot until you cast from that slot.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 44,
+		name: "Supreme Spellstrike",
+		action: "",
+		tags: ["magus"],
+		level: 20,
+		feat: "Feat 20",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> Spellstrike.
+					</span>
+					<br />
+					You’ve made it almost effortless to combine spells and
+					attacks. You’re permanently quickened. You can use your
+					extra action only to Strike or to recharge Spellstrike.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 45,
+		name: "Whirlwind spell",
+		action: "three_action",
+		tags: ["magus"],
+		level: 20,
+		feat: "Feat 20",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spellstrike.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> Your Spellstrike is charged.
+					</span>
+					<br />
+					                     You combine the might of a multitarget
+					                     spell with a whirling
+					                     flurry of attacks. You use Spellstrike,
+					                     making a melee
+					                     Strike against each enemy within your
+					                     reach instead of
+					                     against one enemy. If your spell can
+					                     affect multiple
+					                     targets, your spell affects all foes
+					                     you hit, not just the
+					                     first target, up to the spell’s normal
+					                     maximum targets. If
+					                     you Strike more foes than the spell
+					                     could target, choose
+					                     which foes are affected by the spell.
+					                     Each attack counts
+					                     toward your multiple attack penalty but
+					                     doesn’t increase
+					                     your penalty until you’ve made all your
+					                     attacks.
+				</p>
+				<p>
+					If you use Expansive Spellstrike to Spellstrike with an area
+					spell, apply the area as described in Expansive Spellstrike,
+					choosing one of the creatures you Strike to determine the
+					area and whether the spell fails due to a critically failed
+					Strike. If you use Expansive Spellstrike to Spellstrike with
+					a targeted spell, each creature you critically fail to
+					Strike is unaffected by the spell, but the spell isn’t lost
+					completely from a single critical failure.
+				</p>
+				<p>
+					You can use this activity with only melee Strikes, even if
+					you have the starlit span hybrid study or a similar ability.
+				</p>
+			</>
+		),
+	},
 ];
