@@ -7,11 +7,11 @@ import Feat from "../components/Feat";
 import Spell from "../components/Spell";
 import { BardFocusSpells } from "../middleware/BardFocusSpells";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
-import { InventorFeats } from "../middleware/InventorFeats";
+import { magusFeats } from "../middleware/MagusFeats";
 
 const MagusPage: React.ComponentType = () => {
 	const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
-		InventorFeats,
+		magusFeats,
 	);
 
 	const [filteredSpellList, setFilteredSpellList] =
@@ -20,7 +20,7 @@ const MagusPage: React.ComponentType = () => {
 		// Input value
 		const query = (e.target as HTMLInputElement).value;
 		// Filtered list
-		let updatedList = [...InventorFeats];
+		let updatedList = [...magusFeats];
 		// Update list with elements containing the query
 		updatedList = updatedList.filter((feats) => {
 			return feats.name.indexOf(query.toLowerCase()) !== -1;
