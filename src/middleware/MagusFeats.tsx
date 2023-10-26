@@ -984,4 +984,349 @@ export const magusFeats: Array<ClassFeat> = [
 			</>
 		),
 	},
+	{
+		id: 31,
+		name: "Meteoric spellstrike",
+		action: "two_action",
+		tags: ["magus", "arcane", "transmutation"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spellstrike, starlit span hybrid study.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> You’re wielding a ranged or thrown weapon, or have a ranged unarmed attack.
+					</span>
+					<br />
+					                     A trail of energy flows from your
+					                     target back to you. Make a Spellstrike
+					                     with a ranged weapon or ranged unarmed
+					                     attack against a target within the
+					                     ranged weapon or unarmed attack’s first
+					                     range increment. The spell you cast for
+					                     the Spellstrike can’t be a cantrip or
+					                     focus spell. Each creature in a line
+					                     between you and the target, excluding
+					                     you and the targer, takes damage equal
+					                     to double the spell's level.Determine
+					                     the damage type as described in Arcane
+					                     Cascade.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 32,
+		name: "Rapid recharge",
+		action: "",
+		tags: ["magus"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spellstrike.
+					<br />
+					<span className="frequency">
+						<b>Frequency</b> once per day.
+					</span>
+					<br />
+					                     You tap into an arcane trick to recover
+					                     your ability to meld spells and
+					                     attacks. You recharge your Spellstrike.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 33,
+		name: "Sustaining steel",
+		action: "",
+		tags: ["magus", "arcane", "healing", "necromancy", "positive"],
+		level: 10,
+		feat: "Feat 10",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Arcane Cascade, inexorable iron hybrid
+					                     study.
+					<br />
+					<b>Trigger</b> You Cast a Spell using a spell slot.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> You’re in Arcane Cascade stance.
+					</span>
+					<br />
+					                     You pull magic into your weapon, using
+					                     its substance to transform the magic
+					                     into restorative energy. You regain Hit
+					                     Points equal to double the spell’s
+					                     level and roll to end any persistent
+					                     negative damage you have.
+				</p>
+				<p>
+					If the spell was of the necromancy school, any persistent
+					negative damage you have ends automatically, and you can
+					change the damage type from Arcane Cascade to positive if
+					you wish. (Positive damage typically damages only undead or
+					other creatures with negative healing.)
+				</p>
+			</>
+		),
+	},
+	{
+		id: 34,
+		name: "Conflux focus",
+		action: "",
+		tags: ["magus"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> conflux spells.
+					</span>
+					<br />
+					You imagine how you’ll weave magic and combat into future
+					battles, improving your focus. If you have spent at least 2
+					Focus Points since the last time you Refocused, you recover
+					2 Focus Points when you Refocus instead of 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 35,
+		name: "Magic sense",
+		action: "",
+		tags: ["magus", "arcane", "detection", "divination"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					You have a literal sixth sense for ambient magic in your
+					vicinity. You can sense the presence of magic auras as
+					though you were always using a 1st-level detect magic spell.
+					This detects magic in your field of vision only. When you
+					Seek, you gain the benefits of a 3rd-level detect magic
+					spell on things you see (in addition to the normal benefits
+					of Seeking). You can turn this sense off and on with a free
+					action at the start or the end of your turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 36,
+		name: "Overwhelming strike",
+		action: "two_action",
+		tags: ["magus"],
+		level: 12,
+		feat: "Feat 12",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spellstrike.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> Your Spellstrike is charged.
+					</span>
+					<br />
+					                     You pierce through your foe’s
+					                     resistance. Make a
+					                     Spellstrike. The spell you cast as part
+					                     of the Spellstrike
+					                     ignores an amount of the target’s
+					                     resistance to acid, cold,
+					                     electricity, fire, or sonic damage
+					                     equal to your level. This
+					                     applies to all damage the spell deals,
+					                     including persistent
+					                     damage and damage caused by an ongoing
+					                     effect of the spell.
+					                     A creature’s immunities are unaffected.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 37,
+		name: "Arcane shroud",
+		action: "one_action",
+		tags: ["magus"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Arcane Cascade, Spellstrike.
+					<br />
+					<b>Frequency</b> once per turn.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> Your most recent action was to Cast a Spell from a spell slot or make a Spellstrike with a spell from a spell slot.
+					</span>
+					<br />
+					                     Your spell has a powerful aftereffect,
+					                     briefly granting you a certain spell
+					                     depending on the spell you cast. You
+					                     use Arcane Cascade and are subject to
+					                     an additional aftereffect spell
+					                     depending on the school of your most
+					                     recent spell. This aftereffect spell’s
+					                     duration lasts until the end of your
+					                     next turn or its normal duration,
+					                     whichever is longer. Using Arcane
+					                     Shroud again ends any existing spell
+					                     you gained from Arcane Shroud.
+				</p>
+				<ul>
+					<li>
+						<b>Abjuration</b> stoneskin
+					</li>
+					<li>
+						<b>Conjuration</b> blink
+					</li>
+					<li>
+						<b>Divination</b> see invisibility
+					</li>
+					<li>
+						<b>Enchantment</b> heroism
+					</li>
+					<li>
+						<b>Evocation</b> fire shield
+					</li>
+					<li>
+						<b>Illusion</b> invisibility (ends after a hostile
+						                action, as normal)
+					</li>
+					<li>
+						<b>Necromancy</b> false life
+					</li>
+					<li>
+						<b>Transmutation</b> fleet step
+					</li>
+				</ul>
+			</>
+		),
+	},
+	{
+		id: 38,
+		name: "Hasted assault",
+		action: "",
+		tags: ["magus"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<span className="frequency">
+						<b>Prerequisites</b> focus pool.
+					</span>
+					<br />
+					You can speed yourself up to move and attack more swiftly.
+					You learn the hasted assault conflux spell. Increase the
+					number of Focus Points in your focus pool by 1.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 39,
+		name: "Preternatural parry",
+		action: "reaction",
+		tags: ["magus"],
+		level: 14,
+		feat: "Feat 14",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spell Parry.
+					<br />
+					<b>Trigger</b> You’re targeted by a Strike or a spell attack
+					                     roll, or you’re about to roll a saving
+					                     throw against a spell effect.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> You have one or more hands free.
+					</span>
+					<br />
+					                     You snap your weapon or limb into place
+					                     to ward off harm at the last second.
+					                     You gain a +2 circumstance bonus to AC
+					                     and saving throws against the
+					                     triggering effect until the start of
+					                     your next turn.
+				</p>
+			</>
+		),
+	},
+	{
+		id: 40,
+		name: "Dispelling spellstrike",
+		action: "three_action",
+		tags: ["magus"],
+		level: 16,
+		feat: "Feat 16",
+		description: (
+			<>
+				<p>
+					<i>Secrets of Magic</i>
+					<br />
+					<br />
+					<b>Prerequisites</b> Spellstrike.
+					<br />
+					<span className="frequency">
+						<b>Requirements</b> Your Spellstrike is charged.
+					</span>
+					<br />
+					                     The spell you deliver tries to force
+					                     out magic affecting your enemy. Make a
+					                     Spellstrike. If it hits, you also
+					                     attempt to counteract a single spell
+					                     (of your choice) active on the target.
+					                     The counteract level is half your level
+					                     rounded up, and the counteract check
+					                     modifier is the standard modifier for
+					                     counteracting with a spell (your
+					                     Intelligence modifier plus your
+					                     spellcasting proficiency bonus, plus
+					                     any bonuses or penalties that
+					                     specifically apply to counteract
+					                     checks).
+				</p>
+			</>
+		),
+	},
 ];
