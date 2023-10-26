@@ -963,7 +963,7 @@ const InventorPage: React.ComponentType = () => {
       />
       <BaseAccordion
         title="Weapon"
-        number={2}
+        number={3}
         text={
           <>
             <p>
