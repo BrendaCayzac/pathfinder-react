@@ -2239,4 +2239,298 @@ export const monkFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 80,
+    name: "Mountain quake",
+    action: "one_action",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Mountain Stronghold.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Mountain Stance.
+          </span>
+        </p>
+        <p>
+          You stomp, shaking the earth beneath you. Creatures on the ground
+          within a 20-foot emanation take damage equal to your Strength modifier
+          (minimum 0), which they can resist with a basic Fortitude save against
+          your class DC. On a failure, they also fall prone. After you use this
+          action, you can’t use it again for 1d4 rounds.
+        </p>
+        <p>
+          <b>Special</b> If you have this feat, the Dexterity modifier cap to
+          your AC while using Mountain Stance increases from +1 to +2.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 81,
+    name: "Shadow's web",
+    action: "",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> ki spells.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Clinging Shadows Initiate.
+          </span>
+        </p>
+        <p>
+          You launch a wave of shadowy ki outward from your body, damaging your
+          opponents and potentially binding them in place. You gain the shadow’s
+          web ki spell. Increase the number of Focus Points in your focus pool
+          by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 82,
+    name: "Tangled forest rake",
+    action: "one_action",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Tangled Forest Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Tangled Forest Stance.
+          </span>
+        </p>
+        <p>
+          You reposition foes with raking attacks. Make a lashing branch Strike.
+          If you hit and deal damage, you force the target to move 5 feet into a
+          space within your reach. This follows the forced movement rules.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 83,
+    name: "Timeless body",
+    action: "",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You cease aging. In addition, you gain a +2 status bonus to saving
+          throws against poisons and diseases, and you gain resistance to poison
+          damage equal to half your level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 84,
+    name: "Tongue of the sun and moon",
+    action: "",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You have transcended the barriers between words and meaning. You can
+          speak and understand all spoken languages.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 85,
+    name: "Whirling blade stance",
+    action: "one_action",
+    tags: ["monk", "stance"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Monastic Weaponry.
+          </span>
+        </p>
+        <p>
+          You enter a mindful stance that creates a deep connection between you
+          and your monk weapons, allowing you to manipulate them with your ki
+          even at a distance. All melee monk weapons you wield with the finesse
+          trait gain the thrown 10 feet trait (unless they already have the
+          thrown trait with a greater range).
+        </p>
+        <p>
+          Once you’ve made a thrown Strike with such a weapon, you can use the
+          precision of your throw to make additional strikes with it, even from
+          a distance. Start from the space of the previous Strike’s target to
+          determine the range increment and whether the new target has cover. At
+          the end of your turn, the thrown weapon flies directly back to you in
+          a straight line. If a solid barrier blocks its path, it falls to the
+          ground after hitting the barrier.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 86,
+    name: "Wild winds gust",
+    action: "two_action",
+    tags: ["monk", "air", "concentrate", "evocation", "manipulate"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Wild Winds Initiate.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Wild Winds Stance.
+          </span>
+        </p>
+        <p>
+          You store up energy and release it in an enormous gust of rushing
+          wind. Make a wind crash Strike against each creature in your choice of
+          a 30-foot cone or a 60 foot line. These attacks all count toward your
+          multiple attack penalty, but the penalty doesn’t increase until after
+          you make all the attacks.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 87,
+    name: "Electric counter",
+    action: "reaction",
+    tags: ["uncommon", "monk", "electric", "evocation"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Wild Winds Initiate.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Wild Winds Stance.
+          </span>
+        </p>
+        <p>
+          You gain resistance to electricity equal to your level until the start
+          of your next turn. If the triggering damage was electricity, this
+          resistance applies to it. If the triggering damage was from a melee
+          attack, the attacker takes 3d6 electricity damage.
+        </p>
+        <p>
+          <b>Special</b> This feat has the trait corresponding to the tradition
+          of ki spells you cast, either divine or occult.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 88,
+    name: "Enlightened presence",
+    action: "",
+    tags: ["monk", "emotion", "mental", "aura"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You exude an aura of resolve. You and allies within 15 feet of you
+          gain a +2 status bonus to Will saving throws against mental effects.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 89,
+    name: "Flingling blow",
+    action: "two_action",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You take a moment to center yourself, then unleash a powerful blow
+          that sends your target tumbling away. Make an unarmed Strike. If you
+          hit, the target must succeed at a Fortitude save against your class DC
+          or be pushed up to 10 feet directly away from you (or 20 feet, on a
+          critical failure) and fall prone. If another creature or physical
+          object would prevent this movement, both your target and the blocking
+          creature or object take 1d6 bludgeoning damage per 5 feet of movement
+          that was prevented.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 90,
+    name: "Master of Many Styles",
+    action: "",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Stance Savant.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> Your turn begins.
+          </span>
+        </p>
+        <p>
+          You move between stances in an unceasing dance. You use an action with
+          the stance trait.
+        </p>
+      </>
+    ),
+  },
 ];
