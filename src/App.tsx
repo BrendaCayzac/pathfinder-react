@@ -62,6 +62,7 @@ const InventorPage = React.lazy(() => import("./pages/Inventor"));
 const InvestigatorPage = React.lazy(() => import("./pages/Investigator"));
 const KineticistPage = React.lazy(() => import("./pages/Kineticist"));
 const MagusPage = React.lazy(() => import("./pages/Magus"));
+const MonkPage = React.lazy(() => import("./pages/Monk"));
 
 const App = (): JSX.Element => {
   return (
@@ -209,6 +210,14 @@ const App = (): JSX.Element => {
                 </React.Suspense>
               }
             />
+            <Route
+            path="/classes/monk"
+            element={
+              <React.Suspense fallback={<h1>Loading...</h1>}>
+                <MonkPage />
+              </React.Suspense>
+            }
+          />
           </Route>
 
           {/* Ancestries */}
