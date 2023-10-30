@@ -1975,4 +1975,268 @@ export const monkFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 71,
+    name: "Improved knockback",
+    action: "",
+    tags: ["monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Athletics.
+          </span>
+        </p>
+        <p>
+          When you successfully Shove a creature, increase both the distance you
+          can push the creature and the distance you can move to follow along
+          with the target by 5 feet on a success or 10 feet on a critical
+          success. If you push the target into an obstacle, it takes bludgeoning
+          damage equal to 6 plus your Strength modifier, or 8 plus your Strength
+          modifier if you have legendary proficiency in Athletics.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 72,
+    name: "Meditative focus",
+    action: "",
+    tags: ["monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          Your meditation is so effective that you can achieve a deep focus. If
+          you have spent at least 2 Focus Points since the last time you
+          Refocused, you recover 2 Focus Points when you Refocus instead of 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 73,
+    name: "Overwhelming breath",
+    action: "one_action",
+    tags: ["monk", "concentrate", "metamagic"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You control your breathing and align it with your ki, exhaling with
+          controlled force in order to overcome your opponent’s resistance. If
+          you use your next action to Cast a Spell that has the monk trait and
+          no duration, the spell and any Strikes you make as a result of casting
+          it ignore an amount of the target’s resistance to physical damage
+          equal to your level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 74,
+    name: "Sense ki",
+    action: "",
+    tags: ["uncommon", "monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You can read the presence of ki in your area. You gain imprecise
+          lifesense out to a range of 30 feet.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 75,
+    name: "Stance savant",
+    action: "",
+    tags: ["monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You roll initiative.
+          </span>
+        </p>
+        <p>
+          You enter a stance without a thought. Use an action that has the
+          stance trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 76,
+    name: "Wave spiral",
+    action: "two_action",
+    tags: ["monk", "water"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Reflective Ripple Stance
+          <br />
+          <b>Frequency</b> once per minute.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You’re in Reflective Ripple Stance.
+          </span>
+        </p>
+        <p>
+          You enter a stance without a thought. Use an action that has the
+          stance trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 77,
+    name: "Explosive Death Drop",
+    action: "one_action",
+    tags: ["monk", "fire"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Pathfinder Society Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Blazing Talon Surge
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Rain of Embers Stance and have a
+            target grabbed or restrained.
+          </span>
+        </p>
+        <p>
+          You lift your enemy into the air before bringing them crashing down
+          with a fiery detonation. Roll an Athletics check against your target’s
+          Fortitude DC. You take a –1 circumstance penalty to your check if the
+          target is one size larger than you and a –3 circumstance penalty if
+          it’s larger than that. You gain a +1 circumstance bonus to your check
+          if the target is one size smaller than you and a +3 circumstance bonus
+          if it’s smaller than that.
+        </p>
+        <p>
+          <b>Critical Success</b> The target takes 12d6 fire damage and falls
+          prone in an unoccupied adjacent square of your choice. The target is
+          no longer grabbed. The target and any creature adjacent to it also
+          each take 1d6 persistent fire damage.
+        </p>
+        <p>
+          <b>Success</b> As critical success, but the target takes 6d6 fire
+          damage instead of 12d6, and creatures don’t take persistent fire
+          damage.
+        </p>
+        <p>
+          <b>Failure</b> The target is no longer grabbed.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but you fall prone.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 78,
+    name: "Form lock",
+    action: "one_action",
+    tags: ["monk", "attack"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You have a foe grabbed or restrained.
+          </span>
+        </p>
+        <p>
+          Your ability to control your own ki empowers you to pressure other
+          creatures into resuming their true forms. Attempt an Athletics check
+          to counteract a polymorph effect currently affecting your target. If
+          the target is somehow under the effect of multiple polymorph effects,
+          you can choose which one to attempt to counteract, or the GM chooses
+          randomly if the separate effects aren’t obvious. The target is then
+          temporarily immune for 1 day.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 79,
+    name: "Ironblood surge",
+    action: "one_action",
+    tags: ["monk"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Ironblood Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Ironblood Stance.
+          </span>
+        </p>
+        <p>
+          You steel yourself, preparing to resist oncoming attacks and using
+          your muscles to absorb the impact. You gain the benefits of your iron
+          sweep’s parry trait (a +1 circumstance bonus to AC until the start of
+          your next turn) and your resistance from Ironblood Stance increases to
+          your Strength modifier (if it’s higher) for the same duration.
+        </p>
+      </>
+    ),
+  },
 ];
