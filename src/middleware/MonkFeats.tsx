@@ -1128,7 +1128,7 @@ export const monkFeats: Array<ClassFeat> = [
         </p>
         <p>
           <span className="frequency">
-            <b>Prerequisites</b> expert strikes
+            <b>Prerequisites</b> expert strikes.
           </span>
         </p>
         <p>
@@ -1145,6 +1145,258 @@ export const monkFeats: Array<ClassFeat> = [
           least 18th level, the number of additional dice you add from this feat
           triples, for a total of 3 additional dice if you spend 2 actions or 6
           additional dice if you spend 3 actions.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 41,
+    name: "Return fire",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Deflect Arrow, Monastic Archer Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Monastic Archer Stance, are wielding
+            a bow, and have a free hand.
+          </span>
+        </p>
+        <p>
+          Snatching an arrow out of the air, you instantly put it to your bow
+          and return fire. When you successfully Deflect an Arrow, as part of
+          that reaction you can immediately make a ranged bow Strike by firing
+          the arrow you deflected from your own bow.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 42,
+    name: "Symbling feint",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> expert in Deception, Stumbling Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Stumbling Stance.
+          </span>
+        </p>
+        <p>
+          You lash out confusingly with what seems to be a weak move but instead
+          allows you to unleash a dangerous flurry of blows upon your
+          unsuspecting foe. When you use Flurry of Blows, you can attempt a
+          check to Feint as a free action just before the first Strike. On a
+          success, instead of making the target flat-footed against your next
+          attack, they become flat-footed against both attacks from the Flurry
+          of Blows.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 43,
+    name: "Tiger slash",
+    action: "two_action",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Tiger Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Tiger Stance.
+          </span>
+        </p>
+        <p>
+          You make a fierce swipe with both hands. Make a tiger claw Strike. It
+          deals two extra weapon damage dice (three extra dice if you’re 14th
+          level or higher), and you can push the target 5 feet away as if you
+          had successfully Shoved them. If the attack is a critical success and
+          deals damage, add your Strength modifier to the persistent bleed
+          damage from your tiger claw.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 44,
+    name: "Water step",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You can Stride across liquid and surfaces that don’t support your
+          weight. This benefit lasts only during your movement. If you end your
+          movement on a surface that can’t support you, you fall in or it
+          collapses as normal.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 45,
+    name: "Whirling throw",
+    action: "one_action",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You have a creature grabbed or restrained.
+          </span>
+        </p>
+        <p>
+          You propel your grabbed or restrained foe a great distance. You can
+          throw the creature any distance up to 10 feet, plus 5 feet × your
+          Strength modifier. If you successfully throw the creature, it takes
+          bludgeoning damage equal to your Strength modifier plus 1d6 per 10
+          feet you threw it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 46,
+    name: "Wolf drag",
+    action: "two_action",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Wolf Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Wolf Stance.
+          </span>
+        </p>
+        <p>
+          You rip your enemy off their feet. Make a wolf jaw Strike. Your wolf
+          jaw gains the fatal d12 trait for this Strike, and if the attack
+          succeeds, you knock the target prone.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 47,
+    name: "Arrow snatching",
+    action: "",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Deflect Arrow.
+          </span>
+        </p>
+        <p>
+          You pluck missiles from the air and hurl them back at their source.
+          When you successfully deflect an attack with Deflect Arrow, as part of
+          that reaction, you can immediately make a ranged Strike against the
+          attacker using the projectile you deflected. This is a thrown weapon
+          with the same range increment and effect on a hit as the triggering
+          attack.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 48,
+    name: "Clinging shadows initiate",
+    action: "",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Ki spells.
+          </span>
+        </p>
+        <p>
+          You learn a mystical stance that transforms your ki into sticky smoke
+          that shrouds your limbs, clinging to everything you touch. You gain
+          the clinging shadows stance ki spell. Increase the number of Focus
+          Points in your focus pool by 1. While entering the stance uses a ki
+          spell, the shadow grasp attacks it grants are not, so you can use them
+          as often as you like while in the stance.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 49,
+    name: "Ironblood stance",
+    action: "one_Action",
+    tags: ["monk", "stance"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are unarmored.
+          </span>
+        </p>
+        <p>
+          You enter the stance of impenetrable iron, refusing to yield to any
+          blow. You can make iron sweep unarmed attacks. These deal 1d8
+          bludgeoning damage; are in the brawling group; and have the nonlethal,
+          parry, sweep, and unarmed traits.
+        </p>
+        <p>
+          While in Ironblood Stance, you gain resistance 2 to all damage. The
+          resistance increases to 3 at 12th level, to 4 at 16th level, and to 5
+          at 20th level.
         </p>
       </>
     ),
