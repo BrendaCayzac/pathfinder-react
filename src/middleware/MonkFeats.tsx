@@ -2786,4 +2786,235 @@ export const monkFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 101,
+    name: "Swift river",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> Your turn ends and you have a status penalty to your
+            Speed or are immobilized or slowed.
+          </span>
+        </p>
+        <p>
+          You flow like water, avoiding all restraints. End one status penalty
+          to your speed, or end one immobilized or slowed condition affecting
+          you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 102,
+    name: "Triangle shot",
+    action: "two_action",
+    tags: ["monk", "concentrate", "flourish"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Monastic Archer Stance, Stunning Fist
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Monastic Archer Stance and wielding a
+            bow usable with that stance.
+          </span>
+        </p>
+        <p>
+          You string three arrows to your bow and fire them all at once. Make
+          three ranged Strikes against a single target with the required weapon,
+          each using your current multiple attack penalty, and you take an
+          additional –2 penalty. This counts as two attacks when calculating
+          your multiple attack penalty, and you combine the attacks’ damage for
+          the purpose of resistances and weaknesses. Your Stunning Fist benefit
+          applies to Triangle Shot, even though it isn’t a Flurry of Blows. If
+          all three Strikes hit, the target takes 3d6 persistent bleed damage.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 103,
+    name: "Deadly strikes",
+    action: "",
+    tags: ["monk"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You have honed your body to attack with lethal focus. Your unarmed
+          attacks gain the deadly d10 trait, or you increase their deadly trait
+          to d10 if the unarmed attack is already deadly with a smaller die
+          size.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 104,
+    name: "Enduring quickness",
+    action: "",
+    tags: ["monk"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You move as fast and as high as the wind itself. You’re permanently
+          quickened. You can use your extra action to Stride or Leap, or to
+          provide one of the actions needed for a High Jump or Long Jump.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 105,
+    name: "Fuse stance",
+    action: "",
+    tags: ["monk"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> at least two stances.
+          </span>
+        </p>
+        <p>
+          You have combined two stances into a single stance all your own. When
+          you take this feat, choose two stances you know and combine them into
+          a single fused stance. Give your new fused stance a unique name. When
+          you enter your fused stance, you gain all the effects of both stances,
+          including the requirements and restrictions.
+        </p>
+        <p>
+          You can’t fuse stances with fundamentally incompatible requirements or
+          restrictions (such as Mountain Stance and Crane Stance, which both
+          require using only one type of Strike).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 106,
+    name: "Golden body",
+    action: "",
+    tags: ["uncommon", "monk"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Broken promises</i>
+        </p>
+        <p>
+          You perfect your body, refining the flex of every muscle and the bend
+          of every joint to maximum efficiency. Your unarmed Strikes gain the
+          deadly d12 trait, and you have fast healing 20, causing you to regain
+          20 HP at the start of each of your turns provided you have at least 1
+          HP.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 107,
+    name: "Impossible technique",
+    action: "reaction",
+    tags: ["monk", "fortune"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Trigger</b> An enemy’s attack hits you or you fail a saving throw
+          against an enemy’s ability.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are not armored or fatigued.
+          </span>
+        </p>
+        <p>
+          You execute a maneuver that defies possibility. If the triggering
+          effect was an enemy’s attack hitting you, the enemy rerolls the attack
+          roll and uses the lower result. If the triggering effect was you
+          failing a saving throw, you reroll the saving throw and use the higher
+          result.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 108,
+    name: "Vitality-manipualting stance",
+    action: "",
+    tags: ["uncommon", "monk", "stabce"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b>  Stunning Fist.
+          </span>
+        </p>
+        <p>
+          You have learned to attack meridians and pressure points like your
+          rival Shino Hakusa. You gain a vitality blast ranged unarmed Strike
+          that deals 1d4 negative damage, has a range of 30 feet, and has the
+          unarmed and versatile positive traits.
+        </p>
+        <p>
+          Additionally, when you use Stunning Fist, instead of saving against
+          being stunned, you can choose to have the target make a Fortitude save
+          against your class DC with the following results. You must choose to
+          do this before the target rolls its save.
+        </p>
+        <p>
+          <b>Critical Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The target’s muscles become temporarily weaker. For 1
+          round, the target is enfeebled 2, and any time it attempts to take an
+          action with the manipulate trait, the action is disrupted unless it
+          succeeds at a flat check with a DC equal to 5 + its enfeebled value.
+        </p>
+        <p>Failure</p> As success, but the duration is 1 minute.
+        <p>
+          <b>Critical Failure</b> As success, but the duration is 1 minute, the
+          flat check is DC 11, and the target takes –10-foot status penalty to
+          all Speeds for the duration.
+        </p>
+      </>
+    ),
+  },
 ];
