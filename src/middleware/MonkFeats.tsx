@@ -2533,4 +2533,257 @@ export const monkFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 91,
+    name: "Medusa's wrath",
+    action: "",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You learn a monstrous ki technique that infuses your blows with the
+          petrifying power of a medusa’s gaze. You gain the medusa’s wrath ki
+          spell. Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 92,
+    name: "One-millimiter punch",
+    action: "",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> One-Inch Punch.
+          </span>
+        </p>
+        <p>
+          Your punches have incredible force and control. When you damage a
+          target using One-Inch Punch, you can focus your ki to send the foe
+          flying. If you do, the target must attempt a Fortitude save against
+          your class DC.
+        </p>
+        <p>
+          <b>Critical Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The target is pushed back 5 feet.
+        </p>
+        <p>
+          <b>Failure</b> The target is pushed back 10 feet.
+        </p>
+        <p>
+          <b>Critical Failure</b> The target is pushed back 10 feet for each
+          action you spent on One-Inch Punch.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 93,
+    name: "Quivering palm",
+    action: "",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          Your strikes can kill foes. You gain the quivering palm ki spell.
+          Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 94,
+    name: "Shattering strike",
+    action: "two_action",
+    tags: ["monk"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          The force of your considered blow shatters objects and defenses alike.
+          Make an unarmed Strike. It bypasses the target’s resistances. If the
+          target has Hardness, the Strike treats the Hardness as if it were half
+          its value.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 95,
+    name: "Diamond fists",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Your body hardens as you combine your attacks, making your finishing
+          blows more damaging. Your unarmed attacks gain the forceful trait. Any
+          that already had this trait instead increase their weapon damage dice
+          by one step.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 96,
+    name: "Effortless reach",
+    action: "",
+    tags: ["uncommon", "monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          Focusing the powers of your ki to augment your blows, you stretch and
+          lengthen your body in ways that defy logic. Your unarmed attacks gain
+          the reach trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 97,
+    name: "Empty body",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You transmute your body into an ethereal form. You gain the empty body
+          ki spell. Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 98,
+    name: "Ki Center",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> ki spells, Master of Many Styles.
+          <br />
+          <span className="frequency">
+            <b>Frequency</b> once per minute.
+          </span>
+        </p>
+        <p>
+          You center yourself with the universe and draw upon its vast power.
+          You cast a single action ki spell with the stance trait, without
+          spending a Focus Point.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 99,
+    name: "Ki form",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You have mastered a potent technique for using your ki to reinforce
+          your physical form and propel yourself through the air. You gain the
+          ki form ki spell. Increase the number of Focus Points in your focus
+          pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 100,
+    name: "Meditative wellspring",
+    action: "",
+    tags: ["monk"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Meditative Focus.
+          </span>
+        </p>
+        <p>
+          When you clear your mind, your focus comes flowing back in a powerful
+          rush. If you have spent at least 3 Focus Points since the last time
+          you Refocused, you recover 3 Focus Points when you Refocus instead of
+          1.
+        </p>
+      </>
+    ),
+  },
 ];
