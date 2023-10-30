@@ -7,11 +7,15 @@ import Feat from "../components/Feat";
 import Spell from "../components/Spell";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
 import { monkFeats } from "../middleware/MonkFeats";
+import { monkFocusSpells } from "../middleware/MonkFocusSpells";
 
 const MonkPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
     monkFeats
   );
+
+  const [filteredSpellList, setFilteredSpellList] =
+    useState<Array<FocusSpell> | null>(monkFocusSpells);
 
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
@@ -24,6 +28,19 @@ const MonkPage: React.ComponentType = () => {
     });
     // Trigger render with updated list
     setFilteredList(updatedList);
+  };
+
+  const filterSpellsBySearch = (e: React.ChangeEvent) => {
+    // Input value
+    const query = (e.target as HTMLInputElement).value;
+    // Filtered list
+    let updatedList = [...monkFocusSpells];
+    // Update list with elements containing the query
+    updatedList = updatedList.filter((feats) => {
+      return feats.name.indexOf(query.toLowerCase()) !== -1;
+    });
+    // Trigger render with updated list
+    setFilteredSpellList(updatedList);
   };
 
   return (
@@ -765,6 +782,50 @@ const MonkPage: React.ComponentType = () => {
               level={ClassFeat.level}
               feat={ClassFeat.feat}
               description={ClassFeat.description}
+            />
+          ))
+        )}
+      </div>
+      <br />
+      <br />
+      <h2 id="focus-spells">Focus Spells</h2>
+      <p>
+        You learn a conflux spell from your hybrid study, and you can cast
+        additional conflux spells by selecting certain feats. Conflux spells are
+        magus-specific spells created for combat and are a type of focus spell.
+        It costs 1 Focus Point to cast a focus spell, and you start with a focus
+        pool of 1 Focus Point. You refill your focus pool during your daily
+        preparations, and you can regain 1 Focus Point by spending 10 minutes
+        using the Refocus activity to both study your spellbook and perform a
+        physical regimen. Magus conflux spells appear in the Focus Spells
+        section.
+      </p>
+      <form>
+        <label className="visually-hidden" htmlFor="search">
+          Search
+        </label>
+        <input
+          name="search"
+          type="search"
+          className="search"
+          placeholder="Search in spells"
+          onChange={filterSpellsBySearch}
+        />
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </form>
+      <div className="spell-list">
+        {filteredSpellList && Object.keys(filteredSpellList).length === 0 ? (
+          <p>No spells to show</p>
+        ) : (
+          filteredSpellList &&
+          filteredSpellList.map((focusSpell) => (
+            <Spell
+              level={focusSpell.level}
+              name={focusSpell.name}
+              type={focusSpell.type}
+              action={focusSpell.action}
+              tags={focusSpell.tags}
+              description={focusSpell.description}
             />
           ))
         )}
