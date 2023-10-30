@@ -1716,4 +1716,263 @@ export const monkFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 61,
+    name: "Peafowl strut",
+    action: "one_action",
+    tags: ["monk", "flourish"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You focus your strength into a blow powerful enough to push an enemy
+          away from you. Make an unarmed Strike. If you hit, attempt an
+          Athletics check to Shove the target. This attack uses the same
+          multiple attack penalty as your Strike, and doesn’t count toward your
+          multiple attack penalty.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 62,
+    name: "Prevailing position",
+    action: "reaction",
+    tags: ["monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> at least one stance feat.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> You are targeted by an attack or attempt a Reflex
+            saving throw against a damaging effect, and you are in a stance.
+          </span>
+        </p>
+        <p>
+          Your willingness to flow from one stance to another lets you sacrifice
+          their benefits to better protect yourself. You leave the stance you
+          were in, gaining a +4 circumstance bonus to the triggering saving
+          throw or to your AC against the triggering attack.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 63,
+    name: "Sleeper hold",
+    action: "one_action",
+    tags: ["monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You have a creature grabbed or restrained.
+          </span>
+        </p>
+        <p>
+          You pinch crucial points of your target’s nervous system, impeding its
+          ability to function. Attempt an Athletics check to Grapple the
+          creature, with the following success and critical success effects
+          instead of the usual effects.
+        </p>
+        <p>
+          <b>Critical Success</b> The target falls unconscious for 1 minute,
+          though it remains standing and doesn’t drop what it holds.
+        </p>
+        <p>
+          <b>Success</b> The target is clumsy 1 until the end of its next turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 64,
+    name: "Wind jump",
+    action: "",
+    tags: ["monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You gather the wind beneath you, allowing you to soar as you jump. You
+          gain the wind jump ki spell. Increase the number of Focus Points in
+          your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 65,
+    name: "Winding flow",
+    action: "one_action",
+    tags: ["monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per round.
+          </span>
+        </p>
+        <p>
+          Any journey consists of more than simply reaching your destination.
+          You use two of the following actions in any order: Stand, Step, and
+          Stride. You can’t use the same action twice.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 66,
+    name: "Wronged monk's wrath",
+    action: "",
+    tags: ["uncommon", "monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per round.
+          </span>
+        </p>
+        <p>
+          Any journey consists of more than simply reaching your destination.
+          You use two of the following actions in any order: Stand, Step, and
+          Stride. You can’t use the same action twice.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 67,
+    name: "Diamond soul",
+    action: "",
+    tags: ["monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You have fortified your body and mind against eldritch effects. You
+          gain a +1 status bonus to saving throws against magic.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 68,
+    name: "Disrupt ki",
+    action: "two_action",
+    tags: ["monk", "negative"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Make an unarmed Strike. If it deals damage to a living creature, you
+          block that creature’s inner life force. The creature takes 2d6
+          persistent negative damage and is enfeebled 1 until the persistent
+          damage ends. If you’re 18th level or higher, this deals 3d6 persistent
+          negative damage instead.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 69,
+    name: "Dodging roll",
+    action: "reaction",
+    tags: ["monk"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> master in Acrobatics.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> You take damage from an area effect that allows a
+            Reflex save.
+          </span>
+        </p>
+        <p>
+          You dodge a blow at the last possible moment. You Step and gain
+          resistance to all damage equal to your level against the triggering
+          effect. If your Step moves you out of the triggering effect’s area,
+          this resistance is instead equal to your level plus your Dexterity
+          modifier.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 70,
+    name: "Focused shot",
+    action: "one_action",
+    tags: ["monk", "concentrate"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Monastic Archer Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Monastic Archer Stance.
+          </span>
+        </p>
+        <p>
+          You achieve a state of perfect calm before unleashing your attack,
+          opening your mind to the minute movements of the world around you to
+          increase your accuracy. Make a ranged weapon Strike against a target
+          within your weapon’s first range increment. This Strike ignores the
+          target’s concealed condition and all cover.
+        </p>
+      </>
+    ),
+  },
 ];
