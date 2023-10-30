@@ -1373,7 +1373,7 @@ export const monkFeats: Array<ClassFeat> = [
   {
     id: 49,
     name: "Ironblood stance",
-    action: "one_Action",
+    action: "one_action",
     tags: ["monk", "stance"],
     level: 8,
     feat: "Feat 8",
@@ -1397,6 +1397,321 @@ export const monkFeats: Array<ClassFeat> = [
           While in Ironblood Stance, you gain resistance 2 to all damage. The
           resistance increases to 3 at 12th level, to 4 at 16th level, and to 5
           at 20th level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 50,
+    name: "Jellyfish stance",
+    action: "one_action",
+    tags: ["uncommon", "monk", "stance"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are unarmored.
+          </span>
+        </p>
+        <p>
+          You relax your posture and loosen your joints, allowing yourself to
+          move with incredible fluidity. You can make stinging lash attacks that
+          deal 1d6 slashing damage. These attacks are in the brawling group, and
+          have the finesse, nonlethal, reach, and unarmed traits.
+        </p>
+        <p>
+          While in Jellyfish Stance, you gain a +2 circumstance bonus to Reflex
+          saves and on checks to Escape and Squeeze.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 51,
+    name: "Mixed maneuver",
+    action: "two_action",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisite</b> master in Athletics.
+          </span>
+        </p>
+        <p>
+          You combine two different maneuvers together into a single flowing
+          whole. Choose any two of Grapple, Shove, and Trip. Attempt both of the
+          attacks you chose against the same or different creatures, but don’t
+          apply the multiple attack penalty until after resolving both attacks.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 52,
+    name: "Pinning fire",
+    action: "",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You use Flurry of Blows to make two ranged piercing
+            weapon Strikes against the same target.
+          </span>
+        </p>
+        <p>
+          You target your opponent’s clothing, equipment, or loose flesh with
+          piercing projectiles to pin them to the ground or a nearby surface. If
+          both your attacks hit, the target must succeed at a Reflex save
+          against your class DC or become immobilized until it or an adjacent
+          creature succeeds at a DC 10 Athletics check to remove the pinning
+          projectiles. The creature doesn’t become stuck if it is incorporeal,
+          is liquid (like a water elemental or some oozes), or could otherwise
+          escape without effort.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 53,
+    name: "Rippling spin",
+    action: "reaction",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Reflective Ripple Stance.
+          <br />
+          <b>Trigger</b> You are hit by a physical melee attack by an attacker
+          you can see that’s in reach.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You’re in Reflective Ripple Stance.
+          </span>
+        </p>
+        <p>
+          After the triggering attack is done, Step. You must end this Step
+          within the attacker’s reach. Then, you can attempt an Athletics check
+          to Disarm or Trip the attacker.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 54,
+    name: "Tangled forest stance",
+    action: "one_action",
+    tags: ["monk", "stance"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are unarmored.
+          </span>
+        </p>
+        <p>
+          You extend your arms like gnarled branches to interfere with your
+          foes’ movements. You can make lashing branch unarmed attacks. These
+          deal 1d8 slashing damage; are in the brawling group; and have the
+          agile, finesse, nonlethal, and unarmed traits.
+        </p>
+        <p>
+          While you’re in Tangled Forest Stance and can act, every enemy in your
+          reach that tries to move away from you must succeed at a Reflex save,
+          Acrobatics check, or Athletics check against your class DC or be
+          immobilized for that action. If you prefer, you can allow the enemy to
+          move.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 55,
+    name: "Wall run",
+    action: "one_action",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You defy gravity, traversing vertical planes as easily as the ground.
+          Stride up to your Speed. You must start your movement on a horizontal
+          surface. During this movement, you can run up vertical surfaces, like
+          walls, at your full Speed. If you end the Stride off the ground, you
+          fall after taking your next action or when your turn ends, whichever
+          comes first (though you can Grab an Edge, if applicable). If you have
+          Water Step or a similar ability, Wall Run lets you run along flimsy
+          vertical surfaces, as well as vertical liquids, such as a waterfall.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 56,
+    name: "Wild winds initiate",
+    action: "",
+    tags: ["monk"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You learn a mystical stance that lets you attack from a distance. You
+          gain the wild winds stance ki spell. Increase the number of Focus
+          Points in your focus pool by 1. While entering the stance is a ki
+          spell, the wind crash Strikes the stance grants are not, so you can
+          use them as often as you like while in the stance.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 57,
+    name: "Blazing streak",
+    action: "three_action",
+    tags: ["monk", "flourish"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Stoked Flame Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You’re in Stoked Flame Stance.
+          </span>
+        </p>
+        <p>
+          Stride twice, making Strikes against up to four different creatures
+          within reach at any point during your movement. Flashing sparks
+          Strikes made during Blazing Streak deal fire damage instead of
+          slashing.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 58,
+    name: "Cobra envenom",
+    action: "one_action",
+    tags: ["monk", "poison"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Cobra Stance, expert in unarmed attacks
+          <br />
+          <b>Frequency</b> once per minute.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Cobra Stance.
+          </span>
+        </p>
+        <p>
+          You lash out with devious intent and the power to envenom your foe.
+          Make a cobra fang Strike. Your reach with this Strike is 5 feet
+          greater than normal. If this Strike hits, the target takes 1d4
+          persistent poison damage per weapon damage die.
+        </p>
+        <p>
+          <b>Special</b> If you have this feat, the circumstance bonus to
+          Fortitude saves and Fortitude DC granted by Cobra Stance increases
+          from +1 to +2.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 59,
+    name: "Entwined energy ki",
+    action: "",
+    tags: ["uncommon", "monk"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You can transform your inner power into a type of energy to empower
+          your ki abilities. When you gain this feat, choose either acid, cold,
+          electricity, fire, or sonic damage. When you cast ki blast, you can
+          choose to have the spell deal the type of damage you chose instead of
+          force damage. When you cast ki form or ki strike, add the type of
+          damage you chose to the list of damage types you can select for the
+          spell.
+        </p>
+        <p>
+          <b>Special</b> At the GM’s discretion, this feat can alter other ki
+          spells.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 60,
+    name: "Knockback strike",
+    action: "two_action",
+    tags: ["monk", "concentrate"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You focus your strength into a blow powerful enough to push an enemy
+          away from you. Make an unarmed Strike. If you hit, attempt an
+          Athletics check to Shove the target. This attack uses the same
+          multiple attack penalty as your Strike, and doesn’t count toward your
+          multiple attack penalty.
         </p>
       </>
     ),
