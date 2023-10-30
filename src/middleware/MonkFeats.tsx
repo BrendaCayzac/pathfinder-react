@@ -475,7 +475,7 @@ export const monkFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
-          <i>Advanced Player's Guide</i>
+          <i>Core Rulebook</i>
         </p>
         <p>
           You know how to make the most of your attacks when fighting
@@ -483,6 +483,316 @@ export const monkFeats: Array<ClassFeat> = [
           of unarmed strikes in the brawling group and weapons in the brawling
           group. If you have Monastic Weaponry, you also gain the critical
           specialization effects of all monk weapons in which you are trained.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 17,
+    name: "Crushing crab",
+    action: "",
+    tags: ["monk"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Like a powerful constrictor, you crush targets in your unyielding
+          grasp. When you successfully Grapple a creature, you can deal
+          bludgeoning damage to that creature equal to your Strength modifier.
+          You can make this attack nonlethal with no penalty.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 18,
+    name: "Dancing leaf",
+    action: "",
+    tags: ["monk"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You are as light as a leaf whirling in the breeze. When you Leap or
+          succeed at a High Jump or Long Jump, increase the distance you jump by
+          5 feet. When calculating the damage you take from falling, don’t count
+          any distance fallen while you are adjacent to a wall.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 19,
+    name: "Elemental fist",
+    action: "",
+    tags: ["monk"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Ki Strike.
+          </span>
+        </p>
+        <p>
+          You call upon the power of the elements, infusing your ki with
+          elemental energy and allowing your attacks to deal energy damage. When
+          you cast ki strike, in addition to the damage types normally
+          available, you can deliver the extra damage in the form of a gust of
+          storm-tossed wind (dealing electricity damage and gaining the air
+          trait), a chunk of stone (dealing bludgeoning damage and gaining the
+          earth trait), a flickering flame (dealing fire damage), or a crashing
+          wave of frigid water (dealing cold damage and gaining the water
+          trait).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 20,
+    name: "Shooting star stance",
+    action: "",
+    tags: ["monk", "stance"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Monastic Weaponry.
+          </span>
+        </p>
+        <p>
+          You enter a stance that lets you throw shuriken with lightning speed.
+          While in this stance, you can use your monk feats or monk abilities
+          that normally require unarmed attacks with shuriken instead.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 21,
+    name: "Stunning fist",
+    action: "",
+    tags: ["monk"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Flurry of Blows.
+          </span>
+        </p>
+        <p>
+          The focused power of your flurry threatens to overwhelm your opponent.
+          When you target the same creature with two Strikes from your Flurry of
+          Blows, you can try to stun the creature. If either Strike hits and
+          deals damage, the target must succeed at a Fortitude save against your
+          class DC or be stunned 1 (or stunned 3 on a critical failure). This is
+          an incapacitation effect.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 22,
+    name: "Cobra stance",
+    action: "one_action",
+    tags: ["monk", "stance"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You enter a tight stance, coiled up like a lashing cobra with your
+          hands poised as venomous fangs. While in this stance, the only Strikes
+          you can make are cobra fang unarmed attacks. These deal 1d4 poison
+          damage; are in the brawling group; and have the agile, deadly d10,
+          finesse, nonlethal, poison, and unarmed traits.
+        </p>
+        <p>
+          While in Cobra Stance, you gain a +1 circumstance bonus to Fortitude
+          saves and your Fortitude DC, and you gain poison resistance equal to
+          half your level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 23,
+    name: "Deflect arrow",
+    action: "reaction",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Trigger</b> You are the target of a physical ranged attack.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You’re aware of the attack, are not flat-footed
+            against it, and have a hand free.
+          </span>
+        </p>
+        <p>
+          You gain a +4 circumstance bonus to AC against the triggering attack.
+          If the attack misses, you have deflected it. You cannot use this feat
+          to deflect unusually massive ranged projectiles (such as boulders or
+          ballista bolts).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 24,
+    name: "Flurry of maneuvers",
+    action: "",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> expert in Athletics.
+        </p>
+        <p>
+          You flurry is a combination of maneuvers. You can replace one or both
+          of your attacks during a Flurry of Blows with Grapples, Shoves, or
+          Trips.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 25,
+    name: "Flying kick",
+    action: "two_action",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You launch yourself at a foe. Make a Leap or attempt a High Jump or
+          Long Jump. At the end of the jump, if you’re adjacent to a foe, you
+          can immediately Strike that foe with an unarmed attack, even if the
+          foe is in midair. You fall to the ground after the Strike. If the
+          distance you fall is no more than the height of your jump, you land
+          upright and take no damage.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 26,
+    name: "Guarded movement",
+    action: "",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Your guard is up, even while moving. You gain a +4 circumstance bonus
+          to AC against reactions triggered by your movement.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 27,
+    name: "Peafowl stance",
+    action: "one_action",
+    tags: ["monk", "stance"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Monastic Weaponry.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are wielding a sword that has the monk trait
+            in one hand.
+          </span>
+        </p>
+        <p>
+          You enter a tall and proud stance while remaining mobile, with all the
+          grace and composure of a peafowl. While in this stance, the only
+          Strikes you can make are melee Strikes with the required sword. Once
+          per round, after you hit with a monk sword Strike, you can Step as a
+          free action as your next action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 28,
+    name: "Sacred ki",
+    action: "",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Ki Strike, you follow a deity.
+          </span>
+        </p>
+        <p>
+          The power of your faith suffuses your ki. When you select this feat,
+          choose chaos, evil, good, or law. Your choice must match one of your
+          deity’s alignment components.
+        </p>
+        <p>
+          When you cast the ki strike focus spell and damage a creature whose
+          alignment is opposite your chosen alignment, you can choose for the ki
+          strike damage to be of the chosen type. Additionally, you can
+          substitute the damage from ki blast (or other ki spells that deal
+          force damage, at the GM’s discretion) with damage of your chosen
+          alignment.
         </p>
       </>
     ),
