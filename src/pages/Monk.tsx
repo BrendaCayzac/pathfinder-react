@@ -6,18 +6,18 @@ import BaseAccordion from "../components/BaseAccordion";
 import Feat from "../components/Feat";
 import Spell from "../components/Spell";
 import { ClassFeat, FocusSpell } from "../middleware/CutsomTypes";
-import { magusFeats } from "../middleware/MagusFeats";
+import { monkFeats } from "../middleware/MonkFeats";
 
 const MonkPage: React.ComponentType = () => {
   const [filteredList, setFilteredList] = useState<Array<ClassFeat> | null>(
-    magusFeats
+    monkFeats
   );
 
   const filterBySearch = (e: React.ChangeEvent) => {
     // Input value
     const query = (e.target as HTMLInputElement).value;
     // Filtered list
-    let updatedList = [...magusFeats];
+    let updatedList = [...monkFeats];
     // Update list with elements containing the query
     updatedList = updatedList.filter((feats) => {
       return feats.name.indexOf(query.toLowerCase()) !== -1;
@@ -734,7 +734,8 @@ const MonkPage: React.ComponentType = () => {
 
       <h2>Feats</h2>
       <p>
-       Every level at which you gain a monk feat, select one of the following feats. You must satisfy any prerequisites before taking the feat.
+        Every level at which you gain a monk feat, select one of the following
+        feats. You must satisfy any prerequisites before taking the feat.
       </p>
       <form>
         <label className="visually-hidden" htmlFor="search">
