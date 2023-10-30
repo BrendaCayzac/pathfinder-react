@@ -744,7 +744,7 @@ export const monkFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
-          <i>Core Rulebook</i>
+          <i>Advanced Player's Guide</i>
         </p>
         <p>
           <b>Prerequisites</b> Monastic Weaponry.
@@ -774,7 +774,7 @@ export const monkFeats: Array<ClassFeat> = [
     description: (
       <>
         <p>
-          <i>Core Rulebook</i>
+          <i>Lost Omens: Gods & Magic</i>
         </p>
         <p>
           <span className="frequency">
@@ -793,6 +793,358 @@ export const monkFeats: Array<ClassFeat> = [
           substitute the damage from ki blast (or other ki spells that deal
           force damage, at the GM’s discretion) with damage of your chosen
           alignment.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 29,
+    name: "Stand Still",
+    action: "reaction",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> A creature within your reach uses a move action or
+            leaves a square during a move action it’s using.
+          </span>
+        </p>
+        <p>
+          You strike out when your foe tries to flee. Make a melee Strike
+          against the triggering creature. If the attack is a critical hit and
+          the trigger was a move action, you disrupt that action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 30,
+    name: "Wholeness of body",
+    action: "",
+    tags: ["monk"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ki spells.
+          </span>
+        </p>
+        <p>
+          You can restore your health by tapping into your ki. You gain the
+          wholeness of body ki spell. Increase the number of Focus Points in
+          your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 31,
+    name: "Abundant step",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> incredible movement, ki spells.
+          </span>
+        </p>
+        <p>
+          You can teleport yourself a short distance. You gain the abundant step
+          ki spell. Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 32,
+    name: "Align ki",
+    action: "reaction",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advaned Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> ki spells.
+          <br />
+          <b>Frequency</b> once per hour.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> You Cast a Spell that has the monk trait.
+          </span>
+        </p>
+        <p>
+          The power of your ki soothes your wounds and energizes you for battle.
+          You regain Hit Points equal to your level plus your Wisdom modifier.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 33,
+    name: "Blazing talon surge",
+    action: "two_action",
+    tags: ["monk", "fire", "flourish"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Pathfinder Society Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Rain of Embers Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Rain of Embers Stance.
+          </span>
+        </p>
+        <p>
+          You rush forward and latch onto your enemy with talons of hungering
+          fire. Stride once. If you end your movement within reach of at least
+          one enemy, you can make a fire talon Strike against that enemy that
+          deals an additional 1d4 persistent fire damage. If it hits and deals
+          damage, you can attempt an Athletics check to Grapple the creature you
+          hit.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 34,
+    name: "Crane flutter",
+    action: "reaction",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Crane Stance.
+          <br />
+          <b>Trigger</b> You are targeted with a melee attack by an attacker you
+          can see.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Crane Stance.
+          </span>
+        </p>
+        <p>
+          You interpose your arm between yourself and your opponent. Your
+          circumstance bonus to AC from Crane Stance increases to +3 against the
+          triggering attack. If the attack misses you, you can immediately make
+          a crane wing Strike against the attacker at a –2 penalty, even if the
+          attacker isn’t within your reach.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 35,
+    name: "Dragon roar",
+    action: "one_action",
+    tags: ["monk", "auditory", "emotioon", "fear", "mental"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Dragon Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Dragon Stance.
+          </span>
+        </p>
+        <p>
+          You bellow, instilling fear in your enemies. Enemies within a 15-foot
+          emanation must succeed at a Will save against your Intimidation DC or
+          be frightened 1 (frightened 2 on a critical failure). When a creature
+          frightened by the roar begins its turn adjacent to you, it can’t
+          reduce its frightened value below 1 on that turn. Your first attack
+          that hits a frightened creature after you roar and before the end of
+          your next turn gains a +4 circumstance bonus to damage.
+        </p>
+        <p>
+          After you use Dragon Roar, you can’t use it again for 1d4 rounds. Its
+          effects end immediately if you leave Dragon Stance. Creatures in the
+          area of your roar are then temporarily immune for 1 minute.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 36,
+    name: "Gorilla pound",
+    action: "one_action",
+    tags: ["monk", "emotioon", "flourish", "mental"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advaned Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> expert in Intimidation, Gorilla Stance
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Gorilla Stance.
+          </span>
+        </p>
+        <p>
+          You pound your chest before slamming into your foes. Attempt an
+          Intimidation check to Demoralize, then make one gorilla slam Strike
+          against the same target. If your Strike hits, you gain a circumstance
+          bonus to the damage roll equal to triple the value of the target’s
+          frightened condition.
+        </p>
+        <p>
+          <b>Special</b> If you have this feat, while you are in Gorilla Stance,
+          you gain a climb Speed of 15 feet.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 37,
+    name: "Inner fire",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Secrets of Magic</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Stoked Flame Stance.
+          </span>
+        </p>
+        <p>
+          While you’re in Stoked Flame Stance, you have cold and fire resistance
+          equal to half your level, and any creature that hits you with an
+          unarmed attack, tries to Grab or Grapple you, or otherwise touches you
+          takes fire damage equal to your Wisdom modifier (minimum 1). A
+          creature can take this damage no more than once per turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 38,
+    name: "Ki Blast",
+    action: "",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Ki spells.
+          </span>
+        </p>
+        <p>
+          You can unleash an impactful cone of force by channeling your ki. You
+          gain the ki blast ki spell. Increase the number of Focus Points in
+          your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 39,
+    name: "Mountain stronghold",
+    action: "one_action",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Mountain Stance.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are in Mountain Stance.
+          </span>
+        </p>
+        <p>
+          You focus on your connection to the earth and call upon the mountain
+          to block attacks against you. You gain a +2 circumstance bonus to AC
+          until the beginning of your next turn.
+        </p>
+        <p>
+          <b>Special</b> If you have this feat, the Dexterity modifier cap to
+          your AC while you’re in Mountain Stance increases from +0 to +1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 40,
+    name: "One-inch punch",
+    action: "two_action",
+    tags: ["monk"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> expert strikes
+          </span>
+        </p>
+        <p>
+          You put all your force into a single mighty, carefully controlled
+          blow. Make an unarmed Strike. If you spend two actions and this Strike
+          hits, you deal an extra die of weapon damage. You can instead spend 3
+          actions to perform an even more powerful attack, dealing a second
+          additional die of weapon damage on a hit.
+        </p>
+        <p>
+          If you’re at least 10th level, the number of additional dice you add
+          from this feat doubles, for a total of 2 additional dice if you spend
+          2 actions or 4 additional dice if you spend 3 actions. If you’re at
+          least 18th level, the number of additional dice you add from this feat
+          triples, for a total of 3 additional dice if you spend 2 actions or 6
+          additional dice if you spend 3 actions.
         </p>
       </>
     ),
