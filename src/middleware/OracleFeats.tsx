@@ -575,4 +575,296 @@ export const oracleFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 21,
+    name: "Quickened casting",
+    action: "",
+    tags: ["oracle", "concentrate", "metamagic"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per day.
+          </span>
+        </p>
+
+        <p>
+          If your next action is to cast an oracle cantrip or an oracle spell
+          that is at least 2 levels lower than your highest level spell slot,
+          reduce the number of actions to cast it by 1 (minimum 1 action).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 22,
+    name: "Surging might",
+    action: "one_action",
+    tags: ["oracle", "manipulate", "metamagic"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          With a complex gesture, you focus the divine power of your spell to
+          overcome enemies’ resistances. If the next action you use is to Cast a
+          Spell, the spell ignores an amount of the target’s resistance equal to
+          your level against all the following types of damage: chaotic, evil,
+          good, lawful, negative, and positive. This applies to all damage the
+          spell deals, including persistent damage and damage caused by an
+          ongoing effect of the spell, such as the positive energy within a
+          field of life. This doesn’t cause the spell to ignore immunities, only
+          resistances.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 23,
+    name: "Domain fluency",
+    action: "one_action",
+    tags: ["oracle"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> initial domain spell.
+          </span>
+        </p>
+        <p>
+          You command a deep understanding of the divine domains related to your
+          mystery. Choose one of the domains associated with your mystery for
+          which you have an initial domain spell. You gain an advanced domain
+          spell from that domain, which you cast as a revelation spell, causing
+          it to gain the cursebound trait. Increase the number of Focus Points
+          in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 24,
+    name: "Greater revelation",
+    action: "",
+    tags: ["oracle"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> initial revelation spell.
+          </span>
+        </p>
+        <p>
+          You learn a greater revelation spell associated with your mystery.
+          Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 25,
+    name: "Magic sense",
+    action: "",
+    tags: ["oracle", "detection", "divination", "divine"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          You have a literal sixth sense for ambient magic in your vicinity. You
+          can sense the presence of magic auras as though you were always using
+          a 1st-level detect magic spell. This detects magic in your field of
+          vision only. When you Seek, you gain the benefits of a 3rd-level
+          detect magic spell on things you see (in addition to the normal
+          benefits of Seeking). You can turn this sense off and on with a free
+          action at the start or the end of your turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 26,
+    name: "Necromancer's visage",
+    action: "",
+    tags: ["uncommon", "oracle", "cleric", "necromancy", "wizard"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Book of the Dead</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ability to create or control undead; cleric
+            with a negative font, oracle of bones, or necromancer wizard.
+          </span>
+        </p>
+        <p>
+          Necromantic energy demonstrates your power over undead, creating a
+          demeanor that commands their fear and respect. Undead creatures can
+          immediately sense your Necromancer’s Visage and tend to act
+          accordingly. If you take a hostile action against an undead creature,
+          it becomes permanently immune to your Necromancer’s Visage, and your
+          Necromancer’s Visage ends. You can spend 10 minutes to restore your
+          Necromancer’s Visage, though any creatures that became permanently
+          immune remain so.
+        </p>
+        <p>
+          Each time an undead creature 2 or more levels lower than you attacks
+          you, it must attempt a Will save against your spell DC. If you’re also
+          affected by sanctuary or a similar effect, only one affects the
+          attacker (you choose which).
+        </p>
+        <p>
+          <b>Critical Success</b> The creature is permanently immune to your
+          Necromancer’s Visage.
+        </p>
+        <p>
+          <b>Success</b> The creature can attempt its attack and any other
+          attacks against you this turn.
+        </p>
+        <p>
+          <b>Failure</b> The creature can’t attack you and wastes the action. It
+          can’t attempt further attacks against you this turn.
+        </p>
+        <p>
+          <b>Critical Failure</b> The creature wastes the action and can’t
+          attempt to attack you as long as your Necromancer’s Visage persists.
+        </p>
+        <p>
+          <b>Special</b> This feat has the trait matching your spellcasting
+          tradition.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 27,
+    name: "Necromancer's visage",
+    action: "",
+    tags: ["oracle", "concentrate", "metamagic"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per day.
+          </span>
+        </p>
+        <p>
+          You’ve learned to forestall the effects of your curse somewhat. If the
+          next action you use is to cast a revelation spell, the severity of
+          your curse doesn’t increase.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 28,
+    name: "Mysterious repertoire",
+    action: "",
+    tags: ["oracle"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          Your mystery holds unknowable depths of magic not always associated
+          with the divine. You can have one spell in your spell repertoire not
+          on the divine spell list, in addition to spells you’ve added to your
+          spell list from feats like Divine Access. You cast that spell as a
+          divine spell. You can swap which spell you add and from which
+          tradition as you could any other oracle spell, but you can’t use this
+          feat to have more than one spell from another tradition in your spell
+          repertoire at the same time.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 29,
+    name: "Purifying breeze",
+    action: "one_action",
+    tags: ["uncommon", "oracle", "cleric", "sorcerer"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> divine spells.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> Your most recent action was to cast a
+            non-cantrip spell with the healing trait.
+          </span>
+        </p>
+        <p>
+          You transfer the divine essence of your magic to the air around you,
+          cleansing it of toxins. Attempt a counteract check against each
+          airborne disease or poison effect in a 15-foot radius around you.
+          Regardless of your success or failure, until the beginning of your
+          next turn, all creatures in the purified area gain a +1 status bonus
+          to Fortitude saving throws.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 30,
+    name: "Sacral monarch",
+    action: "",
+    tags: ["oracle", "champion"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Sacral Lord, master in Occultism or Religion.
+          </span>
+        </p>
+        <p>
+          You have come into your full powers and are truly a monarch of your
+          realm, by your own definition at least. While in your territory, you
+          can cast banishment and inevitable disaster as innate divine spells,
+          each once per day.
+        </p>
+      </>
+    ),
+  },
 ];
