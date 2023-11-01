@@ -282,4 +282,297 @@ export const oracleFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 11,
+    name: "Undying conviction",
+    action: "",
+    tags: ["uncommon", "oracle", "aura", "cleric", "necromancy", "wizard"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Book of the Dead</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> able to create or control undead; cleric with a
+            negative font, oracle of bones, or necromancer wizard
+          </span>
+        </p>
+        <p>
+          Your presence has a bolstering effect on your undead minions. Undead
+          creatures under your control and within a 30-foot emanation around you
+          gain a +2 status bonus to saving throws to resist positive damage and
+          to Will saving throws to resist effects that would make them
+          controlled.
+        </p>
+        <p>
+          <b>Special</b> This feat has the trait matching your spellcasting
+          tradition.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 12,
+    name: "Vision of weakeness",
+    action: "",
+    tags: ["oracle"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+
+        <p>
+          You can call upon divine insights to single out your foes’ weak
+          points. You learn the vision of weakness revelation spell. Increase
+          the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 13,
+    name: "Advanced revelation",
+    action: "",
+    tags: ["oracle"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> initial revelation spell.
+          </span>
+        </p>
+
+        <p>
+          You learn an advanced revelation spell associated with your mystery.
+          Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 14,
+    name: "Detonating spell",
+    action: "one_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cleric",
+      "concentrate",
+      "metamagic",
+      "sorcerer",
+      "witch",
+      "wizard",
+    ],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+        </p>
+
+        <p>
+          Your spell becomes volatile and explosive. If the next action you use
+          is to Cast a Spell that deals damage to a single target and the spell
+          successfully damages that target, the spell explodes, dealing splash
+          damage equal to the level of the spell cast to adjacent creatures.
+          Unlike normally, this splash damage doesn’t apply to the target. The
+          splash damage dealt is of the same type the spell deals.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 15,
+    name: "Spiritual sense",
+    action: "",
+    tags: ["oracle", "divination", "divine"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+        </p>
+
+        <p>
+          You have a vague connection to the Ethereal Plane that enables you to
+          notice spirits. While you’re exploring but not Searching, the GM rolls
+          a secret check for you to find haunts that usually require Searching,
+          as well as spirits, creatures on the Ethereal Plane, and beings made
+          entirely of spiritual essence such as celestials, fiends, and
+          monitors.
+        </p>
+        <p>
+          You can also potentially notice ethereal creatures and spirits inside
+          solid objects, provided they are within 30 feet of you. This applies
+          while Searching, while Seeking, and on the automatic secret check you
+          gain while exploring even if you aren’t Searching. You can still
+          notice spirits only on a successful check, and you can’t see them if
+          they’re more than 5 feet inside an object.
+        </p>
+        <p>
+          When you notice a creature with your Spiritual Sense, you also learn
+          its location, making it hidden to you if it had been undetected.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 16,
+    name: "Steady spellcasting",
+    action: "",
+    tags: ["oracle"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+
+        <p>
+          Confident in your technique, you don’t easily lose your concentration
+          when you Cast a Spell. If another creature’s reaction would disrupt
+          your spellcasting action, attempt a DC 15 flat check. If you succeed,
+          your action isn’t disrupted.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 17,
+    name: "Debilitating dichotomy",
+    action: "",
+    tags: ["oracle"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+
+        <p>
+          You can give others a glimpse of the impossible conflicts and
+          unchecked power that courses through your body. You learn the
+          debilitating dichotomy revelation spell. Increase the number of Focus
+          Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 18,
+    name: "Read disaster",
+    action: "",
+    tags: ["oracle", "divination", "exploration", "prediction"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+
+        <p>
+          You spend 10 minutes and open yourself to the divine mysteries of the
+          world, peering into the most sinister portents of the future. You gain
+          the effects of augury, except you learn only about the dangers ahead;
+          any results of “weal” are instead “nothing,” and results of “weal and
+          woe” are instead “woe.” If you are legendary in Religion, you take
+          only 1 minute to Read Disaster.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 19,
+    name: "Consecrate spell",
+    action: "one_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cleric",
+      "concentrate",
+      "metamagic",
+      "sorcerer",
+    ],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> ability to cast focus spells, divine spells.
+          </span>
+        </p>
+
+        <p>
+          You infuse a spell with the power of your faith, consecrating it. If
+          the next action you use is to Cast a Spell that targets a single
+          undead, you can expend a Focus Point, channeling the power of your
+          focus spells into the primary spell. If you do, the spell you cast
+          deals additional good or positive damage (your choice) equal to the
+          level of your focus spells. As normal for additional damage, this
+          additional damage is doubled if the spell cast requires an attack roll
+          and the result of the attack roll is a critical hit, or if the spell
+          cast requires a saving throw and the result of the saving throw is a
+          critical failure.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 20,
+    name: "Oracular warning",
+    action: "",
+    tags: ["oracle", "divination", "divine"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You are about to roll initiative.
+          </span>
+        </p>
+
+        <p>
+          You have a flash of insight about impending danger related to one
+          ally, and you can shout or gesture to warn that ally of the threat a
+          moment before it materializes. One ally of your choice can roll twice
+          for initiative and use the better result; this is a fortune effect. If
+          you are legendary in Religion, you receive two visions and can warn
+          two allies, granting them both this benefit.
+        </p>
+        <p>
+          You are momentarily thrown off by the divine insight, however, and you
+          must roll twice for your initiative roll and use the worse result.
+          This is a misfortune effect. The two effects are tied together; if you
+          would avoid the misfortune effect for any reason, or if any of your
+          allies would negate their fortune effect, your Oracular Warning does
+          nothing. Depending on whether you use gestures or call out, this
+          action gains either the visual or auditory trait, respectively.
+        </p>
+      </>
+    ),
+  },
 ];
