@@ -867,4 +867,290 @@ export const oracleFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 31,
+    name: "Sepulchral sublimation",
+    action: "one_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cleric",
+      "concentrate",
+      "metamagic",
+      "necromancy",
+      "oracle",
+      "wizard",
+    ],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Book of the Dead</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> ability to permanently create or control undead;
+          cleric with a negative font, oracle of bones, or necromancer wizard
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You have at least one undead minion that you
+            permanently control.
+          </span>
+        </p>
+        <p>
+          You repurpose the negative energy that flows through your minions at a
+          moment’s notice. Instantly destroy one undead minion within 60 feet
+          that is permanently under your control. If your next action is to cast
+          a necromancy spell from a spell slot, you don’t expend the slot. The
+          spell’s level must be half the destroyed minion’s level or lower and
+          the spell can’t have a duration.
+        </p>
+        <p>
+          <b>Special</b> This feat has the trait matching your spellcasting
+          tradition.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 32,
+    name: "Diverse mystery",
+    action: "",
+    tags: ["oracle"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Advanced Revelation.
+          </span>
+        </p>
+        <p>
+          You have broadened your understanding of the divine and can tap into
+          the wonders of a different mystery. Select one revelation spell from a
+          mystery other than your own. You can choose only an initial revelation
+          spell or an advanced revelation spell.
+        </p>
+        <p>
+          When you cast this revelation spell, you gain the effects of the minor
+          curse from that mystery in addition to the normal curse effects you
+          gain from casting a revelation spell. This additional minor curse
+          effect remains until your next daily preparations. Any ability that
+          lets you cast a revelation spell without increasing the severity of
+          your curse also prevents you from gaining this additional curse
+          effect.
+        </p>
+        <p>
+          You can’t cast your chosen revelation spell if any of the following
+          conditions are true: its mystery’s curse effects directly conflict
+          with or negate the effects of your own mystery’s curse, the curse
+          would have no effect on you (for example, removing an ability from
+          your original mystery that you lack), or either of these criteria
+          would be met once you finish Casting the Spell.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 33,
+    name: "Portentous spell",
+    action: "one_action",
+    tags: ["oracle", "manipulate", "mental", "metamagic", "visual"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          Your spellcasting is rife with strange lights, esoteric gestures, and
+          other captivating effects that befuddle your foes. If the next action
+          you use is to Cast a Spell, any creature that attempts to use a
+          reaction triggered by your Cast a Spell activity takes a –2
+          circumstance penalty to attack rolls and skill checks rolled as part
+          of the reaction. In addition, if the spell includes a spell attack
+          roll or requires a saving throw, creatures you hit or that fail their
+          saves are fascinated with you until the start of your next turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 34,
+    name: "Blaze of revelation",
+    action: "",
+    tags: ["oracle"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          Your mind and body can, for a short time, withstand the devastation of
+          overdrawing your curse. When you would become overwhelmed by your
+          curse, you can forestall the effects for up to 1 minute. On each of
+          your turns during that time, you can cast one revelation spell granted
+          by your mystery (but not domain spells, spells from Diverse Mystery,
+          or other revelation spells you gained from other abilities) without
+          spending Focus Points or taking any further negative effects.
+        </p>
+        <p>
+          At the end of the minute, the durations of any revelation spells you
+          cast during that time end, you take the normal effects from being
+          overwhelmed by your curse, and you must attempt a DC 40 Fortitude
+          save.
+        </p>
+        <p>
+          <b>Critical Success</b> You aren’t otherwise affected.
+        </p>
+        <p>
+          <b>Success</b> You are drained 2 and can’t reduce or remove this
+          condition until your next preparations.
+        </p>
+        <p>
+          <b>Failure</b> You are drained 4 and can’t reduce or remove this
+          condition until your next preparations.
+        </p>
+        <p>
+          <b>Critical Failure</b> You die.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 35,
+    name: "Divine effusion",
+    action: "",
+    tags: ["oracle"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          The power of your mystery surges through you like a font of divine
+          energy, even when your own magic dwindles. Twice per day, you can cast
+          a spell after you’ve run out of spell slots of the appropriate spell
+          level; the two spells you cast with this feat must be of different
+          spell levels.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 36,
+    name: "Mystery conduit",
+    action: "",
+    tags: ["oracle"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          The power of your mystery enables you to cast more than just
+          revelation spells. When you cast a spell of 5th level or lower that
+          has no duration, instead of spending a spell slot, you can advance the
+          effects of your oracular curse in the same manner as when you cast a
+          revelation spell. A spell cast in this way gains the cursebound trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 37,
+    name: "Oracular providence",
+    action: "",
+    tags: ["oracle"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> oracular clarity.
+          </span>
+        </p>
+        <p>
+          Your mystery grants you access to deep reserves of truly miraculous
+          divine power. You gain an additional 10th-level spell slot.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 38,
+    name: "Paradoxical mystery",
+    action: "",
+    tags: ["oracle"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Greater Revelation.
+          </span>
+        </p>
+        <p>
+          The truest depths of your divine mystery are fathomless and
+          contradictory, granting you changing powers that even you can barely
+          begin to fathom. Each day during your daily preparations, choose one
+          basic or advanced domain spell from any domain from the Core Rulebook
+          or another domain to which you have access, or any initial or advanced
+          revelation spell from another mystery. You gain that spell as a
+          revelation spell until your next daily preparations, and it has the
+          cursebound trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 39,
+    name: "Scapegoat parallel self",
+    action: "reaction",
+    tags: ["uncommon", "oracle", "divine", "necromancy"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per day.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> Your turn starts or your oracular curse would
+            advance.
+          </span>
+        </p>
+        <p>
+          Seeing Syndara superimpose creatures with similar metaphysical
+          properties, you’ve realized a way to manipulate the effects of your
+          oracular curse. You immediately change your curse to its minor,
+          moderate, or major stage, or back to its mild form, exchanging the
+          curse effect with that of a parallel version of yourself in another
+          reality.
+        </p>
+      </>
+    ),
+  },
 ];
