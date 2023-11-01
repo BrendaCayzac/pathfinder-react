@@ -73,7 +73,7 @@ const MonkPage: React.ComponentType = () => {
         </div>
         <div className="column">
           <h2>Hit points</h2>
-          <b>810plus your Constitution Modifier</b>
+          <b>10plus your Constitution Modifier</b>
           <p>
             You increase your maximum number of HP by this number at 1st level
             and every level thereafter.
@@ -117,7 +117,7 @@ const MonkPage: React.ComponentType = () => {
           <li>Untrained in all armor</li>
           <li>Expert in unarmored defense</li>
         </ul>
-        <h2>Spells</h2>
+        <h2>DC</h2>
         <p>Trained in monk class DC</p>
       </div>
 
@@ -335,9 +335,8 @@ const MonkPage: React.ComponentType = () => {
           <tr>
             <td>17</td>
             <td>
-              9th-level spells,
-              <a href="#ancestry-feat">ancestry feat</a>,{" "}
-              <a href="#adamantine -trikes">adamantine strikes</a>,{" "}
+              <a href="#ancestry-feat">Ancestry feat</a>,{" "}
+              <a href="#adamantine-strikes">adamantine strikes</a>,{" "}
               <a href="#graceful-legend">graceful legend</a>,{" "}
               <a href="#skill-increase">skill increase</a>
             </td>
