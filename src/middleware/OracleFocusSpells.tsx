@@ -874,4 +874,459 @@ export const oracleFocusSpells: Array<FocusSpell> = [
       </>
     ),
   },
+  {
+    id: 21,
+    level: 3,
+    name: "Whirling Flames",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "evocation", "fire"],
+    type: "Focus 3",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> flames.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 30 feet.
+          <br />
+          <b>Area</b> up to two 5-foot bursts that don’t overlap.
+          <br />
+          <span className="frequency">
+            <b>Saving Throw</b> basic Reflex.
+          </span>
+        </p>
+        <p>
+          You call forth a storm of whirling flames, engulfing all creatures in
+          that area and dealing 5d6 fire damage with a basic Reflex save.
+        </p>
+        <p>
+          <b>Heightened (+2)</b> The damage increases by 3d6, and you can add
+          another nonoverlapping 5-foot burst to the area.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 22,
+    level: 4,
+    name: "Debilitating Dichotomy",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "evocation", "mental"],
+    type: "Focus 4",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 30 feet.
+          <br />
+          <b>Targets</b> 1 creature other than you.
+          <br />
+          <span className="frequency">
+            <b>Saving Throw</b> Will.
+          </span>
+        </p>
+        <p>
+          You reveal a glimpse of the impossible conflicts between the divine
+          anathema behind your curse, forcing you to reckon with another’s
+          conflicts as well. You and the target each take 9d6 mental damage with
+          a basic Will save, and the target is stunned 1 if it critically fails
+          its save. You get a degree of success one better than you rolled for
+          your saving throw.
+        </p>
+        <p>
+          <b>Heightened (+1)</b> The damage increases by 3d6.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 23,
+    level: 6,
+    name: "Ancestral Form",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "transmutation"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> ancestors.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> sustained up to 1 minute.
+          </span>
+        </p>
+        <p>
+          You take the form of your ancestral spirits, becoming invisible and
+          quasi-corporeal. You gain resistance 10 to all damage (except force
+          and damage from Strikes with the ghost touch property rune), and this
+          resistance is doubled against non-magical and precision damage. You
+          gain a fly Speed equal to your land Speed; when Flying, moving upward
+          isn’t difficult terrain for you. You can’t move through solid objects,
+          but you can float through tiny gaps. You can’t Cast Spells (but you
+          can Sustain Spells), activate items, or use actions that have the
+          attack or manipulate trait.
+        </p>
+        <p>
+          <b>Heightened (+2)</b> The resistance increases by 5.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 24,
+    level: 6,
+    name: "Ash Form",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "transmutation"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Taste of Ashes</i>
+        </p>
+        <p>
+          <b>Mystery</b> ashes.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 1 minute.
+          </span>
+        </p>
+        <p>
+          You take the form of a cloud of minuscule ash particles. You gain fast
+          healing 3, resistance 10 to piercing and slashing damage, and immunity
+          to bleed, falling damage, and precision damage. You can’t move through
+          solid objects, but you can stream through tiny gaps as if they were
+          difficult terrain. Any ability with the air trait that involves
+          blowing or shifting wind (such as gust of wind) deals you 1d6
+          bludgeoning damage per level of the spell each round you are in its
+          area, in addition to its normal effects.
+        </p>
+        <p>
+          <b>Heightened (9th)</b> The resistance increases to 15.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 25,
+    level: 6,
+    name: "Claim Undead",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "incapacitation", "necromancy"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> bones.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 30 feet.
+          <br />
+          <b>Targets</b> 1 undead creature.
+          <br />
+          <b>Saving Throw</b> Will.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 10 minutes.
+          </span>
+        </p>
+        <p>
+          You attempt to wrest control of a target undead or force it to
+          recognize you as its master. If the target is controlled by another
+          creature, that controller attempts a Will saving throw to retain
+          control; otherwise, the target must attempt a Will save.
+        </p>
+        <p>
+          <b>Critical Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The target is stunned 1 as it fights off your commands.
+        </p>
+        <p>
+          <b>Failure</b> The target becomes controlled by you and follows your
+          orders. It (or the creature previously controlling it) can attempt a
+          new Will save at the end of each of its turns, and the spell ends on a
+          success. If you issue an obviously self-destructive order, the target
+          doesn’t act until you issue a new order.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but the target (or the creature
+          previously controlling it) receives a new save only if you give it a
+          new order that is against its nature.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 26,
+    level: 6,
+    name: "Dread Secret",
+    action: "two_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cursebound",
+      "divination",
+      "emotion",
+      "fear",
+      "mental",
+    ],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> lore.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 60 feet.
+          <br />
+          <b>Targets</b> up to 6 creatures.
+          <br />
+          <b>Saving Throw</b> Will.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> until the start of your next turn.
+          </span>
+        </p>
+        <p>
+          You utter a powerful secret at odds with the fundamental nature of the
+          target creatures. Choose a specific resistance or weakness that you
+          believe one or more of the targets have due to Recall Knowledge or
+          previous experience with the targets, such as resistance to fire or
+          weakness to silver. If the information is incorrect for a given
+          target, the spell has no effect on that target. Affected targets must
+          attempt a Will saving throw.
+        </p>
+        <p>
+          <b>Critical Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The creature takes 1 damage of the type of weakness you
+          chose (thus triggering the creature’s weakness), or loses its
+          resistance until the end of your next turn if you chose a resistance.
+        </p>
+        <p>
+          <b>Failure</b> As success, and the creature becomes frightened 1 from
+          the revelation of its dread secret.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, except the creature is frightened
+          3.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 27,
+    level: 6,
+    name: "Flaming Fusillade",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "evocation", "fire"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> flames.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 1 minute.
+          </span>
+        </p>
+        <p>
+          You call upon an endless barrage of flames, producing miniature
+          fireballs in your hands to hurl at foes. You cast produce flame as
+          part of casting flaming fusillade. For the duration of flaming
+          fusillade, produce flame’s casting time is reduced from 2 actions to
+          1.
+        </p>
+        <p>
+          <b>Heightened (9th)</b> For the duration, you also gain a status bonus
+          to the damage dealt by produce flame equal to flaming fusillade’s
+          spell level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 28,
+    level: 6,
+    name: "Heroic Feat",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "divination", "mental"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> battle.
+          <br />
+          <span className="frequency">
+            <b>Cast</b> somatic, verbal.
+          </span>
+        </p>
+        <p>
+          You gain the ability to perform a specialized combat technique from
+          the vast wealth of martial knowledge your mystery provides. When you
+          Cast this Spell, you use the action granted by one common fighter feat
+          from the Fighter Feats section of the Core Rulebook or the Fighter
+          Feats section of this source (your GM might add feats to this list).
+          If you Cast this Spell using 2 actions, the granted action must be a
+          single action, and if you Cast this Spell using 3 actions, you can
+          instead choose a feat that grants a 2-action activity. The chosen
+          feat’s level can be no higher than heroic feat’s spell level. The feat
+          can’t have a Frequency entry, and you must meet its prerequisites and
+          requirements in order to select it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 29,
+    level: 6,
+    name: "Life-giving Form",
+    action: "two_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cursebound",
+      "healing",
+      "light",
+      "necromancy",
+      "positive",
+    ],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> life.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 1 minute.
+          </span>
+        </p>
+        <p>
+          You transcend your physical form, becoming a beacon of healing energy.
+          Your body exudes bright light like a torch. You gain resistance 5 to
+          precision damage and weakness 5 to negative damage, and your unarmed
+          Strikes deal an extra 1d4 positive damage.
+        </p>
+        <p>
+          You can touch a living creature with an Interact action to restore 6d8
+          Hit Points to it, and when a creature touches you with an Interact
+          action you can allow it to gain the same healing; either way, the
+          creature becomes temporarily immune to life-giving form’s healing for
+          1 minute. This is a positive healing effect. You can’t heal yourself
+          with life-giving form. A creature harmed by positive damage (such as
+          an undead) that touches you or damages you with an unarmed attack or
+          non-reach melee weapon instead takes 3d4 positive damage, and it
+          doesn’t become temporarily immune.
+        </p>
+        <p>You can Dismiss this spell.</p>
+        <p>
+          <b>Heightened (+1)</b> Increase the Hit Points restored with an
+          Interact action by 1d8, the positive damage by 1, and the resistance
+          and weakness by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 30,
+    level: 6,
+    name: "Manifold Lives",
+    action: "two_action",
+    tags: [
+      "uncommon",
+      "oracle",
+      "cursebound",
+      "divination",
+      "emotion",
+      "mental",
+    ],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Mystery</b> time.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 30 feet.
+          <br />
+          <b>Targets</b> 1 creature.
+          <br />
+          <b>Saving Throw</b> Will.
+          <span className="frequency">
+            <b>Duration</b> varies.
+          </span>
+        </p>
+        <p>
+          You cast a creature’s mind back through time, forcing them to take
+          other paths and make other choices, experiencing countless alternate
+          lives in an instant. The creature becomes overwhelmed with regret over
+          paths untraveled, lives unlived, and times unrealized. The creature
+          takes 6d6 mental damage and must attempt a Will save. After the effect
+          is resolved, the target is then temporarily immune for 1 day.
+        </p>
+        <p>
+          <b>Critical Success</b> The creature is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The creature takes half damage and is stupefied 2 for 1
+          round.
+        </p>
+        <p>
+          <b>Failure</b> The creature takes full damage and is stupefied 2 for 1
+          minute. While affected, the creature must attempt another save at the
+          start of its turn; on a failure, it’s slowed 1 for that turn as it
+          sobs uncontrollably.
+        </p>
+        <p>
+          <b>Critical Failure</b> The creature takes double damage and for 1
+          minute, it’s stupefied 4 and slowed 1 as it sobs uncontrollably.
+        </p>
+        <p>
+          <b>Heightened (+1)</b> The mental damage increases by 1d6.
+        </p>
+      </>
+    ),
+  },
 ];
