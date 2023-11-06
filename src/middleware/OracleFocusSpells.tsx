@@ -1294,6 +1294,7 @@ export const oracleFocusSpells: Array<FocusSpell> = [
           <b>Targets</b> 1 creature.
           <br />
           <b>Saving Throw</b> Will.
+          <br />
           <span className="frequency">
             <b>Duration</b> varies.
           </span>
@@ -1325,6 +1326,111 @@ export const oracleFocusSpells: Array<FocusSpell> = [
         </p>
         <p>
           <b>Heightened (+1)</b> The mental damage increases by 1d6.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 31,
+    level: 6,
+    name: "Moonlight Bridge",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "conjuration", "cursebound", "light"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> cosmos.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <b>Range</b> 30 feet.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 10 minutes.
+          </span>
+        </p>
+        <p>
+          You summon a bridge of radiant, shimmering moonlight. The 10-foot-wide
+          span must start at the ground on a point within range, and it extends
+          as a horizontal plane, either in a straight line or at any angle up to
+          45 degrees upward or downward, for up to 120 feet. This bridge has AC
+          10, Hardness 30, and 60 Hit Points, and it’s immune to critical hits
+          and precision damage. You and your allies can cross the bridge
+          normally, but other creatures simply pass through it if they try to do
+          so. The bridge blocks physical, ethereal, and incorporeal attacks from
+          crossing, whether from above or below. You can Dismiss the spell.
+        </p>
+        <p>
+          <b>Heightened (+1)</b> The length of the bridge increases by 20 feet,
+          and its Hit Points increase by 20.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 32,
+    level: 6,
+    name: "Tempest FORM",
+    action: "two_action",
+    tags: ["uncommon", "oracle", "cursebound", "Polymorph", "transmutation"],
+    type: "Focus 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Mystery</b> tempest.
+          <br />
+          <b>Cast</b> somatic, verbal.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> sustained up to 1 minute.
+          </span>
+        </p>
+        <p>
+          Your body becomes fluid to better suit your surroundings. When you
+          Cast this Spell, choose whether to become air, water, or mist. The
+          spell gains the air trait if you choose air or mist, and the water
+          trait if you choose water or mist. You become amorphous, as does your
+          armor. You lose any item bonus to AC and use your proficiency bonus
+          for unarmored defense to determine your AC. You also gain resistance
+          10 to physical damage and become immune to precision damage. You can
+          slip through tiny cracks and don’t need to breathe. You can’t cast
+          spells, activate items, or use actions that have the attack or
+          manipulate trait, except those granted by this spell. You also gain
+          the following effects based on your form.
+        </p>
+        <ul>
+          <li>
+            <b>Air</b> You gain a fly Speed of 20 feet and become invisible
+            while you are in the air. You can create the effects of a gust of
+            wind from your space as a 2-action activity, which has the
+            manipulate trait.
+          </li>
+          <li>
+            <b>Mist</b> You gain a fly Speed of 20 feet, and it becomes hard to
+            see through you. Any creature on one side of your space who is
+            targeted by a creature on the opposite side is concealed to the
+            targeting creature.
+          </li>
+          <li>
+            <b>Water</b> You gain a swim Speed of 20 feet and become invisible
+            while you are in the water. You can electrically charge yourself by
+            taking a single action, which has the manipulate trait. If you do,
+            you are no longer invisible in the water due to electricity
+            indicating your location, but any creature that makes a melee attack
+            against you takes 1d6 electricity damage; if it touches you, this is
+            cumulative with the damage from your major curse.
+          </li>
+        </ul>
+        <p>
+          <b>Heightened (+2)</b> Increase the resistance by 5 and the
+          electricity damage from the charged water form by 1.
         </p>
       </>
     ),
