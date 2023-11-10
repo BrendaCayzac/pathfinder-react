@@ -211,7 +211,7 @@ const OraclePage: React.ComponentType = () => {
               <a href="#initial-proficiencies">initial proficiencies</a>,{" "}
               <a href="#divine-spellcasting">divine spellcasting</a>,{" "}
               <a href="#spell-repertoire">spell repertoire</a>,{" "}
-              <a href="#mystery">pmystery</a>
+              <a href="#mystery">mystery</a>
             </td>
           </tr>
           <tr>
@@ -2126,7 +2126,7 @@ const OraclePage: React.ComponentType = () => {
         to gain a second slot.
       </p>
 
-      <h2>Monk Class Kit</h2>
+      <h2>Oracle Class Kit</h2>
       <ul>
         <li>
           <b>Price:</b> 5 gp, 5 sp, 2 cp.
