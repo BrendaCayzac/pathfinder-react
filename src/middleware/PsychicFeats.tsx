@@ -852,4 +852,286 @@ export const psychicFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 31,
+    name: "No!!!",
+    action: "reaction",
+    tags: ["psychic"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> A non-minion ally within 60 feet is reduced to 0 Hit
+            Points.
+          </span>
+        </p>
+        <p>
+          The shock of seeing your ally near death breaks whatever limits exist
+          in your mind, sending your power spilling forth. If your psyche is
+          currently unleashed, you can immediately use a psyche action that
+          takes 1 action or less to use. If your psyche is not currently
+          unleashed, you Unleash your Psyche, which remains unleashed until the
+          end of your next turn. You can ignore Unleash Psyche’s requirement of
+          needing to have Cast a Spell on your previous turn, but you still
+          can’t Unleash your Psyche if you’re stupefied or for 2 rounds after
+          your psyche subsides.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 32,
+    name: "Psi catastrophe",
+    action: "two_action",
+    tags: [
+      "psychic",
+      "concentrate",
+      "evocation",
+      "mindshift",
+      "occult",
+      "psyche",
+    ],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You stop holding your power back, unleashing it all in a catastrophic
+          blast. All creatures in a 20-foot emanation take 1d6 bludgeoning
+          damage per level with a basic Reflex save. Your psyche subsides as
+          your power is expended.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 33,
+    name: "Concious spell specialization",
+    action: "",
+    tags: ["psychic"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You become more adept with the spells that are always in your mind.
+          You gain an additional spell slot of 1st, 2nd, 3rd, and 4th levels.
+          You can use these spell slots to cast only a spell granted by your
+          conscious mind.
+        </p>
+        <p>
+          At 18th level, you also gain an additional 5th-level spell slot, with
+          the same restrictions.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 34,
+    name: "Deep roots",
+    action: "",
+    tags: ["psychic"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your mind-control spells send burrowing mental roots that tear at your
+          target’s mind when they’re removed or run their course. When you Cast
+          a Spell that imposes the controlled condition or otherwise forces the
+          target to take certain actions (such as command), you can choose one
+          target that critically failed its save. When that target finishes
+          fulfilling any commands issued by your spell, or when the spell is
+          dispelled or counteracted, the target takes 1d6 mental damage per
+          level of the spell.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 35,
+    name: "Shatter Space",
+    action: "",
+    tags: ["psychic", "amp"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          The sheer power of your magic fractures reality. Use this amp in place
+          of a psi cantrip’s normal amp entry. The cantrip must be one that
+          takes 2 or more actions to cast.
+        </p>
+        <p>
+          <b>Amp</b> You or one target of the spell are surrounded by a spiral
+          of torn space. This is an aura, and you choose the radius of the
+          emanation, up to 20 feet. A creature that starts its turn in the aura
+          or enters the aura during its turn takes 1d6 slashing damage for every
+          level of the amped psi cantrip, with a basic Reflex save against your
+          spell DC. If the creature critically fails, the torn space throws it
+          off balance and it falls prone. The aura lasts until the beginning of
+          your next turn. You can choose whether the aura affects the creature
+          emitting it.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 36,
+    name: "Constant levitation",
+    action: "",
+    tags: ["psychic"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your power has unbound you from the earth below. You’re affected by a
+          constant fly spell, and when your Psyche is Unleashed, you gain a
+          +10-foot status bonus to your fly Speed.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 37,
+    name: "Target of psychic ire",
+    action: "",
+    tags: ["psychic", "amp", "evocation", "occult"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your magic saturates your surroundings with hateful psychic energy.
+          Use this amp in place of a psi cantrip’s normal amp entry. The cantrip
+          must be one that takes 2 or more actions to cast and targets a
+          creature.
+        </p>
+        <p>
+          <b>Amp</b> Choose one target of the spell. Psychic phenomena turn
+          themselves on the target—typically, objects fling themselves at the
+          creature. At the beginning of each of the target’s turns, it takes 1d4
+          bludgeoning damage for each spell level of the psi cantrip this amp
+          was added to, with a basic Reflex save. The target remains marked by
+          psychic ire for 3 rounds. The effect persists even if you fall
+          unconscious or leave the area.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 38,
+    name: "Wandering thoughts",
+    action: "",
+    tags: ["psychic", "concentrate", "occult", "psyche", "teleportation"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per round.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You used your most recent action to Cast a
+            Spell.
+          </span>
+        </p>
+        <p>
+          When your Psyche is Unleashed, each burst of magic you cast also folds
+          space around you, and you travel through one of those folds. You
+          teleport 15 feet to a square you can see.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 39,
+    name: "All in your head",
+    action: "reaction",
+    tags: ["psychic", "psyche"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You’re about to attempt a Fortitude save or a Reflex
+            save.
+          </span>
+        </p>
+        <p>
+          Flames scouring at your body, venom coursing through your veins—you
+          refuse to believe they exist, and nothing can affect you if you don’t
+          believe in it. You attempt a Will save against the triggering effect,
+          instead of a Reflex or Fortitude save. You don’t gain the benefits of
+          fortress of will or walls of will on this save.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 40,
+    name: "Cranial detonation",
+    action: "reaction",
+    tags: ["psychic", "death", "mindshift", "psyche"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per round.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> You successfully reduce one or more non-mindless
+            enemies to 0 Hit Points with a spell.
+          </span>
+        </p>
+        <p>
+          As your overwhelming psyche fells a creature, you use its flickering
+          consciousness to detonate psychic energy from the creature’s head.
+          Each enemy you reduced to 0 Hit Points dies and its head explodes.
+          Each exploding head generates a shockwave in a 15-foot emanation
+          around that enemy. Each creature in any of the emanations takes 10d6
+          bludgeoning damage with a basic Reflex save. If this damage reduces an
+          enemy to 0 Hit Points, its head also explodes, potentially damaging
+          more creatures and potentially causing more detonations. A given
+          creature can take damage only once from a single use of Cranial
+          Detonation.
+        </p>
+      </>
+    ),
+  },
 ];
