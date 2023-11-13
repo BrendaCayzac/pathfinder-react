@@ -491,8 +491,8 @@ export const psychicFeats: Array<ClassFeat> = [
     name: "Drain brain",
     action: "two_action",
     tags: ["psychic", "divination", "mental", "occult", "psyche"],
-    level: 6,
-    feat: "Feat 6",
+    level: 8,
+    feat: "Feat 8",
     description: (
       <>
         <p>
@@ -523,8 +523,8 @@ export const psychicFeats: Array<ClassFeat> = [
     name: "Dark Persona's presence",
     action: "",
     tags: ["psychic", "aura", "emotion", "enchantement", "fear", "mental"],
-    level: 6,
-    feat: "Feat 6",
+    level: 8,
+    feat: "Feat 8",
     description: (
       <>
         <p>
@@ -567,6 +567,287 @@ export const psychicFeats: Array<ClassFeat> = [
           destruction. You can Cast a Spell only if it can directly damage an
           enemy or object or can impose a detrimental condition or penalty on
           one.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 21,
+    name: "Mental Static",
+    action: "reaction",
+    tags: ["psychic", "enchantement", "mental", "nonlethal", "occult"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You roll a critical success on a Will save against a
+            mental effect from a creature.
+          </span>
+        </p>
+        <p>
+          Your thoughts sting back when a lesser mind tries to invade your own.
+          You deal mental damage equal to your level to the triggering creature.
+          If you so desire, you can also send the creature a single mental image
+          to coincide with the damage, such as a watchful eye or the dread of
+          floating in an infinite sea.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 22,
+    name: "Remove Presence",
+    action: "",
+    tags: ["psychic", "amp", "illusion", "mental", "occult"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your spell reaches into the mind of a creature and removes you from
+          it. The amped cantrip must be one that has one or more targets and
+          must either require a spell attack roll or have a saving throw. Use
+          this amp in place of the psi cantrip’s normal amp entry.
+        </p>
+        <p>
+          <b>Amp</b> Choose one target of the spell or one creature in its area.
+          If that enemy fails its save or the spell hits it, you become
+          undetected by that creature, disappearing from its senses for 1 minute
+          or until you use a hostile action. This is similar to being invisible,
+          but effects like see invisibility don’t reveal you—you’re affecting
+          the target’s mind, not its vision. True seeing can still see through
+          this illusion if the counteract check succeeds.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 23,
+    name: "Thoughtsense",
+    action: "",
+    tags: ["psychic", "divination", "mental", "occult"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You can detect the flickers of mental activity let off by all thinking
+          creatures. You gain thoughtsense as a vague sense that has a range of
+          30 feet—like all vague senses, it’s only about as precise as an
+          average human’s sense of smell, meaning you generally can predict only
+          if a creature is present. Your thoughtsense detects only thinking
+          creatures, so a creature that is unthinking or otherwise immune to
+          mental effects (such as many constructs and oozes) can’t be perceived
+          using your thoughtsense, regardless of how precise it is.
+        </p>
+        <p>
+          While your Psyche is Unleashed, your thoughtsense upgrades to an
+          imprecise sense, letting you use it to Seek out creatures.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 24,
+    name: "Whispering steps",
+    action: "",
+    tags: ["psychic", "amp", "enchantement", "mental", "occult"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your spell leaves a lingering connection between you and a
+          creature—one through which you can nudge the creature’s mind this way
+          or that. The amped cantrip must take 2 or more actions to cast, target
+          one or more creatures, and either require a spell attack roll or have
+          a saving throw. Use this amp in place of the psi cantrip’s normal amp
+          entry.
+        </p>
+        <p>
+          <b>Amp</b> Choose one enemy who is a target of the spell. If that
+          enemy fails its save or the spell hits it, you whisper in the
+          creature’s mind, forcing it to Step in a direction of your choosing;
+          as this is forced movement, you can’t force the creature to Step into
+          hazardous terrain, off a ledge, or the like. After it Steps, the
+          creature becomes temporarily immune to this amp for 24 hours.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 25,
+    name: "Dream guise",
+    action: "one_action",
+    tags: ["psychic", "illusion", "occult", "psyche"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> wandering reverie subconscious mind.
+          </span>
+        </p>
+        <p>
+          You Stride into a willing ally’s space, at which point both of your
+          appearances shift into a shared third appearance, usually one that
+          looks like a mix of the two of you. Then, either you or your ally
+          Steps. You each maintain the merged appearance. Creatures who are
+          observing this know what happened, but still must Seek or otherwise
+          engage with the illusion to attempt to disbelieve it and determine
+          which of you is which. Otherwise, they can’t tell the difference and
+          have an equal chance to target each of you (DC 11 flat check). This
+          illusion ends as soon as either you or the ally you’re merged with
+          acts.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 26,
+    name: "Emotional Surge",
+    action: "one_action",
+    tags: ["psychic", "concentrate", "emotion", "psyche"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> emotional acceptance subconscious mind.
+          </span>
+        </p>
+        <p>
+          Your heart soars, increasing your power for a moment. You gain a +2
+          status bonus to attack rolls and skill checks until the start of your
+          next turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 27,
+    name: "Impose Order",
+    action: "one_action",
+    tags: ["psychic", "fortune", "psyche"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> precise discipline subconscious mind.
+          </span>
+        </p>
+        <p>
+          You bring discipline to your mind and magic, ensuring that you don’t
+          under-perform. Until the end of your turn, instead of rolling dice for
+          damage, count each damage die as average damage rounded up (3 for d4,
+          4 for d6, 5 for d8, 6 for d10, and 7 for d12).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 28,
+    name: "Scour the library",
+    action: "one_action",
+    tags: ["psychic", "psyche"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> gathered lore subconscious mind.
+          </span>
+        </p>
+        <p>
+          Seeing an enemy’s attack, you quickly consult multiple scraps of lore
+          in your mind, synthesizing them into the perfect plan. Make a check to
+          Recall Knowledge (using an appropriate skill) about one creature
+          within 60 feet. On a success, in addition to the normal benefits, you
+          gain a +1 circumstance bonus to your next attack roll against that
+          creature and to your AC against the creature’s next attack. On a
+          critical success, the bonuses are +2.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 29,
+    name: "Signature spell expansion",
+    action: "",
+    tags: ["psychic"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your direct mental grasp of your power lets you cast more spells with
+          greater freedom. You gain two additional signature spells, each of
+          which must have a minimum level of 3rd or lower.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 30,
+    name: "Foreseen failure",
+    action: "",
+    tags: ["psychic", "divination", "fortune", "occult"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per day.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> A spell you cast has no effect because you critically
+            failed all your spell attack rolls or because all targets critically
+            succeeded at their saving throws.
+          </span>
+        </p>
+        <p>
+          You see your spell fail to take hold to disastrous end, then snap back
+          to reality—it was all a precognition, and you know to try a different
+          spell. Your spell is expended, but you can Cast a Spell that requires
+          the same number of actions as the triggering spell or fewer to cast.
+          The second spell must be a different spell than the first.
         </p>
       </>
     ),
