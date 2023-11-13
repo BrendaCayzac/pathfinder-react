@@ -268,4 +268,307 @@ export const psychicFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 11,
+    name: "Psi Strikes",
+    action: "",
+    tags: ["psychic", "mindshift"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per turn
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> Your most recent action was to Cast a Spell or
+            to Unleash your Psyche.
+          </span>
+        </p>
+        <p>
+          You siphon residual psychic energies from your spell into one weapon
+          you’re wielding or one of your unarmed attacks and when you unleash
+          your mind, the energies flare to match. The attack deals an extra 1d6
+          force damage until the end of the current turn. If your Psyche is
+          Unleashed, this benefit instead lasts until your psyche subsides.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 12,
+    name: "Thoughtform Summoning",
+    action: "",
+    tags: ["psychic"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You can create a prototypical creature from the depths of your
+          imagination instead of calling one from elsewhere. Whenever you summon
+          a creature, you can choose to instead create a psychic construct of
+          that creature. This grants it resistance to physical damage equal to
+          half its level, weakness 5 to force and mental damage, and the ability
+          to pass through enemies’ spaces without needing to Tumble Through
+          (though it can’t end its turn in an occupied space).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 13,
+    name: "Violent Unleash",
+    action: "",
+    tags: ["psychic", "evocation", "mundshift", "occult"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You Unleash your Psyche.
+          </span>
+        </p>
+        <p>
+          The force of your mind unleashing itself wracks your enemies with a
+          violent shockwave. You deal 2d6 force damage to all creatures in a
+          20-foot emanation, with a basic Reflex save. This explosion is taxing,
+          making you stunned 1.
+        </p>
+        <p>
+          At 5th level and every 2 levels thereafter, the damage increases by
+          1d6.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 14,
+    name: "Inertial Barrier",
+    action: "",
+    tags: ["psychic", "abjuration", "amp", "occult"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your spell leaves behind barriers that reduce shock and motion. Use
+          this amp in place of a psi cantrip’s normal amp entry.
+        </p>
+        <p>
+          <b>Amp</b> You or one target of the spell gains resistance to physical
+          damage equal to 2 + the spell’s level until the start of your next
+          turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 15,
+    name: "Parallel Breakthrough",
+    action: "",
+    tags: ["psychic"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You expand your mind beyond your area of psychic specialty. You gain a
+          1st-level psi cantrip for a conscious mind other than your own; this
+          can be either the unique surface cantrip or one of the common cantrips
+          and the accompanying amp. If you choose a common cantrip, you also
+          gain the special benefit granted by that conscious mind when casting
+          the cantrip without an amp. You don’t gain any other benefits of that
+          conscious mind, such as additional spells known.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 16,
+    name: "Sixth Sense",
+    action: "",
+    tags: ["psychic", "divination", "occult"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your psychic abilities also allow you to detect the lingering thoughts
+          of spirits and similar entities. While you’re exploring but not
+          Searching, the GM rolls a secret check for you to find haunts that
+          usually require Searching, as well as spirits, creatures on the
+          Ethereal Plane, and beings made entirely of spiritual essence, such as
+          celestials, fiends, and monitors.
+        </p>
+        <p>
+          You can also potentially notice ethereal creatures and spirits inside
+          solid objects, provided they are within 30 feet of you. This applies
+          while Searching, Seeking, and on the automatic secret check from Sixth
+          Sense. You can still notice spirits only on a successful check, and
+          you can’t see them if they’re more than 5 feet inside an object.
+        </p>
+        <p>
+          When you notice a creature with your Sixth Sense, you also learn its
+          location, making it hidden to you if it had been undetected.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 17,
+    name: "Steady Spellcasting",
+    action: "",
+    tags: ["psychic"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Confident in your technique, you don’t easily lose your concentration
+          when you Cast a Spell. If a reaction would disrupt your spellcasting
+          action, attempt a DC 15 flat check. If you succeed, your action isn’t
+          disrupted.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 18,
+    name: "Strain Mind",
+    action: "",
+    tags: ["psychic"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per hour.
+          <br />
+          <b>Trigger</b> You cast a psi cantrip.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You have 0 Focus Points.
+          </span>
+        </p>
+        <p>
+          You strain your body beyond its limits to use an amp even when your
+          mental power is depleted. You add an amp that costs 1 Focus Point to
+          the spell. Instead of paying the normal Focus Point cost, you lose Hit
+          Points equal to four times the spell level of the amped psi cantrip as
+          you bleed from your nose or suffer some other visible sign of strain.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 19,
+    name: "Drain brain",
+    action: "two_action",
+    tags: ["psychic", "divination", "mental", "occult", "psyche"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          With a wresting of will, you siphon off a creature’s mental energy to
+          replenish your own. One non-mindless creature within 30 feet must
+          attempt a Will save against your spell DC.
+        </p>
+        <p>
+          <b>Success</b> The creature is unaffected.
+        </p>
+        <p>
+          <b>Failure</b> The creature is stupefied 1 for 1 minute, and you
+          regain 1 Focus Point, up to your normal maximum. You can’t use Brain
+          Drain again until after the next time you make your daily
+          preparations.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but the creature is stupefied 2.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 20,
+    name: "Dark Persona's presence",
+    action: "",
+    tags: ["psychic", "aura", "emotion", "enchantement", "fear", "mental"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You Unleash your Psyche.
+          </span>
+        </p>
+        <p>
+          When you Unleash your Psyche, all your rage and pain—the portion of
+          your psyche dedicated to cruel retribution—come along with it.
+        </p>
+        <p>
+          The force of your dark persona’s negativity batters constantly against
+          all creatures in a 30-foot emanation when you Unleash your Psyche and
+          for as long as your Psyche is Unleashed. A creature must attempt a
+          Will save against your spell DC the first time it enters the
+          emanation, or if it’s in the emanation when you take this action; it
+          doesn’t need to attempt a save again, even if it leaves the emanation
+          and returns. A creature frightened by your Dark Persona’s Presence
+          can’t decrease its frightened value below 1 while within the
+          emanation.
+        </p>
+        <p>
+          <b>Critical Success</b> The creature is unaffected.
+        </p>
+        <p>
+          <b>Success</b> The target is frightened 1.
+        </p>
+        <p>
+          <b>Failure</b> The target is frightened 2.
+        </p>
+        <p>
+          <b>Critical Failure</b> The target is frightened 3.
+        </p>
+        <p>
+          While your Psyche is Unleashed, your dark persona cares only for
+          destruction. You can Cast a Spell only if it can directly damage an
+          enemy or object or can impose a detrimental condition or penalty on
+          one.
+        </p>
+      </>
+    ),
+  },
 ];
