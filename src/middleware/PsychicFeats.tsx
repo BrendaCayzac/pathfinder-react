@@ -1102,7 +1102,7 @@ export const psychicFeats: Array<ClassFeat> = [
   {
     id: 40,
     name: "Cranial detonation",
-    action: "reaction",
+    action: "",
     tags: ["psychic", "death", "mindshift", "psyche"],
     level: 18,
     feat: "Feat 18",
@@ -1130,6 +1130,129 @@ export const psychicFeats: Array<ClassFeat> = [
           more creatures and potentially causing more detonations. A given
           creature can take damage only once from a single use of Cranial
           Detonation.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 41,
+    name: "Deepest wellspring",
+    action: "",
+    tags: ["psychic"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You’ve glimpsed the furthest recesses of your mind. If you have spent
+          at least 3 Focus Points since the last time you Refocused, you recover
+          3 Focus Points when you Refocus, even if you spent your Focus Points
+          on spells other than psychic abilities.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 42,
+    name: "Become Thought",
+    action: "",
+    tags: ["psychic", "transmutation"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You shed some of your material form, becoming a being of pure thought.
+          This has the following effects.
+        </p>
+        <ul>
+          <li>
+            You gain resistance 10 to physical damage but weakness 5 to mental
+            damage and weakness 10 to any effect that deals damage by targeting
+            the spirit, such as spirit blast.
+          </li>
+          <li>
+            You can change your appearance on a whim. This takes a single
+            action, which has the concentrate trait, has the effects of illusory
+            disguise, and lasts until you change your appearance again.
+          </li>
+          <li>
+            Once per year, when you die, you automatically return to life the
+            next day as long as one living sentient creature on your plane
+            remembers you; the memories enable you to reconstruct yourself from
+            their thoughts. You appear in the vicinity of the creature that
+            remembers you most strongly.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: 43,
+    name: "Mind over matter",
+    action: "",
+    tags: ["psychic"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          Your mind’s limits are only what you imagine them to be. You gain an
+          additional 10th-level spell slot.oming a being of pure thought.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 44,
+    name: "Twin Psyche",
+    action: "",
+    tags: ["psychic"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          You’ve segmented your psyche so it can operate in tandem. When you
+          Unleash your Psyche, you can double its duration.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 45,
+    name: "Unlimited potential",
+    action: "one_action",
+    tags: ["psychic", "concentrate", "manipulate", "metamagic"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per minute.
+          </span>
+        </p>
+        <p>
+          The laws of magic can limit your mind only if you think you need them,
+          and you’ve grown past the need for such limits. If your next action is
+          to Cast a Spell of 5th level or lower that has no duration, you don’t
+          expend the prepared spell as you cast it.
         </p>
       </>
     ),
