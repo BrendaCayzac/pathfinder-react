@@ -65,6 +65,7 @@ const MagusPage = React.lazy(() => import("./pages/Magus"));
 const MonkPage = React.lazy(() => import("./pages/Monk"));
 const OraclePage = React.lazy(() => import("./pages/Oracle"));
 const PsychicPage = React.lazy(() => import("./pages/Psychic"));
+const RangerPage = React.lazy(() => import("./pages/Ranger"));
 
 const App = (): JSX.Element => {
   return (
@@ -213,29 +214,37 @@ const App = (): JSX.Element => {
               }
             />
             <Route
-            path="/classes/monk"
-            element={
-              <React.Suspense fallback={<h1>Loading...</h1>}>
-                <MonkPage />
-              </React.Suspense>
-            }
-          />
-          <Route
-            path="/classes/oracle"
-            element={
-              <React.Suspense fallback={<h1>Loading...</h1>}>
-                <OraclePage />
-              </React.Suspense>
-            }
-          />
-           <Route
-            path="/classes/psychic"
-            element={
-              <React.Suspense fallback={<h1>Loading...</h1>}>
-                <PsychicPage />
-              </React.Suspense>
-            }
-          />
+              path="/classes/monk"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <MonkPage />
+                </React.Suspense>
+              }
+            />
+            <Route
+              path="/classes/oracle"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <OraclePage />
+                </React.Suspense>
+              }
+            />
+            <Route
+              path="/classes/psychic"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <PsychicPage />
+                </React.Suspense>
+              }
+            />
+            <Route
+              path="/classes/ranger"
+              element={
+                <React.Suspense fallback={<h1>Loading...</h1>}>
+                  <RangerPage />
+                </React.Suspense>
+              }
+            />
           </Route>
 
           {/* Ancestries */}
