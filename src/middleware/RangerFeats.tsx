@@ -1034,7 +1034,7 @@ export const rangerFeats: Array<ClassFeat> = [
   },
   {
     id: 40,
-    name: "Fey tracker",
+    name: "Masterful warden",
     action: "",
     tags: ["ranger"],
     level: 6,
@@ -1057,6 +1057,285 @@ export const rangerFeats: Array<ClassFeat> = [
         <p>
           <b>Special</b> You can take this feat multiple times, choosing a
           different master warden spell each time.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 41,
+    name: "Mature animal companion",
+    action: "",
+    tags: ["ranger"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Animal Companion.
+          </span>
+        </p>
+        <p>
+          Your animal companion becomes a mature animal companion and gains
+          additional capabilities.
+        </p>
+        <p>
+          Your animal companion has greater independence. During an encounter,
+          even if you don’t use the Command an Animal action, your animal
+          companion can still use 1 action that round on your turn to Stride or
+          Strike. It can do this at any point during your turn, as long as you
+          aren’t currently taking an action. If it does, that’s all the actions
+          it gets that round—you can’t Command it later.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 42,
+    name: "Quick snares",
+    action: "",
+    tags: ["ranger"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> expert in Crafting, Snare Specialist.
+          </span>
+        </p>
+        <p>
+          You can rig a snare in only moments. You can Craft snares that
+          normally take 1 minute to Craft with 3 Interact actions, even if you
+          haven’t prepared them.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 43,
+    name: "Ranger's bramble",
+    action: "",
+    tags: ["ranger"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          You can cause plants to grow and trap your foes with thorns. You gain
+          the ranger’s bramble warden spell. Increase the number of Focus Points
+          in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 44,
+    name: "Skirmish strike",
+    action: "one_action",
+    tags: ["ranger", "flourish"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Your feet and weapon move in tandem. Either Step and then Strike, or
+          Strike and then Step.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 45,
+    name: "Snap shot",
+    action: "",
+    tags: ["ranger"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You can react with ranged weapons when a creature is in close
+          quarters. You can use a reaction that normally allows you to make a
+          melee weapon Strike to instead make a ranged weapon Strike. You must
+          be Striking an adjacent target. If necessary for the reaction’s
+          trigger, you treat your ranged weapon as if it had a reach of 5 feet.
+          If the reaction has other requirements, such as wielding a specific
+          kind of weapon, Snap Shot doesn’t allow you to ignore them; it allows
+          you only to replace a melee weapon Strike with a ranged weapon Strike.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 46,
+    name: "Swift tracker",
+    action: "",
+    tags: ["ranger"],
+    level: 6,
+    feat: "Feat 6",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> expert in Survival, Experienced Tracker.
+          </span>
+        </p>
+        <p>
+          Your keen eyes catch signs of passage even when you’re moving. You can
+          move at your full Speed while you Track. If you have master
+          proficiency in Survival, you don’t need to attempt a new Survival
+          check every hour while Tracking. If you have legendary proficiency in
+          Survival, you can use another exploration activity while Tracking.
+        </p>
+        <p>
+          If you roll Survival for initiative while tracking your hunted prey,
+          when you start your first turn of the encounter, you can Stride toward
+          your hunted prey as a free action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 47,
+    name: "Blind-fight",
+    action: "",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Perception.
+          </span>
+        </p>
+        <p>
+          Your heightened senses allow you to instinctively detect unseen
+          opponents. You don’t need to succeed at a flat check to target
+          concealed creatures. You’re not off-guard to creatures that are hidden
+          from you (unless you’re off-guard to them for reasons other than the
+          hidden condition), and you need only a successful DC 5 flat check to
+          target a hidden creature.
+        </p>
+        <p>
+          While you’re adjacent to an undetected creature of your level or
+          lower, it is instead only hidden from you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 48,
+    name: "Can't you see?",
+    action: "",
+    tags: ["ranger", "druid"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> trained in Occultism, expert in Stealth.
+          </span>
+        </p>
+        <p>
+          The eye rebels, the mind recoils—no matter how much those who can see
+          you try to explain what’s there, their friends’ gazes just skitter
+          over you, like a bird afraid to land. A character who attempts to
+          Point Out your location must attempt a DC 14 flat check. If they fail,
+          their allies misunderstand them and aren’t sure where you are. On a
+          critical failure, their allies think they pointed you out in a
+          different location entirely, chosen by the GM. Similarly, when a
+          creature critically fails to Seek you while you’re hidden to or
+          undetected by it, it thinks you’re in a different location chosen by
+          the GM. In either case, you appear to be hidden to a creature that
+          thinks you’re in a different location, though you’re actually
+          undetected by it for targeting and further uses of the Seek action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 49,
+    name: "Deadly aim",
+    action: "one_action",
+    tags: ["ranger", "flourish"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> weapon specialization.
+          </span>
+        </p>
+        <p>
+          You aim for your prey’s weak spots, making your shot more challenging
+          but dealing more damage if you hit. Make a ranged Strike against your
+          hunted prey at a –2 penalty. You gain a +4 circumstance bonus to
+          damage on that Strike. This bonus increases to +6 at 11th level and +8
+          at 15th level.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 50,
+    name: "Eerie environs",
+    action: "",
+    tags: ["ranger", "druid"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> trained in Intimidation, trained in Stealth.
+          </span>
+        </p>
+        <p>
+          The natural world can be scary to those not used to it—and you make it
+          scarier still. If you’re hidden from a creature, you can attempt to
+          Demoralize it without losing your hidden condition—imitating the
+          sounds of strange beasts or causing the foliage to rustle menacingly.
+          When you do so, you don’t take a penalty to your check if the target
+          doesn’t understand your language.
         </p>
       </>
     ),
