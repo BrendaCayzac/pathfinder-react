@@ -123,6 +123,31 @@ export const rangerFeats: Array<ClassFeat> = [
   },
   {
     id: 6,
+    name: "Initiate Warden",
+    action: "",
+    tags: ["ranger"],
+    level: 1,
+    feat: "Feat 1",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          You’ve trained with one of the ranger sects known as wardens, who
+          practice a specialized type of primal magic. You gain your choice of
+          one warden spell from the initial warden spells (or another you have
+          access to).
+        </p>
+        <p>
+          <b>Special</b> You can take this feat multiple times, choosing a
+          different initial warden spell each time.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 7,
     name: "Monster hunter",
     action: "",
     tags: ["ranger"],
@@ -147,7 +172,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 7,
+    id: 8,
     name: "Twin takedown",
     action: "one_action",
     tags: ["ranger", "flourish"],
@@ -178,7 +203,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 8,
+    id: 9,
     name: "Favored terrain",
     action: "",
     tags: ["ranger"],
@@ -236,7 +261,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 9,
+    id: 10,
     name: "Hunter's aim",
     action: "two_action",
     tags: ["ranger", "concentrate"],
@@ -258,7 +283,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 10,
+    id: 11,
     name: "Magic hide",
     action: "",
     tags: ["ranger"],
@@ -284,7 +309,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 11,
+    id: 12,
     name: "Animal empathy",
     action: "",
     tags: ["ranger"],
@@ -306,7 +331,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 12,
+    id: 13,
     name: "Monster warden",
     action: "",
     tags: ["ranger"],
@@ -333,7 +358,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 13,
+    id: 14,
     name: "Quick draw",
     action: "one_action",
     tags: ["ranger"],
@@ -352,7 +377,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 14,
+    id: 15,
     name: "Relentless stalker",
     action: "reaction",
     tags: ["uncommon", "ranger", "move"],
@@ -380,7 +405,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 15,
+    id: 16,
     name: "Snare hopping",
     action: "",
     tags: ["ranger"],
@@ -405,7 +430,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 16,
+    id: 17,
     name: "United Assault",
     action: "one_action",
     tags: ["uncommon", "ranger", "fighter", "flourish"],
@@ -427,7 +452,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 17,
+    id: 18,
     name: "Wild empathy",
     action: "",
     tags: ["ranger"],
@@ -449,7 +474,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 18,
+    id: 19,
     name: "Advanced warden",
     action: "",
     tags: ["ranger"],
@@ -478,7 +503,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 19,
+    id: 20,
     name: "Animal feature",
     action: "",
     tags: ["ranger"],
@@ -503,7 +528,7 @@ export const rangerFeats: Array<ClassFeat> = [
     ),
   },
   {
-    id: 20,
+    id: 21,
     name: "Companion's cry",
     action: "",
     tags: ["ranger"],
@@ -523,6 +548,234 @@ export const rangerFeats: Array<ClassFeat> = [
           You can urge your companion to do its utmost. You can spend 2 actions
           to Command an Animal instead of 1 when commanding your animal
           companion. If you do, your animal companion uses an additional action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 22,
+    name: "Disrupt Prey",
+    action: "reaction",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> Your hunted prey is within your reach, and it uses a
+            manipulate action, uses a move action, or leaves a square during a
+            move action it’s using.
+          </span>
+        </p>
+        <p>
+          Make a melee Strike against your prey. If the attack is a critical
+          hit, you disrupt the triggering action.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 23,
+    name: "Far shot",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          Your experience in the field has taught you how to focus your aim at a
+          distance, increasing your accuracy. Double your weapons’ range
+          increments.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 24,
+    name: "Farabellus flip",
+    action: "reaction",
+    tags: ["uncommon", "ranger", "barbarian", "fighter"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Pathfinder Society Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> trained in Acrobatics and medium armor.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> An enemy targets you with a melee Strike.
+          </span>
+        </p>
+        <p>
+          Surprisingly agile even in a breastplate and carrying a full rucksack,
+          Marcos Farabellus developed this evasive maneuver during one of his
+          many adventures. Flinging your body into a twisting somersault, you
+          gain a +2 circumstance bonus to your AC against the triggering attack.
+          If the attack still hits you, you can Step to an open space that’s
+          still within the triggering enemy’s reach, turning the impact of the
+          blow into momentum.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 25,
+    name: "Favored enemy",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You have studied a specific type of wild creature and can hunt it more
+          easily. When you gain this feat, choose animals, beasts, dragons, or
+          both fungi and plants as your favored enemy. When you roll initiative
+          and can see an enemy that belongs to the chosen category, you can Hunt
+          Prey as a free action, designating that enemy.
+        </p>
+        <p>
+          You can use this free action even if you haven’t identified the
+          creature yet with Recall Knowledge. The benefit doesn’t apply against
+          favored enemies disguised as other creatures, and the GM determines
+          whether it applies against a creature disguised as a favored enemy.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 26,
+    name: "Favored prey",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          You have studied a specific type of wild creature and can hunt it more
+          easily. When you gain this feat, choose animals, beasts, dragons, or
+          both fungi and plants as your favored prey. When you roll initiative
+          and can see an enemy that belongs to the chosen category, you can Hunt
+          Prey as a free action, designating that enemy.
+        </p>
+        <p>
+          You can use this free action even if you haven’t identified the
+          creature yet with Recall Knowledge. The benefit doesn’t apply against
+          favored enemies disguised as other creatures, and the GM determines
+          whether it applies against a creature disguised as a favored prey.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 27,
+    name: "Giant hunter",
+    action: "",
+    tags: ["rare", "ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Kingmaker Companion Guide</i>
+        </p>
+        <p>
+          You have studied giants and hunt them with efficiency. When you roll
+          initiative and can see a giant, you can Hunt Prey as a free action,
+          designating that enemy as your prey.
+        </p>
+        <p>
+          You can use this free action even if you haven’t identified the giant
+          yet with Recall Knowledge. The benefit doesn’t apply against giants
+          disguised as other creatures, and the GM determines whether it applies
+          against a creature disguised as a giant.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 28,
+    name: "Greenwatch initiate",
+    action: "",
+    tags: ["rare", "ranger", "gunslinger", "investigator"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>KLost Omens: Impossible Lands</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> trained in Survival.
+          </span>
+        </p>
+        <p>
+          You’ve received the basic training developed for all Greenwatch
+          recruits. You become an expert in Survival and gain the Experienced
+          Tracker and Survey Wildlife skill feats.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 29,
+    name: "Hunter's Luck",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          Your recollection of monsters is magically enhanced by luck. You gain
+          the monster hunter’s luck warden spell. Increase the number of Focus
+          Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 30,
+    name: "Running Reload",
+    action: "one_action",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You can reload your weapon on the move. You Stride, Step, or Sneak,
+          then Interact to reload.
         </p>
       </>
     ),
