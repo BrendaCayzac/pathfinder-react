@@ -283,4 +283,248 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 11,
+    name: "Animal empathy",
+    action: "",
+    tags: ["ranger"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          You have a connection to the creatures of the natural world that
+          allows you to communicate with them on a rudimentary level. You can
+          use Diplomacy to Make an Impression on animals and to make very simple
+          Requests of them. In most cases, wild animals will give you time to
+          make your case.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 12,
+    name: "Monster warden",
+    action: "",
+    tags: ["ranger"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Monster Hunter.
+          </span>
+        </p>
+        <p>
+          You understand how to defend yourself and others against your prey.
+          When you grant bonuses from Monster Hunter, you and your allies also
+          each gain a +1 circumstance bonus to your next saving throw against
+          that particular creature and to your AC against that creature’s next
+          attack against you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 13,
+    name: "Quick draw",
+    action: "one_action",
+    tags: ["ranger"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You draw your weapon and attack with the same motion. You Interact to
+          draw a weapon, then Strike with that weapon.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 14,
+    name: "Relentless stalker",
+    action: "reaction",
+    tags: ["uncommon", "ranger", "move"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> An adjacent creature you are hunting attempts to move
+            away from you using an action that has the move trait.
+          </span>
+        </p>
+        <p>
+          Your hunted prey cannot escape your relentless pursuit. Stride up to
+          your Speed in tandem with the triggering creature, remaining adjacent
+          to the foe throughout its movement until it stops moving or you run
+          out of movement. You can ignore difficult terrain during this movement
+          unless the difficult terrain is caused by a magical effect.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 15,
+    name: "Snare hopping",
+    action: "",
+    tags: ["ranger"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Snare Crafting, warden spells.
+          </span>
+        </p>
+        <p>
+          You can magically move your snares around. You gain the snare hopping
+          warden spell. Increase the number of Focus Points in your focus pool
+          by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 16,
+    name: "United Assault",
+    action: "one_action",
+    tags: ["uncommon", "ranger", "fighter", "flourish"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Knights of Lastwall</i>
+        </p>
+        <p>
+          Through countless battles, you’ve learned you’re stronger when working
+          alongside your allies. Make a Strike. Your Strike gains a circumstance
+          bonus to damage rolls equal to the number of other different creatures
+          that damaged the target since the end of the target’s last turn, to a
+          maximum of a +4 circumstance bonus.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 17,
+    name: "Wild empathy",
+    action: "",
+    tags: ["ranger"],
+    level: 2,
+    feat: "Feat 2",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You have a connection to the creatures of the natural world that
+          allows you to communicate with them on a rudimentary level. You can
+          use Diplomacy to Make an Impression on animals and to make very simple
+          Requests of them. In most cases, wild animals will give you time to
+          make your case.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 18,
+    name: "Advanced warden",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Initiate Warden.
+          </span>
+        </p>
+        <p>
+          You unlock more powerful primal spells. You gain your choice of one
+          warden spell from the advanced warden spells (or another you have
+          access to).
+        </p>
+        <p>
+          <b>Special</b> You can take this feat multiple times, choosing a
+          different advanced warden spell each time.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 19,
+    name: "Animal feature",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          You are so connected with the animal world that you can grant yourself
+          an animal’s features and abilities. You gain the animal feature warden
+          spell. Increase the number of Focus Points in your focus pool by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 20,
+    name: "Companion's cry",
+    action: "",
+    tags: ["ranger"],
+    level: 4,
+    feat: "Feat 4",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> an animal companion.
+          </span>
+        </p>
+        <p>
+          You can urge your companion to do its utmost. You can spend 2 actions
+          to Command an Animal instead of 1 when commanding your animal
+          companion. If you do, your animal companion uses an additional action.
+        </p>
+      </>
+    ),
+  },
 ];
