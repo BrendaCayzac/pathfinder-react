@@ -1949,4 +1949,285 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 71,
+    name: "Twin riposte",
+    action: "reaction",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Twin Parry.
+          <br />
+          <b>Trigger</b> A creature within your reach critically fails a Strike
+          against you.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are benefiting from Twin Parry.
+          </span>
+        </p>
+        <p>
+          A clever parry with one weapon leaves your opponent open to an attack
+          with the other weapon. Make a melee Strike or use a Disarm action
+          against the triggering opponent.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 72,
+    name: "Warden's step",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Stealth.
+          </span>
+        </p>
+        <p>
+          You can guide your allies to move quietly through the wilderness. When
+          you Avoid Notice during exploration in natural terrain, you can
+          designate any number of your allies to gain the benefits as if they
+          were using that activity during that exploration. This requires no
+          action on their part.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 73,
+    name: "Distracting shot",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          The sheer power of your attacks, or the overwhelming number of them,
+          leaves an enemy flustered. If you critically hit your hunted prey with
+          a ranged weapon, or hit it at least twice on the same turn with a
+          ranged weapon, it’s off-guard until the start of your next turn.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 74,
+    name: "Double prey",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You can focus on two foes at once, hunting both of them down. When you
+          use the Hunt Prey action, you can pick two creatures as your prey.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 75,
+    name: "Lightning snares",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Crafting, Quick Snares, Snare
+            Specialist.
+          </span>
+        </p>
+        <p>
+          You can rig a trap with incredible speed. When you create a snare that
+          normally takes 1 minute to Craft, you can Craft it using a single
+          Interact action instead.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 76,
+    name: "Obscured emergence",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> expert in Stealth.
+          </span>
+        </p>
+        <p>
+          You are, by nature, a thing of gloomy woods and barren wilds, and when
+          you choose show yourself, a bit of this gloom clings to you, obscuring
+          your form with strange distortions or mist. When you stop being hidden
+          due to your own actions (not due to someone successfully finding you),
+          you gain concealment until the start of your next turn as people’s
+          eyes find it oddly hard to focus on you. As usual for concealment
+          involving an obvious visual manifestation, you can’t use this
+          concealment to Hide.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 77,
+    name: "Roll with it",
+    action: "reaction",
+    tags: ["rare", "ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Kingmaker Companion Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Giant Hunter.
+          <br />
+          <span className="frequency">
+            <b>Trigger</b> Your hunted prey, which must be a giant, hits you
+            with a melee attack.
+          </span>
+        </p>
+        <p>
+          You can dodge attacks from giants. Attempt a Reflex save using 10 +
+          the giant’s attack bonus as the save DC. If the result allows you to
+          Stride as part of the reaction, you may instead Fly or Swim if you
+          have the corresponding movement type.
+        </p>
+        <p>
+          <b>Critical Success</b> The attack misses you (or if the attack was a
+          critical hit, it becomes a regular hit). You can Stride up to 10 feet
+          as part of the reaction; if you do so, the reaction gains the move
+          trait.
+        </p>
+        <p>
+          <b>Success</b> The attack deals half damage. You can Stride up to 5
+          feet as part of the reaction, but you must end this movement adjacent
+          to the triggering giant. If you do so, the reaction gains the move
+          trait.
+        </p>
+        <p>
+          <b>Critical Failure</b> You fail to avoid the attack and are knocked
+          prone by the blow.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 78,
+    name: "Second sting",
+    action: "one_action",
+    tags: ["ranger", "press"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are wielding two melee weapons, each in a
+            different hand.
+          </span>
+        </p>
+        <p>
+          You read your prey’s movements and transform them into openings, so
+          failures with one weapon set up glancing blows with the other. Make a
+          melee Strike with one of the required weapons against your hunted
+          prey. The Strike gains the following failure effect.
+        </p>
+        <p>
+          <b>Failure</b> You deal the damage the other required weapon would
+          have dealt on a hit, excluding all damage dice. (This removes dice
+          from weapon runes, spells, and special abilities, not just weapon
+          damage dice.)
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 79,
+    name: "Side by side",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> an animal companion.
+          </span>
+        </p>
+        <p>
+          You and your animal companion fight in tandem. Whenever you and your
+          animal companion are adjacent to the same foe, you are both flanking
+          that foe with each other, regardless of your actual positions.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 80,
+    name: "Warden's focus",
+    action: "",
+    tags: ["ranger"],
+    level: 12,
+    feat: "Feat 12",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          Your connection with your surroundings deepens and expands, allowing
+          you to draw in more of nature’s primal power as you focus. When you
+          Refocus, you regain all your Focus Points instead of 1.
+        </p>
+      </>
+    ),
+  },
 ];
