@@ -362,4 +362,76 @@ export const rangerFocusSpells: Array<FocusSpell> = [
       </>
     ),
   },
+  {
+    id: 11,
+    level: 5,
+    name: "Hunter's vision",
+    action: "one_action",
+    tags: ["uncommon", "ranger", "concentrate", "focus"],
+    type: "Focus 5",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Range</b> 30 feet.
+          <br />
+          <b>Targets</b> 1 hunted prey.
+          <br />
+          <span className="frequency">
+            <b>Duration</b> 10 minutes.
+          </span>
+        </p>
+        <p>
+          Your target glows with a magical aura visible only to you and those
+          who follow your lead. Your target is visible to you and others sharing
+          your Hunt Prey benefits even if it wouldn’t normally be due to
+          lighting or the concealed or invisible conditions, though cover from
+          opaque objects still blocks your sight. You ignore the flat check
+          against the target due to the concealed condition, and the target
+          isn’t automatically hidden from you due to darkness or being
+          invisible.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 12,
+    level: 5,
+    name: "Terrain Transposition",
+    action: "one_action",
+    tags: [
+      "uncommon",
+      "ranger",
+      "concentrate",
+      "focus",
+      "manipulate",
+      "teleportation",
+    ],
+    type: "Focus 5",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Range</b> 90 feet.
+          </span>
+        </p>
+        <p>
+          You mystically transpose your current location with another. While in
+          a wilderness environment, you transport yourself and items you’re
+          holding to a clear space you can see within range. If you have Favored
+          Terrain and both your starting and ending position are in your favored
+          terrain, the range increases to 180 feet. If you have an animal
+          companion and it is adjacent to you, you can transport it along with
+          you to an adjacent open space, but if this spell would bring any other
+          creature with you, even in an extradimensional container, the spell is
+          lost.
+        </p>
+      </>
+    ),
+  },
 ];
