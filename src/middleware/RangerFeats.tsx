@@ -1605,7 +1605,346 @@ export const rangerFeats: Array<ClassFeat> = [
           You point out vulnerabilities present in your hunted prey, granting
           the benefits listed in Hunt Prey and your hunter’s edge to an ally
           until the end of their next turn. Depending on whether you call out or
-          use gestures, this action gains either the auditory or visual tr
+          use gestures, this action gains either the auditory or visual trait.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 61,
+    name: "Camouflage",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Stealth.
+          </span>
+        </p>
+        <p>
+          You alter your appearance to blend in to the wilderness. In natural
+          terrain, you can Hide and Sneak even without cover or being concealed.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 62,
+    name: "Dazzling display",
+    action: "one_action",
+    tags: ["ranger", "fighter", "rogue", "swashbuckler"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Firebrands</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> expert in Intimidation.
+          </span>
+        </p>
+        <p>
+          You perform a bewildering show of prowess, such as by whirling and
+          flashing a weapon, that unnerves foes. Attempt Intimidation checks to
+          Demoralize each enemy within 30 feet. If your last action was a
+          critical hit against an enemy or reduced an enemy to 0 Hit Points, you
+          gain a +1 circumstance bonus to your Intimidation checks. Regardless
+          of the results of your checks, each creature is then temporarily
+          immune to Dazzling Display for 1 minute.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 63,
+    name: "Eerie proclamation",
+    action: "one_action",
+    tags: [
+      "uncommon",
+      "ranger",
+      "auditory",
+      "concentrate",
+      "curse",
+      "druid",
+      "linguistic",
+      "manipulate",
+      "necromancy",
+      "primal",
+    ],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> expert in Occultism, expert in Survival.
+          <br />
+          <b>Frequency</b> once per hour.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You must be in either natural terrain or in
+            abandoned or relatively unused artificial terrain (such as a
+            darkened alley or haunted house).
+          </span>
+        </p>
+        <p>
+          You know there are places in the world that are just wrong—places
+          where the birds don’t sing and where you always feel like you’re being
+          watched. You can spot these places, and you can awaken them. To do so,
+          you must gesture toward a 10-foot by 10-foot square you can see and
+          make an ominous proclamation of some manner (i.e. “This is cursed
+          ground,” “That is an ill-omened place.”). The next creature that
+          enters the marked territory must attempt a Will save against your
+          spell DC (if you’re a druid) or class DC (if you’re a ranger).
+        </p>
+        <p>
+          <b>Success</b> The target is unaffected.
+        </p>
+        <p>
+          <b>Failure</b> Something goes horribly awry for the victim in the
+          cursed ground. The details are up to the GM—it can be a purely
+          “natural” accident (they step into an old bear trap, perhaps) or
+          something stranger and more spectral. The target gains a condition for
+          2 rounds. Roll 1d4 on the table and use the failure column to
+          determine which condition.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but the effect is astonishingly
+          gruesome. Use the critical failure column, and the condition lasts for
+          1 minute.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>d4</th>
+              <th>Failure</th>
+              <th>Critical Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Clumsy 2</td>
+              <td>Clumsy 3</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Enfeebled 2</td>
+              <td>Enfeebled 3</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Stupefied 2</td>
+              <td>Stupefied 3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Dazzled</td>
+              <td> Blinded for 1 round, then dazzled</td>
+            </tr>
+          </tbody>
+        </table>
+      </>
+    ),
+  },
+  {
+    id: 64,
+    name: "Greenwatcher",
+    action: "",
+    tags: ["rare", "ranger", "gunslinger", "investigator"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Impoossible Lands</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Defy Fey.
+          </span>
+        </p>
+        <p>
+          Your experience fighting against and alongside fey creatures is nearly
+          unrivaled. Any weapon you wield or unarmed attack you make against a
+          fey creature is treated as cold iron. Whenever you critically fail a
+          save against a spell cast by a fey creature, it’s instead treated as a
+          normal failure. Whenever you critically succeed on a Strike against a
+          fey creature, the target is immediately subject to the effects of a
+          faerie fire spell. For the purposes of counteracting this effect, it’s
+          an innate 2nd-level primal spell.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 65,
+    name: "Hunter's vision",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          You are so focused on your hunted prey that you can see it clearly
+          even beyond the limits of your senses. You gain the hunter’s vision
+          warden spell. Increase the number of Focus Points in your focus pool
+          by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 66,
+    name: "Incredible companion",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Mature Animal Companion.
+          </span>
+        </p>
+        <p>
+          Your animal companion continues to grow and develop. It becomes a
+          nimble or savage animal companion (your choice), gaining additional
+          capabilities determined by the type of companion.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 67,
+    name: "Master monster hunter",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Nature, Monster Hunter.
+          </span>
+        </p>
+        <p>
+          You have a nearly encyclopedic knowledge of all creatures of the
+          world. You can use Nature to Recall Knowledge to identify any
+          creature. In addition, you gain the benefits of Monster Hunter (and
+          Monster Warden, if you have it) on a success as well as a critical
+          success.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 68,
+    name: "Peerless warden",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Initiate Warden.
+          </span>
+        </p>
+        <p>
+          Your mastery of primal magic has given you access to the greatest
+          secrets of warden magic. You gain your choice of one warden spell from
+          the peerless warden spells (or another you have access to).
+        </p>
+        <p>
+          <b>Special</b> You can take this feat multiple times, choosing a
+          different peerless warden spell each time.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 69,
+    name: "Penetrating shot",
+    action: "two_action",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Core Ruelbook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are wielding a ranged weapon.
+          </span>
+        </p>
+        <p>
+          You shoot clear through an intervening creature to hit your prey.
+          Choose a target that is giving lesser cover to your hunted prey. Make
+          a single ranged Strike with the required weapon against the chosen
+          target and your hunted prey. This attack ignores any lesser cover the
+          chosen target provides your hunted prey. Roll damage only once, and
+          apply it to each creature you hit. A Penetrating Shot counts as two
+          attacks for your multiple attack penalty.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 70,
+    name: "Terrain transposition",
+    action: "",
+    tags: ["ranger"],
+    level: 10,
+    feat: "Feat 10",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden spells.
+          </span>
+        </p>
+        <p>
+          You are so connected to the wilderness that you can magically jump
+          from place to place within it. You gain the terrain transposition
+          warden spell. Increase the number of Focus Points in your focus pool
+          by 1.
         </p>
       </>
     ),
