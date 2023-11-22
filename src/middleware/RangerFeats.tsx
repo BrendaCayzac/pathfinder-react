@@ -2230,4 +2230,267 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 81,
+    name: "Sense the unseen",
+    action: "reaction",
+    tags: ["ranger"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> You fail a check to Seek.
+          </span>
+        </p>
+        <p>
+          When you look for foes, you can catch even the slightest cues, such as
+          their minute movements or the shifting of air currents on your skin.
+          Even though you failed at the triggering check, you automatically
+          sense any undetected creatures in the area where you’re Seeking,
+          making them merely hidden to you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 82,
+    name: "Shared prey",
+    action: "",
+    tags: ["ranger"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Double Prey, Warden’s Boon.
+          </span>
+        </p>
+        <p>
+          Hunting as a duo, you and your ally both single out your prey. When
+          you use Hunt Prey and select only one prey, you can grant your Hunt
+          Prey benefits and hunter’s edge to an ally in addition to gaining them
+          yourself. The ally retains these benefits until you use Hunt Prey
+          again.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 83,
+    name: "Stealthy companion",
+    action: "",
+    tags: ["ranger"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Animal Companion, Camouflage.
+          </span>
+        </p>
+        <p>
+          You’ve trained your animal companion to blend in to its surroundings.
+          Your animal companion gains the benefit of the Camouflage feat. If
+          your companion is a specialized ambusher, its proficiency rank for
+          Stealth increases to master (or legendary if it was already master).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 84,
+    name: "Targeting shot",
+    action: "one_action",
+    tags: ["ranger"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Hunter’s Aim.
+          </span>
+        </p>
+        <p>
+          You carefully track your prey’s position and defenses, allowing you to
+          follow up around obstacles that block your shot. Make a ranged weapon
+          Strike against your hunted prey. You ignore the target’s concealed
+          condition and all cover.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 85,
+    name: "Warden's guidance",
+    action: "",
+    tags: ["ranger"],
+    level: 14,
+    feat: "Feat 14",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You convey your prey’s location to your allies with a series of
+          careful words or gestures. As long as your hunted prey is observed by
+          you, all your allies who roll failures and critical failures when
+          Seeking it get a success instead. Your allies need to be able to see
+          or hear you to gain this benefit. You have to be able to call out or
+          make visible gestures for your allies to get this benefit.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 86,
+    name: "Giant slayer",
+    action: "",
+    tags: ["rare", "ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Kingmaker Companion Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Giant Hunter.
+          </span>
+        </p>
+        <p>
+          Your well-placed blows can fell mighty giants. If you critically hit
+          the same giant twice on the same turn, the target must succeed at a
+          Fortitude saving throw or die. Use your class DC for this saving
+          throw.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 87,
+    name: "Greater distracting shot",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Distracting Shot.
+          </span>
+        </p>
+        <p>
+          Even a single missile can throw off your enemy’s balance, and more
+          powerful attacks leave it flustered for longer. If you hit your hunted
+          prey with a ranged weapon, it’s off-guard until the start of your next
+          turn. If you critically hit your prey or hit it twice on the same turn
+          with a ranged weapon, it’s off-guard until the end of your next turn
+          instead.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 88,
+    name: "Improved riposted",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Twin Riposte.
+          </span>
+        </p>
+        <p>
+          At the start of each of your turns, you gain an additional reaction
+          that you can use only to perform a Twin Riposte. You can use this
+          extra reaction even if you are not benefiting from Twin Parry.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 89,
+    name: "Legendary Monster Hunter",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> legendary in Nature, Master Monster Hunter.
+          </span>
+        </p>
+        <p>
+          Your knowledge of monsters is so incredible that it reveals glaring
+          flaws in your prey. Your bonus from Monster Hunter (and the bonus from
+          Monster Warden if you have it) increases from +1 to +2 for you and any
+          allies who benefit.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 90,
+    name: "Specialized Companion",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Incredible Companion.
+          </span>
+        </p>
+        <p>
+          Your animal companion continues to grow in power and ability, and it
+          is now cunning enough to become specialized. Your animal companion
+          gains one specialization of your choice.
+        </p>
+        <p>
+          <b>Special</b> You can select this feat up to three times. Each time,
+          add a different specialization to your companion.
+        </p>
+      </>
+    ),
+  },
 ];
