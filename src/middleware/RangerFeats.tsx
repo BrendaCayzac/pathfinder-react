@@ -2493,4 +2493,280 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 91,
+    name: "Ubiquitous snares",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Snare Specialist.
+          </span>
+        </p>
+        <p>
+          You can prepare a seemingly impossible number of snares in advance,
+          and you’re ready to spring them on unsuspecting foes. Double the
+          number of prepared snares from Snare Specialist.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 92,
+    name: "Warden's reload",
+    action: "",
+    tags: ["ranger"],
+    level: 16,
+    feat: "Feat 16",
+    description: (
+      <>
+        <p>
+          <i>Player Core</i>
+        </p>
+        <p>
+          <b>Frequency</b> once per round.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> Your last action or activity this turn was to
+            cast a warden spell.
+          </span>
+        </p>
+        <p>
+          Your mastery of magic and weapons like the crossbow allow you to wield
+          both with equal ease. Interact to reload a weapon you are currently
+          wielding.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 93,
+    name: "Impossible flurry",
+    action: "three_action",
+    tags: ["ranger", "flourish"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are wielding two melee weapons, each in a
+            different hand.
+          </span>
+        </p>
+        <p>
+          You forgo precision to attack at an impossible speed. Make three melee
+          Strikes with each of the required weapons. Your first attack with each
+          weapon takes the multiple attack penalty as though you had already
+          made one attack this turn. All of the remaining Strikes take the
+          maximum multiple attack penalty.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 94,
+    name: "Impossible volley",
+    action: "three_action",
+    tags: ["ranger", "flourish"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are wielding a ranged weapon with the volley
+            trait and reload 0.
+          </span>
+        </p>
+        <p>
+          You fire a volley at all foes in an area. Make one Strike with a –2
+          penalty against each enemy within a 10-foot burst centered at or
+          beyond your weapon’s volley range. Roll the damage only once for all
+          targets.
+        </p>
+        <p>
+          Each attack counts toward your multiple attack penalty, but do not
+          increase your penalty until you have made all your attacks.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 95,
+    name: "Manifold edge",
+    action: "",
+    tags: ["ranger"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> hunter’s edge, masterful hunter.
+          </span>
+        </p>
+        <p>
+          You’ve learned to leverage every possible edge. When you use Hunt
+          Prey, you can gain a different hunter’s edge benefit instead of the
+          one you selected at 1st level. If you do, you don’t gain the
+          additional benefit from masterful hunter.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 96,
+    name: "Masterful companion",
+    action: "",
+    tags: ["ranger"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> masterful hunter, Animal Companion.
+          </span>
+        </p>
+        <p>
+          Your animal companion shares your incredible hunting skills, allowing
+          it to take down your shared prey with ease. When you Hunt Prey, your
+          animal companion gains the masterful hunter benefit associated with
+          your hunter’s edge, rather than just your original hunter’s edge
+          benefit.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 97,
+    name: "Perfect shot",
+    action: "three_action",
+    tags: ["ranger", "flourish"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Requirements</b> You are wielding a loaded ranged weapon with
+            reload 1 or more, and you have not reloaded your weapon since your
+            last turn.
+          </span>
+        </p>
+        <p>
+          After watching the motions of combat with incredible intensity and
+          precision, you fire at your prey at the perfect moment to deliver
+          maximum pain. Make a ranged Strike with the required weapon against
+          your hunted prey. If you hit, the Strike deals maximum damage. After
+          the Strike, your turn ends.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 98,
+    name: "Shadow hunter",
+    action: "",
+    tags: ["ranger"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Camouflage.
+          </span>
+        </p>
+        <p>
+          You blend in to your surroundings so well that others have trouble
+          telling you apart from the terrain. While in natural terrain, you’re
+          always concealed from all foes if you choose to be, except for your
+          hunted prey.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 99,
+    name: "Warden's Wellspring",
+    action: "",
+    tags: ["ranger"],
+    level: 18,
+    feat: "Feat 18",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> warden’s focus.
+          </span>
+        </p>
+        <p>
+          You command unparalleled focus when you commune with the world around
+          you. If you have spent at least 3 Focus Points since the last time you
+          Refocused, you recover 3 Focus Points when you Refocus instead of 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 100,
+    name: "Accurate flurry",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <b>Prerequisites</b> Impossible Flurry.
+          <br />
+          <span className="frequency">
+            <b>Requirements</b> You are wielding two melee weapons, each in a
+            different hand.
+          </span>
+        </p>
+        <p>
+          You refine the precision of your unbelievable storm of blows. When you
+          perform an Impossible Flurry, your first attack with each weapon
+          instead takes the multiple attack penalty as though you had already
+          made one attack this turn. All subsequent attacks take the maximum
+          multiple attack penalty, as though you had already made two or more
+          attacks this turn.
+        </p>
+      </>
+    ),
+  },
 ];
