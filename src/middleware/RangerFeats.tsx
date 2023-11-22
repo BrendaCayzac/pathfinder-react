@@ -2769,4 +2769,188 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 101,
+    name: "Impossible snares",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Ubiquitous Snares.
+          </span>
+        </p>
+        <p>
+          You can create endless shorter-lived snares, protecting your lair or
+          using them against foes. Once per minute, you can Craft one of the
+          snares you’ve prepared for quick deployment without expending the
+          prepared snare. Once deployed, such a snare lasts for 10 minutes
+          before losing its effectiveness.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 102,
+    name: "Legendary shot",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> legendary in Perception, Far Shot.
+          </span>
+        </p>
+        <p>
+          You focus on your hunted prey, perceiving angles, air resistance, and
+          every variable that would affect your ranged attack. If you have
+          master proficiency with your ranged weapon, you can ignore the penalty
+          for attacking up to five range increments away when attacking your
+          hunted prey.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 103,
+    name: "Superior sight",
+    action: "",
+    tags: ["uncommon", "ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Broken Promises</i>
+        </p>
+        <p>
+          Your senses are peerless. You gain a +2 circumstance bonus to
+          Perception checks, and you gain low-light vision. If you already have
+          low-light vision, gain darkvision instead. Furthermore, when you
+          target an enemy, you automatically succeed at the flat check if that
+          enemy is concealed, hidden, or undetected.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 104,
+    name: "Time dilation cascade",
+    action: "three_action",
+    tags: ["uncommon", "ranger", "flourish"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Fists of the Ruby Phoenix Adventure Path</i>
+        </p>
+        <p>
+          You borrow a bit of time from the future to act now. Make six Strikes.
+          Your multiple attack penalty applies normally to these Strikes. If you
+          successfully hit a creature with multiple Strikes, combine those
+          Strikes’ damage for the purpose of resistances and weaknesses. On your
+          next turn, you regain 1 action instead of 3. This is before any
+          alteration in your actions due to the quickened, slowed, and stunned
+          conditions.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 105,
+    name: "To the ends of the Earth",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> legendary in Survival.
+          </span>
+        </p>
+        <p>
+          Your ability to track your prey has surpassed explanation, allowing
+          you to trace your prey’s movements and predict its location with ease.
+          When you use Hunt Prey on a creature within 100 feet, you can follow
+          that creature’s movements, allowing you to know the creature’s exact
+          location no matter how far away it becomes, as long as it remains your
+          prey. You must be legendary in Nature to track your prey’s location
+          across teleportation or planar travel. This feat gains the detection
+          and primal traits if you’re legendary in Nature.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 106,
+    name: "Triple threat",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Shared Prey.
+          </span>
+        </p>
+        <p>
+          You can divide your attention three ways when hunting. When you use
+          Hunt Prey, you can designate three creatures as prey, designate two
+          creatures as prey and share the effect with one ally (as Shared Prey),
+          or designate one creature as prey and share the effect with two
+          allies.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 107,
+    name: "Ultimate skirmisher",
+    action: "",
+    tags: ["ranger"],
+    level: 20,
+    feat: "Feat 20",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> unimpeded journey.
+          </span>
+        </p>
+        <p>
+          You are so skilled at navigating the wild, your movement is completely
+          unaffected by terrain. You ignore the effects of all difficult
+          terrain, greater difficult terrain, and hazardous terrain, and you
+          don’t trigger traps and hazards that are triggered by moving into an
+          area (such as trip wires and pressure plates), unless you want to.
+        </p>
+      </>
+    ),
+  },
 ];
