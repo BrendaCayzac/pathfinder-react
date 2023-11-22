@@ -1340,4 +1340,274 @@ export const rangerFeats: Array<ClassFeat> = [
       </>
     ),
   },
+  {
+    id: 51,
+    name: "Eerie traces",
+    action: "",
+    tags: ["ranger", "concentrate", "druid", "exploration", "move"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Dark Archive</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> trained in Intimidation, trained in Survival.
+          </span>
+        </p>
+        <p>
+          The tracks you leave behind are strange, somehow disconcerting and
+          unnerving—they might travel backward, or through places no one would
+          think to pass through. You change your tracks into eerie traces,
+          moving up to half your travel speed as you do so. You don’t need to
+          attempt a Survival check to change your tracks, but anyone tracking
+          you must attempt a Will save against the higher of your class DC or
+          spell DC.
+        </p>
+        <p>
+          <b>Success</b> The tracker is unaffected.
+        </p>
+        <p>
+          <b>Failure</b> The tracker becomes frightened 1 for as long as it
+          follows your tracks. This condition doesn’t decrease until the tracker
+          stops following you, and it comes back if the tracker resumes
+          following your tracks. If the tracker enters into an encounter with
+          you after following your tracks, it begins the encounter frightened 1.
+        </p>
+        <p>
+          <b>Critical Failure</b> As failure, but your disturbing traces cause
+          the tracker to be frightened 2 instead.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 52,
+    name: "Enlarge companion",
+    action: "",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Advanced Player's Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> an animal companion, warden spells.
+          </span>
+        </p>
+        <p>
+          You make your companion enormous. You gain the enlarge companion
+          warden spell. Increase the number of Focus Points in your focus pool
+          by 1.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 53,
+    name: "Greenwatch veteran",
+    action: "",
+    tags: ["rare", "ranger", "gunslinger", "investigator"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Impossible Lands</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Trigger</b> Your turn starts, and you’re in combat against a
+            creature you spent at least 10 minutes Tracking.
+          </span>
+        </p>
+        <p>
+          Your time spent tracking your target allows you to quickly identify
+          its weaknesses and relay them to your allies. Attempt a Recall
+          Knowledge check against the creature you were Tracking. On a success,
+          you always know the creature’s greatest weakness and highest
+          resistance or immunity, in addition to any other information the check
+          would typically provide. You immediately use a quick series of hand
+          gestures to signal this information to any allies who can see you.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 54,
+    name: "Hamstringing strike",
+    action: "one_action",
+    tags: ["rare", "ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Kingmaker Companion Guide</i>
+        </p>
+        <p>
+          You slow your foes with a well-aimed attack. Make a Strike against
+          your hunted prey with a –2 penalty. If you hit your prey, the creature
+          takes a –5-foot status penalty to Speed. If you critically hit your
+          prey, the creature takes a –10-foot status penalty to Speed. A
+          creature immune to bleed damage does not take this penalty. The
+          penalty can be removed using any method that removes persistent bleed
+          damage or offers a flat check to do so, such as Administer First Aid.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 55,
+    name: "Hazard finder",
+    action: "",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You have an intuitive ability to sense hazards. You gain a +1
+          circumstance bonus to Perception checks to find traps and hazards, to
+          AC against their attacks, and to saves against their effects. You can
+          find hazards that would normally require you to Search even if you
+          aren’t Searching.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 56,
+    name: "Powerful snares",
+    action: "",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Crafting, Snare Specialist.
+          </span>
+        </p>
+        <p>
+          Your snares are particularly difficult for enemies to avoid. When you
+          set a snare, the saving throw DC for that snare is equal to its normal
+          DC or your class DC, whichever is higher.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 57,
+    name: "Terrain master",
+    action: "",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> master in Survival, Favored Terrain.
+          </span>
+        </p>
+        <p>
+          You are able to adapt to your surroundings in any natural terrain. You
+          can spend 1 hour practicing in your current terrain in order to make
+          it your favored terrain, replacing your current favored terrain
+          temporarily. If you spend a full day out of the new favored terrain,
+          your favored terrain reverts back to your original choice when you
+          took the Favored Terrain feat.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 58,
+    name: "The harder they fall",
+    action: "",
+    tags: ["rare", "ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Kignmaker Companion Guide</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Prerequisites</b> Titan Wrestler.
+          </span>
+        </p>
+        <p>
+          You know how to make a larger creature hurt when it falls to the
+          ground. If you successfully Trip a foe that’s larger than you, it
+          takes 1d8 bludgeoning damage (or 2d8 bludgeoning damage on a critical
+          success). If you are master in Athletics, the damage increases to 2d8
+          bludgeoning (or 4d8 bludgeoning on a critical success).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 59,
+    name: "Unseen passage",
+    action: "",
+    tags: ["rare", "ranger", "gunslinger", "investigator"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Lost Omens: Impossible Lands</i>
+        </p>
+        <p>
+          <span className="frequency">
+            <b>Frequency</b> once per day.
+          </span>
+        </p>
+        <p>
+          You have mastered a magical technique for moving through dangerous
+          woodlands unseen. You can cast pass without trace as an innate primal
+          spell heightened to a spell level equal to half your level rounded up.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 60,
+    name: "Warden's boon",
+    action: "one_action",
+    tags: ["ranger"],
+    level: 8,
+    feat: "Feat 8",
+    description: (
+      <>
+        <p>
+          <i>Core Rulebook</i>
+        </p>
+        <p>
+          You point out vulnerabilities present in your hunted prey, granting
+          the benefits listed in Hunt Prey and your hunter’s edge to an ally
+          until the end of their next turn. Depending on whether you call out or
+          use gestures, this action gains either the auditory or visual tr
+        </p>
+      </>
+    ),
+  },
 ];
